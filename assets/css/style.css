@@ -144,16 +144,24 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .btn-ghost{ background: transparent; }
 .btn-ghost:hover{ background: rgba(43,33,26,0.06); }
 
-/* --- hero: campo de color sólido + tipografía grande (sin foto/placa) --- */
+/* --- hero: foto a sangre + texto superpuesto (dirección "Abel") --- */
 .hero{
-  background: var(--oxblood);
-  padding: 110px 0;
+  position:relative;
+  background: var(--ink) url('../img/herobanner_viajar_con_mascotas.jpg') center 30%/cover no-repeat;
+  padding: 160px 0 70px;
+  overflow:hidden;
 }
-.hero h1{ color: #F7F1E5; font-size: clamp(2.8rem, 7vw, 5.6rem); }
+.hero::before{
+  content:"";
+  position:absolute; inset:0;
+  background: linear-gradient(180deg, rgba(10,9,8,0.35) 0%, rgba(10,9,8,0.5) 45%, rgba(10,9,8,0.92) 100%);
+}
+.hero .wrap{ position:relative; z-index:1; }
+.hero h1{ color: #F7F1E5; font-size: clamp(2.6rem, 6.4vw, 5rem); }
 .hero h1 em{ font-style: italic; }
 .hero-copy p.lead{
-  font-size: 1.15rem;
-  color: rgba(247,241,229,0.82);
+  font-size: 1.1rem;
+  color: rgba(247,241,229,0.85);
   max-width: 52ch;
 }
 .hero-actions{ display:flex; gap:14px; margin-top: 22px; flex-wrap:wrap; }
