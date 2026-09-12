@@ -72,11 +72,8 @@ p{ margin: 0 0 1em; }
   letter-spacing: .12em;
   text-transform: uppercase;
   color: var(--oxblood-dk);
-  background: rgba(179,63,46,0.08);
-  border: 1px solid rgba(179,63,46,0.35);
-  padding: .35em .8em;
-  border-radius: 999px;
-  transform: rotate(-1.2deg);
+  padding-bottom: .3em;
+  border-bottom: 1px solid rgba(168,87,46,0.35);
 }
 
 /* --- header --- */
@@ -174,16 +171,6 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   font-family: var(--mono); font-size: .72rem; letter-spacing:.14em;
   color: var(--ink-soft);
 }
-.stamp-tag{
-  position:absolute; top:-14px; right:8px;
-  background: var(--oxblood); color:#F7F1E5;
-  border: 2px solid var(--ink);
-  padding: 10px 14px;
-  font-family: var(--mono); font-weight:700; font-size:.72rem;
-  text-align:center; text-transform:uppercase; letter-spacing:.04em;
-  transform: rotate(6deg);
-}
-
 /* --- grilla de categorías --- */
 .category-grid{
   display:grid;
