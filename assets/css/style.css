@@ -188,26 +188,32 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   display:flex; flex-direction:column; align-items:flex-start; gap:14px;
   text-decoration:none; color: var(--ink);
   background: var(--paper);
-  border: 1.5px solid var(--ink);
-  border-radius: var(--radius);
-  padding: 24px 20px;
-  transition: transform .18s ease, box-shadow .18s ease;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  padding: 22px 20px 24px;
+  position:relative;
+  transition: box-shadow .18s ease;
 }
-.category-card:hover{ transform: translateY(-3px); box-shadow: 4px 4px 0 var(--ink); }
+.category-card::before{
+  content: attr(data-plate);
+  position:absolute; top:12px; right:16px;
+  font-family: var(--mono); font-size:.62rem; letter-spacing:.06em;
+  color: var(--ink-soft);
+}
+.category-card:hover{ box-shadow: inset 0 0 0 1px var(--ink); }
 .category-icon{
-  width:56px; height:56px;
-  border-radius: 16px;
-  border: 1.5px solid;
+  width:auto; height:auto;
+  border:none;
   display:flex; align-items:center; justify-content:center;
   flex-shrink:0;
 }
-.category-icon svg{ width:28px; height:28px; }
+.category-icon svg{ width:30px; height:30px; }
 .category-card h3{ font-size:1.05rem; margin:0; }
 .category-card p{ font-size:.85rem; color: var(--ink-soft); margin:0; }
-.cat-oxblood .category-icon{ background: rgba(168,87,46,0.12); border-color: var(--oxblood); color: var(--oxblood); }
-.cat-pine .category-icon{ background: rgba(63,92,67,0.12); border-color: var(--pine); color: var(--pine); }
-.cat-brass .category-icon{ background: rgba(184,147,62,0.16); border-color: var(--brass); color: var(--brass); }
-.cat-ink .category-icon{ background: rgba(28,27,25,0.06); border-color: var(--ink); color: var(--ink); }
+.cat-oxblood .category-icon{ color: var(--oxblood); }
+.cat-pine .category-icon{ color: var(--pine); }
+.cat-brass .category-icon{ color: var(--brass); }
+.cat-ink .category-icon{ color: var(--ink); }
 
 /* --- estantes de productos --- */
 .section{ padding: 56px 0; }
