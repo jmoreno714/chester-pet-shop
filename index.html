@@ -50,15 +50,70 @@
     </div>
   </section>
 
-  <!-- ESTANTES DE PRODUCTOS (categorías reales de la tienda) -->
-  <section class="section">
+  <!-- GRILLA DE CATEGORÍAS -->
+  <section class="section" id="categorias">
     <div class="wrap">
       <div class="section-head">
         <div>
-          <span class="eyebrow">Estante 1</span>
-          <h2>Marcas premium</h2>
+          <span class="eyebrow">Elegí el estante</span>
+          <h2>Categorías</h2>
         </div>
-        <a class="btn btn-ghost" href="productos.html">Ver todo el estante →</a>
+      </div>
+      <div class="category-grid">
+        <a class="category-card cat-oxblood" href="productos.html#marcas-premium">
+          <span class="category-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="5"/>
+              <path d="M9 12.5 7 21l5-3 5 3-2-8.5"/>
+            </svg>
+          </span>
+          <h3>Marcas premium</h3>
+          <p>Royal Canin, Eukanuba, Vitalcan y más</p>
+        </a>
+        <a class="category-card cat-pine" href="productos.html#humedos">
+          <span class="category-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="6" y="7" width="12" height="13" rx="1.5"/>
+              <ellipse cx="12" cy="7" rx="6" ry="2"/>
+              <path d="M6 10.5c2 1 10 1 12 0"/>
+            </svg>
+          </span>
+          <h3>Húmedos</h3>
+          <p>Latas para perro y gato</p>
+        </a>
+        <a class="category-card cat-brass" href="productos.html#farmacos">
+          <span class="category-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="9" width="16" height="6" rx="3" transform="rotate(45 12 12)"/>
+              <line x1="12" y1="7" x2="12" y2="17" transform="rotate(45 12 12)"/>
+            </svg>
+          </span>
+          <h3>Fármacos</h3>
+          <p>Antiparasitarios y suplementos</p>
+        </a>
+        <a class="category-card cat-ink" href="productos.html#camitas">
+          <span class="category-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 12c0-3 3.5-5 8-5s8 2 8 5"/>
+              <path d="M3 12h18l-1.5 7a2 2 0 0 1-2 1.6H6.5a2 2 0 0 1-2-1.6L3 12Z"/>
+            </svg>
+          </span>
+          <h3>Camitas y accesorios</h3>
+          <p>Camas, correas y collares</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS DESTACADOS -->
+  <section class="section section-alt">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Iniciá por acá</span>
+          <h2>Productos destacados</h2>
+        </div>
+        <a class="btn btn-ghost" href="productos.html">Ver el catálogo completo →</a>
       </div>
       <div class="shelf-grid">
         <article class="product-card">
@@ -76,38 +131,6 @@
         <article class="product-card">
           <span class="price-tag">$·····</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Vitalcan</h3>
-          <p class="tag-line">Línea perro y gato</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Sieger / Agility</h3>
-          <p class="tag-line">Alto rendimiento</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow">Estante 2</span>
-          <h2>Húmedos</h2>
-        </div>
-        <a class="btn btn-ghost" href="productos.html">Ver todo el estante →</a>
-      </div>
-      <div class="shelf-grid">
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Húmedo Perro x lata</h3>
-          <p class="tag-line">Surtido de sabores</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
           <h3>Húmedo Gato x lata</h3>
           <p class="tag-line">Carnes y pescado</p>
         </article>
@@ -120,34 +143,14 @@
         <article class="product-card">
           <span class="price-tag">$·····</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Estampa</h3>
-          <p class="tag-line">Línea económica</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrap">
-      <div class="section-head">
-        <div>
-          <span class="eyebrow">Estante 3</span>
-          <h2>Fármacos y camitas</h2>
-        </div>
-        <a class="btn btn-ghost" href="productos.html">Ver todo el estante →</a>
-      </div>
-      <div class="shelf-grid">
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Antiparasitarios</h3>
-          <p class="tag-line">Interno y externo</p>
+          <h3>Antiparasitario externo</h3>
+          <p class="tag-line">Pipeta o collar</p>
         </article>
         <article class="product-card">
           <span class="price-tag">$·····</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Suplementos</h3>
-          <p class="tag-line">Vitaminas y articulares</p>
+          <h3>Suplemento articular</h3>
+          <p class="tag-line">Para razas grandes o senior</p>
         </article>
         <article class="product-card">
           <span class="price-tag">$·····</span>
@@ -158,15 +161,15 @@
         <article class="product-card">
           <span class="price-tag">$·····</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Camita grande</h3>
-          <p class="tag-line">Lavable</p>
+          <h3>Correa y collar</h3>
+          <p class="tag-line">Varios talles</p>
         </article>
       </div>
     </div>
   </section>
 
   <!-- LIBRO DE RECLAMOS / PROMESAS -->
-  <section class="section section-alt">
+  <section class="section">
     <div class="wrap">
       <span class="eyebrow">Libro de reclamos, al revés</span>
       <h2>Por qué te conviene pedirnos a nosotros</h2>

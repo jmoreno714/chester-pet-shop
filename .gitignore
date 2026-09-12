@@ -1,0 +1,3 @@
+# artefactos locales de instalación de skills (no son parte del sitio)
+.agents/
+skills-lock.json

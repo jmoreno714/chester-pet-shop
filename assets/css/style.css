@@ -183,6 +183,37 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   transform: rotate(6deg);
 }
 
+/* --- grilla de categorías --- */
+.category-grid{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.category-card{
+  display:flex; flex-direction:column; align-items:flex-start; gap:14px;
+  text-decoration:none; color: var(--ink);
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.category-card:hover{ transform: translateY(-3px); box-shadow: 4px 4px 0 var(--ink); }
+.category-icon{
+  width:56px; height:56px;
+  border-radius: 16px;
+  border: 1.5px solid;
+  display:flex; align-items:center; justify-content:center;
+  flex-shrink:0;
+}
+.category-icon svg{ width:28px; height:28px; }
+.category-card h3{ font-size:1.05rem; margin:0; }
+.category-card p{ font-size:.85rem; color: var(--ink-soft); margin:0; }
+.cat-oxblood .category-icon{ background: rgba(168,87,46,0.12); border-color: var(--oxblood); color: var(--oxblood); }
+.cat-pine .category-icon{ background: rgba(63,92,67,0.12); border-color: var(--pine); color: var(--pine); }
+.cat-brass .category-icon{ background: rgba(184,147,62,0.16); border-color: var(--brass); color: var(--brass); }
+.cat-ink .category-icon{ background: rgba(28,27,25,0.06); border-color: var(--ink); color: var(--ink); }
+
 /* --- estantes de productos --- */
 .section{ padding: 56px 0; }
 .section-alt{ background: var(--paper-dark); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
@@ -298,6 +329,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 @media (max-width: 900px){
   .hero{ grid-template-columns: 1fr; }
   .shelf-grid{ grid-template-columns: repeat(2, 1fr); }
+  .category-grid{ grid-template-columns: repeat(2, 1fr); }
   .footer-grid{ grid-template-columns: 1fr; }
 }
 @media (max-width: 680px){
@@ -320,6 +352,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 }
 @media (max-width: 520px){
   .shelf-grid{ grid-template-columns: 1fr 1fr; }
+  .category-grid{ grid-template-columns: 1fr 1fr; }
   .cta-final{ margin:0; border-radius:0; padding: 36px 20px; }
 }
 
