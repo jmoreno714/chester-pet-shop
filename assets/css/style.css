@@ -144,25 +144,25 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .btn-ghost{ background: transparent; }
 .btn-ghost:hover{ background: rgba(43,33,26,0.06); }
 
-/* --- hero --- */
+/* --- hero: campo de color sólido + tipografía grande (sin foto/placa) --- */
 .hero{
-  padding: 64px 0 56px;
-  display:grid;
-  grid-template-columns: 1.05fr .95fr;
-  gap: 48px;
-  align-items:center;
+  background: var(--oxblood);
+  padding: 110px 0;
 }
-.hero h1 em{
-  color: var(--oxblood);
-}
+.hero h1{ color: #F7F1E5; font-size: clamp(2.8rem, 7vw, 5.6rem); }
+.hero h1 em{ font-style: italic; }
 .hero-copy p.lead{
   font-size: 1.15rem;
-  color: var(--ink-soft);
-  max-width: 46ch;
+  color: rgba(247,241,229,0.82);
+  max-width: 52ch;
 }
 .hero-actions{ display:flex; gap:14px; margin-top: 22px; flex-wrap:wrap; }
+.hero .btn-primary{ background:#F7F1E5; color:var(--ink); border-color:#F7F1E5; }
+.hero .btn-primary:hover{ background: var(--paper-dark); }
+.hero .btn-ghost{ border-color:#F7F1E5; color:#F7F1E5; }
+.hero .btn-ghost:hover{ background: rgba(247,241,229,0.12); }
 
-/* isologo real, presentado como placa/lámina de grabado */
+/* isologo real, presentado como placa/lámina de grabado (usado en otras secciones) */
 .brand-mark{ position:relative; display:flex; justify-content:center; }
 .plate{
   position:relative;
