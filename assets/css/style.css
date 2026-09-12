@@ -1,0 +1,335 @@
+/* =========================================================
+   CHESTER PET SHOP — sistema de diseño "almacén de barrio"
+   Paleta, tipografía y componentes base.
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Karla:ital,wght@0,400;0,500;0,700;1,400&family=Space+Mono:wght@400;700&display=swap');
+
+:root{
+  /* --- color: anclado en el isologo real (línea negra + collar cuero) --- */
+  --paper:      #F6F4EE; /* papel hueso, limpio, no kraft */
+  --paper-dark: #ECE7DA; /* franjas / secciones alternadas */
+  --ink:        #1C1B19; /* negro de grabado en línea */
+  --ink-soft:   #55524B; /* texto secundario */
+  --oxblood:    #A8572E; /* acento primario: cuero/cognac del collar del logo */
+  --oxblood-dk: #82401F;
+  --pine:       #3F5C43; /* acento secundario: verde de sello de tinta clásico */
+  --brass:      #B8933E; /* detalle / etiqueta de precio */
+  --line:       rgba(28,27,25,0.14);
+
+  --display: 'Big Shoulders Display', 'Arial Narrow', sans-serif;
+  --body: 'Karla', system-ui, sans-serif;
+  --mono: 'Space Mono', monospace;
+
+  --radius: 6px;
+  --wrap: 1160px;
+}
+
+*{ box-sizing: border-box; }
+html{ scroll-behavior: smooth; }
+body{
+  margin:0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 17px;
+  line-height: 1.55;
+}
+img{ max-width:100%; display:block; }
+a{ color: inherit; }
+.wrap{
+  max-width: var(--wrap);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* textura sutil de papel */
+body{
+  background-image:
+    radial-gradient(rgba(43,33,26,0.05) 1px, transparent 1px);
+  background-size: 3px 3px;
+}
+
+/* --- tipografía --- */
+h1,h2,h3{
+  font-family: var(--display);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  margin: 0 0 .4em;
+}
+h1{ font-size: clamp(2.6rem, 6vw, 4.8rem); line-height: .96; font-weight: 800; }
+h2{ font-size: clamp(1.7rem, 3.2vw, 2.5rem); }
+p{ margin: 0 0 1em; }
+.eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:.5em;
+  font-family: var(--mono);
+  font-size: .78rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--oxblood-dk);
+  background: rgba(179,63,46,0.08);
+  border: 1px solid rgba(179,63,46,0.35);
+  padding: .35em .8em;
+  border-radius: 999px;
+  transform: rotate(-1.2deg);
+}
+
+/* --- header --- */
+.site-header{
+  position: sticky; top:0; z-index: 50;
+  background: var(--paper);
+  border-bottom: 2px solid var(--ink);
+}
+.site-header .wrap{
+  position: relative;
+  display:flex; align-items:center; justify-content:space-between;
+  padding-top: 14px; padding-bottom: 14px;
+}
+.nav-toggle{ display:none; }
+.logo{
+  font-family: var(--display);
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-size: 1.3rem;
+  text-decoration:none;
+  display:flex; align-items:center; gap:.5em;
+}
+.logo img{ height:38px; width:38px; object-fit:contain; }
+.logo span{
+  font-family: var(--mono);
+  font-weight:400;
+  text-transform:none;
+  font-size: .6rem;
+  color: var(--ink-soft);
+  letter-spacing: .1em;
+}
+nav.main-nav{ display:flex; gap: 28px; align-items:center; }
+nav.main-nav a{
+  text-decoration:none;
+  font-weight: 700;
+  font-size: .95rem;
+  position:relative;
+  padding: 4px 0;
+}
+nav.main-nav a[aria-current="page"]{ color: var(--oxblood); }
+nav.main-nav a::after{
+  content:""; position:absolute; left:0; right:0; bottom:-2px; height:2px;
+  background: var(--oxblood); transform: scaleX(0); transform-origin:left;
+  transition: transform .2s ease;
+}
+nav.main-nav a:hover::after{ transform: scaleX(1); }
+.btn{
+  display:inline-flex; align-items:center; gap:.5em;
+  font-family: var(--body); font-weight:700;
+  border-radius: var(--radius);
+  padding: .7em 1.3em;
+  text-decoration:none;
+  border: 2px solid var(--ink);
+  cursor:pointer;
+  font-size: .95rem;
+}
+.btn-primary{ background: var(--oxblood); border-color: var(--oxblood-dk); color: #FBF3E4; }
+.btn-primary:hover{ background: var(--oxblood-dk); }
+.btn-ghost{ background: transparent; }
+.btn-ghost:hover{ background: rgba(43,33,26,0.06); }
+
+/* --- hero --- */
+.hero{
+  padding: 64px 0 56px;
+  display:grid;
+  grid-template-columns: 1.05fr .95fr;
+  gap: 48px;
+  align-items:center;
+}
+.hero h1 em{
+  font-style: normal;
+  color: var(--oxblood);
+}
+.hero-copy p.lead{
+  font-size: 1.15rem;
+  color: var(--ink-soft);
+  max-width: 46ch;
+}
+.hero-actions{ display:flex; gap:14px; margin-top: 22px; flex-wrap:wrap; }
+
+/* isologo real, presentado como placa/lámina de grabado */
+.brand-mark{ position:relative; display:flex; justify-content:center; }
+.plate{
+  position:relative;
+  background: var(--paper);
+  border: 2px solid var(--ink);
+  padding: 32px 28px 20px;
+  max-width: 360px;
+  width:100%;
+}
+.plate img{ width:100%; height:auto; }
+.plate-caption{
+  display:block; text-align:center; margin-top: 14px;
+  font-family: var(--mono); font-size: .72rem; letter-spacing:.14em;
+  color: var(--ink-soft);
+}
+.stamp-tag{
+  position:absolute; top:-14px; right:8px;
+  background: var(--oxblood); color:#F7F1E5;
+  border: 2px solid var(--ink);
+  padding: 10px 14px;
+  font-family: var(--mono); font-weight:700; font-size:.72rem;
+  text-align:center; text-transform:uppercase; letter-spacing:.04em;
+  transform: rotate(6deg);
+}
+
+/* --- estantes de productos --- */
+.section{ padding: 56px 0; }
+.section-alt{ background: var(--paper-dark); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+.section-head{
+  display:flex; justify-content:space-between; align-items:flex-end;
+  gap: 24px; margin-bottom: 28px; flex-wrap:wrap;
+}
+.shelf-grid{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.product-card{
+  background: var(--paper);
+  border: 1.5px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 18px;
+  position:relative;
+  display:flex; flex-direction:column; gap:10px;
+}
+.product-card .thumb{
+  aspect-ratio: 1/1;
+  border-radius: 4px;
+  background:
+    repeating-linear-gradient(135deg, rgba(63,92,67,0.12) 0 10px, rgba(63,92,67,0.05) 10px 20px),
+    var(--paper-dark);
+  display:flex; align-items:center; justify-content:center;
+  color: var(--ink-soft);
+  font-family: var(--mono); font-size:.72rem; text-align:center; padding: 8px;
+}
+.price-tag{
+  position:absolute; top:-10px; right:-10px;
+  background: var(--brass);
+  border: 1.5px solid var(--ink);
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-family: var(--mono); font-weight:700; font-size:.85rem;
+  transform: rotate(4deg);
+}
+.product-card h3{ font-family: var(--body); font-weight:700; font-size:1rem; margin:0; }
+.product-card .tag-line{ font-size:.85rem; color: var(--ink-soft); margin:0; }
+
+/* --- libro de reclamos (ledger) --- */
+.ledger{ max-width: 760px; }
+.ledger-item{
+  display:grid;
+  grid-template-columns: 48px 1fr auto;
+  gap: 18px;
+  align-items:center;
+  padding: 20px 0;
+  border-bottom: 1px dashed var(--line);
+}
+.ledger-item:first-child{ border-top: 1px dashed var(--line); }
+.ledger-num{
+  font-family: var(--mono); font-weight:700; font-size:1.1rem; color: var(--ink-soft);
+}
+.ledger-text h3{ font-size:1.05rem; margin:0 0 .2em; }
+.ledger-text p{ margin:0; color: var(--ink-soft); font-size:.95rem; }
+.stamp{
+  width:56px; height:56px;
+  border: 3px solid var(--pine);
+  border-radius: 50%;
+  color: var(--pine);
+  display:flex; align-items:center; justify-content:center;
+  font-family: var(--mono); font-size:.62rem; font-weight:700;
+  text-transform:uppercase; text-align:center; line-height:1.1;
+  transform: scale(0) rotate(-18deg);
+  opacity:0;
+  transition: transform .35s cubic-bezier(.2,1.4,.4,1), opacity .25s ease;
+}
+.ledger-item.is-stamped .stamp{ transform: scale(1) rotate(-8deg); opacity:1; }
+
+/* --- CTA final --- */
+.cta-final{
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 10px;
+  padding: 48px;
+  text-align:center;
+  margin: 0 24px;
+}
+.cta-final h2{ color: var(--paper); }
+.cta-final p{ color: #CBB99A; max-width: 50ch; margin-left:auto; margin-right:auto; }
+.cta-final .btn-primary{ margin-top: 12px; }
+
+/* --- footer estilo cartel de vidriera --- */
+.site-footer{
+  margin-top: 64px;
+  padding: 40px 0 28px;
+  border-top: 2px solid var(--ink);
+}
+.footer-grid{
+  display:grid; grid-template-columns: 1.2fr 1fr 1fr; gap: 32px;
+}
+.footer-grid h4{
+  font-family: var(--mono); text-transform:uppercase; letter-spacing:.08em;
+  font-size:.78rem; color: var(--ink-soft); margin: 0 0 .8em;
+}
+.footer-grid ul{ list-style:none; padding:0; margin:0; display:grid; gap:.5em; }
+.footer-grid a{ text-decoration:none; }
+.footer-grid a:hover{ text-decoration:underline; }
+.fine-print{
+  margin-top: 32px; padding-top:16px; border-top:1px solid var(--line);
+  font-size:.82rem; color: var(--ink-soft);
+  display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
+}
+
+/* --- páginas internas simples (stub) --- */
+.page-hero{ padding: 56px 0 20px; }
+.page-hero .eyebrow{ margin-bottom: 14px; }
+
+/* --- responsive --- */
+@media (max-width: 900px){
+  .hero{ grid-template-columns: 1fr; }
+  .shelf-grid{ grid-template-columns: repeat(2, 1fr); }
+  .footer-grid{ grid-template-columns: 1fr; }
+}
+@media (max-width: 680px){
+  .nav-toggle{
+    display:flex; flex-direction:column; justify-content:center; gap:5px;
+    width:40px; height:36px; background:transparent;
+    border:2px solid var(--ink); border-radius:5px; cursor:pointer; padding:0 8px;
+  }
+  .nav-toggle span{ display:block; height:2px; background:var(--ink); border-radius:2px; }
+  nav.main-nav{
+    position:absolute; top:100%; left:0; right:0;
+    background:var(--paper); border-bottom:2px solid var(--ink);
+    flex-direction:column; align-items:stretch; gap:0;
+    padding: 4px 24px 18px;
+    display:none;
+  }
+  nav.main-nav[data-open="true"]{ display:flex; }
+  nav.main-nav a{ padding:12px 0; }
+  nav.main-nav .btn{ margin-top:12px; justify-content:center; }
+}
+@media (max-width: 520px){
+  .shelf-grid{ grid-template-columns: 1fr 1fr; }
+  .cta-final{ margin:0; border-radius:0; padding: 36px 20px; }
+}
+
+/* accesibilidad: foco visible + respeto a reduced motion */
+a:focus-visible, button:focus-visible{
+  outline: 3px solid var(--pine);
+  outline-offset: 2px;
+}
+@media (prefers-reduced-motion: reduce){
+  html{ scroll-behavior:auto; }
+  .stamp{ transition:none; }
+  .jar{ transition:none; }
+}

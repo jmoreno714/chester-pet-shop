@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros — Chester Pet Shop</title>
+<meta name="description" content="La historia y la forma de trabajar de Chester Pet Shop, pet shop en Yerba Buena, Tucumán.">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="index.html">
+      <img src="assets/img/logo-chester.png" alt="Chester Pet Shop" width="40" height="40">
+      Chester <span>PET SHOP</span>
+    </a>
+    <button class="nav-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="productos.html">Catálogo</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="contacto.html">Contacto</a>
+      <a class="btn btn-primary" href="contacto.html">Hacer pedido</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero wrap">
+    <span class="eyebrow">Quiénes somos</span>
+    <h1>Un almacén, no una góndola</h1>
+    <p class="lead" style="max-width:60ch;color:var(--ink-soft);">
+      [Espacio para la historia real de Chester: cuándo abrió, quién lo maneja, qué lo distingue
+      del típico local de mascotas. Este texto es un placeholder — lo reescribimos con la info real
+      cuando la tengamos.]
+    </p>
+  </section>
+
+  <section class="section">
+    <div class="wrap ledger">
+      <div class="ledger-item is-stamped">
+        <span class="ledger-num">01</span>
+        <div class="ledger-text">
+          <h3>De dónde viene el nombre</h3>
+          <p>[Anécdota real sobre "Chester" — si existe, va acá.]</p>
+        </div>
+      </div>
+      <div class="ledger-item is-stamped">
+        <span class="ledger-num">02</span>
+        <div class="ledger-text">
+          <h3>Cómo elegimos lo que vendemos</h3>
+          <p>[Criterio real de selección de marcas/proveedores.]</p>
+        </div>
+      </div>
+      <div class="ledger-item is-stamped">
+        <span class="ledger-num">03</span>
+        <div class="ledger-text">
+          <h3>Zona de reparto</h3>
+          <p>[Barrios / radio de entrega real en Yerba Buena y alrededores.]</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="fine-print" style="padding:0;border:0;margin:0;">
+      <span>© <span id="year"></span> Chester Pet Shop</span>
+      <span>Yerba Buena, Tucumán</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
