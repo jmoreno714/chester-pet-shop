@@ -65,16 +65,23 @@ h1 em, h2 em, h3 em{ font-style: italic; font-weight: 500; }
 h2{ font-size: clamp(1.7rem, 3.2vw, 2.5rem); }
 p{ margin: 0 0 1em; }
 .eyebrow{
-  display:inline-flex;
+  --eyebrow-accent: var(--oxblood);
+  display:flex;
   align-items:center;
-  gap:.5em;
+  gap:.7em;
   font-family: var(--mono);
-  font-size: .78rem;
-  letter-spacing: .12em;
+  font-size: .72rem;
+  letter-spacing: .1em;
   text-transform: uppercase;
-  color: var(--oxblood-dk);
-  padding-bottom: .3em;
-  border-bottom: 1px solid rgba(168,87,46,0.35);
+  color: var(--ink-soft);
+  margin-bottom: 20px;
+}
+.eyebrow::before{
+  content:"";
+  width: 28px;
+  height: 1px;
+  flex-shrink: 0;
+  background: var(--eyebrow-accent);
 }
 
 /* --- header --- */
