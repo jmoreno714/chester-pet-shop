@@ -248,30 +248,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .section-head-center h2{ margin:0; }
 .btn-sm{ padding:.5em 1.1em; font-size:.85rem; }
 .section-foot-center{ display:flex; justify-content:center; margin-top:32px; }
-
-/* --- mascota (perrito) animada: entra al hacer scroll, después jadea --- */
-.mascot-dog{
-  position:absolute; top:6px; right:24px;
-  width:76px; height:76px;
-  color: var(--oxblood);
-  opacity:0;
-  transform: scale(.45) rotate(-12deg);
-  transition: transform .55s cubic-bezier(.34,1.56,.64,1), opacity .4s ease;
-}
-.mascot-dog svg{ width:100%; height:100%; overflow:visible; }
-.mascot-dog.in-view{ opacity:1; transform: scale(1) rotate(0deg); }
-.mascot-dog.in-view .dog-tongue{
-  transform-origin: 50% 0%;
-  animation: dog-pant 1.7s ease-in-out .5s infinite;
-}
-@keyframes dog-pant{
-  0%, 100%{ transform: scaleY(1); }
-  50%{ transform: scaleY(1.18); }
-}
-@media (prefers-reduced-motion: reduce){
-  .mascot-dog{ transition:none; }
-  .mascot-dog.in-view .dog-tongue{ animation:none; }
-}
+.section-head-spacious{ margin-bottom: 64px; }
 .shelf-grid{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
@@ -298,13 +275,12 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   font-family: var(--mono); font-size:.72rem; text-align:center; padding: 8px;
 }
 .price-tag{
-  position:absolute; top:-10px; right:-10px;
+  position:absolute; top:12px; right:12px;
   background: var(--brass);
   border: 1px solid var(--ink);
   border-radius: 0;
   padding: 4px 8px;
   font-family: var(--mono); font-weight:700; font-size:.85rem;
-  transform: rotate(4deg);
 }
 .product-card h3{ font-family: var(--body); font-weight:700; font-size:1rem; margin:0; }
 .product-card .tag-line{ font-size:.85rem; color: var(--ink-soft); margin:0; }
@@ -381,7 +357,6 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   .footer-grid{ grid-template-columns: 1fr; }
 }
 @media (max-width: 680px){
-  .mascot-dog{ position:static; display:block; margin:0 auto 12px; width:56px; height:56px; }
   .nav-toggle{
     display:flex; flex-direction:column; justify-content:center; gap:5px;
     width:40px; height:36px; background:transparent;
