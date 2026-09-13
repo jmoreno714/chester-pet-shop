@@ -46,4 +46,23 @@ document.addEventListener('DOMContentLoaded', () => {
   } else {
     items.forEach((item) => item.classList.add('is-stamped'));
   }
+
+  // Mascota (perrito) animada: aparece al entrar en pantalla
+  const mascots = document.querySelectorAll('.mascot-dog');
+  if (mascots.length && 'IntersectionObserver' in window) {
+    const ioDog = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view');
+            ioDog.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.4 }
+    );
+    mascots.forEach((m) => ioDog.observe(m));
+  } else {
+    mascots.forEach((m) => m.classList.add('in-view'));
+  }
 });
