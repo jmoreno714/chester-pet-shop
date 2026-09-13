@@ -248,16 +248,18 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .section-head-center h2{ margin:0; }
 .btn-sm{ padding:.5em 1.1em; font-size:.85rem; }
 .section-foot-center{ display:flex; justify-content:center; margin-top:32px; }
-.featured-mascot{
-  display:flex; justify-content:center;
-  margin: 0 0 28px;
+.title-with-mascot{
+  display:flex; align-items:center; justify-content:center;
+  flex-wrap:wrap; gap:2px;
 }
-.featured-mascot img{
-  width: 108px; height:auto;
-  transform: translateX(-140px);
+.featured-mascot-inline{
+  width: 96px; height:auto;
+  transform: rotate(-10deg);
+  margin-top: 20px;
+  margin-left: 6px;
 }
 @media (max-width: 680px){
-  .featured-mascot img{ transform: translateX(-20px); }
+  .featured-mascot-inline{ width: 68px; margin-top: 8px; }
 }
 .shelf-grid{
   display:grid;
