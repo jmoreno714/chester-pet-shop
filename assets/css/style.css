@@ -338,7 +338,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .cta-final .btn-primary{ margin-top: 12px; }
 .cta-mascot{
   position:absolute;
-  top: 200px;
+  top: 232px;
   left: 50%;
   margin-left: 150px;
   width: 74px; height:auto;
