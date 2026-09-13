@@ -313,6 +313,15 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   display:grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 36px;
+  position:relative;
+}
+.promise-cat{
+  position:absolute;
+  top: 6px;
+  left: 33.33%;
+  transform: translateX(-50%) rotate(-8deg);
+  width: 56px; height:auto;
+  z-index: 2;
 }
 .promise-card{ text-align:center; }
 .promise-badge{
@@ -343,7 +352,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .cta-final .btn-primary{ margin-top: 46px; }
 .cta-mascot{
   position:absolute;
-  top: 224px;
+  top: 226px;
   left: 50%;
   transform: translateX(-50%);
   width: 65px; height:auto;
@@ -386,6 +395,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   .shelf-grid{ grid-template-columns: repeat(2, 1fr); }
   .category-bleed{ grid-template-columns: repeat(2, 1fr); }
   .promise-grid{ grid-template-columns: 1fr; gap: 32px; max-width:360px; margin:0 auto; }
+  .promise-cat{ display:none; }
   .footer-grid{ grid-template-columns: 1fr; }
 }
 @media (max-width: 680px){
