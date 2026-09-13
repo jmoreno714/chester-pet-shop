@@ -295,9 +295,9 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .promise-card{ text-align:center; }
 .promise-badge{
   width:84px; height:84px; margin:0 auto 18px;
-  border: 3px solid var(--pine);
+  border: 3px solid var(--oxblood);
   border-radius: 50%;
-  color: var(--pine);
+  color: var(--oxblood);
   display:flex; align-items:center; justify-content:center;
   transform: scale(0) rotate(-18deg);
   opacity:0;
