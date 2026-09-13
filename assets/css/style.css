@@ -338,10 +338,10 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .cta-final .btn-primary{ margin-top: 12px; }
 .cta-mascot{
   position:absolute;
-  top: 232px;
+  top: 195px;
   left: 50%;
-  margin-left: 150px;
-  width: 74px; height:auto;
+  transform: translateX(-50%);
+  width: 65px; height:auto;
 }
 @media (max-width: 680px){
   .cta-mascot{ display:none; }
