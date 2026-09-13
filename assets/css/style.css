@@ -341,7 +341,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   top: 200px;
   left: 50%;
   margin-left: 150px;
-  width: 90px; height:auto;
+  width: 74px; height:auto;
 }
 @media (max-width: 680px){
   .cta-mascot{ display:none; }
