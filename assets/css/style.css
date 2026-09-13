@@ -247,6 +247,11 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   text-align:center; gap:14px;
 }
 .section-head-center h2{ margin:0; }
+.cat-mascot{
+  width: 60px; height:auto;
+  margin: 0 auto 10px;
+  display:block;
+}
 .btn-sm{ padding:.5em 1.1em; font-size:.85rem; }
 .section-foot-center{ display:flex; justify-content:center; margin-top:32px; }
 .featured-mascot-inline{
