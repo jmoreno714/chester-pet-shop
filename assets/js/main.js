@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Animación de sello al hacer scroll (respeta prefers-reduced-motion vía CSS)
-  const items = document.querySelectorAll('.ledger-item');
+  const items = document.querySelectorAll('.promise-card');
   if (items.length && 'IntersectionObserver' in window) {
     const io = new IntersectionObserver(
       (entries) => {

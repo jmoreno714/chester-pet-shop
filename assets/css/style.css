@@ -284,35 +284,28 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .product-card h3{ font-family: var(--body); font-weight:700; font-size:1rem; margin:0; }
 .product-card .tag-line{ font-size:.85rem; color: var(--ink-soft); margin:0; }
 
-/* --- libro de reclamos (ledger) --- */
-.ledger{ max-width: 760px; }
-.ledger-item{
+/* --- por qué elegirnos: tarjetas con ícono (opción B) --- */
+.promise-title{ text-align:center; margin-bottom:.9em; }
+.promise-grid{
   display:grid;
-  grid-template-columns: 48px 1fr auto;
-  gap: 18px;
-  align-items:center;
-  padding: 20px 0;
-  border-bottom: 1px dashed var(--line);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
 }
-.ledger-item:first-child{ border-top: 1px dashed var(--line); }
-.ledger-num{
-  font-family: var(--mono); font-weight:700; font-size:1.1rem; color: var(--ink-soft);
-}
-.ledger-text h3{ font-size:1.05rem; margin:0 0 .2em; }
-.ledger-text p{ margin:0; color: var(--ink-soft); font-size:.95rem; }
-.stamp{
-  width:56px; height:56px;
+.promise-card{ text-align:center; }
+.promise-badge{
+  width:84px; height:84px; margin:0 auto 18px;
   border: 3px solid var(--pine);
   border-radius: 50%;
   color: var(--pine);
   display:flex; align-items:center; justify-content:center;
-  font-family: var(--mono); font-size:.62rem; font-weight:700;
-  text-transform:uppercase; text-align:center; line-height:1.1;
   transform: scale(0) rotate(-18deg);
   opacity:0;
   transition: transform .35s cubic-bezier(.2,1.4,.4,1), opacity .25s ease;
 }
-.ledger-item.is-stamped .stamp{ transform: scale(1) rotate(-8deg); opacity:1; }
+.promise-badge svg{ width:38px; height:38px; }
+.promise-card.is-stamped .promise-badge{ transform: scale(1) rotate(0deg); opacity:1; }
+.promise-card h3{ font-size:1.05rem; margin:0 0 .3em; }
+.promise-card p{ margin:0; color: var(--ink-soft); font-size:.9rem; }
 
 /* --- CTA final --- */
 .cta-final{
@@ -358,6 +351,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   .hero{ grid-template-columns: 1fr; }
   .shelf-grid{ grid-template-columns: repeat(2, 1fr); }
   .category-bleed{ grid-template-columns: repeat(2, 1fr); }
+  .promise-grid{ grid-template-columns: 1fr; gap: 32px; max-width:360px; margin:0 auto; }
   .footer-grid{ grid-template-columns: 1fr; }
 }
 @media (max-width: 680px){
