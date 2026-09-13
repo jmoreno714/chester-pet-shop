@@ -254,7 +254,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 }
 .featured-mascot img{
   width: 108px; height:auto;
-  transform: translateX(-46px);
+  transform: translateX(-140px);
 }
 @media (max-width: 680px){
   .featured-mascot img{ transform: translateX(-20px); }
