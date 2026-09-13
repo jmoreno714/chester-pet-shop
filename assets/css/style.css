@@ -235,6 +235,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 
 /* --- estantes de productos --- */
 .section{ padding: 56px 0; }
+.section-top-tight{ padding-top: 20px; }
 .section-flush{ padding: 0; }
 .section-alt{ background: var(--paper-dark); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
 .section-head{
