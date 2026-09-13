@@ -250,14 +250,14 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .btn-sm{ padding:.5em 1.1em; font-size:.85rem; }
 .section-foot-center{ display:flex; justify-content:center; margin-top:32px; }
 .title-with-mascot{
-  display:flex; align-items:center; justify-content:center;
+  display:flex; align-items:flex-start; justify-content:center;
   flex-wrap:wrap; gap:2px;
 }
-.title-with-mascot h2{ margin-top:-14px; }
+.title-with-mascot h2{ margin:0 0 0; margin-top:-32px; }
 .featured-mascot-inline{
   width: 96px; height:auto;
   transform: scaleX(-1) rotate(-10deg);
-  margin-top: 28px;
+  margin-top: 0;
   margin-left: 6px;
 }
 @media (max-width: 680px){
