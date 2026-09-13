@@ -336,6 +336,16 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .cta-final h2{ color: var(--paper); }
 .cta-final p{ color: #CBB99A; max-width: 50ch; margin-left:auto; margin-right:auto; }
 .cta-final .btn-primary{ margin-top: 12px; }
+.cta-mascot{
+  position:absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: 150px;
+  width: 90px; height:auto;
+}
+@media (max-width: 680px){
+  .cta-mascot{ display:none; }
+}
 
 /* --- footer: mismo fondo oscuro que el CTA, sin espacio entre ambos --- */
 .site-footer{
