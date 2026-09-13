@@ -160,7 +160,8 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   background: linear-gradient(180deg, rgba(10,9,8,0.35) 0%, rgba(10,9,8,0.5) 45%, rgba(10,9,8,0.92) 100%);
 }
 .hero .wrap{ position:relative; z-index:1; }
-.hero h1{ color: #F7F1E5; font-size: clamp(2.6rem, 6.4vw, 5rem); }
+.hero-copy{ max-width: 600px; }
+.hero h1{ color: #F7F1E5; font-size: clamp(2.4rem, 5vw, 3.8rem); }
 .hero h1 em{ font-style: italic; }
 .hero-tagline{
   font-family: var(--display);
