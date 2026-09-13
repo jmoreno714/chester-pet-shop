@@ -317,9 +317,9 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 }
 .promise-cat{
   position:absolute;
-  top: 6px;
+  top: 18px;
   left: 33.33%;
-  transform: translateX(-50%) rotate(-8deg);
+  transform: translateX(calc(-50% - 10px)) rotate(-8deg);
   width: 56px; height:auto;
   z-index: 2;
 }
