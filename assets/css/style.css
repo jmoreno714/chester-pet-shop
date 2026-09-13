@@ -323,7 +323,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 /* --- footer: mismo fondo oscuro que el CTA, sin espacio entre ambos --- */
 .site-footer{
   margin-top: 0;
-  background: var(--ink);
+  background: #000000;
   color: #CBB99A;
   padding: 40px 0 28px;
   border-top: none;
