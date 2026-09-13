@@ -240,6 +240,8 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   display:flex; justify-content:space-between; align-items:flex-end;
   gap: 24px; margin-bottom: 28px; flex-wrap:wrap;
 }
+.section-head-center{ justify-content:center; text-align:center; }
+.section-head-center h2{ margin:0; }
 .shelf-grid{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
