@@ -246,6 +246,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 }
 .section-head-center h2{ margin:0; }
 .btn-sm{ padding:.5em 1.1em; font-size:.85rem; }
+.section-foot-center{ display:flex; justify-content:center; margin-top:32px; }
 .shelf-grid{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
