@@ -12,7 +12,13 @@
   const emptyEl = document.getElementById('catalog-empty');
 
   const CATEGORY_LABELS = {
-    premium: 'Marcas premium',
+    'vitalcan-perros': 'Vitalcan Perros',
+    'vitalcan-gatos': 'Vitalcan Gatos',
+    'sieger-agility': 'Sieger / Agility',
+    estampa: 'Estampa',
+    eukanuba: 'Eukanuba',
+    'royal-canin': 'Royal Canin',
+    'otros-alimentos': 'Otros alimentos',
     humedos: 'Húmedos',
     farmacos: 'Fármacos',
     camitas: 'Camitas y accesorios',
@@ -86,7 +92,18 @@
 
   // permite llegar con un ancla (#premium, #humedos, etc.) desde el home
   function applyHashFilter() {
-    const map = { 'marcas-premium': 'premium', humedos: 'humedos', farmacos: 'farmacos', camitas: 'camitas' };
+    const map = {
+      'vitalcan-perros': 'vitalcan-perros',
+      'vitalcan-gatos': 'vitalcan-gatos',
+      'sieger-agility': 'sieger-agility',
+      estampa: 'estampa',
+      eukanuba: 'eukanuba',
+      'royal-canin': 'royal-canin',
+      'otros-alimentos': 'otros-alimentos',
+      humedos: 'humedos',
+      farmacos: 'farmacos',
+      camitas: 'camitas',
+    };
     const hash = location.hash.replace('#', '');
     const cat = map[hash];
     if (!cat) return;

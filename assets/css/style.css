@@ -200,7 +200,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 /* --- categorías a sangre: bloques de color + tipografía enorme superpuesta --- */
 .category-bleed{
   display:grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 .bleed-block{
@@ -228,10 +228,15 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   font-family: var(--mono); font-size:.72rem; color: rgba(247,241,229,0.78); margin:0;
 }
 .bleed-block:hover h3{ font-style: italic; }
-.bleed-oxblood{ background-image: url('../img/Premiun.webp'); }
-.bleed-pine{ background-image: url('../img/humedo.webp'); }
-.bleed-brass{ background-image: url('../img/Farmacos.webp'); }
-.bleed-ink{ background-image: url('../img/Camitas.webp'); }
+.bleed-humedos{ background-image: url('../img/humedo.webp'); }
+.bleed-farmacos{ background-image: url('../img/Farmacos.webp'); }
+.bleed-camitas{ background-image: url('../img/Camitas.webp'); }
+
+/* placeholders de color para las marcas nuevas, hasta tener fotos propias */
+.bleed-grad-1{ background: linear-gradient(160deg, var(--oxblood) 0%, var(--oxblood-dk) 100%); }
+.bleed-grad-2{ background: linear-gradient(160deg, #4C6F51 0%, #22301F 100%); }
+.bleed-grad-3{ background: linear-gradient(160deg, var(--brass) 0%, #6B5322 100%); }
+.bleed-grad-4{ background: linear-gradient(160deg, #2E2C28 0%, var(--ink) 100%); }
 
 /* --- estantes de productos --- */
 .section{ padding: 56px 0; }
