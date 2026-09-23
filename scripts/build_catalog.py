@@ -6,12 +6,18 @@ OUT = r"C:\Users\Joaquin\Desktop\Chester new\chester-pet-shop\assets\data\produc
 
 FARMACO_BRANDS = {
     "CIDAR", "Ectholaner", "Ecthol Collar Antipulgas", "Frontline", "SIMPARICA",
-    "Ocladerm", "Osspret", "Tea", "MV", "Therapy",
+    "Ocladerm", "Osspret", "Tea", "MV",
 }
 CAMITAS_BRANDS = {
     "NamuPets", "VitalFun", "PELLET", "Absorsol",
 }
-VITALCAN_BRANDS = {"Vitalcan Premium"}
+# líneas que el cliente confirmó que son todas Vitalcan (se separan
+# perro/gato según lo que diga el nombre del producto)
+VITALCAN_BRANDS = {
+    "Vitalcan Premium", "Balanced", "Balanced Natural Recipe", "Complete",
+    "Old Prince", "Fawna", "Nutrique", "Therapy", "Belcan",
+    "Criadores Maintenance",
+}
 SIEGER_AGILITY_BRANDS = {"SIEGER", "Agility"}
 ESTAMPA_BRANDS = {"Estampa Plus", "Estampa Criadores"}
 EUKANUBA_BRANDS = {"Eukanuba"}
@@ -20,10 +26,19 @@ EXCLUDE_CATEGORIES = {"ENVIOS"}
 
 WET_RE = re.compile(r"\b(lata|latas|pouch|sobre|sobres)\b", re.IGNORECASE)
 GATO_RE = re.compile(r"\bgato\b", re.IGNORECASE)
+ROYAL_CANIN_RE = re.compile(r"royal\s*canin", re.IGNORECASE)
+EUKANUBA_RE = re.compile(r"eukanuba", re.IGNORECASE)
 
 def classify(nombre, marca):
     if WET_RE.search(nombre):
         return "humedos"
+    # el nombre del producto manda si menciona una marca puntual —
+    # cubre errores de tipeo en la columna Categoría de la planilla
+    # (ej.: un "Royal Canin" cargado como "Balanced")
+    if ROYAL_CANIN_RE.search(nombre):
+        return "royal-canin"
+    if EUKANUBA_RE.search(nombre):
+        return "eukanuba"
     if marca in FARMACO_BRANDS:
         return "farmacos"
     if marca in CAMITAS_BRANDS:
