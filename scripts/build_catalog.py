@@ -15,7 +15,7 @@ CAMITAS_BRANDS = {
 # perro/gato según lo que diga el nombre del producto)
 VITALCAN_BRANDS = {
     "Vitalcan Premium", "Balanced", "Balanced Natural Recipe", "Complete",
-    "Old Prince", "Fawna", "Nutrique", "Therapy", "Belcan",
+    "Old Prince", "Fawna", "Nutrique", "Therapy", "Belcan", "Belcat",
     "Criadores Maintenance",
 }
 SIEGER_AGILITY_BRANDS = {"SIEGER", "Agility"}
