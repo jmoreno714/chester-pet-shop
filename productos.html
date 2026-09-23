@@ -33,151 +33,26 @@
     <span class="eyebrow">Todo el estante</span>
     <h1>Catálogo</h1>
     <p class="lead" style="max-width:60ch;color:var(--ink-soft);">
-      Esta es una vidriera de ejemplo con las categorías reales de la tienda — cuando definamos
-      cómo vas a cargar los productos (planilla, panel simple, o a mano), esta grilla se arma sola
-      con precios y stock actualizados.
+      Alimento balanceado, fármacos y accesorios — filtrá por categoría o buscá por nombre o marca.
+      Las fotos de producto están pendientes, ya las vamos sumando.
     </p>
   </section>
 
-  <section class="section" id="marcas-premium">
+  <section class="section">
     <div class="wrap">
-      <div class="section-head">
-        <div><span class="eyebrow">Marcas premium</span></div>
+      <div class="catalog-controls">
+        <div class="catalog-filters" role="tablist" aria-label="Filtrar por categoría">
+          <button type="button" class="filter-btn is-active" data-cat="todos">Todos</button>
+          <button type="button" class="filter-btn" data-cat="premium">Marcas premium</button>
+          <button type="button" class="filter-btn" data-cat="humedos">Húmedos</button>
+          <button type="button" class="filter-btn" data-cat="farmacos">Fármacos</button>
+          <button type="button" class="filter-btn" data-cat="camitas">Camitas y accesorios</button>
+        </div>
+        <input type="search" id="catalog-search" class="catalog-search" placeholder="Buscar por nombre o marca…" aria-label="Buscar productos">
       </div>
-      <div class="shelf-grid">
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Royal Canin</h3>
-          <p class="tag-line">Línea perro y gato, por raza y etapa</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Eukanuba</h3>
-          <p class="tag-line">Fórmulas adulto y cachorro</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Vitalcan</h3>
-          <p class="tag-line">Línea perro y gato</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Sieger / Agility</h3>
-          <p class="tag-line">Alto rendimiento</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Estampa</h3>
-          <p class="tag-line">Línea económica</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="humedos">
-    <div class="wrap">
-      <div class="section-head">
-        <div><span class="eyebrow">Húmedos</span></div>
-      </div>
-      <div class="shelf-grid">
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Húmedo Perro x lata</h3>
-          <p class="tag-line">Surtido de sabores</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Húmedo Gato x lata</h3>
-          <p class="tag-line">Carnes y pescado</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Pack promo húmedos</h3>
-          <p class="tag-line">Hasta 15% off por pack</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Húmedo Senior</h3>
-          <p class="tag-line">Baja en sodio</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="farmacos">
-    <div class="wrap">
-      <div class="section-head">
-        <div><span class="eyebrow">Fármacos</span></div>
-      </div>
-      <div class="shelf-grid">
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Antiparasitario interno</h3>
-          <p class="tag-line">Por peso</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Antiparasitario externo</h3>
-          <p class="tag-line">Pipeta o collar</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Suplemento articular</h3>
-          <p class="tag-line">Para razas grandes o senior</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Vitaminas</h3>
-          <p class="tag-line">Complemento diario</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section-alt" id="camitas">
-    <div class="wrap">
-      <div class="section-head">
-        <div><span class="eyebrow">Camitas y accesorios</span></div>
-      </div>
-      <div class="shelf-grid">
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Camita chica</h3>
-          <p class="tag-line">Lavable</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Camita mediana</h3>
-          <p class="tag-line">Lavable</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Camita grande</h3>
-          <p class="tag-line">Lavable</p>
-        </article>
-        <article class="product-card">
-          <span class="price-tag">$·····</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>Correa y collar</h3>
-          <p class="tag-line">Varios talles</p>
-        </article>
-      </div>
+      <p class="catalog-count" id="catalog-count" aria-live="polite"></p>
+      <div class="shelf-grid" id="catalog-grid"></div>
+      <p class="catalog-empty" id="catalog-empty" hidden>No encontramos productos con ese filtro.</p>
     </div>
   </section>
 </main>
@@ -193,5 +68,6 @@
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/catalogo.js"></script>
 </body>
 </html>

@@ -1,3 +1,9 @@
 # artefactos locales de instalación de skills (no son parte del sitio)
 .agents/
 skills-lock.json
+
+# planilla interna con datos de costo/margen — no va al repo público
+inventario_stock_actual.xlsx
+
+# capturas de pantalla sin procesar (quedan las versiones finales recortadas)
+assets/img/Captura*.png
