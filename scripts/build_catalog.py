@@ -117,6 +117,21 @@ def slugify(texto):
     texto = texto.lower()
     return re.sub(r"[^a-z0-9]+", "-", texto).strip("-")
 
+# título a mostrar: le suma al nombre base los kilajes disponibles
+# (ej. "Balanced Gato Adulto" + variantes 2kg/7,5kg -> "Balanced Gato Adulto 2-7,5 kg")
+def titulo_con_pesos(nombre, variantes):
+    pesos = [v["peso"] for v in variantes if v["peso"]]
+    if not pesos:
+        return nombre
+    numeros, unidades = [], set()
+    for peso in pesos:
+        num, unidad = peso.split(" ")
+        numeros.append(num)
+        unidades.add(unidad)
+    if len(unidades) == 1:
+        return f"{nombre} {'-'.join(numeros)} {unidades.pop()}"
+    return f"{nombre} {' / '.join(pesos)}"
+
 grupos = OrderedDict()
 for p in productos:
     # en fármacos el "X a Y kg" de nombre es el rango de peso de la mascota
@@ -150,6 +165,7 @@ for g in grupos.values():
         slug = slugify(f"{g['marca']}-{g['nombre']}-{g['variantes'][0]['codigo']}")
     slugs_usados.add(slug)
     g["slug"] = slug
+    g["titulo"] = titulo_con_pesos(g["nombre"], g["variantes"])
     catalogo.append(g)
 
 counts = {}

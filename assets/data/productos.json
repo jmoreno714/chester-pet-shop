@@ -10,7 +10,8 @@
         "codigo": "5COPRO02"
       }
     ],
-    "slug": "promociones-5-complete-pouch-x-10-000-gatos"
+    "slug": "promociones-5-complete-pouch-x-10-000-gatos",
+    "titulo": "5 Complete Pouch x $10.000 Gatos"
   },
   {
     "nombre": "5 Complete Pouch x $10.000 Perros",
@@ -23,7 +24,8 @@
         "codigo": "5COPRO01"
       }
     ],
-    "slug": "promociones-5-complete-pouch-x-10-000-perros"
+    "slug": "promociones-5-complete-pouch-x-10-000-perros",
+    "titulo": "5 Complete Pouch x $10.000 Perros"
   },
   {
     "nombre": "Advance Adulto Hipoalergenico",
@@ -36,7 +38,8 @@
         "codigo": "ADVADV01"
       }
     ],
-    "slug": "advance-advance-adulto-hipoalergenico"
+    "slug": "advance-advance-adulto-hipoalergenico",
+    "titulo": "Advance Adulto Hipoalergenico 15 kg"
   },
   {
     "nombre": "Advance Cachorro",
@@ -49,7 +52,8 @@
         "codigo": "ADVADV02"
       }
     ],
-    "slug": "advance-advance-cachorro"
+    "slug": "advance-advance-cachorro",
+    "titulo": "Advance Cachorro 12 kg"
   },
   {
     "nombre": "Advance Perro Adulto",
@@ -62,7 +66,8 @@
         "codigo": "ADVADV03"
       }
     ],
-    "slug": "advance-advance-perro-adulto"
+    "slug": "advance-advance-perro-adulto",
+    "titulo": "Advance Perro Adulto 20 kg"
   },
   {
     "nombre": "Agility Gato Urinary",
@@ -75,7 +80,8 @@
         "codigo": "AGIAGI05"
       }
     ],
-    "slug": "agility-agility-gato-urinary"
+    "slug": "agility-agility-gato-urinary",
+    "titulo": "Agility Gato Urinary 10 kg"
   },
   {
     "nombre": "AGILITY Perro Adulto Control de Peso",
@@ -88,7 +94,8 @@
         "codigo": "AGIAGI02"
       }
     ],
-    "slug": "agility-agility-perro-adulto-control-de-peso"
+    "slug": "agility-agility-perro-adulto-control-de-peso",
+    "titulo": "AGILITY Perro Adulto Control de Peso 15 kg"
   },
   {
     "nombre": "AGILITY Perro Adultos",
@@ -101,7 +108,8 @@
         "codigo": "AGIAGI01"
       }
     ],
-    "slug": "agility-agility-perro-adultos"
+    "slug": "agility-agility-perro-adultos",
+    "titulo": "AGILITY Perro Adultos 20 kg"
   },
   {
     "nombre": "AGILITY Perro Cachorro",
@@ -119,7 +127,8 @@
         "codigo": "AGIAGI03"
       }
     ],
-    "slug": "agility-agility-perro-cachorro"
+    "slug": "agility-agility-perro-cachorro",
+    "titulo": "AGILITY Perro Cachorro 15-20 kg"
   },
   {
     "nombre": "Balanced Gato Adulto Natural Recipe Cordero",
@@ -142,7 +151,8 @@
         "codigo": "627017B7"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-cordero"
+    "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-cordero",
+    "titulo": "Balanced Gato Adulto Natural Recipe Cordero 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Gato Adulto Natural Recipe Salmón",
@@ -165,7 +175,8 @@
         "codigo": "4AAFA884"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-salmon"
+    "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-salmon",
+    "titulo": "Balanced Gato Adulto Natural Recipe Salmón 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Gato Adulto",
@@ -188,7 +199,8 @@
         "codigo": "AAC25E6F"
       }
     ],
-    "slug": "balanced-balanced-gato-adulto"
+    "slug": "balanced-balanced-gato-adulto",
+    "titulo": "Balanced Gato Adulto 2-7,5-15 kg"
   },
   {
     "nombre": "Balanced Gato Control PH All ages",
@@ -206,7 +218,8 @@
         "codigo": "91AC69C4"
       }
     ],
-    "slug": "balanced-balanced-gato-control-ph-all-ages"
+    "slug": "balanced-balanced-gato-control-ph-all-ages",
+    "titulo": "Balanced Gato Control PH All ages 2-7,5 kg"
   },
   {
     "nombre": "Balanced Gato Ctrl. Peso/Cstrdo",
@@ -224,7 +237,8 @@
         "codigo": "BF705DC5"
       }
     ],
-    "slug": "balanced-balanced-gato-ctrl-peso-cstrdo"
+    "slug": "balanced-balanced-gato-ctrl-peso-cstrdo",
+    "titulo": "Balanced Gato Ctrl. Peso/Cstrdo 2-7,5 kg"
   },
   {
     "nombre": "Balanced Gato Kitten",
@@ -242,7 +256,8 @@
         "codigo": "43C59CF2"
       }
     ],
-    "slug": "balanced-balanced-gato-kitten"
+    "slug": "balanced-balanced-gato-kitten",
+    "titulo": "Balanced Gato Kitten 2-7,5 kg"
   },
   {
     "nombre": "Balanced Gato Senior",
@@ -260,7 +275,8 @@
         "codigo": "BF8050A4"
       }
     ],
-    "slug": "balanced-balanced-gato-senior"
+    "slug": "balanced-balanced-gato-senior",
+    "titulo": "Balanced Gato Senior 2-7,5 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Cordero",
@@ -273,7 +289,8 @@
         "codigo": "A46CCBEA"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-cordero"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-cordero",
+    "titulo": "Balanced Natural Recipe Cordero 7,5 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada",
@@ -296,7 +313,8 @@
         "codigo": "A99248F2"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-ad-carne-argentina-seleccionada"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-ad-carne-argentina-seleccionada",
+    "titulo": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Merluza",
@@ -319,7 +337,8 @@
         "codigo": "908E5F7B"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-merluza"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-merluza",
+    "titulo": "Balanced Natural Recipe Gato Adulto Merluza 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Pollo",
@@ -342,7 +361,8 @@
         "codigo": "4379AC8B"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-pollo"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-pollo",
+    "titulo": "Balanced Natural Recipe Gato Adulto Pollo 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Salmón",
@@ -355,7 +375,8 @@
         "codigo": "D6168726"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-salmon"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-salmon",
+    "titulo": "Balanced Natural Recipe Gato Adulto Salmón 3 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Trucha Patagonica",
@@ -378,7 +399,8 @@
         "codigo": "DE336798"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-trucha-patagonica"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-trucha-patagonica",
+    "titulo": "Balanced Natural Recipe Gato Adulto Trucha Patagonica 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada",
@@ -391,7 +413,8 @@
         "codigo": "7434C2E8"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-a-carne-argentina-seleccionada"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-a-carne-argentina-seleccionada",
+    "titulo": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada 3 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Carne",
@@ -404,7 +427,8 @@
         "codigo": "B4762A62"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-carne"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-carne",
+    "titulo": "Balanced Natural Recipe Perro Adulto Carne 15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Cerdo",
@@ -417,7 +441,8 @@
         "codigo": "C4EB2642"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cerdo"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cerdo",
+    "titulo": "Balanced Natural Recipe Perro Adulto Cerdo 15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Cordero",
@@ -430,7 +455,8 @@
         "codigo": "22A22FDF"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cordero"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cordero",
+    "titulo": "Balanced Natural Recipe Perro Adulto Cordero 15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Pollo",
@@ -448,7 +474,8 @@
         "codigo": "4ADFFB64"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-pollo"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-pollo",
+    "titulo": "Balanced Natural Recipe Perro Adulto Pollo 3-15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Salmón Rosado",
@@ -461,7 +488,8 @@
         "codigo": "468189F8"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado",
+    "titulo": "Balanced Natural Recipe Perro Adulto Salmón Rosado 15 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Salmon Rosado",
@@ -474,7 +502,8 @@
         "codigo": "A2D6E108"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado-a2d6e108"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado-a2d6e108",
+    "titulo": "Balanced Natural Recipe Perro Adulto Salmon Rosado 3 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Cerdo",
@@ -487,7 +516,8 @@
         "codigo": "91B5C82C"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cerdo"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cerdo",
+    "titulo": "Balanced Natural Recipe Perro Cerdo 3 kg"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Cordero",
@@ -500,7 +530,8 @@
         "codigo": "1A9DFBEA"
       }
     ],
-    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cordero"
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cordero",
+    "titulo": "Balanced Natural Recipe Perro Cordero 3 kg"
   },
   {
     "nombre": "Balanced perro Adulto Raza Gigante",
@@ -513,7 +544,8 @@
         "codigo": "0ADBEA2D"
       }
     ],
-    "slug": "balanced-balanced-perro-adulto-raza-gigante"
+    "slug": "balanced-balanced-perro-adulto-raza-gigante",
+    "titulo": "Balanced perro Adulto Raza Gigante 20 kg"
   },
   {
     "nombre": "Balanced perro Adulto Raza Grande",
@@ -531,7 +563,8 @@
         "codigo": "58ADC19B"
       }
     ],
-    "slug": "balanced-balanced-perro-adulto-raza-grande"
+    "slug": "balanced-balanced-perro-adulto-raza-grande",
+    "titulo": "Balanced perro Adulto Raza Grande 15-20 kg"
   },
   {
     "nombre": "Balanced Perro Adulto Raza Mediana",
@@ -559,7 +592,8 @@
         "codigo": "8F3DE073"
       }
     ],
-    "slug": "balanced-balanced-perro-adulto-raza-mediana"
+    "slug": "balanced-balanced-perro-adulto-raza-mediana",
+    "titulo": "Balanced Perro Adulto Raza Mediana 3-12-20-20 kg"
   },
   {
     "nombre": "Balanced Perro Adulto Raza Pequeña",
@@ -582,7 +616,8 @@
         "codigo": "5C82547C"
       }
     ],
-    "slug": "balanced-balanced-perro-adulto-raza-pequena"
+    "slug": "balanced-balanced-perro-adulto-raza-pequena",
+    "titulo": "Balanced Perro Adulto Raza Pequeña 3-7,5-15 kg"
   },
   {
     "nombre": "Balanced Perro Cachorro Raza Grande",
@@ -600,7 +635,8 @@
         "codigo": "FBE05AAC"
       }
     ],
-    "slug": "balanced-balanced-perro-cachorro-raza-grande"
+    "slug": "balanced-balanced-perro-cachorro-raza-grande",
+    "titulo": "Balanced Perro Cachorro Raza Grande 15-20 kg"
   },
   {
     "nombre": "Balanced Perro Cachorro Raza mediana",
@@ -618,7 +654,8 @@
         "codigo": "33ACEF2A"
       }
     ],
-    "slug": "balanced-balanced-perro-cachorro-raza-mediana"
+    "slug": "balanced-balanced-perro-cachorro-raza-mediana",
+    "titulo": "Balanced Perro Cachorro Raza mediana 12-20 kg"
   },
   {
     "nombre": "Balanced Perro Cachorro Raza Pequeña",
@@ -636,7 +673,8 @@
         "codigo": "AE9FF21A"
       }
     ],
-    "slug": "balanced-balanced-perro-cachorro-raza-pequena"
+    "slug": "balanced-balanced-perro-cachorro-raza-pequena",
+    "titulo": "Balanced Perro Cachorro Raza Pequeña 3-7,5 kg"
   },
   {
     "nombre": "Balanced Perro Control de Peso",
@@ -649,7 +687,8 @@
         "codigo": "F86DA37B"
       }
     ],
-    "slug": "balanced-balanced-perro-control-de-peso"
+    "slug": "balanced-balanced-perro-control-de-peso",
+    "titulo": "Balanced Perro Control de Peso 20 kg"
   },
   {
     "nombre": "Balanced Perro Senior Grande",
@@ -667,7 +706,8 @@
         "codigo": "B56A6F4F"
       }
     ],
-    "slug": "balanced-balanced-perro-senior-grande"
+    "slug": "balanced-balanced-perro-senior-grande",
+    "titulo": "Balanced Perro Senior Grande 3-15 kg"
   },
   {
     "nombre": "Balanced Perro Senior Mediano",
@@ -685,7 +725,8 @@
         "codigo": "89D43288"
       }
     ],
-    "slug": "balanced-balanced-perro-senior-mediano"
+    "slug": "balanced-balanced-perro-senior-mediano",
+    "titulo": "Balanced Perro Senior Mediano 3-12 kg"
   },
   {
     "nombre": "Balanced Perro Senior Pequeño",
@@ -703,7 +744,8 @@
         "codigo": "7010B0B8"
       }
     ],
-    "slug": "balanced-balanced-perro-senior-pequeno"
+    "slug": "balanced-balanced-perro-senior-pequeno",
+    "titulo": "Balanced Perro Senior Pequeño 3-7,5 kg"
   },
   {
     "nombre": "Basken Doble 60",
@@ -716,7 +758,8 @@
         "codigo": "BASBAS01"
       }
     ],
-    "slug": "basken-basken-doble-60"
+    "slug": "basken-basken-doble-60",
+    "titulo": "Basken Doble 60"
   },
   {
     "nombre": "Belcan adultos",
@@ -729,7 +772,8 @@
         "codigo": "BELBEL16"
       }
     ],
-    "slug": "belcan-belcan-adultos"
+    "slug": "belcan-belcan-adultos",
+    "titulo": "Belcan adultos 15 kg"
   },
   {
     "nombre": "Belcan Perro Adulto",
@@ -747,7 +791,8 @@
         "codigo": "BELBEL13"
       }
     ],
-    "slug": "belcan-belcan-perro-adulto"
+    "slug": "belcan-belcan-perro-adulto",
+    "titulo": "Belcan Perro Adulto 15-22 kg"
   },
   {
     "nombre": "Belcan Perro Cachorro",
@@ -760,7 +805,8 @@
         "codigo": "BELBEL14"
       }
     ],
-    "slug": "belcan-belcan-perro-cachorro"
+    "slug": "belcan-belcan-perro-cachorro",
+    "titulo": "Belcan Perro Cachorro 15 kg"
   },
   {
     "nombre": "BelCat Gato",
@@ -773,7 +819,8 @@
         "codigo": "BELBEL15"
       }
     ],
-    "slug": "belcat-belcat-gato"
+    "slug": "belcat-belcat-gato",
+    "titulo": "BelCat Gato 10 kg"
   },
   {
     "nombre": "Camita Namu Pets Pelo Largo Tamaño Grande",
@@ -786,7 +833,8 @@
         "codigo": "CAMNAM01"
       }
     ],
-    "slug": "namupets-camita-namu-pets-pelo-largo-tamano-grande"
+    "slug": "namupets-camita-namu-pets-pelo-largo-tamano-grande",
+    "titulo": "Camita Namu Pets Pelo Largo Tamaño Grande"
   },
   {
     "nombre": "Cidar Gato 0,5 a 3kg",
@@ -799,7 +847,8 @@
         "codigo": "CIDCID06"
       }
     ],
-    "slug": "cidar-cidar-gato-0-5-a-3kg"
+    "slug": "cidar-cidar-gato-0-5-a-3kg",
+    "titulo": "Cidar Gato 0,5 a 3kg"
   },
   {
     "nombre": "Cidar Gato 3,1 a 6kg",
@@ -812,7 +861,8 @@
         "codigo": "CIDFAR01"
       }
     ],
-    "slug": "cidar-cidar-gato-3-1-a-6kg"
+    "slug": "cidar-cidar-gato-3-1-a-6kg",
+    "titulo": "Cidar Gato 3,1 a 6kg"
   },
   {
     "nombre": "Cidar Perro 12,1 a 25kg",
@@ -825,7 +875,8 @@
         "codigo": "CIDCID02"
       }
     ],
-    "slug": "cidar-cidar-perro-12-1-a-25kg"
+    "slug": "cidar-cidar-perro-12-1-a-25kg",
+    "titulo": "Cidar Perro 12,1 a 25kg"
   },
   {
     "nombre": "Cidar Perro 1,5kg a 3kg",
@@ -838,7 +889,8 @@
         "codigo": "CIDCID03"
       }
     ],
-    "slug": "cidar-cidar-perro-1-5kg-a-3kg"
+    "slug": "cidar-cidar-perro-1-5kg-a-3kg",
+    "titulo": "Cidar Perro 1,5kg a 3kg"
   },
   {
     "nombre": "Cidar Perro 25,1 a 50kg",
@@ -851,7 +903,8 @@
         "codigo": "CIDCID05"
       }
     ],
-    "slug": "cidar-cidar-perro-25-1-a-50kg"
+    "slug": "cidar-cidar-perro-25-1-a-50kg",
+    "titulo": "Cidar Perro 25,1 a 50kg"
   },
   {
     "nombre": "Cidar Perro 3,1 a 6kg",
@@ -864,7 +917,8 @@
         "codigo": "CIDCID04"
       }
     ],
-    "slug": "cidar-cidar-perro-3-1-a-6kg"
+    "slug": "cidar-cidar-perro-3-1-a-6kg",
+    "titulo": "Cidar Perro 3,1 a 6kg"
   },
   {
     "nombre": "Cidar Perro 6,1 a 12kg",
@@ -877,7 +931,8 @@
         "codigo": "CIDCID01"
       }
     ],
-    "slug": "cidar-cidar-perro-6-1-a-12kg"
+    "slug": "cidar-cidar-perro-6-1-a-12kg",
+    "titulo": "Cidar Perro 6,1 a 12kg"
   },
   {
     "nombre": "Club Performance Gato Adulto",
@@ -890,7 +945,8 @@
         "codigo": "CLUROY03"
       }
     ],
-    "slug": "royal-canin-club-performance-gato-adulto"
+    "slug": "royal-canin-club-performance-gato-adulto",
+    "titulo": "Club Performance Gato Adulto 7,5 kg"
   },
   {
     "nombre": "Club performance Perro adulto",
@@ -903,7 +959,8 @@
         "codigo": "CLUROY02"
       }
     ],
-    "slug": "royal-canin-club-performance-perro-adulto"
+    "slug": "royal-canin-club-performance-perro-adulto",
+    "titulo": "Club performance Perro adulto 20 kg"
   },
   {
     "nombre": "Club Performance Weight Control",
@@ -916,7 +973,8 @@
         "codigo": "CLUROY01"
       }
     ],
-    "slug": "royal-canin-club-performance-weight-control"
+    "slug": "royal-canin-club-performance-weight-control",
+    "titulo": "Club Performance Weight Control 15 kg"
   },
   {
     "nombre": "Complete Gato Adulto",
@@ -939,7 +997,8 @@
         "codigo": "COMCOM88"
       }
     ],
-    "slug": "complete-complete-gato-adulto"
+    "slug": "complete-complete-gato-adulto",
+    "titulo": "Complete Gato Adulto 1,5-7,5-15 kg"
   },
   {
     "nombre": "Complete Gato Adulto Urinary Care",
@@ -957,7 +1016,8 @@
         "codigo": "COMCOM93"
       }
     ],
-    "slug": "complete-complete-gato-adulto-urinary-care"
+    "slug": "complete-complete-gato-adulto-urinary-care",
+    "titulo": "Complete Gato Adulto Urinary Care 1,5-7,5 kg"
   },
   {
     "nombre": "Complete Gato Control de Peso",
@@ -975,7 +1035,8 @@
         "codigo": "COMCOM95"
       }
     ],
-    "slug": "complete-complete-gato-control-de-peso"
+    "slug": "complete-complete-gato-control-de-peso",
+    "titulo": "Complete Gato Control de Peso 1,5-7,5 kg"
   },
   {
     "nombre": "Complete Gato Kitten",
@@ -998,7 +1059,8 @@
         "codigo": "COMCOM85"
       }
     ],
-    "slug": "complete-complete-gato-kitten"
+    "slug": "complete-complete-gato-kitten",
+    "titulo": "Complete Gato Kitten 1,5-7,5-15 kg"
   },
   {
     "nombre": "Complete Gato Senior",
@@ -1016,7 +1078,8 @@
         "codigo": "COMCOM91"
       }
     ],
-    "slug": "complete-complete-gato-senior"
+    "slug": "complete-complete-gato-senior",
+    "titulo": "Complete Gato Senior 1,5-7,5 kg"
   },
   {
     "nombre": "Complete Lata 340gr Gato Cachorro Pollo (1ud)",
@@ -1029,7 +1092,8 @@
         "codigo": "COMHUM01"
       }
     ],
-    "slug": "humedos-complete-lata-340gr-gato-cachorro-pollo-1ud"
+    "slug": "humedos-complete-lata-340gr-gato-cachorro-pollo-1ud",
+    "titulo": "Complete Lata 340gr Gato Cachorro Pollo (1ud)"
   },
   {
     "nombre": "Complete Perro Adulto Raza Mediana y Grande",
@@ -1042,7 +1106,8 @@
         "codigo": "COMCOM79"
       }
     ],
-    "slug": "complete-complete-perro-adulto-raza-mediana-y-grande"
+    "slug": "complete-complete-perro-adulto-raza-mediana-y-grande",
+    "titulo": "Complete Perro Adulto Raza Mediana y Grande 20 kg"
   },
   {
     "nombre": "Complete Perro Adulto Raza Pequeña",
@@ -1065,7 +1130,8 @@
         "codigo": "1B09CAA8"
       }
     ],
-    "slug": "complete-complete-perro-adulto-raza-pequena"
+    "slug": "complete-complete-perro-adulto-raza-pequena",
+    "titulo": "Complete Perro Adulto Raza Pequeña 3-7,5-20 kg"
   },
   {
     "nombre": "Complete Perro Cachorro Raza Mediana y Grande",
@@ -1083,7 +1149,8 @@
         "codigo": "COMCOM83"
       }
     ],
-    "slug": "complete-complete-perro-cachorro-raza-mediana-y-grande"
+    "slug": "complete-complete-perro-cachorro-raza-mediana-y-grande",
+    "titulo": "Complete Perro Cachorro Raza Mediana y Grande 3-20 kg"
   },
   {
     "nombre": "Complete Perro Control de Peso",
@@ -1101,7 +1168,8 @@
         "codigo": "COMCOM84"
       }
     ],
-    "slug": "complete-complete-perro-control-de-peso"
+    "slug": "complete-complete-perro-control-de-peso",
+    "titulo": "Complete Perro Control de Peso 3-20 kg"
   },
   {
     "nombre": "Complete Perro Senior All Breeds",
@@ -1114,7 +1182,8 @@
         "codigo": "COMCOM80"
       }
     ],
-    "slug": "complete-complete-perro-senior-all-breeds"
+    "slug": "complete-complete-perro-senior-all-breeds",
+    "titulo": "Complete Perro Senior All Breeds 20 kg"
   },
   {
     "nombre": "Complete Perro Senior Mediano y Grande",
@@ -1132,7 +1201,8 @@
         "codigo": "COMCOM97"
       }
     ],
-    "slug": "complete-complete-perro-senior-mediano-y-grande"
+    "slug": "complete-complete-perro-senior-mediano-y-grande",
+    "titulo": "Complete Perro Senior Mediano y Grande 3-20 kg"
   },
   {
     "nombre": "Complete Perro Senior Pequeño",
@@ -1150,7 +1220,8 @@
         "codigo": "COMCOM99"
       }
     ],
-    "slug": "complete-complete-perro-senior-pequeno"
+    "slug": "complete-complete-perro-senior-pequeno",
+    "titulo": "Complete Perro Senior Pequeño 3-7,5 kg"
   },
   {
     "nombre": "Complete Pouch Gato carne",
@@ -1168,7 +1239,8 @@
         "codigo": "B6963BB9"
       }
     ],
-    "slug": "complete-complete-pouch-gato-carne"
+    "slug": "complete-complete-pouch-gato-carne",
+    "titulo": "Complete Pouch Gato carne 85-85 g"
   },
   {
     "nombre": "Criadores Maintenance Gatos",
@@ -1181,7 +1253,8 @@
         "codigo": "CRICRI27"
       }
     ],
-    "slug": "criadores-maintenance-criadores-maintenance-gatos"
+    "slug": "criadores-maintenance-criadores-maintenance-gatos",
+    "titulo": "Criadores Maintenance Gatos 15 kg"
   },
   {
     "nombre": "Criadores Maintenance Perro Adulto",
@@ -1199,7 +1272,8 @@
         "codigo": "CRICRI23"
       }
     ],
-    "slug": "criadores-maintenance-criadores-maintenance-perro-adulto"
+    "slug": "criadores-maintenance-criadores-maintenance-perro-adulto",
+    "titulo": "Criadores Maintenance Perro Adulto 15-22 kg"
   },
   {
     "nombre": "Criadores Maintenance Perro Adulto Raza Pequeña",
@@ -1212,7 +1286,8 @@
         "codigo": "CRICRI26"
       }
     ],
-    "slug": "criadores-maintenance-criadores-maintenance-perro-adulto-raza-pequena"
+    "slug": "criadores-maintenance-criadores-maintenance-perro-adulto-raza-pequena",
+    "titulo": "Criadores Maintenance Perro Adulto Raza Pequeña 15 kg"
   },
   {
     "nombre": "Criadores Maintenance Perro Cachorros",
@@ -1225,7 +1300,8 @@
         "codigo": "CRICRI25"
       }
     ],
-    "slug": "criadores-maintenance-criadores-maintenance-perro-cachorros"
+    "slug": "criadores-maintenance-criadores-maintenance-perro-cachorros",
+    "titulo": "Criadores Maintenance Perro Cachorros 15 kg"
   },
   {
     "nombre": "Dr perrot",
@@ -1238,7 +1314,8 @@
         "codigo": "DRPSAB01"
       }
     ],
-    "slug": "sabrocitos-dr-perrot"
+    "slug": "sabrocitos-dr-perrot",
+    "titulo": "Dr perrot 20 kg"
   },
   {
     "nombre": "Ectholaner Antiparasitario Externo Perros de 10,1 a 20kg",
@@ -1251,7 +1328,8 @@
         "codigo": "ECTBAL01"
       }
     ],
-    "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-10-1-a-20kg"
+    "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-10-1-a-20kg",
+    "titulo": "Ectholaner Antiparasitario Externo Perros de 10,1 a 20kg"
   },
   {
     "nombre": "Ectholaner Antiparasitario Externo Perros de 4,6 a 10kg (1 comprimido 600mg)",
@@ -1264,7 +1342,8 @@
         "codigo": "ECTECT01"
       }
     ],
-    "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-4-6-a-10kg-1-comprimido-600mg"
+    "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-4-6-a-10kg-1-comprimido-600mg",
+    "titulo": "Ectholaner Antiparasitario Externo Perros de 4,6 a 10kg (1 comprimido 600mg)"
   },
   {
     "nombre": "Ecthol Collar Antipulgas Gato Holliday",
@@ -1277,7 +1356,8 @@
         "codigo": "ECTECT02"
       }
     ],
-    "slug": "ecthol-collar-antipulgas-ecthol-collar-antipulgas-gato-holliday"
+    "slug": "ecthol-collar-antipulgas-ecthol-collar-antipulgas-gato-holliday",
+    "titulo": "Ecthol Collar Antipulgas Gato Holliday"
   },
   {
     "nombre": "Estampa Criadores Perros Adultos",
@@ -1295,7 +1375,8 @@
         "codigo": "ESTEST39"
       }
     ],
-    "slug": "estampa-criadores-estampa-criadores-perros-adultos"
+    "slug": "estampa-criadores-estampa-criadores-perros-adultos",
+    "titulo": "Estampa Criadores Perros Adultos 15-20 kg"
   },
   {
     "nombre": "Estampa Plus Gatos Adultos",
@@ -1313,7 +1394,8 @@
         "codigo": "ESTEST37"
       }
     ],
-    "slug": "estampa-plus-estampa-plus-gatos-adultos"
+    "slug": "estampa-plus-estampa-plus-gatos-adultos",
+    "titulo": "Estampa Plus Gatos Adultos 8-15 kg"
   },
   {
     "nombre": "Estampa Plus Perros Adultos Mordida Pequeña",
@@ -1331,7 +1413,8 @@
         "codigo": "ESTEST33"
       }
     ],
-    "slug": "estampa-plus-estampa-plus-perros-adultos-mordida-pequena"
+    "slug": "estampa-plus-estampa-plus-perros-adultos-mordida-pequena",
+    "titulo": "Estampa Plus Perros Adultos Mordida Pequeña 8-15 kg"
   },
   {
     "nombre": "Estampa Plus Perros Adultos",
@@ -1349,7 +1432,8 @@
         "codigo": "ESTEST31"
       }
     ],
-    "slug": "estampa-plus-estampa-plus-perros-adultos"
+    "slug": "estampa-plus-estampa-plus-perros-adultos",
+    "titulo": "Estampa Plus Perros Adultos 15-20 kg"
   },
   {
     "nombre": "Estampa Plus Perros Cachorros",
@@ -1367,7 +1451,8 @@
         "codigo": "ESTEST35"
       }
     ],
-    "slug": "estampa-plus-estampa-plus-perros-cachorros"
+    "slug": "estampa-plus-estampa-plus-perros-cachorros",
+    "titulo": "Estampa Plus Perros Cachorros 8-15 kg"
   },
   {
     "nombre": "Eukanuba Adulto Premium Performance",
@@ -1380,7 +1465,8 @@
         "codigo": "490812B2"
       }
     ],
-    "slug": "eukanuba-eukanuba-adulto-premium-performance"
+    "slug": "eukanuba-eukanuba-adulto-premium-performance",
+    "titulo": "Eukanuba Adulto Premium Performance 15 kg"
   },
   {
     "nombre": "Eukanuba Cachorro Premium Performance",
@@ -1393,7 +1479,8 @@
         "codigo": "EE95786B"
       }
     ],
-    "slug": "eukanuba-eukanuba-cachorro-premium-performance"
+    "slug": "eukanuba-eukanuba-cachorro-premium-performance",
+    "titulo": "Eukanuba Cachorro Premium Performance 15 kg"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Grande (Control de peso)",
@@ -1411,7 +1498,8 @@
         "codigo": "2A9E3F62"
       }
     ],
-    "slug": "eukanuba-eukanuba-fit-body-raza-grande-control-de-peso"
+    "slug": "eukanuba-eukanuba-fit-body-raza-grande-control-de-peso",
+    "titulo": "Eukanuba Fit Body Raza Grande (Control de peso) 3-15 kg"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Mediana (Control de peso)",
@@ -1429,7 +1517,8 @@
         "codigo": "AE1E4ADA"
       }
     ],
-    "slug": "eukanuba-eukanuba-fit-body-raza-mediana-control-de-peso"
+    "slug": "eukanuba-eukanuba-fit-body-raza-mediana-control-de-peso",
+    "titulo": "Eukanuba Fit Body Raza Mediana (Control de peso) 3-15 kg"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Pequeña x 3kg (Control de peso)",
@@ -1442,7 +1531,8 @@
         "codigo": "D184208E"
       }
     ],
-    "slug": "eukanuba-eukanuba-fit-body-raza-pequena-x-3kg-control-de-peso"
+    "slug": "eukanuba-eukanuba-fit-body-raza-pequena-x-3kg-control-de-peso",
+    "titulo": "Eukanuba Fit Body Raza Pequeña x 3kg (Control de peso)"
   },
   {
     "nombre": "Eukanuba Gato Adulto Top Condition",
@@ -1465,7 +1555,8 @@
         "codigo": "3C394158"
       }
     ],
-    "slug": "eukanuba-eukanuba-gato-adulto-top-condition"
+    "slug": "eukanuba-eukanuba-gato-adulto-top-condition",
+    "titulo": "Eukanuba Gato Adulto Top Condition 3-7,5-15 kg"
   },
   {
     "nombre": "Eukanuba Gato Kitten Healthy Start",
@@ -1483,7 +1574,8 @@
         "codigo": "FAA5BB5A"
       }
     ],
-    "slug": "eukanuba-eukanuba-gato-kitten-healthy-start"
+    "slug": "eukanuba-eukanuba-gato-kitten-healthy-start",
+    "titulo": "Eukanuba Gato Kitten Healthy Start 3-7,5 kg"
   },
   {
     "nombre": "Eukanuba Lamb Perro Adulto",
@@ -1501,7 +1593,8 @@
         "codigo": "8374071C"
       }
     ],
-    "slug": "eukanuba-eukanuba-lamb-perro-adulto"
+    "slug": "eukanuba-eukanuba-lamb-perro-adulto",
+    "titulo": "Eukanuba Lamb Perro Adulto 3-15 kg"
   },
   {
     "nombre": "Eukanuba Lamb Perro Cachorro",
@@ -1519,7 +1612,8 @@
         "codigo": "14CFDDEA"
       }
     ],
-    "slug": "eukanuba-eukanuba-lamb-perro-cachorro"
+    "slug": "eukanuba-eukanuba-lamb-perro-cachorro",
+    "titulo": "Eukanuba Lamb Perro Cachorro 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Adulto Raza Grande",
@@ -1537,7 +1631,8 @@
         "codigo": "F8283CD5"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-adulto-raza-grande"
+    "slug": "eukanuba-eukanuba-perro-adulto-raza-grande",
+    "titulo": "Eukanuba Perro Adulto Raza Grande 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Adulto Raza Mediana",
@@ -1555,7 +1650,8 @@
         "codigo": "35B6DCE6"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-adulto-raza-mediana"
+    "slug": "eukanuba-eukanuba-perro-adulto-raza-mediana",
+    "titulo": "Eukanuba Perro Adulto Raza Mediana 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Adulto Raza Pequeña",
@@ -1578,7 +1674,8 @@
         "codigo": "00CD589E"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-adulto-raza-pequena"
+    "slug": "eukanuba-eukanuba-perro-adulto-raza-pequena",
+    "titulo": "Eukanuba Perro Adulto Raza Pequeña 3-7,5-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Cachorro Raza Grande",
@@ -1596,7 +1693,8 @@
         "codigo": "61BE5F07"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-cachorro-raza-grande"
+    "slug": "eukanuba-eukanuba-perro-cachorro-raza-grande",
+    "titulo": "Eukanuba Perro Cachorro Raza Grande 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Cachorro Raza Mediana",
@@ -1614,7 +1712,8 @@
         "codigo": "38E48C1D"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-cachorro-raza-mediana"
+    "slug": "eukanuba-eukanuba-perro-cachorro-raza-mediana",
+    "titulo": "Eukanuba Perro Cachorro Raza Mediana 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Cachorro Raza Pequeña",
@@ -1632,7 +1731,8 @@
         "codigo": "9C5C34CB"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-cachorro-raza-pequena"
+    "slug": "eukanuba-eukanuba-perro-cachorro-raza-pequena",
+    "titulo": "Eukanuba Perro Cachorro Raza Pequeña 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Senior Raza Grande",
@@ -1650,7 +1750,8 @@
         "codigo": "EE9E263A"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-senior-raza-grande"
+    "slug": "eukanuba-eukanuba-perro-senior-raza-grande",
+    "titulo": "Eukanuba Perro Senior Raza Grande 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Senior Raza Mediana",
@@ -1668,7 +1769,8 @@
         "codigo": "B8064823"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-senior-raza-mediana"
+    "slug": "eukanuba-eukanuba-perro-senior-raza-mediana",
+    "titulo": "Eukanuba Perro Senior Raza Mediana 3-15 kg"
   },
   {
     "nombre": "Eukanuba Perro Senior Raza Pequeña",
@@ -1681,7 +1783,8 @@
         "codigo": "9B5DBFD1"
       }
     ],
-    "slug": "eukanuba-eukanuba-perro-senior-raza-pequena"
+    "slug": "eukanuba-eukanuba-perro-senior-raza-pequena",
+    "titulo": "Eukanuba Perro Senior Raza Pequeña 3 kg"
   },
   {
     "nombre": "Fawna Adulto Pequeño",
@@ -1694,7 +1797,8 @@
         "codigo": "FAWFAW12"
       }
     ],
-    "slug": "fawna-fawna-adulto-pequeno"
+    "slug": "fawna-fawna-adulto-pequeno",
+    "titulo": "Fawna Adulto Pequeño 7,5 kg"
   },
   {
     "nombre": "Fawna Gatitos",
@@ -1712,7 +1816,8 @@
         "codigo": "FAWFAW26"
       }
     ],
-    "slug": "fawna-fawna-gatitos"
+    "slug": "fawna-fawna-gatitos",
+    "titulo": "Fawna Gatitos 1-3 kg"
   },
   {
     "nombre": "Fawna Gato Adulto",
@@ -1730,7 +1835,8 @@
         "codigo": "FAWFAW21"
       }
     ],
-    "slug": "fawna-fawna-gato-adulto"
+    "slug": "fawna-fawna-gato-adulto",
+    "titulo": "Fawna Gato Adulto 3-7,5 kg"
   },
   {
     "nombre": "Fawna Gato Esterilizado",
@@ -1748,7 +1854,8 @@
         "codigo": "FAWFAW23"
       }
     ],
-    "slug": "fawna-fawna-gato-esterilizado"
+    "slug": "fawna-fawna-gato-esterilizado",
+    "titulo": "Fawna Gato Esterilizado 3-7,5 kg"
   },
   {
     "nombre": "Fawna Gato Urinario",
@@ -1766,7 +1873,8 @@
         "codigo": "FAWFAW27"
       }
     ],
-    "slug": "fawna-fawna-gato-urinario"
+    "slug": "fawna-fawna-gato-urinario",
+    "titulo": "Fawna Gato Urinario 3-7,5 kg"
   },
   {
     "nombre": "Fawna Perro Adulto Light",
@@ -1784,7 +1892,8 @@
         "codigo": "FAWFAW16"
       }
     ],
-    "slug": "fawna-fawna-perro-adulto-light"
+    "slug": "fawna-fawna-perro-adulto-light",
+    "titulo": "Fawna Perro Adulto Light 3-15 kg"
   },
   {
     "nombre": "Fawna Perro Adulto Pequeño",
@@ -1797,7 +1906,8 @@
         "codigo": "FAWFAW29"
       }
     ],
-    "slug": "fawna-fawna-perro-adulto-pequeno"
+    "slug": "fawna-fawna-perro-adulto-pequeno",
+    "titulo": "Fawna Perro Adulto Pequeño 3 kg"
   },
   {
     "nombre": "Fawna Perro Adulto",
@@ -1815,7 +1925,8 @@
         "codigo": "FAWFAW14"
       }
     ],
-    "slug": "fawna-fawna-perro-adulto"
+    "slug": "fawna-fawna-perro-adulto",
+    "titulo": "Fawna Perro Adulto 3-15 kg"
   },
   {
     "nombre": "Fawna Perro Cachorro Mediano y Grande",
@@ -1833,7 +1944,8 @@
         "codigo": "FAWFAW20"
       }
     ],
-    "slug": "fawna-fawna-perro-cachorro-mediano-y-grande"
+    "slug": "fawna-fawna-perro-cachorro-mediano-y-grande",
+    "titulo": "Fawna Perro Cachorro Mediano y Grande 3-15 kg"
   },
   {
     "nombre": "Fawna Perro Cachorro Pequeño",
@@ -1851,7 +1963,8 @@
         "codigo": "FAWFAW18"
       }
     ],
-    "slug": "fawna-fawna-perro-cachorro-pequeno"
+    "slug": "fawna-fawna-perro-cachorro-pequeno",
+    "titulo": "Fawna Perro Cachorro Pequeño 3-7,5 kg"
   },
   {
     "nombre": "Fawna Perro Senior",
@@ -1864,7 +1977,8 @@
         "codigo": "FAWFAW11"
       }
     ],
-    "slug": "fawna-fawna-perro-senior"
+    "slug": "fawna-fawna-perro-senior",
+    "titulo": "Fawna Perro Senior 15 kg"
   },
   {
     "nombre": "Gran Campeón Cachorros",
@@ -1877,7 +1991,8 @@
         "codigo": "GRAGRA01"
       }
     ],
-    "slug": "gran-campeon-gran-campeon-cachorros"
+    "slug": "gran-campeon-gran-campeon-cachorros",
+    "titulo": "Gran Campeón Cachorros 10 kg"
   },
   {
     "nombre": "Kongo Perro Adulto Mediano y Grande",
@@ -1890,7 +2005,8 @@
         "codigo": "KONVOR05"
       }
     ],
-    "slug": "voraz-y-kongo-kongo-perro-adulto-mediano-y-grande"
+    "slug": "voraz-y-kongo-kongo-perro-adulto-mediano-y-grande",
+    "titulo": "Kongo Perro Adulto Mediano y Grande 21 kg"
   },
   {
     "nombre": "Lata Nutrique Carne",
@@ -1903,7 +2019,8 @@
         "codigo": "LATNUT01"
       }
     ],
-    "slug": "nutrique-lata-nutrique-carne"
+    "slug": "nutrique-lata-nutrique-carne",
+    "titulo": "Lata Nutrique Carne 85 g"
   },
   {
     "nombre": "Lata Royal Canin Recovery",
@@ -1916,7 +2033,8 @@
         "codigo": "LATBAL01"
       }
     ],
-    "slug": "royal-canin-lata-royal-canin-recovery"
+    "slug": "royal-canin-lata-royal-canin-recovery",
+    "titulo": "Lata Royal Canin Recovery"
   },
   {
     "nombre": "Maintenance Criadores High Pro Adultos",
@@ -1929,7 +2047,8 @@
         "codigo": "MAICRI09"
       }
     ],
-    "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos"
+    "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos",
+    "titulo": "Maintenance Criadores High Pro Adultos 22 kg"
   },
   {
     "nombre": "Maintenance Criadores High Pro Adultos Cordero",
@@ -1942,7 +2061,8 @@
         "codigo": "MAICRI10"
       }
     ],
-    "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos-cordero"
+    "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos-cordero",
+    "titulo": "Maintenance Criadores High Pro Adultos Cordero 20 kg"
   },
   {
     "nombre": "Maxxium Dog Adult Cordero y Arroz",
@@ -1955,7 +2075,8 @@
         "codigo": "MAXMAX01"
       }
     ],
-    "slug": "maxxium-maxxium-dog-adult-cordero-y-arroz"
+    "slug": "maxxium-maxxium-dog-adult-cordero-y-arroz",
+    "titulo": "Maxxium Dog Adult Cordero y Arroz 15 kg"
   },
   {
     "nombre": "MV Gato Urinary 2kgs",
@@ -1968,7 +2089,8 @@
         "codigo": "MVGMVX01"
       }
     ],
-    "slug": "mv-mv-gato-urinary-2kgs"
+    "slug": "mv-mv-gato-urinary-2kgs",
+    "titulo": "MV Gato Urinary 2kgs"
   },
   {
     "nombre": "Nutrique Gato Adulto +7 años - Healthy Maint",
@@ -1986,7 +2108,8 @@
         "codigo": "NUTNUT65"
       }
     ],
-    "slug": "nutrique-nutrique-gato-adulto-7-anos-healthy-maint"
+    "slug": "nutrique-nutrique-gato-adulto-7-anos-healthy-maint",
+    "titulo": "Nutrique Gato Adulto +7 años - Healthy Maint 2-7,5 kg"
   },
   {
     "nombre": "Nutrique Gato Adulto Joven Healthy Maint",
@@ -2004,7 +2127,8 @@
         "codigo": "NUTNUT61"
       }
     ],
-    "slug": "nutrique-nutrique-gato-adulto-joven-healthy-maint"
+    "slug": "nutrique-nutrique-gato-adulto-joven-healthy-maint",
+    "titulo": "Nutrique Gato Adulto Joven Healthy Maint 2-7,5 kg"
   },
   {
     "nombre": "Nutrique Gato Kitten",
@@ -2022,7 +2146,8 @@
         "codigo": "NUTNUT59"
       }
     ],
-    "slug": "nutrique-nutrique-gato-kitten"
+    "slug": "nutrique-nutrique-gato-kitten",
+    "titulo": "Nutrique Gato Kitten 2-7,5 kg"
   },
   {
     "nombre": "Nutrique Gato Urinary Care",
@@ -2040,7 +2165,8 @@
         "codigo": "NUTNUT63"
       }
     ],
-    "slug": "nutrique-nutrique-gato-urinary-care"
+    "slug": "nutrique-nutrique-gato-urinary-care",
+    "titulo": "Nutrique Gato Urinary Care 2-7,5 kg"
   },
   {
     "nombre": "Nutrique Perro Adulto Mediano",
@@ -2058,7 +2184,8 @@
         "codigo": "NUTNUT56"
       }
     ],
-    "slug": "nutrique-nutrique-perro-adulto-mediano"
+    "slug": "nutrique-nutrique-perro-adulto-mediano",
+    "titulo": "Nutrique Perro Adulto Mediano 3-12 kg"
   },
   {
     "nombre": "Nutrique Perro Adulto Raza Pequeña",
@@ -2076,7 +2203,8 @@
         "codigo": "NUTNUT54"
       }
     ],
-    "slug": "nutrique-nutrique-perro-adulto-raza-pequena"
+    "slug": "nutrique-nutrique-perro-adulto-raza-pequena",
+    "titulo": "Nutrique Perro Adulto Raza Pequeña 3-7,5 kg"
   },
   {
     "nombre": "Nutrique Perro Cachorro Pequeño",
@@ -2089,7 +2217,8 @@
         "codigo": "NUTNUT58"
       }
     ],
-    "slug": "nutrique-nutrique-perro-cachorro-pequeno"
+    "slug": "nutrique-nutrique-perro-cachorro-pequeno",
+    "titulo": "Nutrique Perro Cachorro Pequeño 3 kg"
   },
   {
     "nombre": "Nutrique Senior Adulto Pequeño",
@@ -2102,7 +2231,8 @@
         "codigo": "NUTNUT67"
       }
     ],
-    "slug": "nutrique-nutrique-senior-adulto-pequeno"
+    "slug": "nutrique-nutrique-senior-adulto-pequeno",
+    "titulo": "Nutrique Senior Adulto Pequeño 3 kg"
   },
   {
     "nombre": "OCLADERM 16mg Caja x 20 Comprimidos",
@@ -2115,7 +2245,8 @@
         "codigo": "OCLOCL01"
       }
     ],
-    "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos"
+    "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos",
+    "titulo": "OCLADERM 16mg Caja x 20 Comprimidos"
   },
   {
     "nombre": "OCLADERM 16mg Caja x 20 Comprimidos",
@@ -2128,7 +2259,8 @@
         "codigo": "OCLOCL02"
       }
     ],
-    "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos-oclocl02"
+    "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos-oclocl02",
+    "titulo": "OCLADERM 16mg Caja x 20 Comprimidos"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande",
@@ -2141,7 +2273,8 @@
         "codigo": "OLDOLD39"
       }
     ],
-    "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-mediana-y-grande"
+    "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-mediana-y-grande",
+    "titulo": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande 20 kg"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Adulto Raza Pequeña",
@@ -2164,7 +2297,8 @@
         "codigo": "OLDOLD14"
       }
     ],
-    "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-pequena"
+    "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-pequena",
+    "titulo": "Old Prince Equilibrium Perro Adulto Raza Pequeña 3-7,5-15 kg"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande",
@@ -2177,7 +2311,8 @@
         "codigo": "OLDOLD13"
       }
     ],
-    "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-mediana-y-grande"
+    "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-mediana-y-grande",
+    "titulo": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande 15 kg"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Cachorro Raza Pequeña",
@@ -2190,7 +2325,8 @@
         "codigo": "OLDOLD25"
       }
     ],
-    "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-pequena"
+    "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-pequena",
+    "titulo": "Old Prince Equilibrium Perro Cachorro Raza Pequeña 3 kg"
   },
   {
     "nombre": "Old Prince Novel Gato Cordero",
@@ -2203,7 +2339,8 @@
         "codigo": "OLDOLD35"
       }
     ],
-    "slug": "old-prince-old-prince-novel-gato-cordero"
+    "slug": "old-prince-old-prince-novel-gato-cordero",
+    "titulo": "Old Prince Novel Gato Cordero 3 kg"
   },
   {
     "nombre": "Old Prince Novel Perro Adulto Mordida Pequeña",
@@ -2226,7 +2363,8 @@
         "codigo": "OLDOLD32"
       }
     ],
-    "slug": "old-prince-old-prince-novel-perro-adulto-mordida-pequena"
+    "slug": "old-prince-old-prince-novel-perro-adulto-mordida-pequena",
+    "titulo": "Old Prince Novel Perro Adulto Mordida Pequeña 3-7,5-15 kg"
   },
   {
     "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo",
@@ -2239,7 +2377,8 @@
         "codigo": "OLDOLD16"
       }
     ],
-    "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cerdo"
+    "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cerdo",
+    "titulo": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo 15 kg"
   },
   {
     "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero",
@@ -2262,7 +2401,8 @@
         "codigo": "OLDOLD15"
       }
     ],
-    "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cordero"
+    "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cordero",
+    "titulo": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero 3-7,5-15 kg"
   },
   {
     "nombre": "Old prince Novel Perro Cachorro Raza Mediana y Grande",
@@ -2285,7 +2425,8 @@
         "codigo": "OLDOLD26"
       }
     ],
-    "slug": "old-prince-old-prince-novel-perro-cachorro-raza-mediana-y-grande"
+    "slug": "old-prince-old-prince-novel-perro-cachorro-raza-mediana-y-grande",
+    "titulo": "Old prince Novel Perro Cachorro Raza Mediana y Grande 3-7,5-15 kg"
   },
   {
     "nombre": "Old Prince Novel Perro Senior",
@@ -2303,7 +2444,8 @@
         "codigo": "OLDOLD37"
       }
     ],
-    "slug": "old-prince-old-prince-novel-perro-senior"
+    "slug": "old-prince-old-prince-novel-perro-senior",
+    "titulo": "Old Prince Novel Perro Senior 3-15 kg"
   },
   {
     "nombre": "Old Prince Premium Gato",
@@ -2316,7 +2458,8 @@
         "codigo": "OLDOLD28"
       }
     ],
-    "slug": "old-prince-old-prince-premium-gato"
+    "slug": "old-prince-old-prince-premium-gato",
+    "titulo": "Old Prince Premium Gato 7,5 kg"
   },
   {
     "nombre": "Old Prince Premium Perro Adulto Cordero",
@@ -2329,7 +2472,8 @@
         "codigo": "OLDOLD19"
       }
     ],
-    "slug": "old-prince-old-prince-premium-perro-adulto-cordero"
+    "slug": "old-prince-old-prince-premium-perro-adulto-cordero",
+    "titulo": "Old Prince Premium Perro Adulto Cordero 15 kg"
   },
   {
     "nombre": "Old Prince Premium Perro Adulto",
@@ -2347,7 +2491,8 @@
         "codigo": "OLDOLD17"
       }
     ],
-    "slug": "old-prince-old-prince-premium-perro-adulto"
+    "slug": "old-prince-old-prince-premium-perro-adulto",
+    "titulo": "Old Prince Premium Perro Adulto 3-20 kg"
   },
   {
     "nombre": "Old Prince Premium Perro Cachorro",
@@ -2365,7 +2510,8 @@
         "codigo": "OLDOLD21"
       }
     ],
-    "slug": "old-prince-old-prince-premium-perro-cachorro"
+    "slug": "old-prince-old-prince-premium-perro-cachorro",
+    "titulo": "Old Prince Premium Perro Cachorro 3-15 kg"
   },
   {
     "nombre": "Pellet Sanitario",
@@ -2378,7 +2524,8 @@
         "codigo": "PELPEL01"
       }
     ],
-    "slug": "pellet-pellet-sanitario"
+    "slug": "pellet-pellet-sanitario",
+    "titulo": "Pellet Sanitario 15 kg"
   },
   {
     "nombre": "Piedras Absorsol Baby",
@@ -2391,7 +2538,8 @@
         "codigo": "PIEABS03"
       }
     ],
-    "slug": "absorsol-piedras-absorsol-baby"
+    "slug": "absorsol-piedras-absorsol-baby",
+    "titulo": "Piedras Absorsol Baby 2 kg"
   },
   {
     "nombre": "Piedras Absorsol Premium",
@@ -2409,7 +2557,8 @@
         "codigo": "PIEABS01"
       }
     ],
-    "slug": "absorsol-piedras-absorsol-premium"
+    "slug": "absorsol-piedras-absorsol-premium",
+    "titulo": "Piedras Absorsol Premium 2-3,6 kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Gatos",
@@ -2422,7 +2571,8 @@
         "codigo": "PIPFRO01"
       }
     ],
-    "slug": "frontline-pipeta-frontline-plus-gatos"
+    "slug": "frontline-pipeta-frontline-plus-gatos",
+    "titulo": "Pipeta Frontline Plus Gatos"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 10-20kg",
@@ -2435,7 +2585,8 @@
         "codigo": "PIPFRO03"
       }
     ],
-    "slug": "frontline-pipeta-frontline-plus-perros-10-20kg"
+    "slug": "frontline-pipeta-frontline-plus-perros-10-20kg",
+    "titulo": "Pipeta Frontline Plus Perros 10-20kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 1-10kg",
@@ -2448,7 +2599,8 @@
         "codigo": "PIPFRO02"
       }
     ],
-    "slug": "frontline-pipeta-frontline-plus-perros-1-10kg"
+    "slug": "frontline-pipeta-frontline-plus-perros-1-10kg",
+    "titulo": "Pipeta Frontline Plus Perros 1-10kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 20-40kg",
@@ -2461,7 +2613,8 @@
         "codigo": "FROABS01"
       }
     ],
-    "slug": "frontline-pipeta-frontline-plus-perros-20-40kg"
+    "slug": "frontline-pipeta-frontline-plus-perros-20-40kg",
+    "titulo": "Pipeta Frontline Plus Perros 20-40kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 40-60kg",
@@ -2474,7 +2627,8 @@
         "codigo": "PIPFRO04"
       }
     ],
-    "slug": "frontline-pipeta-frontline-plus-perros-40-60kg"
+    "slug": "frontline-pipeta-frontline-plus-perros-40-60kg",
+    "titulo": "Pipeta Frontline Plus Perros 40-60kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Gatos",
@@ -2487,7 +2641,8 @@
         "codigo": "PIPFRO08"
       }
     ],
-    "slug": "frontline-pipeta-frontline-spot-gatos"
+    "slug": "frontline-pipeta-frontline-spot-gatos",
+    "titulo": "Pipeta Frontline Spot Gatos"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 10-20kg",
@@ -2500,7 +2655,8 @@
         "codigo": "PIPFRO06"
       }
     ],
-    "slug": "frontline-pipeta-frontline-spot-perros-10-20kg"
+    "slug": "frontline-pipeta-frontline-spot-perros-10-20kg",
+    "titulo": "Pipeta Frontline Spot Perros 10-20kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 1-10kg",
@@ -2513,7 +2669,8 @@
         "codigo": "PIPFRO05"
       }
     ],
-    "slug": "frontline-pipeta-frontline-spot-perros-1-10kg"
+    "slug": "frontline-pipeta-frontline-spot-perros-1-10kg",
+    "titulo": "Pipeta Frontline Spot Perros 1-10kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 20-40kg",
@@ -2526,7 +2683,8 @@
         "codigo": "PIPFRO07"
       }
     ],
-    "slug": "frontline-pipeta-frontline-spot-perros-20-40kg"
+    "slug": "frontline-pipeta-frontline-spot-perros-20-40kg",
+    "titulo": "Pipeta Frontline Spot Perros 20-40kg"
   },
   {
     "nombre": "Pouch Complete Gato Caja x12uds",
@@ -2539,7 +2697,8 @@
         "codigo": "POUHUM02"
       }
     ],
-    "slug": "humedos-pouch-complete-gato-caja-x12uds"
+    "slug": "humedos-pouch-complete-gato-caja-x12uds",
+    "titulo": "Pouch Complete Gato Caja x12uds"
   },
   {
     "nombre": "Pouch Complete Perro Caja x12uds",
@@ -2552,7 +2711,8 @@
         "codigo": "POUHUM01"
       }
     ],
-    "slug": "humedos-pouch-complete-perro-caja-x12uds"
+    "slug": "humedos-pouch-complete-perro-caja-x12uds",
+    "titulo": "Pouch Complete Perro Caja x12uds"
   },
   {
     "nombre": "Promo Latas Balanced Gato Merluza x 85g (4uds)",
@@ -2565,7 +2725,8 @@
         "codigo": "PROHUM01"
       }
     ],
-    "slug": "humedos-promo-latas-balanced-gato-merluza-x-85g-4uds"
+    "slug": "humedos-promo-latas-balanced-gato-merluza-x-85g-4uds",
+    "titulo": "Promo Latas Balanced Gato Merluza x 85g (4uds)"
   },
   {
     "nombre": "Promo Latas Balanced Perro Pollo x 85g (4uds)",
@@ -2578,7 +2739,8 @@
         "codigo": "PROPRO02"
       }
     ],
-    "slug": "promociones-promo-latas-balanced-perro-pollo-x-85g-4uds"
+    "slug": "promociones-promo-latas-balanced-perro-pollo-x-85g-4uds",
+    "titulo": "Promo Latas Balanced Perro Pollo x 85g (4uds)"
   },
   {
     "nombre": "Promo Latas Complete Gatos 340gr (3uds)",
@@ -2591,7 +2753,8 @@
         "codigo": "PROPRO03"
       }
     ],
-    "slug": "promociones-promo-latas-complete-gatos-340gr-3uds"
+    "slug": "promociones-promo-latas-complete-gatos-340gr-3uds",
+    "titulo": "Promo Latas Complete Gatos 340gr (3uds)"
   },
   {
     "nombre": "Promo Latas Complete Pollo Perro Adulto x 340g (3uds)",
@@ -2604,7 +2767,8 @@
         "codigo": "PROPRO04"
       }
     ],
-    "slug": "promociones-promo-latas-complete-pollo-perro-adulto-x-340g-3uds"
+    "slug": "promociones-promo-latas-complete-pollo-perro-adulto-x-340g-3uds",
+    "titulo": "Promo Latas Complete Pollo Perro Adulto x 340g (3uds)"
   },
   {
     "nombre": "Promo Latas Natural Recipe Cachorros",
@@ -2617,7 +2781,8 @@
         "codigo": "PROHUM02"
       }
     ],
-    "slug": "humedos-promo-latas-natural-recipe-cachorros"
+    "slug": "humedos-promo-latas-natural-recipe-cachorros",
+    "titulo": "Promo Latas Natural Recipe Cachorros"
   },
   {
     "nombre": "PROMO LATAS NUTRIQUE",
@@ -2630,7 +2795,8 @@
         "codigo": "PRONUT01"
       }
     ],
-    "slug": "nutrique-promo-latas-nutrique"
+    "slug": "nutrique-promo-latas-nutrique",
+    "titulo": "PROMO LATAS NUTRIQUE"
   },
   {
     "nombre": "PROMO LATAS POLLO PERRO",
@@ -2643,7 +2809,8 @@
         "codigo": "PROBAL01"
       }
     ],
-    "slug": "balanced-promo-latas-pollo-perro"
+    "slug": "balanced-promo-latas-pollo-perro",
+    "titulo": "PROMO LATAS POLLO PERRO"
   },
   {
     "nombre": "Raza Gatos Adultos Sabor Pescado",
@@ -2656,7 +2823,8 @@
         "codigo": "RAZRAZ01"
       }
     ],
-    "slug": "raza-raza-gatos-adultos-sabor-pescado"
+    "slug": "raza-raza-gatos-adultos-sabor-pescado",
+    "titulo": "Raza Gatos Adultos Sabor Pescado 15 kg"
   },
   {
     "nombre": "Royal Bulldog Frances",
@@ -2669,7 +2837,8 @@
         "codigo": "ROYROY99"
       }
     ],
-    "slug": "royal-canin-royal-bulldog-frances"
+    "slug": "royal-canin-royal-bulldog-frances",
+    "titulo": "Royal Bulldog Frances 7,5 kg"
   },
   {
     "nombre": "Royal Canin Caniche Adulto",
@@ -2682,7 +2851,8 @@
         "codigo": "ROYROY83"
       }
     ],
-    "slug": "royal-canin-royal-canin-caniche-adulto"
+    "slug": "royal-canin-royal-canin-caniche-adulto",
+    "titulo": "Royal Canin Caniche Adulto 3 kg"
   },
   {
     "nombre": "Royal Canin Chihuaha",
@@ -2695,7 +2865,8 @@
         "codigo": "442A2B1F"
       }
     ],
-    "slug": "royal-canin-royal-canin-chihuaha"
+    "slug": "royal-canin-royal-canin-chihuaha",
+    "titulo": "Royal Canin Chihuaha 1 kg"
   },
   {
     "nombre": "Royal Canin Fit 32 - gato fit",
@@ -2708,7 +2879,8 @@
         "codigo": "ROYROY94"
       }
     ],
-    "slug": "royal-canin-royal-canin-fit-32-gato-fit"
+    "slug": "royal-canin-royal-canin-fit-32-gato-fit",
+    "titulo": "Royal Canin Fit 32 - gato fit 3 kg"
   },
   {
     "nombre": "Royal Canin Gastrointestinal Perro",
@@ -2721,7 +2893,8 @@
         "codigo": "ROYROY87"
       }
     ],
-    "slug": "royal-canin-royal-canin-gastrointestinal-perro"
+    "slug": "royal-canin-royal-canin-gastrointestinal-perro",
+    "titulo": "Royal Canin Gastrointestinal Perro 10 kg"
   },
   {
     "nombre": "Royal Canin Gato Castrado/Control de Peso",
@@ -2739,7 +2912,8 @@
         "codigo": "D6D7433C"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-castrado-control-de-peso"
+    "slug": "royal-canin-royal-canin-gato-castrado-control-de-peso",
+    "titulo": "Royal Canin Gato Castrado/Control de Peso 7,5-12 kg"
   },
   {
     "nombre": "Royal Canin Gato Exigent",
@@ -2752,7 +2926,8 @@
         "codigo": "ROYROY91"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-exigent"
+    "slug": "royal-canin-royal-canin-gato-exigent",
+    "titulo": "Royal Canin Gato Exigent 1,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Fit 32",
@@ -2765,7 +2940,8 @@
         "codigo": "5FE04811"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-fit-32"
+    "slug": "royal-canin-royal-canin-gato-fit-32",
+    "titulo": "Royal Canin Gato Fit 32 15 kg"
   },
   {
     "nombre": "Royal Canin Gato Fit 32",
@@ -2778,7 +2954,8 @@
         "codigo": "ROYBAL01"
       }
     ],
-    "slug": "balanced-royal-canin-gato-fit-32"
+    "slug": "balanced-royal-canin-gato-fit-32",
+    "titulo": "Royal Canin Gato Fit 32 7,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Hypoallergenic",
@@ -2791,7 +2968,8 @@
         "codigo": "ROYROY93"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-hypoallergenic"
+    "slug": "royal-canin-royal-canin-gato-hypoallergenic",
+    "titulo": "Royal Canin Gato Hypoallergenic 2 kg"
   },
   {
     "nombre": "Royal Canin Gato Indoor",
@@ -2804,7 +2982,8 @@
         "codigo": "ROYROY88"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-indoor"
+    "slug": "royal-canin-royal-canin-gato-indoor",
+    "titulo": "Royal Canin Gato Indoor 1,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Indoor 7+",
@@ -2817,7 +2996,8 @@
         "codigo": "ROYROY89"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-indoor-7"
+    "slug": "royal-canin-royal-canin-gato-indoor-7",
+    "titulo": "Royal Canin Gato Indoor 7+ 1,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Kitten",
@@ -2830,7 +3010,8 @@
         "codigo": "1A2FD322"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-kitten"
+    "slug": "royal-canin-royal-canin-gato-kitten",
+    "titulo": "Royal Canin Gato Kitten 1,5 kg"
   },
   {
     "nombre": "Royal canin Gato Kitten 36",
@@ -2843,7 +3024,8 @@
         "codigo": "ROYROY98"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-kitten-36"
+    "slug": "royal-canin-royal-canin-gato-kitten-36",
+    "titulo": "Royal canin Gato Kitten 36 7,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Persian-",
@@ -2856,7 +3038,8 @@
         "codigo": "ROYROY90"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-persian"
+    "slug": "royal-canin-royal-canin-gato-persian",
+    "titulo": "Royal Canin Gato Persian- 1,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Urinary Care",
@@ -2869,7 +3052,8 @@
         "codigo": "ROYROY97"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-urinary-care"
+    "slug": "royal-canin-royal-canin-gato-urinary-care",
+    "titulo": "Royal Canin Gato Urinary Care 1,5 kg"
   },
   {
     "nombre": "Royal Canin Gato Urinary S/O",
@@ -2882,7 +3066,8 @@
         "codigo": "ROYROY92"
       }
     ],
-    "slug": "royal-canin-royal-canin-gato-urinary-s-o"
+    "slug": "royal-canin-royal-canin-gato-urinary-s-o",
+    "titulo": "Royal Canin Gato Urinary S/O 1,5 kg"
   },
   {
     "nombre": "Royal Canin Golden Puppy",
@@ -2895,7 +3080,8 @@
         "codigo": "ROYABS01"
       }
     ],
-    "slug": "royal-canin-royal-canin-golden-puppy"
+    "slug": "royal-canin-royal-canin-golden-puppy",
+    "titulo": "Royal Canin Golden Puppy 12 kg"
   },
   {
     "nombre": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande",
@@ -2908,7 +3094,8 @@
         "codigo": "ROYROY82"
       }
     ],
-    "slug": "royal-canin-royal-canin-maxi-adult-5-adulta-5-anos-raza-grande"
+    "slug": "royal-canin-royal-canin-maxi-adult-5-adulta-5-anos-raza-grande",
+    "titulo": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande 15 kg"
   },
   {
     "nombre": "Royal Canin Maxi Adulto",
@@ -2921,7 +3108,8 @@
         "codigo": "ROYROY81"
       }
     ],
-    "slug": "royal-canin-royal-canin-maxi-adulto"
+    "slug": "royal-canin-royal-canin-maxi-adulto",
+    "titulo": "Royal Canin Maxi Adulto 15 kg"
   },
   {
     "nombre": "Royal canin medium adulto",
@@ -2944,7 +3132,8 @@
         "codigo": "59C013BB"
       }
     ],
-    "slug": "royal-canin-royal-canin-medium-adulto"
+    "slug": "royal-canin-royal-canin-medium-adulto",
+    "titulo": "Royal canin medium adulto 3-7,5-15 kg"
   },
   {
     "nombre": "Royal Canin Medium Dermacomfort",
@@ -2962,7 +3151,8 @@
         "codigo": "ROYROY86"
       }
     ],
-    "slug": "royal-canin-royal-canin-medium-dermacomfort"
+    "slug": "royal-canin-royal-canin-medium-dermacomfort",
+    "titulo": "Royal Canin Medium Dermacomfort 3-10 kg"
   },
   {
     "nombre": "Royal Canin Medium Puppy",
@@ -2980,7 +3170,8 @@
         "codigo": "ROYROY95"
       }
     ],
-    "slug": "royal-canin-royal-canin-medium-puppy"
+    "slug": "royal-canin-royal-canin-medium-puppy",
+    "titulo": "Royal Canin Medium Puppy 3-15 kg"
   },
   {
     "nombre": "Royal Canin Mini Adulto",
@@ -2998,7 +3189,8 @@
         "codigo": "ROYROY76"
       }
     ],
-    "slug": "royal-canin-royal-canin-mini-adulto"
+    "slug": "royal-canin-royal-canin-mini-adulto",
+    "titulo": "Royal Canin Mini Adulto 3-7,5 kg"
   },
   {
     "nombre": "Royal Canin Mini Puppy",
@@ -3016,7 +3208,8 @@
         "codigo": "ROYROY78"
       }
     ],
-    "slug": "royal-canin-royal-canin-mini-puppy"
+    "slug": "royal-canin-royal-canin-mini-puppy",
+    "titulo": "Royal Canin Mini Puppy 3-7,5 kg"
   },
   {
     "nombre": "Royal Canin Mini Weight Care",
@@ -3029,7 +3222,8 @@
         "codigo": "82B7115A"
       }
     ],
-    "slug": "royal-canin-royal-canin-mini-weight-care"
+    "slug": "royal-canin-royal-canin-mini-weight-care",
+    "titulo": "Royal Canin Mini Weight Care 3 kg"
   },
   {
     "nombre": "Royal Canin Perro Mini Ageing 12+",
@@ -3042,7 +3236,8 @@
         "codigo": "3B023C06"
       }
     ],
-    "slug": "royal-canin-royal-canin-perro-mini-ageing-12"
+    "slug": "royal-canin-royal-canin-perro-mini-ageing-12",
+    "titulo": "Royal Canin Perro Mini Ageing 12+ 3 kg"
   },
   {
     "nombre": "Sabrocitos Perro Adulto Mix x 18+",
@@ -3055,7 +3250,8 @@
         "codigo": "SABSAB03"
       }
     ],
-    "slug": "sabrocitos-sabrocitos-perro-adulto-mix-x-18"
+    "slug": "sabrocitos-sabrocitos-perro-adulto-mix-x-18",
+    "titulo": "Sabrocitos Perro Adulto Mix x 18+ 2 kg"
   },
   {
     "nombre": "Sabrocitos Perro Adulto Razas Pequeñas",
@@ -3068,7 +3264,8 @@
         "codigo": "SABSAB04"
       }
     ],
-    "slug": "sabrocitos-sabrocitos-perro-adulto-razas-pequenas"
+    "slug": "sabrocitos-sabrocitos-perro-adulto-razas-pequenas",
+    "titulo": "Sabrocitos Perro Adulto Razas Pequeñas 15 kg"
   },
   {
     "nombre": "Shampoo Osspret pulguicida tradicional x 250ml",
@@ -3081,7 +3278,8 @@
         "codigo": "SHAOSS01"
       }
     ],
-    "slug": "osspret-shampoo-osspret-pulguicida-tradicional-x-250ml"
+    "slug": "osspret-shampoo-osspret-pulguicida-tradicional-x-250ml",
+    "titulo": "Shampoo Osspret pulguicida tradicional x 250ml"
   },
   {
     "nombre": "SIEGER Adult Medium & Large Breed",
@@ -3094,7 +3292,8 @@
         "codigo": "SIESIE04"
       }
     ],
-    "slug": "sieger-sieger-adult-medium-large-breed"
+    "slug": "sieger-sieger-adult-medium-large-breed",
+    "titulo": "SIEGER Adult Medium & Large Breed 15 kg"
   },
   {
     "nombre": "SIEGER Criadores All In One",
@@ -3107,7 +3306,8 @@
         "codigo": "SIESIE01"
       }
     ],
-    "slug": "sieger-sieger-criadores-all-in-one"
+    "slug": "sieger-sieger-criadores-all-in-one",
+    "titulo": "SIEGER Criadores All In One 20 kg"
   },
   {
     "nombre": "SIEGER Perro Adulto Razas Pequeñas",
@@ -3125,7 +3325,8 @@
         "codigo": "SIESIE02"
       }
     ],
-    "slug": "sieger-sieger-perro-adulto-razas-pequenas"
+    "slug": "sieger-sieger-perro-adulto-razas-pequenas",
+    "titulo": "SIEGER Perro Adulto Razas Pequeñas 3-12 kg"
   },
   {
     "nombre": "Simparica 10 a 20kg",
@@ -3138,7 +3339,8 @@
         "codigo": "SIMSIM05"
       }
     ],
-    "slug": "simparica-simparica-10-a-20kg"
+    "slug": "simparica-simparica-10-a-20kg",
+    "titulo": "Simparica 10 a 20kg"
   },
   {
     "nombre": "Simparica 1,3 a 2,5kg",
@@ -3151,7 +3353,8 @@
         "codigo": "SIMSIM04"
       }
     ],
-    "slug": "simparica-simparica-1-3-a-2-5kg"
+    "slug": "simparica-simparica-1-3-a-2-5kg",
+    "titulo": "Simparica 1,3 a 2,5kg"
   },
   {
     "nombre": "Simparica 20 a 40kg",
@@ -3164,7 +3367,8 @@
         "codigo": "SIMSIM06"
       }
     ],
-    "slug": "simparica-simparica-20-a-40kg"
+    "slug": "simparica-simparica-20-a-40kg",
+    "titulo": "Simparica 20 a 40kg"
   },
   {
     "nombre": "Simparica 2,5 a 5kg",
@@ -3177,7 +3381,8 @@
         "codigo": "SIMSIM01"
       }
     ],
-    "slug": "simparica-simparica-2-5-a-5kg"
+    "slug": "simparica-simparica-2-5-a-5kg",
+    "titulo": "Simparica 2,5 a 5kg"
   },
   {
     "nombre": "Simparica 40 a 60kg",
@@ -3190,7 +3395,8 @@
         "codigo": "SIMSIM03"
       }
     ],
-    "slug": "simparica-simparica-40-a-60kg"
+    "slug": "simparica-simparica-40-a-60kg",
+    "titulo": "Simparica 40 a 60kg"
   },
   {
     "nombre": "Simparica 5 a 10kg",
@@ -3203,7 +3409,8 @@
         "codigo": "SIMSIM02"
       }
     ],
-    "slug": "simparica-simparica-5-a-10kg"
+    "slug": "simparica-simparica-5-a-10kg",
+    "titulo": "Simparica 5 a 10kg"
   },
   {
     "nombre": "Soft Cream",
@@ -3216,7 +3423,8 @@
         "codigo": "SOFBAL01"
       }
     ],
-    "slug": "balanced-natural-recipe-soft-cream"
+    "slug": "balanced-natural-recipe-soft-cream",
+    "titulo": "Soft Cream"
   },
   {
     "nombre": "Soft Cream x ud",
@@ -3229,7 +3437,8 @@
         "codigo": "SOFBAL02"
       }
     ],
-    "slug": "balanced-natural-recipe-soft-cream-x-ud"
+    "slug": "balanced-natural-recipe-soft-cream-x-ud",
+    "titulo": "Soft Cream x ud"
   },
   {
     "nombre": "Tea Collar Perro Chico/Mediano",
@@ -3242,7 +3451,8 @@
         "codigo": "TEACOL01"
       }
     ],
-    "slug": "tea-tea-collar-perro-chico-mediano"
+    "slug": "tea-tea-collar-perro-chico-mediano",
+    "titulo": "Tea Collar Perro Chico/Mediano"
   },
   {
     "nombre": "Tea Collar Perro Gigante",
@@ -3255,7 +3465,8 @@
         "codigo": "TEATEA01"
       }
     ],
-    "slug": "tea-tea-collar-perro-gigante"
+    "slug": "tea-tea-collar-perro-gigante",
+    "titulo": "Tea Collar Perro Gigante"
   },
   {
     "nombre": "Therapy Feline Gastrointestinal A",
@@ -3268,7 +3479,8 @@
         "codigo": "THETHE59"
       }
     ],
-    "slug": "therapy-therapy-feline-gastrointestinal-a"
+    "slug": "therapy-therapy-feline-gastrointestinal-a",
+    "titulo": "Therapy Feline Gastrointestinal A 2 kg"
   },
   {
     "nombre": "Therapy Feline Hypoallergenic C",
@@ -3281,7 +3493,8 @@
         "codigo": "THETHE62"
       }
     ],
-    "slug": "therapy-therapy-feline-hypoallergenic-c"
+    "slug": "therapy-therapy-feline-hypoallergenic-c",
+    "titulo": "Therapy Feline Hypoallergenic C 2 kg"
   },
   {
     "nombre": "Therapy Feline Obesity Management",
@@ -3294,7 +3507,8 @@
         "codigo": "THETHE58"
       }
     ],
-    "slug": "therapy-therapy-feline-obesity-management"
+    "slug": "therapy-therapy-feline-obesity-management",
+    "titulo": "Therapy Feline Obesity Management 2 kg"
   },
   {
     "nombre": "Therapy Feline Renal Care",
@@ -3307,7 +3521,8 @@
         "codigo": "THETHE57"
       }
     ],
-    "slug": "therapy-therapy-feline-renal-care"
+    "slug": "therapy-therapy-feline-renal-care",
+    "titulo": "Therapy Feline Renal Care 2 kg"
   },
   {
     "nombre": "Therapy Feline Urinary Health",
@@ -3325,7 +3540,8 @@
         "codigo": "THETHE55"
       }
     ],
-    "slug": "therapy-therapy-feline-urinary-health"
+    "slug": "therapy-therapy-feline-urinary-health",
+    "titulo": "Therapy Feline Urinary Health 2-7,5 kg"
   },
   {
     "nombre": "Therapy hypoalergenic",
@@ -3338,7 +3554,8 @@
         "codigo": "THETHE60"
       }
     ],
-    "slug": "therapy-therapy-hypoalergenic"
+    "slug": "therapy-therapy-hypoalergenic",
+    "titulo": "Therapy hypoalergenic 2 kg"
   },
   {
     "nombre": "Therapy Hypoallergenic C",
@@ -3351,7 +3568,8 @@
         "codigo": "THETHE61"
       }
     ],
-    "slug": "therapy-therapy-hypoallergenic-c"
+    "slug": "therapy-therapy-hypoallergenic-c",
+    "titulo": "Therapy Hypoallergenic C 2 kg"
   },
   {
     "nombre": "Therapy Perro Cardiac Health",
@@ -3364,7 +3582,8 @@
         "codigo": "THETHE53"
       }
     ],
-    "slug": "therapy-therapy-perro-cardiac-health"
+    "slug": "therapy-therapy-perro-cardiac-health",
+    "titulo": "Therapy Perro Cardiac Health 10 kg"
   },
   {
     "nombre": "Therapy Perro Gastrointestinal",
@@ -3377,7 +3596,8 @@
         "codigo": "THETHE51"
       }
     ],
-    "slug": "therapy-therapy-perro-gastrointestinal"
+    "slug": "therapy-therapy-perro-gastrointestinal",
+    "titulo": "Therapy Perro Gastrointestinal 10 kg"
   },
   {
     "nombre": "Therapy Perro Hypoallergenic C",
@@ -3390,7 +3610,8 @@
         "codigo": "THETHE54"
       }
     ],
-    "slug": "therapy-therapy-perro-hypoallergenic-c"
+    "slug": "therapy-therapy-perro-hypoallergenic-c",
+    "titulo": "Therapy Perro Hypoallergenic C 10 kg"
   },
   {
     "nombre": "Therapy Perro Mobility Aid",
@@ -3403,7 +3624,8 @@
         "codigo": "THETHE50"
       }
     ],
-    "slug": "therapy-therapy-perro-mobility-aid"
+    "slug": "therapy-therapy-perro-mobility-aid",
+    "titulo": "Therapy Perro Mobility Aid 15 kg"
   },
   {
     "nombre": "Therapy Perro Obesity Management",
@@ -3416,7 +3638,8 @@
         "codigo": "THETHE52"
       }
     ],
-    "slug": "therapy-therapy-perro-obesity-management"
+    "slug": "therapy-therapy-perro-obesity-management",
+    "titulo": "Therapy Perro Obesity Management 15 kg"
   },
   {
     "nombre": "Therapy Perro Renal Care",
@@ -3429,7 +3652,8 @@
         "codigo": "THETHE49"
       }
     ],
-    "slug": "therapy-therapy-perro-renal-care"
+    "slug": "therapy-therapy-perro-renal-care",
+    "titulo": "Therapy Perro Renal Care 10 kg"
   },
   {
     "nombre": "TOTALFULL CG EN SUSPENSIÓN",
@@ -3442,7 +3666,8 @@
         "codigo": "TOTTOT01"
       }
     ],
-    "slug": "totalfull-cg-totalfull-cg-en-suspension"
+    "slug": "totalfull-cg-totalfull-cg-en-suspension",
+    "titulo": "TOTALFULL CG EN SUSPENSIÓN"
   },
   {
     "nombre": "Vagoneta Perro Adulto Gourmet",
@@ -3455,7 +3680,8 @@
         "codigo": "VAGVAG02"
       }
     ],
-    "slug": "vagoneta-vagoneta-perro-adulto-gourmet"
+    "slug": "vagoneta-vagoneta-perro-adulto-gourmet",
+    "titulo": "Vagoneta Perro Adulto Gourmet 20 kg"
   },
   {
     "nombre": "Vagoneta Perro Adulto",
@@ -3468,7 +3694,8 @@
         "codigo": "VAGVAG01"
       }
     ],
-    "slug": "vagoneta-vagoneta-perro-adulto"
+    "slug": "vagoneta-vagoneta-perro-adulto",
+    "titulo": "Vagoneta Perro Adulto 20 kg"
   },
   {
     "nombre": "Valiant Adulto",
@@ -3481,7 +3708,8 @@
         "codigo": "VALVAL01"
       }
     ],
-    "slug": "valiant-valiant-adulto"
+    "slug": "valiant-valiant-adulto",
+    "titulo": "Valiant Adulto 20 kg"
   },
   {
     "nombre": "Vitalcan Premium Adulto Cordero",
@@ -3494,7 +3722,8 @@
         "codigo": "VITVIT18"
       }
     ],
-    "slug": "vitalcan-premium-vitalcan-premium-adulto-cordero"
+    "slug": "vitalcan-premium-vitalcan-premium-adulto-cordero",
+    "titulo": "Vitalcan Premium Adulto Cordero 20 kg"
   },
   {
     "nombre": "VitalCan Premium Cachorro",
@@ -3507,7 +3736,8 @@
         "codigo": "VITVIT10"
       }
     ],
-    "slug": "vitalcan-premium-vitalcan-premium-cachorro"
+    "slug": "vitalcan-premium-vitalcan-premium-cachorro",
+    "titulo": "VitalCan Premium Cachorro 15 kg"
   },
   {
     "nombre": "Vitalcan Premium Perro Adulto",
@@ -3520,7 +3750,8 @@
         "codigo": "VITVIT09"
       }
     ],
-    "slug": "vitalcan-premium-vitalcan-premium-perro-adulto"
+    "slug": "vitalcan-premium-vitalcan-premium-perro-adulto",
+    "titulo": "Vitalcan Premium Perro Adulto 20 kg"
   },
   {
     "nombre": "VitalCan Premium Perro Adulto Raza pequeña",
@@ -3533,7 +3764,8 @@
         "codigo": "VITVIT17"
       }
     ],
-    "slug": "vitalcan-premium-vitalcan-premium-perro-adulto-raza-pequena"
+    "slug": "vitalcan-premium-vitalcan-premium-perro-adulto-raza-pequena",
+    "titulo": "VitalCan Premium Perro Adulto Raza pequeña 20 kg"
   },
   {
     "nombre": "Vitalcan Therapy Latas 6uds",
@@ -3546,7 +3778,8 @@
         "codigo": "VITTHE01"
       }
     ],
-    "slug": "therapy-vitalcan-therapy-latas-6uds"
+    "slug": "therapy-vitalcan-therapy-latas-6uds",
+    "titulo": "Vitalcan Therapy Latas 6uds"
   },
   {
     "nombre": "VitalFun Arena Sanitaria Aglomerante Carbón Activado",
@@ -3564,7 +3797,8 @@
         "codigo": "VITVIT16"
       }
     ],
-    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-carbon-activado"
+    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-carbon-activado",
+    "titulo": "VitalFun Arena Sanitaria Aglomerante Carbón Activado 6-12 kg"
   },
   {
     "nombre": "VitalFun Arena Sanitaria Aglomerante Lavanda",
@@ -3582,7 +3816,8 @@
         "codigo": "VITVIT14"
       }
     ],
-    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-lavanda"
+    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-lavanda",
+    "titulo": "VitalFun Arena Sanitaria Aglomerante Lavanda 6-12 kg"
   },
   {
     "nombre": "VitalFun Arena Sanitaria Aglomerante Natural",
@@ -3600,7 +3835,8 @@
         "codigo": "VITVIT12"
       }
     ],
-    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-natural"
+    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-natural",
+    "titulo": "VitalFun Arena Sanitaria Aglomerante Natural 6-12 kg"
   },
   {
     "nombre": "Voraz Perro Adultos Carne",
@@ -3613,6 +3849,7 @@
         "codigo": "VORVOR05"
       }
     ],
-    "slug": "voraz-y-kongo-voraz-perro-adultos-carne"
+    "slug": "voraz-y-kongo-voraz-perro-adultos-carne",
+    "titulo": "Voraz Perro Adultos Carne 20 kg"
   }
 ]

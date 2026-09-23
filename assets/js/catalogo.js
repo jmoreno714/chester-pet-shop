@@ -62,7 +62,7 @@
         <a class="product-card" href="producto.html?slug=${encodeURIComponent(p.slug)}">
           <span class="price-tag">${precioDesde(p)}</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>${escapeHtml(p.nombre)}</h3>
+          <h3>${escapeHtml(p.titulo)}</h3>
           <p class="tag-line">${escapeHtml(p.marca)} · ${CATEGORY_LABELS[p.categoria] || ''}</p>
         </a>`
       )

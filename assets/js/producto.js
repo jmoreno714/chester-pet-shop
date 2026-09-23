@@ -36,14 +36,14 @@
         return;
       }
 
-      document.title = p.nombre + ' — Chester Pet Shop';
+      document.title = p.titulo + ' — Chester Pet Shop';
       const catLabel = CATEGORY_LABELS[p.categoria] || '';
       const catLink = document.getElementById('pd-breadcrumb-cat');
       catLink.textContent = catLabel;
       catLink.href = 'productos.html#' + p.categoria;
-      document.getElementById('pd-breadcrumb-nombre').textContent = p.nombre;
+      document.getElementById('pd-breadcrumb-nombre').textContent = p.titulo;
       document.getElementById('pd-marca').textContent = p.marca;
-      document.getElementById('pd-titulo').textContent = p.nombre;
+      document.getElementById('pd-titulo').textContent = p.titulo;
 
       const precioEl = document.getElementById('pd-precio');
       let seleccionada = p.variantes[0];
