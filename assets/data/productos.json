@@ -3,2408 +3,3616 @@
     "nombre": "5 Complete Pouch x $10.000 Gatos",
     "marca": "Promociones",
     "categoria": "humedos",
-    "precio": 11111,
-    "codigo": "5COPRO02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 11111,
+        "codigo": "5COPRO02"
+      }
+    ],
+    "slug": "promociones-5-complete-pouch-x-10-000-gatos"
   },
   {
     "nombre": "5 Complete Pouch x $10.000 Perros",
     "marca": "Promociones",
     "categoria": "humedos",
-    "precio": 11111,
-    "codigo": "5COPRO01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 11111,
+        "codigo": "5COPRO01"
+      }
+    ],
+    "slug": "promociones-5-complete-pouch-x-10-000-perros"
   },
   {
-    "nombre": "Advance Adulto Hipoalergenico x 15kg",
+    "nombre": "Advance Adulto Hipoalergenico",
     "marca": "Advance",
     "categoria": "otros-alimentos",
-    "precio": 65000,
-    "codigo": "ADVADV01"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 65000,
+        "codigo": "ADVADV01"
+      }
+    ],
+    "slug": "advance-advance-adulto-hipoalergenico"
   },
   {
-    "nombre": "Advance Cachorro x 12kg",
+    "nombre": "Advance Cachorro",
     "marca": "Advance",
     "categoria": "otros-alimentos",
-    "precio": 40000,
-    "codigo": "ADVADV02"
+    "variantes": [
+      {
+        "peso": "12 kg",
+        "precio": 40000,
+        "codigo": "ADVADV02"
+      }
+    ],
+    "slug": "advance-advance-cachorro"
   },
   {
-    "nombre": "Advance Perro Adulto x 20kg",
+    "nombre": "Advance Perro Adulto",
     "marca": "Advance",
     "categoria": "otros-alimentos",
-    "precio": 60000,
-    "codigo": "ADVADV03"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 60000,
+        "codigo": "ADVADV03"
+      }
+    ],
+    "slug": "advance-advance-perro-adulto"
   },
   {
-    "nombre": "Agility Gato Urinary x 10kg",
+    "nombre": "Agility Gato Urinary",
     "marca": "Agility",
     "categoria": "sieger-agility",
-    "precio": 83400,
-    "codigo": "AGIAGI05"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 83400,
+        "codigo": "AGIAGI05"
+      }
+    ],
+    "slug": "agility-agility-gato-urinary"
   },
   {
-    "nombre": "AGILITY Perro Adulto Control de Peso 15kg",
+    "nombre": "AGILITY Perro Adulto Control de Peso",
     "marca": "Agility",
     "categoria": "sieger-agility",
-    "precio": 83000,
-    "codigo": "AGIAGI02"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 83000,
+        "codigo": "AGIAGI02"
+      }
+    ],
+    "slug": "agility-agility-perro-adulto-control-de-peso"
   },
   {
-    "nombre": "AGILITY Perro Adultos 20kg",
+    "nombre": "AGILITY Perro Adultos",
     "marca": "Agility",
     "categoria": "sieger-agility",
-    "precio": 88000,
-    "codigo": "AGIAGI01"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 88000,
+        "codigo": "AGIAGI01"
+      }
+    ],
+    "slug": "agility-agility-perro-adultos"
   },
   {
-    "nombre": "AGILITY  Perro Cachorro x 15kg",
+    "nombre": "AGILITY Perro Cachorro",
     "marca": "Agility",
     "categoria": "sieger-agility",
-    "precio": 78800,
-    "codigo": "AGIAGI04"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 78800,
+        "codigo": "AGIAGI04"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 100200,
+        "codigo": "AGIAGI03"
+      }
+    ],
+    "slug": "agility-agility-perro-cachorro"
   },
   {
-    "nombre": "AGILITY Perro Cachorro x 20kg",
-    "marca": "Agility",
-    "categoria": "sieger-agility",
-    "precio": 100200,
-    "codigo": "AGIAGI03"
-  },
-  {
-    "nombre": "Balanced Gato Adulto Natural Recipe Cordero 15kg",
+    "nombre": "Balanced Gato Adulto Natural Recipe Cordero",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 157400,
-    "codigo": "627017B7"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43700,
+        "codigo": "554F4A95"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 84900,
+        "codigo": "7A864234"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 157400,
+        "codigo": "627017B7"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-cordero"
   },
   {
-    "nombre": "Balanced Gato Adulto Natural Recipe Cordero 3kg",
+    "nombre": "Balanced Gato Adulto Natural Recipe Salmón",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 43700,
-    "codigo": "554F4A95"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43700,
+        "codigo": "15753DBB"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 84900,
+        "codigo": "D9026DF3"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 157400,
+        "codigo": "4AAFA884"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-salmon"
   },
   {
-    "nombre": "Balanced Gato Adulto Natural Recipe Cordero 7,5kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 84900,
-    "codigo": "7A864234"
-  },
-  {
-    "nombre": "Balanced Gato Adulto Natural Recipe Salmón 15kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 157400,
-    "codigo": "4AAFA884"
-  },
-  {
-    "nombre": "Balanced Gato Adulto Natural Recipe Salmón 3kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 43700,
-    "codigo": "15753DBB"
-  },
-  {
-    "nombre": "Balanced Gato Adulto Natural Recipe Salmón 7,5kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 84900,
-    "codigo": "D9026DF3"
-  },
-  {
-    "nombre": "Balanced Gato Adulto x 15 kg.",
+    "nombre": "Balanced Gato Adulto",
     "marca": "Balanced",
     "categoria": "vitalcan-gatos",
-    "precio": 144000,
-    "codigo": "AAC25E6F"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 32000,
+        "codigo": "F0686821"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 80000,
+        "codigo": "BB41B1FF"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 144000,
+        "codigo": "AAC25E6F"
+      }
+    ],
+    "slug": "balanced-balanced-gato-adulto"
   },
   {
-    "nombre": "Balanced Gato Adulto x 2Kg.",
+    "nombre": "Balanced Gato Control PH All ages",
     "marca": "Balanced",
     "categoria": "vitalcan-gatos",
-    "precio": 32000,
-    "codigo": "F0686821"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 36000,
+        "codigo": "2604261D"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 95000,
+        "codigo": "91AC69C4"
+      }
+    ],
+    "slug": "balanced-balanced-gato-control-ph-all-ages"
   },
   {
-    "nombre": "Balanced Gato Adulto x 7,5Kg.",
+    "nombre": "Balanced Gato Ctrl. Peso/Cstrdo",
     "marca": "Balanced",
     "categoria": "vitalcan-gatos",
-    "precio": 80000,
-    "codigo": "BB41B1FF"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 36000,
+        "codigo": "6402B93B"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 95000,
+        "codigo": "BF705DC5"
+      }
+    ],
+    "slug": "balanced-balanced-gato-ctrl-peso-cstrdo"
   },
   {
-    "nombre": "Balanced Gato Control PH All ages x 2 Kg.",
+    "nombre": "Balanced Gato Kitten",
     "marca": "Balanced",
     "categoria": "vitalcan-gatos",
-    "precio": 36000,
-    "codigo": "2604261D"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 36000,
+        "codigo": "F70DAD1F"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 96000,
+        "codigo": "43C59CF2"
+      }
+    ],
+    "slug": "balanced-balanced-gato-kitten"
   },
   {
-    "nombre": "Balanced Gato Control PH All ages x 7,5 Kg.",
+    "nombre": "Balanced Gato Senior",
     "marca": "Balanced",
     "categoria": "vitalcan-gatos",
-    "precio": 95000,
-    "codigo": "91AC69C4"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 36000,
+        "codigo": "0AE01F63"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 90000,
+        "codigo": "BF8050A4"
+      }
+    ],
+    "slug": "balanced-balanced-gato-senior"
   },
   {
-    "nombre": "Balanced Gato Ctrl. Peso/Cstrdo. x 2 Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-gatos",
-    "precio": 36000,
-    "codigo": "6402B93B"
-  },
-  {
-    "nombre": "Balanced Gato Ctrl. Peso/Cstrdo. x 7,5 Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-gatos",
-    "precio": 95000,
-    "codigo": "BF705DC5"
-  },
-  {
-    "nombre": "Balanced Gato Kitten x 2kg.",
-    "marca": "Balanced",
-    "categoria": "vitalcan-gatos",
-    "precio": 36000,
-    "codigo": "F70DAD1F"
-  },
-  {
-    "nombre": "Balanced Gato Kitten x 7,5 Kg.",
-    "marca": "Balanced",
-    "categoria": "vitalcan-gatos",
-    "precio": 96000,
-    "codigo": "43C59CF2"
-  },
-  {
-    "nombre": "Balanced Gato Senior x 2Kg.",
-    "marca": "Balanced",
-    "categoria": "vitalcan-gatos",
-    "precio": 36000,
-    "codigo": "0AE01F63"
-  },
-  {
-    "nombre": "Balanced Gato Senior x 7,5 kg.",
-    "marca": "Balanced",
-    "categoria": "vitalcan-gatos",
-    "precio": 90000,
-    "codigo": "BF8050A4"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Cordero 7.5kg",
+    "nombre": "Balanced Natural Recipe Cordero",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 76500,
-    "codigo": "A46CCBEA"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 76500,
+        "codigo": "A46CCBEA"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-cordero"
   },
   {
-    "nombre": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada x 15 Kg.",
+    "nombre": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 157400,
-    "codigo": "A99248F2"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43700,
+        "codigo": "9B7D7F74"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 84900,
+        "codigo": "4E07970D"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 157400,
+        "codigo": "A99248F2"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-ad-carne-argentina-seleccionada"
   },
   {
-    "nombre": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada x 3 Kg.",
+    "nombre": "Balanced Natural Recipe Gato Adulto Merluza",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 43700,
-    "codigo": "9B7D7F74"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43700,
+        "codigo": "CC9FBF5F"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 84900,
+        "codigo": "5C4E7147"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 157400,
+        "codigo": "908E5F7B"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-merluza"
   },
   {
-    "nombre": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada x 7,5 Kg.",
+    "nombre": "Balanced Natural Recipe Gato Adulto Pollo",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 84900,
-    "codigo": "4E07970D"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43700,
+        "codigo": "AEA379EA"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 84900,
+        "codigo": "F150C7D0"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 157400,
+        "codigo": "4379AC8B"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-pollo"
   },
   {
-    "nombre": "Balanced Natural Recipe Gato Adulto Merluza x 15 Kg",
+    "nombre": "Balanced Natural Recipe Gato Adulto Salmón",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 157400,
-    "codigo": "908E5F7B"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 38300,
+        "codigo": "D6168726"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-salmon"
   },
   {
-    "nombre": "Balanced Natural Recipe Gato Adulto Merluza x 3 Kg",
+    "nombre": "Balanced Natural Recipe Gato Adulto Trucha Patagonica",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-gatos",
-    "precio": 43700,
-    "codigo": "CC9FBF5F"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43700,
+        "codigo": "B1E62195"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 84900,
+        "codigo": "28316953"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 157400,
+        "codigo": "DE336798"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-trucha-patagonica"
   },
   {
-    "nombre": "Balanced Natural Recipe Gato Adulto Merluza x 7,5 Kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 84900,
-    "codigo": "5C4E7147"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Pollo x 15 Kg.",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 157400,
-    "codigo": "4379AC8B"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Pollo x 3 Kg.",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 43700,
-    "codigo": "AEA379EA"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Pollo x 7,5 Kg.",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 84900,
-    "codigo": "F150C7D0"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Salmón x 3 Kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 38300,
-    "codigo": "D6168726"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Trucha Patagonica x 15 Kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 157400,
-    "codigo": "DE336798"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Trucha Patagonica x 3 Kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 43700,
-    "codigo": "B1E62195"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Gato Adulto Trucha Patagonica x 7,5 Kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-gatos",
-    "precio": 84900,
-    "codigo": "28316953"
-  },
-  {
-    "nombre": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada x 3 Kg.",
+    "nombre": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 31900,
-    "codigo": "7434C2E8"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 31900,
+        "codigo": "7434C2E8"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-a-carne-argentina-seleccionada"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Carne x 15kg",
+    "nombre": "Balanced Natural Recipe Perro Adulto Carne",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 101900,
-    "codigo": "B4762A62"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 101900,
+        "codigo": "B4762A62"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-carne"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Cerdo x 15kg",
+    "nombre": "Balanced Natural Recipe Perro Adulto Cerdo",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 101900,
-    "codigo": "C4EB2642"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 101900,
+        "codigo": "C4EB2642"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cerdo"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Cordero x 15kg",
+    "nombre": "Balanced Natural Recipe Perro Adulto Cordero",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 103700,
-    "codigo": "22A22FDF"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 103700,
+        "codigo": "22A22FDF"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cordero"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Pollo x 15kg",
+    "nombre": "Balanced Natural Recipe Perro Adulto Pollo",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 101900,
-    "codigo": "4ADFFB64"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 31900,
+        "codigo": "97CEEAA6"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 101900,
+        "codigo": "4ADFFB64"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-pollo"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Pollo x 3 Kg.",
+    "nombre": "Balanced Natural Recipe Perro Adulto Salmón Rosado",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 31900,
-    "codigo": "97CEEAA6"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 95600,
+        "codigo": "468189F8"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Salmón Rosado x 15kg",
+    "nombre": "Balanced Natural Recipe Perro Adulto Salmon Rosado",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 95600,
-    "codigo": "468189F8"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 29700,
+        "codigo": "A2D6E108"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado-a2d6e108"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Adulto Salmon Rosado x 3 Kg.",
+    "nombre": "Balanced Natural Recipe Perro Cerdo",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 29700,
-    "codigo": "A2D6E108"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 31900,
+        "codigo": "91B5C82C"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cerdo"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Cerdo 3 Kg",
+    "nombre": "Balanced Natural Recipe Perro Cordero",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 31900,
-    "codigo": "91B5C82C"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 31900,
+        "codigo": "1A9DFBEA"
+      }
+    ],
+    "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cordero"
   },
   {
-    "nombre": "Balanced Natural Recipe Perro Cordero 3 Kg",
-    "marca": "Balanced Natural Recipe",
-    "categoria": "vitalcan-perros",
-    "precio": 31900,
-    "codigo": "1A9DFBEA"
-  },
-  {
-    "nombre": "Balanced perro Adulto Raza Gigante x 20kg",
+    "nombre": "Balanced perro Adulto Raza Gigante",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 116400,
-    "codigo": "0ADBEA2D"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 116400,
+        "codigo": "0ADBEA2D"
+      }
+    ],
+    "slug": "balanced-balanced-perro-adulto-raza-gigante"
   },
   {
-    "nombre": "Balanced perro Adulto Raza Grande x 15kg",
+    "nombre": "Balanced perro Adulto Raza Grande",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 82400,
-    "codigo": "3C1C0AAF"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 82400,
+        "codigo": "3C1C0AAF"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 104300,
+        "codigo": "58ADC19B"
+      }
+    ],
+    "slug": "balanced-balanced-perro-adulto-raza-grande"
   },
   {
-    "nombre": "Balanced perro Adulto Raza Grande x 20kg",
+    "nombre": "Balanced Perro Adulto Raza Mediana",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 104300,
-    "codigo": "58ADC19B"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 28100,
+        "codigo": "787406EA"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 69400,
+        "codigo": "660A3DA9"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 104300,
+        "codigo": "676DB84B"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 104300,
+        "codigo": "8F3DE073"
+      }
+    ],
+    "slug": "balanced-balanced-perro-adulto-raza-mediana"
   },
   {
-    "nombre": "Balanced Perro  Adulto Raza Mediana x 12Kg",
+    "nombre": "Balanced Perro Adulto Raza Pequeña",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 69400,
-    "codigo": "660A3DA9"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 27200,
+        "codigo": "70910D5E"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 55600,
+        "codigo": "2961CBF3"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 84900,
+        "codigo": "5C82547C"
+      }
+    ],
+    "slug": "balanced-balanced-perro-adulto-raza-pequena"
   },
   {
-    "nombre": "Balanced Perro Adulto Raza Mediana x 20kg",
+    "nombre": "Balanced Perro Cachorro Raza Grande",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 104300,
-    "codigo": "676DB84B"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 93900,
+        "codigo": "5D4B5803"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 126600,
+        "codigo": "FBE05AAC"
+      }
+    ],
+    "slug": "balanced-balanced-perro-cachorro-raza-grande"
   },
   {
-    "nombre": "Balanced Perro  Adulto Raza Mediana x 20Kg",
+    "nombre": "Balanced Perro Cachorro Raza mediana",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 104300,
-    "codigo": "8F3DE073"
+    "variantes": [
+      {
+        "peso": "12 kg",
+        "precio": 76700,
+        "codigo": "7CDBEC75"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 126600,
+        "codigo": "33ACEF2A"
+      }
+    ],
+    "slug": "balanced-balanced-perro-cachorro-raza-mediana"
   },
   {
-    "nombre": "Balanced Perro Adulto Raza Mediana x 3kg",
+    "nombre": "Balanced Perro Cachorro Raza Pequeña",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 28100,
-    "codigo": "787406EA"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 26000,
+        "codigo": "A787FF71"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 65300,
+        "codigo": "AE9FF21A"
+      }
+    ],
+    "slug": "balanced-balanced-perro-cachorro-raza-pequena"
   },
   {
-    "nombre": "Balanced Perro Adulto Raza Pequeña x 15kg",
+    "nombre": "Balanced Perro Control de Peso",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 84900,
-    "codigo": "5C82547C"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 128900,
+        "codigo": "F86DA37B"
+      }
+    ],
+    "slug": "balanced-balanced-perro-control-de-peso"
   },
   {
-    "nombre": "Balanced Perro Adulto Raza Pequeña x 3kg",
+    "nombre": "Balanced Perro Senior Grande",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 27200,
-    "codigo": "70910D5E"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 29700,
+        "codigo": "CDE1FB46"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 90600,
+        "codigo": "B56A6F4F"
+      }
+    ],
+    "slug": "balanced-balanced-perro-senior-grande"
   },
   {
-    "nombre": "Balanced Perro Adulto Raza Pequeña x 7,5kg",
+    "nombre": "Balanced Perro Senior Mediano",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 55600,
-    "codigo": "2961CBF3"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 29700,
+        "codigo": "95656D2E"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 72600,
+        "codigo": "89D43288"
+      }
+    ],
+    "slug": "balanced-balanced-perro-senior-mediano"
   },
   {
-    "nombre": "Balanced Perro Cachorro Raza Grande x 15 Kg",
+    "nombre": "Balanced Perro Senior Pequeño",
     "marca": "Balanced",
     "categoria": "vitalcan-perros",
-    "precio": 93900,
-    "codigo": "5D4B5803"
-  },
-  {
-    "nombre": "Balanced Perro Cachorro Raza Grande x 20 Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 126600,
-    "codigo": "FBE05AAC"
-  },
-  {
-    "nombre": "Balanced Perro Cachorro Raza mediana x 12Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 76700,
-    "codigo": "7CDBEC75"
-  },
-  {
-    "nombre": "Balanced Perro Cachorro Raza Mediana x 20Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 126600,
-    "codigo": "33ACEF2A"
-  },
-  {
-    "nombre": "Balanced Perro Cachorro Raza Pequeña x 3Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 26000,
-    "codigo": "A787FF71"
-  },
-  {
-    "nombre": "Balanced Perro Cachorro Raza Pequeña x 7,5Kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 65300,
-    "codigo": "AE9FF21A"
-  },
-  {
-    "nombre": "Balanced Perro Control de Peso x 20kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 128900,
-    "codigo": "F86DA37B"
-  },
-  {
-    "nombre": "Balanced Perro Senior Grande x 15kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 90600,
-    "codigo": "B56A6F4F"
-  },
-  {
-    "nombre": "Balanced Perro Senior Grande x 3kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 29700,
-    "codigo": "CDE1FB46"
-  },
-  {
-    "nombre": "Balanced Perro Senior Mediano x 12kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 72600,
-    "codigo": "89D43288"
-  },
-  {
-    "nombre": "Balanced Perro Senior Mediano x 3kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 29700,
-    "codigo": "95656D2E"
-  },
-  {
-    "nombre": "Balanced Perro Senior Pequeño x 3kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 30600,
-    "codigo": "862C9F80"
-  },
-  {
-    "nombre": "Balanced Perro Senior Pequeño x 7,5kg",
-    "marca": "Balanced",
-    "categoria": "vitalcan-perros",
-    "precio": 63600,
-    "codigo": "7010B0B8"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 30600,
+        "codigo": "862C9F80"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 63600,
+        "codigo": "7010B0B8"
+      }
+    ],
+    "slug": "balanced-balanced-perro-senior-pequeno"
   },
   {
     "nombre": "Basken Doble 60",
     "marca": "Basken",
     "categoria": "otros-alimentos",
-    "precio": 8800,
-    "codigo": "BASBAS01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 8800,
+        "codigo": "BASBAS01"
+      }
+    ],
+    "slug": "basken-basken-doble-60"
   },
   {
-    "nombre": "Belcan adultos 15kgs",
+    "nombre": "Belcan adultos",
     "marca": "Belcan",
     "categoria": "vitalcan-perros",
-    "precio": 38000,
-    "codigo": "BELBEL16"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 38000,
+        "codigo": "BELBEL16"
+      }
+    ],
+    "slug": "belcan-belcan-adultos"
   },
   {
-    "nombre": "Belcan Perro Adulto x 15 Kg",
+    "nombre": "Belcan Perro Adulto",
     "marca": "Belcan",
     "categoria": "vitalcan-perros",
-    "precio": 38000,
-    "codigo": "BELBEL17"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 38000,
+        "codigo": "BELBEL17"
+      },
+      {
+        "peso": "22 kg",
+        "precio": 49500,
+        "codigo": "BELBEL13"
+      }
+    ],
+    "slug": "belcan-belcan-perro-adulto"
   },
   {
-    "nombre": "Belcan Perro Adulto x 22 Kg",
+    "nombre": "Belcan Perro Cachorro",
     "marca": "Belcan",
     "categoria": "vitalcan-perros",
-    "precio": 49500,
-    "codigo": "BELBEL13"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 35000,
+        "codigo": "BELBEL14"
+      }
+    ],
+    "slug": "belcan-belcan-perro-cachorro"
   },
   {
-    "nombre": "Belcan Perro Cachorro 15 Kg",
-    "marca": "Belcan",
-    "categoria": "vitalcan-perros",
-    "precio": 35000,
-    "codigo": "BELBEL14"
-  },
-  {
-    "nombre": "BelCat Gato  x 10 Kg",
+    "nombre": "BelCat Gato",
     "marca": "Belcat",
     "categoria": "vitalcan-gatos",
-    "precio": 38900,
-    "codigo": "BELBEL15"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 38900,
+        "codigo": "BELBEL15"
+      }
+    ],
+    "slug": "belcat-belcat-gato"
   },
   {
     "nombre": "Camita Namu Pets Pelo Largo Tamaño Grande",
     "marca": "NamuPets",
     "categoria": "camitas",
-    "precio": 84200,
-    "codigo": "CAMNAM01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 84200,
+        "codigo": "CAMNAM01"
+      }
+    ],
+    "slug": "namupets-camita-namu-pets-pelo-largo-tamano-grande"
   },
   {
     "nombre": "Cidar Gato 0,5 a 3kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 18000,
-    "codigo": "CIDCID06"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 18000,
+        "codigo": "CIDCID06"
+      }
+    ],
+    "slug": "cidar-cidar-gato-0-5-a-3kg"
   },
   {
     "nombre": "Cidar Gato 3,1 a 6kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 19000,
-    "codigo": "CIDFAR01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 19000,
+        "codigo": "CIDFAR01"
+      }
+    ],
+    "slug": "cidar-cidar-gato-3-1-a-6kg"
   },
   {
     "nombre": "Cidar Perro 12,1 a 25kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 30000,
-    "codigo": "CIDCID02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 30000,
+        "codigo": "CIDCID02"
+      }
+    ],
+    "slug": "cidar-cidar-perro-12-1-a-25kg"
   },
   {
     "nombre": "Cidar Perro 1,5kg a 3kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 20800,
-    "codigo": "CIDCID03"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 20800,
+        "codigo": "CIDCID03"
+      }
+    ],
+    "slug": "cidar-cidar-perro-1-5kg-a-3kg"
   },
   {
     "nombre": "Cidar Perro 25,1 a 50kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 39000,
-    "codigo": "CIDCID05"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 39000,
+        "codigo": "CIDCID05"
+      }
+    ],
+    "slug": "cidar-cidar-perro-25-1-a-50kg"
   },
   {
     "nombre": "Cidar Perro 3,1 a 6kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 22000,
-    "codigo": "CIDCID04"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 22000,
+        "codigo": "CIDCID04"
+      }
+    ],
+    "slug": "cidar-cidar-perro-3-1-a-6kg"
   },
   {
     "nombre": "Cidar Perro 6,1 a 12kg",
     "marca": "CIDAR",
     "categoria": "farmacos",
-    "precio": 27000,
-    "codigo": "CIDCID01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 27000,
+        "codigo": "CIDCID01"
+      }
+    ],
+    "slug": "cidar-cidar-perro-6-1-a-12kg"
   },
   {
-    "nombre": "Club Performance Gato Adulto x 7,5kg",
+    "nombre": "Club Performance Gato Adulto",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 99000,
-    "codigo": "CLUROY03"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 99000,
+        "codigo": "CLUROY03"
+      }
+    ],
+    "slug": "royal-canin-club-performance-gato-adulto"
   },
   {
-    "nombre": "Club performance Perro adulto 20kg",
+    "nombre": "Club performance Perro adulto",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 149000,
-    "codigo": "CLUROY02"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 149000,
+        "codigo": "CLUROY02"
+      }
+    ],
+    "slug": "royal-canin-club-performance-perro-adulto"
   },
   {
-    "nombre": "Club Performance Weight Control x 15kg",
+    "nombre": "Club Performance Weight Control",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 119000,
-    "codigo": "CLUROY01"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 119000,
+        "codigo": "CLUROY01"
+      }
+    ],
+    "slug": "royal-canin-club-performance-weight-control"
   },
   {
-    "nombre": "Complete Gato Adulto 15Kg",
+    "nombre": "Complete Gato Adulto",
     "marca": "Complete",
     "categoria": "vitalcan-gatos",
-    "precio": 98800,
-    "codigo": "COMCOM88"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 18700,
+        "codigo": "COMCOM90"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 57400,
+        "codigo": "COMCOM89"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 98800,
+        "codigo": "COMCOM88"
+      }
+    ],
+    "slug": "complete-complete-gato-adulto"
   },
   {
-    "nombre": "Complete Gato Adulto 1,5Kg",
+    "nombre": "Complete Gato Adulto Urinary Care",
     "marca": "Complete",
     "categoria": "vitalcan-gatos",
-    "precio": 18700,
-    "codigo": "COMCOM90"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 19300,
+        "codigo": "COMCOM94"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 63700,
+        "codigo": "COMCOM93"
+      }
+    ],
+    "slug": "complete-complete-gato-adulto-urinary-care"
   },
   {
-    "nombre": "Complete Gato Adulto 7,5Kg",
+    "nombre": "Complete Gato Control de Peso",
     "marca": "Complete",
     "categoria": "vitalcan-gatos",
-    "precio": 57400,
-    "codigo": "COMCOM89"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 19300,
+        "codigo": "COMCOM96"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 63700,
+        "codigo": "COMCOM95"
+      }
+    ],
+    "slug": "complete-complete-gato-control-de-peso"
   },
   {
-    "nombre": "Complete Gato Adulto Urinary Care 1,5Kg",
+    "nombre": "Complete Gato Kitten",
     "marca": "Complete",
     "categoria": "vitalcan-gatos",
-    "precio": 19300,
-    "codigo": "COMCOM94"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 19700,
+        "codigo": "COMCOM87"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 62200,
+        "codigo": "COMCOM86"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 102600,
+        "codigo": "COMCOM85"
+      }
+    ],
+    "slug": "complete-complete-gato-kitten"
   },
   {
-    "nombre": "Complete Gato Adulto Urinary Care 7,5kg",
+    "nombre": "Complete Gato Senior",
     "marca": "Complete",
     "categoria": "vitalcan-gatos",
-    "precio": 63700,
-    "codigo": "COMCOM93"
-  },
-  {
-    "nombre": "Complete Gato Control de Peso 1,5Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 19300,
-    "codigo": "COMCOM96"
-  },
-  {
-    "nombre": "Complete Gato Control de Peso 7,5Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 63700,
-    "codigo": "COMCOM95"
-  },
-  {
-    "nombre": "Complete Gato Kitten 15Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 102600,
-    "codigo": "COMCOM85"
-  },
-  {
-    "nombre": "Complete Gato Kitten 1,5Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 19700,
-    "codigo": "COMCOM87"
-  },
-  {
-    "nombre": "Complete Gato Kitten 7,5Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 62200,
-    "codigo": "COMCOM86"
-  },
-  {
-    "nombre": "Complete Gato Senior 1,5Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 19300,
-    "codigo": "COMCOM92"
-  },
-  {
-    "nombre": "Complete Gato Senior 7,5Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-gatos",
-    "precio": 63700,
-    "codigo": "COMCOM91"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 19300,
+        "codigo": "COMCOM92"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 63700,
+        "codigo": "COMCOM91"
+      }
+    ],
+    "slug": "complete-complete-gato-senior"
   },
   {
     "nombre": "Complete Lata 340gr Gato Cachorro Pollo (1ud)",
     "marca": "Humedos",
     "categoria": "humedos",
-    "precio": 4000,
-    "codigo": "COMHUM01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 4000,
+        "codigo": "COMHUM01"
+      }
+    ],
+    "slug": "humedos-complete-lata-340gr-gato-cachorro-pollo-1ud"
   },
   {
-    "nombre": "Complete Perro Adulto Raza Mediana y Grande 20 Kg",
+    "nombre": "Complete Perro Adulto Raza Mediana y Grande",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 79200,
-    "codigo": "COMCOM79"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 79200,
+        "codigo": "COMCOM79"
+      }
+    ],
+    "slug": "complete-complete-perro-adulto-raza-mediana-y-grande"
   },
   {
-    "nombre": "Complete Perro Adulto Raza Pequeña 20kg",
+    "nombre": "Complete Perro Adulto Raza Pequeña",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 83100,
-    "codigo": "1B09CAA8"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 20700,
+        "codigo": "COMCOM81"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 39200,
+        "codigo": "COMCOM82"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 83100,
+        "codigo": "1B09CAA8"
+      }
+    ],
+    "slug": "complete-complete-perro-adulto-raza-pequena"
   },
   {
-    "nombre": "Complete Perro Adulto Raza Pequeña 3kg",
+    "nombre": "Complete Perro Cachorro Raza Mediana y Grande",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 20700,
-    "codigo": "COMCOM81"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 20700,
+        "codigo": "382FB0FF"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 86700,
+        "codigo": "COMCOM83"
+      }
+    ],
+    "slug": "complete-complete-perro-cachorro-raza-mediana-y-grande"
   },
   {
-    "nombre": "Complete Perro Adulto Raza Pequeña 7,5 Kg",
+    "nombre": "Complete Perro Control de Peso",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 39200,
-    "codigo": "COMCOM82"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 21400,
+        "codigo": "82E206C7"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 90400,
+        "codigo": "COMCOM84"
+      }
+    ],
+    "slug": "complete-complete-perro-control-de-peso"
   },
   {
-    "nombre": "Complete Perro Cachorro Raza Mediana y Grande 20 Kg",
+    "nombre": "Complete Perro Senior All Breeds",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 86700,
-    "codigo": "COMCOM83"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 76900,
+        "codigo": "COMCOM80"
+      }
+    ],
+    "slug": "complete-complete-perro-senior-all-breeds"
   },
   {
-    "nombre": "Complete Perro Cachorro Raza Mediana y Grande x 3kg",
+    "nombre": "Complete Perro Senior Mediano y Grande",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 20700,
-    "codigo": "382FB0FF"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 21400,
+        "codigo": "COMCOM98"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 90400,
+        "codigo": "COMCOM97"
+      }
+    ],
+    "slug": "complete-complete-perro-senior-mediano-y-grande"
   },
   {
-    "nombre": "Complete Perro Control de Peso 20 Kg",
+    "nombre": "Complete Perro Senior Pequeño",
     "marca": "Complete",
     "categoria": "vitalcan-perros",
-    "precio": 90400,
-    "codigo": "COMCOM84"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 21400,
+        "codigo": "D7B728C3"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 40600,
+        "codigo": "COMCOM99"
+      }
+    ],
+    "slug": "complete-complete-perro-senior-pequeno"
   },
   {
-    "nombre": "Complete Perro Control de Peso 3 Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-perros",
-    "precio": 21400,
-    "codigo": "82E206C7"
-  },
-  {
-    "nombre": "Complete Perro Senior All Breeds 20 Kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-perros",
-    "precio": 76900,
-    "codigo": "COMCOM80"
-  },
-  {
-    "nombre": "Complete Perro Senior Mediano y Grande x 20kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-perros",
-    "precio": 90400,
-    "codigo": "COMCOM97"
-  },
-  {
-    "nombre": "Complete Perro Senior Mediano y Grande x 3kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-perros",
-    "precio": 21400,
-    "codigo": "COMCOM98"
-  },
-  {
-    "nombre": "Complete Perro Senior Pequeño x 3kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-perros",
-    "precio": 21400,
-    "codigo": "D7B728C3"
-  },
-  {
-    "nombre": "Complete Perro Senior Pequeño x 7,5kg",
-    "marca": "Complete",
-    "categoria": "vitalcan-perros",
-    "precio": 40600,
-    "codigo": "COMCOM99"
-  },
-  {
-    "nombre": "Complete Pouch Gato carne 85gr",
+    "nombre": "Complete Pouch Gato carne",
     "marca": "Complete",
     "categoria": "humedos",
-    "precio": 2220,
-    "codigo": "46678D46"
+    "variantes": [
+      {
+        "peso": "85 g",
+        "precio": 2220,
+        "codigo": "46678D46"
+      },
+      {
+        "peso": "85 g",
+        "precio": 2220,
+        "codigo": "B6963BB9"
+      }
+    ],
+    "slug": "complete-complete-pouch-gato-carne"
   },
   {
-    "nombre": "Complete Pouch Gato carne 85gr",
-    "marca": "Complete",
-    "categoria": "humedos",
-    "precio": 2220,
-    "codigo": "B6963BB9"
-  },
-  {
-    "nombre": "Criadores Maintenance Gatos x 15 kg",
+    "nombre": "Criadores Maintenance Gatos",
     "marca": "Criadores Maintenance",
     "categoria": "vitalcan-perros",
-    "precio": 41100,
-    "codigo": "CRICRI27"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 41100,
+        "codigo": "CRICRI27"
+      }
+    ],
+    "slug": "criadores-maintenance-criadores-maintenance-gatos"
   },
   {
-    "nombre": "Criadores Maintenance Perro Adulto 15kg",
+    "nombre": "Criadores Maintenance Perro Adulto",
     "marca": "Criadores Maintenance",
     "categoria": "vitalcan-perros",
-    "precio": 43000,
-    "codigo": "CRICRI24"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 43000,
+        "codigo": "CRICRI24"
+      },
+      {
+        "peso": "22 kg",
+        "precio": 56000,
+        "codigo": "CRICRI23"
+      }
+    ],
+    "slug": "criadores-maintenance-criadores-maintenance-perro-adulto"
   },
   {
-    "nombre": "Criadores Maintenance Perro Adulto 22Kg",
+    "nombre": "Criadores Maintenance Perro Adulto Raza Pequeña",
     "marca": "Criadores Maintenance",
     "categoria": "vitalcan-perros",
-    "precio": 56000,
-    "codigo": "CRICRI23"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 44000,
+        "codigo": "CRICRI26"
+      }
+    ],
+    "slug": "criadores-maintenance-criadores-maintenance-perro-adulto-raza-pequena"
   },
   {
-    "nombre": "Criadores Maintenance Perro Adulto Raza Pequeña 15 Kg",
+    "nombre": "Criadores Maintenance Perro Cachorros",
     "marca": "Criadores Maintenance",
     "categoria": "vitalcan-perros",
-    "precio": 44000,
-    "codigo": "CRICRI26"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 47000,
+        "codigo": "CRICRI25"
+      }
+    ],
+    "slug": "criadores-maintenance-criadores-maintenance-perro-cachorros"
   },
   {
-    "nombre": "Criadores Maintenance Perro Cachorros 15 Kg",
-    "marca": "Criadores Maintenance",
-    "categoria": "vitalcan-perros",
-    "precio": 47000,
-    "codigo": "CRICRI25"
-  },
-  {
-    "nombre": "Dr perrot 20kgs",
+    "nombre": "Dr perrot",
     "marca": "Sabrocitos",
     "categoria": "otros-alimentos",
-    "precio": 27777,
-    "codigo": "DRPSAB01"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 27777,
+        "codigo": "DRPSAB01"
+      }
+    ],
+    "slug": "sabrocitos-dr-perrot"
   },
   {
     "nombre": "Ectholaner Antiparasitario Externo Perros de 10,1 a 20kg",
     "marca": "Ectholaner",
     "categoria": "farmacos",
-    "precio": 31000,
-    "codigo": "ECTBAL01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 31000,
+        "codigo": "ECTBAL01"
+      }
+    ],
+    "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-10-1-a-20kg"
   },
   {
     "nombre": "Ectholaner Antiparasitario Externo Perros de 4,6 a 10kg (1 comprimido 600mg)",
     "marca": "Ectholaner",
     "categoria": "farmacos",
-    "precio": 27000,
-    "codigo": "ECTECT01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 27000,
+        "codigo": "ECTECT01"
+      }
+    ],
+    "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-4-6-a-10kg-1-comprimido-600mg"
   },
   {
     "nombre": "Ecthol Collar Antipulgas Gato Holliday",
     "marca": "Ecthol Collar Antipulgas",
     "categoria": "farmacos",
-    "precio": 20000,
-    "codigo": "ECTECT02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 20000,
+        "codigo": "ECTECT02"
+      }
+    ],
+    "slug": "ecthol-collar-antipulgas-ecthol-collar-antipulgas-gato-holliday"
   },
   {
-    "nombre": "Estampa Criadores Perros Adultos x 15kg",
+    "nombre": "Estampa Criadores Perros Adultos",
     "marca": "Estampa Criadores",
     "categoria": "estampa",
-    "precio": 45000,
-    "codigo": "ESTEST40"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 45000,
+        "codigo": "ESTEST40"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 53000,
+        "codigo": "ESTEST39"
+      }
+    ],
+    "slug": "estampa-criadores-estampa-criadores-perros-adultos"
   },
   {
-    "nombre": "Estampa Criadores Perros Adultos x 20kg",
-    "marca": "Estampa Criadores",
-    "categoria": "estampa",
-    "precio": 53000,
-    "codigo": "ESTEST39"
-  },
-  {
-    "nombre": "Estampa Plus Gatos Adultos x 15kg",
+    "nombre": "Estampa Plus Gatos Adultos",
     "marca": "Estampa Plus",
     "categoria": "estampa",
-    "precio": 57000,
-    "codigo": "ESTEST37"
+    "variantes": [
+      {
+        "peso": "8 kg",
+        "precio": 37200,
+        "codigo": "ESTEST38"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 57000,
+        "codigo": "ESTEST37"
+      }
+    ],
+    "slug": "estampa-plus-estampa-plus-gatos-adultos"
   },
   {
-    "nombre": "Estampa Plus Gatos Adultos x 8kg",
+    "nombre": "Estampa Plus Perros Adultos Mordida Pequeña",
     "marca": "Estampa Plus",
     "categoria": "estampa",
-    "precio": 37200,
-    "codigo": "ESTEST38"
+    "variantes": [
+      {
+        "peso": "8 kg",
+        "precio": 35200,
+        "codigo": "ESTEST34"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 52200,
+        "codigo": "ESTEST33"
+      }
+    ],
+    "slug": "estampa-plus-estampa-plus-perros-adultos-mordida-pequena"
   },
   {
-    "nombre": "Estampa Plus Perros Adultos Mordida Pequeña x 15kg",
+    "nombre": "Estampa Plus Perros Adultos",
     "marca": "Estampa Plus",
     "categoria": "estampa",
-    "precio": 52200,
-    "codigo": "ESTEST33"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 49000,
+        "codigo": "ESTEST32"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 59000,
+        "codigo": "ESTEST31"
+      }
+    ],
+    "slug": "estampa-plus-estampa-plus-perros-adultos"
   },
   {
-    "nombre": "Estampa Plus Perros Adultos Mordida Pequeña x 8kg",
+    "nombre": "Estampa Plus Perros Cachorros",
     "marca": "Estampa Plus",
     "categoria": "estampa",
-    "precio": 35200,
-    "codigo": "ESTEST34"
+    "variantes": [
+      {
+        "peso": "8 kg",
+        "precio": 35000,
+        "codigo": "ESTEST36"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 50000,
+        "codigo": "ESTEST35"
+      }
+    ],
+    "slug": "estampa-plus-estampa-plus-perros-cachorros"
   },
   {
-    "nombre": "Estampa Plus Perros Adultos x 15kg",
-    "marca": "Estampa Plus",
-    "categoria": "estampa",
-    "precio": 49000,
-    "codigo": "ESTEST32"
-  },
-  {
-    "nombre": "Estampa Plus Perros Adultos x 20kg",
-    "marca": "Estampa Plus",
-    "categoria": "estampa",
-    "precio": 59000,
-    "codigo": "ESTEST31"
-  },
-  {
-    "nombre": "Estampa Plus Perros Cachorros x 15kg",
-    "marca": "Estampa Plus",
-    "categoria": "estampa",
-    "precio": 50000,
-    "codigo": "ESTEST35"
-  },
-  {
-    "nombre": "Estampa Plus Perros Cachorros x 8kg",
-    "marca": "Estampa Plus",
-    "categoria": "estampa",
-    "precio": 35000,
-    "codigo": "ESTEST36"
-  },
-  {
-    "nombre": "Eukanuba Adulto Premium Performance x 15kg",
+    "nombre": "Eukanuba Adulto Premium Performance",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 133700,
-    "codigo": "490812B2"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 133700,
+        "codigo": "490812B2"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-adulto-premium-performance"
   },
   {
-    "nombre": "Eukanuba Cachorro Premium Performance x 15kg",
+    "nombre": "Eukanuba Cachorro Premium Performance",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 133500,
-    "codigo": "EE95786B"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 133500,
+        "codigo": "EE95786B"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-cachorro-premium-performance"
   },
   {
-    "nombre": "Eukanuba Fit Body Raza Grande (Control de peso) x 15kg",
+    "nombre": "Eukanuba Fit Body Raza Grande (Control de peso)",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 142000,
-    "codigo": "2A9E3F62"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 36000,
+        "codigo": "16CED2FB"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 142000,
+        "codigo": "2A9E3F62"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-fit-body-raza-grande-control-de-peso"
   },
   {
-    "nombre": "Eukanuba Fit Body Raza Grande (Control de peso) x 3kg",
+    "nombre": "Eukanuba Fit Body Raza Mediana (Control de peso)",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 36000,
-    "codigo": "16CED2FB"
-  },
-  {
-    "nombre": "Eukanuba Fit Body Raza Mediana (Control de peso) x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 140700,
-    "codigo": "AE1E4ADA"
-  },
-  {
-    "nombre": "Eukanuba Fit Body Raza Mediana (Control de peso) x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 36200,
-    "codigo": "413A70F7"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 36200,
+        "codigo": "413A70F7"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 140700,
+        "codigo": "AE1E4ADA"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-fit-body-raza-mediana-control-de-peso"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Pequeña x 3kg (Control de peso)",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 36800,
-    "codigo": "D184208E"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 36800,
+        "codigo": "D184208E"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-fit-body-raza-pequena-x-3kg-control-de-peso"
   },
   {
-    "nombre": "Eukanuba Gato Adulto Top Condition x 15kg",
+    "nombre": "Eukanuba Gato Adulto Top Condition",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 174000,
-    "codigo": "3C394158"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 46000,
+        "codigo": "CA7D8886"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 101800,
+        "codigo": "86934234"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 174000,
+        "codigo": "3C394158"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-gato-adulto-top-condition"
   },
   {
-    "nombre": "Eukanuba Gato Adulto Top Condition x 3kg",
+    "nombre": "Eukanuba Gato Kitten Healthy Start",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 46000,
-    "codigo": "CA7D8886"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 47500,
+        "codigo": "BE739FB0"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 106800,
+        "codigo": "FAA5BB5A"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-gato-kitten-healthy-start"
   },
   {
-    "nombre": "Eukanuba Gato Adulto Top Condition x 7,5kg",
+    "nombre": "Eukanuba Lamb Perro Adulto",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 101800,
-    "codigo": "86934234"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 32200,
+        "codigo": "635414AD"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 120500,
+        "codigo": "8374071C"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-lamb-perro-adulto"
   },
   {
-    "nombre": "Eukanuba Gato Kitten Healthy Start 7,5kg",
+    "nombre": "Eukanuba Lamb Perro Cachorro",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 106800,
-    "codigo": "FAA5BB5A"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 33400,
+        "codigo": "98B405C7"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 121100,
+        "codigo": "14CFDDEA"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-lamb-perro-cachorro"
   },
   {
-    "nombre": "Eukanuba Gato Kitten Healthy Start x 3kg",
+    "nombre": "Eukanuba Perro Adulto Raza Grande",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 47500,
-    "codigo": "BE739FB0"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 33100,
+        "codigo": "7E2E9A8D"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 126000,
+        "codigo": "F8283CD5"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-adulto-raza-grande"
   },
   {
-    "nombre": "Eukanuba Lamb Perro Adulto x 15kg",
+    "nombre": "Eukanuba Perro Adulto Raza Mediana",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 120500,
-    "codigo": "8374071C"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 33100,
+        "codigo": "E78D82AB"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 126000,
+        "codigo": "35B6DCE6"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-adulto-raza-mediana"
   },
   {
-    "nombre": "Eukanuba Lamb Perro Adulto x 3kg",
+    "nombre": "Eukanuba Perro Adulto Raza Pequeña",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 32200,
-    "codigo": "635414AD"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 33700,
+        "codigo": "0CD1E778"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 77600,
+        "codigo": "5ACCF653"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 130400,
+        "codigo": "00CD589E"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-adulto-raza-pequena"
   },
   {
-    "nombre": "Eukanuba Lamb Perro Cachorro x 15kg",
+    "nombre": "Eukanuba Perro Cachorro Raza Grande",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 121100,
-    "codigo": "14CFDDEA"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 34300,
+        "codigo": "C9056F7C"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 127100,
+        "codigo": "61BE5F07"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-cachorro-raza-grande"
   },
   {
-    "nombre": "Eukanuba Lamb Perro Cachorro x 3kg",
+    "nombre": "Eukanuba Perro Cachorro Raza Mediana",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 33400,
-    "codigo": "98B405C7"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 34300,
+        "codigo": "84553E27"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 127100,
+        "codigo": "38E48C1D"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-cachorro-raza-mediana"
   },
   {
-    "nombre": "Eukanuba Perro Adulto Raza Grande x 15kg",
+    "nombre": "Eukanuba Perro Cachorro Raza Pequeña",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 126000,
-    "codigo": "F8283CD5"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 34800,
+        "codigo": "E2A754CE"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 133700,
+        "codigo": "9C5C34CB"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-cachorro-raza-pequena"
   },
   {
-    "nombre": "Eukanuba Perro Adulto Raza Grande x 3kg",
+    "nombre": "Eukanuba Perro Senior Raza Grande",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 33100,
-    "codigo": "7E2E9A8D"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 34300,
+        "codigo": "B335FECD"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 132400,
+        "codigo": "EE9E263A"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-senior-raza-grande"
   },
   {
-    "nombre": "Eukanuba Perro Adulto Raza Mediana x 15kg",
+    "nombre": "Eukanuba Perro Senior Raza Mediana",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 126000,
-    "codigo": "35B6DCE6"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 35100,
+        "codigo": "578D67C7"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 132900,
+        "codigo": "B8064823"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-senior-raza-mediana"
   },
   {
-    "nombre": "Eukanuba Perro Adulto Raza Mediana x 3kg",
+    "nombre": "Eukanuba Perro Senior Raza Pequeña",
     "marca": "Eukanuba",
     "categoria": "eukanuba",
-    "precio": 33100,
-    "codigo": "E78D82AB"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 36000,
+        "codigo": "9B5DBFD1"
+      }
+    ],
+    "slug": "eukanuba-eukanuba-perro-senior-raza-pequena"
   },
   {
-    "nombre": "Eukanuba Perro Adulto Raza Pequeña x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 130400,
-    "codigo": "00CD589E"
-  },
-  {
-    "nombre": "Eukanuba Perro Adulto Raza Pequeña x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 33700,
-    "codigo": "0CD1E778"
-  },
-  {
-    "nombre": "Eukanuba Perro Adulto Raza Pequeña x 7,5kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 77600,
-    "codigo": "5ACCF653"
-  },
-  {
-    "nombre": "Eukanuba Perro Cachorro Raza Grande x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 127100,
-    "codigo": "61BE5F07"
-  },
-  {
-    "nombre": "Eukanuba Perro Cachorro Raza Grande x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 34300,
-    "codigo": "C9056F7C"
-  },
-  {
-    "nombre": "Eukanuba Perro Cachorro Raza Mediana x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 127100,
-    "codigo": "38E48C1D"
-  },
-  {
-    "nombre": "Eukanuba Perro Cachorro Raza Mediana x3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 34300,
-    "codigo": "84553E27"
-  },
-  {
-    "nombre": "Eukanuba Perro Cachorro Raza Pequeña x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 133700,
-    "codigo": "9C5C34CB"
-  },
-  {
-    "nombre": "Eukanuba Perro Cachorro Raza Pequeña x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 34800,
-    "codigo": "E2A754CE"
-  },
-  {
-    "nombre": "Eukanuba Perro Senior Raza Grande x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 132400,
-    "codigo": "EE9E263A"
-  },
-  {
-    "nombre": "Eukanuba Perro Senior Raza Grande x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 34300,
-    "codigo": "B335FECD"
-  },
-  {
-    "nombre": "Eukanuba Perro Senior Raza Mediana x 15kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 132900,
-    "codigo": "B8064823"
-  },
-  {
-    "nombre": "Eukanuba Perro Senior Raza Mediana x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 35100,
-    "codigo": "578D67C7"
-  },
-  {
-    "nombre": "Eukanuba Perro Senior Raza Pequeña x 3kg",
-    "marca": "Eukanuba",
-    "categoria": "eukanuba",
-    "precio": 36000,
-    "codigo": "9B5DBFD1"
-  },
-  {
-    "nombre": "Fawna Adulto Pequeño x 7,5kg",
+    "nombre": "Fawna Adulto Pequeño",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 75300,
-    "codigo": "FAWFAW12"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 75300,
+        "codigo": "FAWFAW12"
+      }
+    ],
+    "slug": "fawna-fawna-adulto-pequeno"
   },
   {
-    "nombre": "Fawna Gatitos x 1kg",
+    "nombre": "Fawna Gatitos",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 23600,
-    "codigo": "FAWFAW25"
+    "variantes": [
+      {
+        "peso": "1 kg",
+        "precio": 23600,
+        "codigo": "FAWFAW25"
+      },
+      {
+        "peso": "3 kg",
+        "precio": 57200,
+        "codigo": "FAWFAW26"
+      }
+    ],
+    "slug": "fawna-fawna-gatitos"
   },
   {
-    "nombre": "Fawna Gatitos x 3kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-perros",
-    "precio": 57200,
-    "codigo": "FAWFAW26"
-  },
-  {
-    "nombre": "Fawna Gato Adulto x 3kg",
+    "nombre": "Fawna Gato Adulto",
     "marca": "Fawna",
     "categoria": "vitalcan-gatos",
-    "precio": 54900,
-    "codigo": "FAWFAW22"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 54900,
+        "codigo": "FAWFAW22"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 100500,
+        "codigo": "FAWFAW21"
+      }
+    ],
+    "slug": "fawna-fawna-gato-adulto"
   },
   {
-    "nombre": "Fawna Gato Adulto x 7,5kg",
+    "nombre": "Fawna Gato Esterilizado",
     "marca": "Fawna",
     "categoria": "vitalcan-gatos",
-    "precio": 100500,
-    "codigo": "FAWFAW21"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 60900,
+        "codigo": "FAWFAW24"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 110100,
+        "codigo": "FAWFAW23"
+      }
+    ],
+    "slug": "fawna-fawna-gato-esterilizado"
   },
   {
-    "nombre": "Fawna Gato Esterilizado x 3kg",
+    "nombre": "Fawna Gato Urinario",
     "marca": "Fawna",
     "categoria": "vitalcan-gatos",
-    "precio": 60900,
-    "codigo": "FAWFAW24"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 64000,
+        "codigo": "FAWFAW28"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 114000,
+        "codigo": "FAWFAW27"
+      }
+    ],
+    "slug": "fawna-fawna-gato-urinario"
   },
   {
-    "nombre": "Fawna Gato Esterilizado x 7,5kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-gatos",
-    "precio": 110100,
-    "codigo": "FAWFAW23"
-  },
-  {
-    "nombre": "Fawna Gato Urinario x 3kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-gatos",
-    "precio": 64000,
-    "codigo": "FAWFAW28"
-  },
-  {
-    "nombre": "Fawna Gato Urinario x 7,5kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-gatos",
-    "precio": 114000,
-    "codigo": "FAWFAW27"
-  },
-  {
-    "nombre": "Fawna Perro Adulto Light x 15kg",
+    "nombre": "Fawna Perro Adulto Light",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 124200,
-    "codigo": "FAWFAW16"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 41300,
+        "codigo": "FAWFAW17"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 124200,
+        "codigo": "FAWFAW16"
+      }
+    ],
+    "slug": "fawna-fawna-perro-adulto-light"
   },
   {
-    "nombre": "Fawna Perro Adulto Light x 3kg",
+    "nombre": "Fawna Perro Adulto Pequeño",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 41300,
-    "codigo": "FAWFAW17"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 34440,
+        "codigo": "FAWFAW29"
+      }
+    ],
+    "slug": "fawna-fawna-perro-adulto-pequeno"
   },
   {
-    "nombre": "Fawna Perro Adulto Pequeño x 3kg",
+    "nombre": "Fawna Perro Adulto",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 34440,
-    "codigo": "FAWFAW29"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 35800,
+        "codigo": "FAWFAW15"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 127000,
+        "codigo": "FAWFAW14"
+      }
+    ],
+    "slug": "fawna-fawna-perro-adulto"
   },
   {
-    "nombre": "Fawna Perro Adulto x 15kg",
+    "nombre": "Fawna Perro Cachorro Mediano y Grande",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 127000,
-    "codigo": "FAWFAW14"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 40900,
+        "codigo": "FAWFAW30"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 131500,
+        "codigo": "FAWFAW20"
+      }
+    ],
+    "slug": "fawna-fawna-perro-cachorro-mediano-y-grande"
   },
   {
-    "nombre": "Fawna Perro Adulto x 3kg",
+    "nombre": "Fawna Perro Cachorro Pequeño",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 35800,
-    "codigo": "FAWFAW15"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 40900,
+        "codigo": "FAWFAW19"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 77700,
+        "codigo": "FAWFAW18"
+      }
+    ],
+    "slug": "fawna-fawna-perro-cachorro-pequeno"
   },
   {
-    "nombre": "Fawna Perro Cachorro Mediano y Grande x 15kg",
+    "nombre": "Fawna Perro Senior",
     "marca": "Fawna",
     "categoria": "vitalcan-perros",
-    "precio": 131500,
-    "codigo": "FAWFAW20"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 124200,
+        "codigo": "FAWFAW11"
+      }
+    ],
+    "slug": "fawna-fawna-perro-senior"
   },
   {
-    "nombre": "Fawna Perro Cachorro Mediano y Grande x 3kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-perros",
-    "precio": 40900,
-    "codigo": "FAWFAW30"
-  },
-  {
-    "nombre": "Fawna Perro Cachorro Pequeño x 3kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-perros",
-    "precio": 40900,
-    "codigo": "FAWFAW19"
-  },
-  {
-    "nombre": "Fawna Perro Cachorro Pequeño x 7,5kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-perros",
-    "precio": 77700,
-    "codigo": "FAWFAW18"
-  },
-  {
-    "nombre": "Fawna Perro Senior 15 Kg",
-    "marca": "Fawna",
-    "categoria": "vitalcan-perros",
-    "precio": 124200,
-    "codigo": "FAWFAW11"
-  },
-  {
-    "nombre": "Gran Campeón Cachorros x 10kg",
+    "nombre": "Gran Campeón Cachorros",
     "marca": "Gran Campeón",
     "categoria": "otros-alimentos",
-    "precio": 30100,
-    "codigo": "GRAGRA01"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 30100,
+        "codigo": "GRAGRA01"
+      }
+    ],
+    "slug": "gran-campeon-gran-campeon-cachorros"
   },
   {
-    "nombre": "Kongo Perro Adulto Mediano y Grande 21 Kg",
+    "nombre": "Kongo Perro Adulto Mediano y Grande",
     "marca": "Voraz Y Kongo",
     "categoria": "otros-alimentos",
-    "precio": 41500,
-    "codigo": "KONVOR05"
+    "variantes": [
+      {
+        "peso": "21 kg",
+        "precio": 41500,
+        "codigo": "KONVOR05"
+      }
+    ],
+    "slug": "voraz-y-kongo-kongo-perro-adulto-mediano-y-grande"
   },
   {
-    "nombre": "Lata Nutrique Carne x 85gr",
+    "nombre": "Lata Nutrique Carne",
     "marca": "Nutrique",
     "categoria": "humedos",
-    "precio": 8000,
-    "codigo": "LATNUT01"
+    "variantes": [
+      {
+        "peso": "85 g",
+        "precio": 8000,
+        "codigo": "LATNUT01"
+      }
+    ],
+    "slug": "nutrique-lata-nutrique-carne"
   },
   {
     "nombre": "Lata Royal Canin Recovery",
     "marca": "Royal Canin",
     "categoria": "humedos",
-    "precio": 12888,
-    "codigo": "LATBAL01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 12888,
+        "codigo": "LATBAL01"
+      }
+    ],
+    "slug": "royal-canin-lata-royal-canin-recovery"
   },
   {
-    "nombre": "Maintenance Criadores High Pro Adultos 22kg",
+    "nombre": "Maintenance Criadores High Pro Adultos",
     "marca": "Criadores Maintenance",
     "categoria": "vitalcan-perros",
-    "precio": 66000,
-    "codigo": "MAICRI09"
+    "variantes": [
+      {
+        "peso": "22 kg",
+        "precio": 66000,
+        "codigo": "MAICRI09"
+      }
+    ],
+    "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos"
   },
   {
-    "nombre": "Maintenance Criadores High Pro Adultos Cordero 20Kg",
+    "nombre": "Maintenance Criadores High Pro Adultos Cordero",
     "marca": "Criadores Maintenance",
     "categoria": "vitalcan-perros",
-    "precio": 67000,
-    "codigo": "MAICRI10"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 67000,
+        "codigo": "MAICRI10"
+      }
+    ],
+    "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos-cordero"
   },
   {
-    "nombre": "Maxxium Dog Adult Cordero y Arroz x 15kg",
+    "nombre": "Maxxium Dog Adult Cordero y Arroz",
     "marca": "Maxxium",
     "categoria": "otros-alimentos",
-    "precio": 99700,
-    "codigo": "MAXMAX01"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 99700,
+        "codigo": "MAXMAX01"
+      }
+    ],
+    "slug": "maxxium-maxxium-dog-adult-cordero-y-arroz"
   },
   {
     "nombre": "MV Gato Urinary 2kgs",
     "marca": "MV",
     "categoria": "farmacos",
-    "precio": 27000,
-    "codigo": "MVGMVX01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 27000,
+        "codigo": "MVGMVX01"
+      }
+    ],
+    "slug": "mv-mv-gato-urinary-2kgs"
   },
   {
-    "nombre": "Nutrique Gato Adulto +7 años - Healthy Maint. 2Kg",
+    "nombre": "Nutrique Gato Adulto +7 años - Healthy Maint",
     "marca": "Nutrique",
     "categoria": "vitalcan-gatos",
-    "precio": 56400,
-    "codigo": "NUTNUT66"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 56400,
+        "codigo": "NUTNUT66"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 147300,
+        "codigo": "NUTNUT65"
+      }
+    ],
+    "slug": "nutrique-nutrique-gato-adulto-7-anos-healthy-maint"
   },
   {
-    "nombre": "Nutrique Gato Adulto +7 años - Healthy Maint. 7,5Kg",
+    "nombre": "Nutrique Gato Adulto Joven Healthy Maint",
     "marca": "Nutrique",
     "categoria": "vitalcan-gatos",
-    "precio": 147300,
-    "codigo": "NUTNUT65"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 52900,
+        "codigo": "NUTNUT62"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 136600,
+        "codigo": "NUTNUT61"
+      }
+    ],
+    "slug": "nutrique-nutrique-gato-adulto-joven-healthy-maint"
   },
   {
-    "nombre": "Nutrique Gato Adulto Joven Healthy Maint. 2Kg",
+    "nombre": "Nutrique Gato Kitten",
     "marca": "Nutrique",
     "categoria": "vitalcan-gatos",
-    "precio": 52900,
-    "codigo": "NUTNUT62"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 59100,
+        "codigo": "NUTNUT60"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 157300,
+        "codigo": "NUTNUT59"
+      }
+    ],
+    "slug": "nutrique-nutrique-gato-kitten"
   },
   {
-    "nombre": "Nutrique Gato Adulto Joven Healthy Maint. 7,5Kg",
+    "nombre": "Nutrique Gato Urinary Care",
     "marca": "Nutrique",
     "categoria": "vitalcan-gatos",
-    "precio": 136600,
-    "codigo": "NUTNUT61"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 56400,
+        "codigo": "NUTNUT64"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 149100,
+        "codigo": "NUTNUT63"
+      }
+    ],
+    "slug": "nutrique-nutrique-gato-urinary-care"
   },
   {
-    "nombre": "Nutrique Gato Kitten 2Kg",
-    "marca": "Nutrique",
-    "categoria": "vitalcan-gatos",
-    "precio": 59100,
-    "codigo": "NUTNUT60"
-  },
-  {
-    "nombre": "Nutrique Gato Kitten 7,5Kg",
-    "marca": "Nutrique",
-    "categoria": "vitalcan-gatos",
-    "precio": 157300,
-    "codigo": "NUTNUT59"
-  },
-  {
-    "nombre": "Nutrique Gato Urinary Care 2Kg",
-    "marca": "Nutrique",
-    "categoria": "vitalcan-gatos",
-    "precio": 56400,
-    "codigo": "NUTNUT64"
-  },
-  {
-    "nombre": "Nutrique Gato Urinary Care 7,5Kg",
-    "marca": "Nutrique",
-    "categoria": "vitalcan-gatos",
-    "precio": 149100,
-    "codigo": "NUTNUT63"
-  },
-  {
-    "nombre": "Nutrique Perro Adulto Mediano 12 Kg",
+    "nombre": "Nutrique Perro Adulto Mediano",
     "marca": "Nutrique",
     "categoria": "vitalcan-perros",
-    "precio": 123200,
-    "codigo": "NUTNUT56"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 52200,
+        "codigo": "NUTNUT57"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 123200,
+        "codigo": "NUTNUT56"
+      }
+    ],
+    "slug": "nutrique-nutrique-perro-adulto-mediano"
   },
   {
-    "nombre": "Nutrique Perro Adulto Mediano 3Kg",
+    "nombre": "Nutrique Perro Adulto Raza Pequeña",
     "marca": "Nutrique",
     "categoria": "vitalcan-perros",
-    "precio": 52200,
-    "codigo": "NUTNUT57"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 52200,
+        "codigo": "NUTNUT55"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 105500,
+        "codigo": "NUTNUT54"
+      }
+    ],
+    "slug": "nutrique-nutrique-perro-adulto-raza-pequena"
   },
   {
-    "nombre": "Nutrique Perro Adulto Raza Pequeña 3 Kg",
+    "nombre": "Nutrique Perro Cachorro Pequeño",
     "marca": "Nutrique",
     "categoria": "vitalcan-perros",
-    "precio": 52200,
-    "codigo": "NUTNUT55"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 56900,
+        "codigo": "NUTNUT58"
+      }
+    ],
+    "slug": "nutrique-nutrique-perro-cachorro-pequeno"
   },
   {
-    "nombre": "Nutrique Perro Adulto Raza Pequeña 7,5 Kg",
+    "nombre": "Nutrique Senior Adulto Pequeño",
     "marca": "Nutrique",
     "categoria": "vitalcan-perros",
-    "precio": 105500,
-    "codigo": "NUTNUT54"
-  },
-  {
-    "nombre": "Nutrique Perro Cachorro Pequeño 3kg",
-    "marca": "Nutrique",
-    "categoria": "vitalcan-perros",
-    "precio": 56900,
-    "codigo": "NUTNUT58"
-  },
-  {
-    "nombre": "Nutrique Senior Adulto Pequeño 3kgs",
-    "marca": "Nutrique",
-    "categoria": "vitalcan-perros",
-    "precio": 47100,
-    "codigo": "NUTNUT67"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 47100,
+        "codigo": "NUTNUT67"
+      }
+    ],
+    "slug": "nutrique-nutrique-senior-adulto-pequeno"
   },
   {
     "nombre": "OCLADERM 16mg Caja x 20 Comprimidos",
     "marca": "Ocladerm",
     "categoria": "farmacos",
-    "precio": 44445,
-    "codigo": "OCLOCL01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 44445,
+        "codigo": "OCLOCL01"
+      }
+    ],
+    "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos"
   },
   {
     "nombre": "OCLADERM 16mg Caja x 20 Comprimidos",
     "marca": "Ocladerm",
     "categoria": "farmacos",
-    "precio": 44445,
-    "codigo": "OCLOCL02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 44445,
+        "codigo": "OCLOCL02"
+      }
+    ],
+    "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos-oclocl02"
   },
   {
-    "nombre": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande x 20kg",
+    "nombre": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 90400,
-    "codigo": "OLDOLD39"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 90400,
+        "codigo": "OLDOLD39"
+      }
+    ],
+    "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-mediana-y-grande"
   },
   {
-    "nombre": "Old Prince Equilibrium Perro Adulto Raza Pequeña x 15kg",
+    "nombre": "Old Prince Equilibrium Perro Adulto Raza Pequeña",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 81300,
-    "codigo": "OLDOLD14"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 24000,
+        "codigo": "OLDOLD29"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 47200,
+        "codigo": "OLDOLD30"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 81300,
+        "codigo": "OLDOLD14"
+      }
+    ],
+    "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-pequena"
   },
   {
-    "nombre": "Old Prince Equilibrium Perro Adulto Raza Pequeña x 3kg",
+    "nombre": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 24000,
-    "codigo": "OLDOLD29"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 81300,
+        "codigo": "OLDOLD13"
+      }
+    ],
+    "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-mediana-y-grande"
   },
   {
-    "nombre": "Old Prince Equilibrium Perro Adulto Raza Pequeña x 7,5kg",
+    "nombre": "Old Prince Equilibrium Perro Cachorro Raza Pequeña",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 47200,
-    "codigo": "OLDOLD30"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 20555,
+        "codigo": "OLDOLD25"
+      }
+    ],
+    "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-pequena"
   },
   {
-    "nombre": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande x 15kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 81300,
-    "codigo": "OLDOLD13"
-  },
-  {
-    "nombre": "Old Prince Equilibrium Perro Cachorro Raza Pequeña x  3kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 20555,
-    "codigo": "OLDOLD25"
-  },
-  {
-    "nombre": "Old Prince Novel Gato Cordero x 3kg",
+    "nombre": "Old Prince Novel Gato Cordero",
     "marca": "Old Prince",
     "categoria": "vitalcan-gatos",
-    "precio": 43200,
-    "codigo": "OLDOLD35"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 43200,
+        "codigo": "OLDOLD35"
+      }
+    ],
+    "slug": "old-prince-old-prince-novel-gato-cordero"
   },
   {
-    "nombre": "Old Prince Novel Perro Adulto Mordida Pequeña x 15kg",
+    "nombre": "Old Prince Novel Perro Adulto Mordida Pequeña",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 111200,
-    "codigo": "OLDOLD32"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 29800,
+        "codigo": "OLDOLD20"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 55000,
+        "codigo": "OLDOLD41"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 111200,
+        "codigo": "OLDOLD32"
+      }
+    ],
+    "slug": "old-prince-old-prince-novel-perro-adulto-mordida-pequena"
   },
   {
-    "nombre": "Old Prince Novel Perro Adulto Mordida Pequeña x 3kg",
+    "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 29800,
-    "codigo": "OLDOLD20"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 90200,
+        "codigo": "OLDOLD16"
+      }
+    ],
+    "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cerdo"
   },
   {
-    "nombre": "Old Prince Novel Perro Adulto Mordida Pequeña x 7.5kgs",
+    "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 55000,
-    "codigo": "OLDOLD41"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 27600,
+        "codigo": "OLDOLD34"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 55900,
+        "codigo": "OLDOLD33"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 98600,
+        "codigo": "OLDOLD15"
+      }
+    ],
+    "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cordero"
   },
   {
-    "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo 15kg",
+    "nombre": "Old prince Novel Perro Cachorro Raza Mediana y Grande",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 90200,
-    "codigo": "OLDOLD16"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 29800,
+        "codigo": "OLDOLD27"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 61000,
+        "codigo": "OLDOLD31"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 111200,
+        "codigo": "OLDOLD26"
+      }
+    ],
+    "slug": "old-prince-old-prince-novel-perro-cachorro-raza-mediana-y-grande"
   },
   {
-    "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero 15kg",
+    "nombre": "Old Prince Novel Perro Senior",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 98600,
-    "codigo": "OLDOLD15"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 28700,
+        "codigo": "OLDOLD40"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 102000,
+        "codigo": "OLDOLD37"
+      }
+    ],
+    "slug": "old-prince-old-prince-novel-perro-senior"
   },
   {
-    "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero x 3kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 27600,
-    "codigo": "OLDOLD34"
-  },
-  {
-    "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero x 7,5kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 55900,
-    "codigo": "OLDOLD33"
-  },
-  {
-    "nombre": "Old prince Novel Perro Cachorro Raza Mediana y Grande x 15kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 111200,
-    "codigo": "OLDOLD26"
-  },
-  {
-    "nombre": "Old prince Novel Perro Cachorro Raza Mediana y Grande x 3kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 29800,
-    "codigo": "OLDOLD27"
-  },
-  {
-    "nombre": "Old prince Novel Perro Cachorro Raza Mediana y Grande x 7,5kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 61000,
-    "codigo": "OLDOLD31"
-  },
-  {
-    "nombre": "Old Prince Novel Perro Senior x 15kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 102000,
-    "codigo": "OLDOLD37"
-  },
-  {
-    "nombre": "Old Prince Novel Perro Senior x 3kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 28700,
-    "codigo": "OLDOLD40"
-  },
-  {
-    "nombre": "Old Prince Premium Gato x 7,5kg",
+    "nombre": "Old Prince Premium Gato",
     "marca": "Old Prince",
     "categoria": "vitalcan-gatos",
-    "precio": 51100,
-    "codigo": "OLDOLD28"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 51100,
+        "codigo": "OLDOLD28"
+      }
+    ],
+    "slug": "old-prince-old-prince-premium-gato"
   },
   {
-    "nombre": "Old Prince Premium Perro Adulto Cordero x 15kg",
+    "nombre": "Old Prince Premium Perro Adulto Cordero",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 87600,
-    "codigo": "OLDOLD19"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 87600,
+        "codigo": "OLDOLD19"
+      }
+    ],
+    "slug": "old-prince-old-prince-premium-perro-adulto-cordero"
   },
   {
-    "nombre": "Old Prince Premium Perro Adulto x 20kg",
+    "nombre": "Old Prince Premium Perro Adulto",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 76000,
-    "codigo": "OLDOLD17"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 17400,
+        "codigo": "OLDOLD18"
+      },
+      {
+        "peso": "20 kg",
+        "precio": 76000,
+        "codigo": "OLDOLD17"
+      }
+    ],
+    "slug": "old-prince-old-prince-premium-perro-adulto"
   },
   {
-    "nombre": "Old Prince Premium Perro Adulto x 3kg",
+    "nombre": "Old Prince Premium Perro Cachorro",
     "marca": "Old Prince",
     "categoria": "vitalcan-perros",
-    "precio": 17400,
-    "codigo": "OLDOLD18"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 18400,
+        "codigo": "OLDOLD22"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 64200,
+        "codigo": "OLDOLD21"
+      }
+    ],
+    "slug": "old-prince-old-prince-premium-perro-cachorro"
   },
   {
-    "nombre": "Old Prince Premium Perro Cachorro x 15kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 64200,
-    "codigo": "OLDOLD21"
-  },
-  {
-    "nombre": "Old Prince Premium Perro Cachorro x 3kg",
-    "marca": "Old Prince",
-    "categoria": "vitalcan-perros",
-    "precio": 18400,
-    "codigo": "OLDOLD22"
-  },
-  {
-    "nombre": "Pellet Sanitario x 15kg",
+    "nombre": "Pellet Sanitario",
     "marca": "PELLET",
     "categoria": "camitas",
-    "precio": 23000,
-    "codigo": "PELPEL01"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 23000,
+        "codigo": "PELPEL01"
+      }
+    ],
+    "slug": "pellet-pellet-sanitario"
   },
   {
-    "nombre": "Piedras Absorsol Baby x 2kg",
+    "nombre": "Piedras Absorsol Baby",
     "marca": "Absorsol",
     "categoria": "camitas",
-    "precio": 5300,
-    "codigo": "PIEABS03"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 5300,
+        "codigo": "PIEABS03"
+      }
+    ],
+    "slug": "absorsol-piedras-absorsol-baby"
   },
   {
-    "nombre": "Piedras Absorsol Premium x 2kg",
+    "nombre": "Piedras Absorsol Premium",
     "marca": "Absorsol",
     "categoria": "camitas",
-    "precio": 4900,
-    "codigo": "PIEABS02"
-  },
-  {
-    "nombre": "Piedras Absorsol Premium x 3,6kg",
-    "marca": "Absorsol",
-    "categoria": "camitas",
-    "precio": 6500,
-    "codigo": "PIEABS01"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 4900,
+        "codigo": "PIEABS02"
+      },
+      {
+        "peso": "3,6 kg",
+        "precio": 6500,
+        "codigo": "PIEABS01"
+      }
+    ],
+    "slug": "absorsol-piedras-absorsol-premium"
   },
   {
     "nombre": "Pipeta Frontline Plus Gatos",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 17000,
-    "codigo": "PIPFRO01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 17000,
+        "codigo": "PIPFRO01"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-plus-gatos"
   },
   {
-    "nombre": "Pipeta Frontline Plus Perros  10-20kg",
+    "nombre": "Pipeta Frontline Plus Perros 10-20kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 22000,
-    "codigo": "PIPFRO03"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 22000,
+        "codigo": "PIPFRO03"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-plus-perros-10-20kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 1-10kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 20000,
-    "codigo": "PIPFRO02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 20000,
+        "codigo": "PIPFRO02"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-plus-perros-1-10kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 20-40kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 31111,
-    "codigo": "FROABS01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 31111,
+        "codigo": "FROABS01"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-plus-perros-20-40kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 40-60kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 35000,
-    "codigo": "PIPFRO04"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 35000,
+        "codigo": "PIPFRO04"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-plus-perros-40-60kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Gatos",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 14000,
-    "codigo": "PIPFRO08"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 14000,
+        "codigo": "PIPFRO08"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-spot-gatos"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 10-20kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 17000,
-    "codigo": "PIPFRO06"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 17000,
+        "codigo": "PIPFRO06"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-spot-perros-10-20kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 1-10kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 16000,
-    "codigo": "PIPFRO05"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 16000,
+        "codigo": "PIPFRO05"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-spot-perros-1-10kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 20-40kg",
     "marca": "Frontline",
     "categoria": "farmacos",
-    "precio": 18000,
-    "codigo": "PIPFRO07"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 18000,
+        "codigo": "PIPFRO07"
+      }
+    ],
+    "slug": "frontline-pipeta-frontline-spot-perros-20-40kg"
   },
   {
     "nombre": "Pouch Complete Gato Caja x12uds",
     "marca": "Humedos",
     "categoria": "humedos",
-    "precio": 22000,
-    "codigo": "POUHUM02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 22000,
+        "codigo": "POUHUM02"
+      }
+    ],
+    "slug": "humedos-pouch-complete-gato-caja-x12uds"
   },
   {
     "nombre": "Pouch Complete Perro Caja x12uds",
     "marca": "Humedos",
     "categoria": "humedos",
-    "precio": 22000,
-    "codigo": "POUHUM01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 22000,
+        "codigo": "POUHUM01"
+      }
+    ],
+    "slug": "humedos-pouch-complete-perro-caja-x12uds"
   },
   {
     "nombre": "Promo Latas Balanced Gato Merluza x 85g (4uds)",
     "marca": "Humedos",
     "categoria": "humedos",
-    "precio": 13200,
-    "codigo": "PROHUM01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 13200,
+        "codigo": "PROHUM01"
+      }
+    ],
+    "slug": "humedos-promo-latas-balanced-gato-merluza-x-85g-4uds"
   },
   {
     "nombre": "Promo Latas Balanced Perro Pollo x 85g (4uds)",
     "marca": "Promociones",
     "categoria": "humedos",
-    "precio": 13200,
-    "codigo": "PROPRO02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 13200,
+        "codigo": "PROPRO02"
+      }
+    ],
+    "slug": "promociones-promo-latas-balanced-perro-pollo-x-85g-4uds"
   },
   {
     "nombre": "Promo Latas Complete Gatos 340gr (3uds)",
     "marca": "Promociones",
     "categoria": "humedos",
-    "precio": 10000,
-    "codigo": "PROPRO03"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 10000,
+        "codigo": "PROPRO03"
+      }
+    ],
+    "slug": "promociones-promo-latas-complete-gatos-340gr-3uds"
   },
   {
     "nombre": "Promo Latas Complete Pollo Perro Adulto x 340g (3uds)",
     "marca": "Promociones",
     "categoria": "humedos",
-    "precio": 11110,
-    "codigo": "PROPRO04"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 11110,
+        "codigo": "PROPRO04"
+      }
+    ],
+    "slug": "promociones-promo-latas-complete-pollo-perro-adulto-x-340g-3uds"
   },
   {
     "nombre": "Promo Latas Natural Recipe Cachorros",
     "marca": "Humedos",
     "categoria": "humedos",
-    "precio": 11000,
-    "codigo": "PROHUM02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 11000,
+        "codigo": "PROHUM02"
+      }
+    ],
+    "slug": "humedos-promo-latas-natural-recipe-cachorros"
   },
   {
     "nombre": "PROMO LATAS NUTRIQUE",
     "marca": "Nutrique",
     "categoria": "humedos",
-    "precio": 11110,
-    "codigo": "PRONUT01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 11110,
+        "codigo": "PRONUT01"
+      }
+    ],
+    "slug": "nutrique-promo-latas-nutrique"
   },
   {
     "nombre": "PROMO LATAS POLLO PERRO",
     "marca": "Balanced",
     "categoria": "humedos",
-    "precio": 13200,
-    "codigo": "PROBAL01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 13200,
+        "codigo": "PROBAL01"
+      }
+    ],
+    "slug": "balanced-promo-latas-pollo-perro"
   },
   {
-    "nombre": "Raza Gatos Adultos Sabor Pescado x 15kg",
+    "nombre": "Raza Gatos Adultos Sabor Pescado",
     "marca": "Raza",
     "categoria": "otros-alimentos",
-    "precio": 47300,
-    "codigo": "RAZRAZ01"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 47300,
+        "codigo": "RAZRAZ01"
+      }
+    ],
+    "slug": "raza-raza-gatos-adultos-sabor-pescado"
   },
   {
-    "nombre": "Royal Bulldog Frances 7.5kg",
+    "nombre": "Royal Bulldog Frances",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 131000,
-    "codigo": "ROYROY99"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 131000,
+        "codigo": "ROYROY99"
+      }
+    ],
+    "slug": "royal-canin-royal-bulldog-frances"
   },
   {
-    "nombre": "Royal Canin Caniche Adulto 3kg",
+    "nombre": "Royal Canin Caniche Adulto",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 61400,
-    "codigo": "ROYROY83"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 61400,
+        "codigo": "ROYROY83"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-caniche-adulto"
   },
   {
-    "nombre": "Royal Canin Chihuaha 1kg",
+    "nombre": "Royal Canin Chihuaha",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 23000,
-    "codigo": "442A2B1F"
+    "variantes": [
+      {
+        "peso": "1 kg",
+        "precio": 23000,
+        "codigo": "442A2B1F"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-chihuaha"
   },
   {
-    "nombre": "Royal Canin Fit 32 - gato fit 3kg",
+    "nombre": "Royal Canin Fit 32 - gato fit",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 72000,
-    "codigo": "ROYROY94"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 72000,
+        "codigo": "ROYROY94"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-fit-32-gato-fit"
   },
   {
-    "nombre": "Royal Canin Gastrointestinal Perro 10kg",
+    "nombre": "Royal Canin Gastrointestinal Perro",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 159000,
-    "codigo": "ROYROY87"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 159000,
+        "codigo": "ROYROY87"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gastrointestinal-perro"
   },
   {
-    "nombre": "Royal Canin Gato Castrado/Control de Peso x 12kg",
+    "nombre": "Royal Canin Gato Castrado/Control de Peso",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 230000,
-    "codigo": "D6D7433C"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 168000,
+        "codigo": "ROYROY96"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 230000,
+        "codigo": "D6D7433C"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-castrado-control-de-peso"
   },
   {
-    "nombre": "Royal Canin Gato Castrado/Control de Peso x 7,5kg",
+    "nombre": "Royal Canin Gato Exigent",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 168000,
-    "codigo": "ROYROY96"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 44600,
+        "codigo": "ROYROY91"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-exigent"
   },
   {
-    "nombre": "Royal Canin Gato Exigent 1.5kg",
+    "nombre": "Royal Canin Gato Fit 32",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 44600,
-    "codigo": "ROYROY91"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 270000,
+        "codigo": "5FE04811"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-fit-32"
   },
   {
-    "nombre": "Royal Canin Gato Fit 32 x 15kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 270000,
-    "codigo": "5FE04811"
-  },
-  {
-    "nombre": "Royal Canin Gato Fit 32 x 7.5kg",
+    "nombre": "Royal Canin Gato Fit 32",
     "marca": "Balanced",
     "categoria": "royal-canin",
-    "precio": 170000,
-    "codigo": "ROYBAL01"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 170000,
+        "codigo": "ROYBAL01"
+      }
+    ],
+    "slug": "balanced-royal-canin-gato-fit-32"
   },
   {
-    "nombre": "Royal Canin Gato Hypoallergenic 2kg",
+    "nombre": "Royal Canin Gato Hypoallergenic",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 74200,
-    "codigo": "ROYROY93"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 74200,
+        "codigo": "ROYROY93"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-hypoallergenic"
   },
   {
-    "nombre": "Royal Canin Gato Indoor 1.5kg",
+    "nombre": "Royal Canin Gato Indoor",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 44600,
-    "codigo": "ROYROY88"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 44600,
+        "codigo": "ROYROY88"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-indoor"
   },
   {
-    "nombre": "Royal Canin Gato Indoor 7+ 1.5kg",
+    "nombre": "Royal Canin Gato Indoor 7+",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 46800,
-    "codigo": "ROYROY89"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 46800,
+        "codigo": "ROYROY89"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-indoor-7"
   },
   {
-    "nombre": "Royal Canin Gato Kitten 1.5kg",
+    "nombre": "Royal Canin Gato Kitten",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 47600,
-    "codigo": "1A2FD322"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 47600,
+        "codigo": "1A2FD322"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-kitten"
   },
   {
-    "nombre": "Royal canin Gato Kitten 36 x 7,5kg",
+    "nombre": "Royal canin Gato Kitten 36",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 160000,
-    "codigo": "ROYROY98"
+    "variantes": [
+      {
+        "peso": "7,5 kg",
+        "precio": 160000,
+        "codigo": "ROYROY98"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-kitten-36"
   },
   {
-    "nombre": "Royal Canin Gato Persian- 1.5kg",
+    "nombre": "Royal Canin Gato Persian-",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 50800,
-    "codigo": "ROYROY90"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 50800,
+        "codigo": "ROYROY90"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-persian"
   },
   {
-    "nombre": "Royal Canin Gato Urinary Care 1,5kg",
+    "nombre": "Royal Canin Gato Urinary Care",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 48700,
-    "codigo": "ROYROY97"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 48700,
+        "codigo": "ROYROY97"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-urinary-care"
   },
   {
-    "nombre": "Royal Canin Gato Urinary S/O 1.5kg",
+    "nombre": "Royal Canin Gato Urinary S/O",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 49900,
-    "codigo": "ROYROY92"
+    "variantes": [
+      {
+        "peso": "1,5 kg",
+        "precio": 49900,
+        "codigo": "ROYROY92"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-gato-urinary-s-o"
   },
   {
-    "nombre": "Royal Canin Golden Puppy x 12Kg",
+    "nombre": "Royal Canin Golden Puppy",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 175000,
-    "codigo": "ROYABS01"
+    "variantes": [
+      {
+        "peso": "12 kg",
+        "precio": 175000,
+        "codigo": "ROYABS01"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-golden-puppy"
   },
   {
-    "nombre": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande. 15kg",
+    "nombre": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 219400,
-    "codigo": "ROYROY82"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 219400,
+        "codigo": "ROYROY82"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-maxi-adult-5-adulta-5-anos-raza-grande"
   },
   {
-    "nombre": "Royal Canin Maxi Adulto 15kg",
+    "nombre": "Royal Canin Maxi Adulto",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 176500,
-    "codigo": "ROYROY81"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 176500,
+        "codigo": "ROYROY81"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-maxi-adulto"
   },
   {
-    "nombre": "Royal canin medium adulto 15kg",
+    "nombre": "Royal canin medium adulto",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 182000,
-    "codigo": "59C013BB"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 53100,
+        "codigo": "ROYROY79"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 122000,
+        "codigo": "ROYROY80"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 182000,
+        "codigo": "59C013BB"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-medium-adulto"
   },
   {
-    "nombre": "Royal Canin Medium Adulto x 3kg",
+    "nombre": "Royal Canin Medium Dermacomfort",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 53100,
-    "codigo": "ROYROY79"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 58200,
+        "codigo": "ROYROY85"
+      },
+      {
+        "peso": "10 kg",
+        "precio": 143500,
+        "codigo": "ROYROY86"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-medium-dermacomfort"
   },
   {
-    "nombre": "Royal Canin Medium Adulto x 7,5kg",
+    "nombre": "Royal Canin Medium Puppy",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 122000,
-    "codigo": "ROYROY80"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 59200,
+        "codigo": "ROYROY84"
+      },
+      {
+        "peso": "15 kg",
+        "precio": 190000,
+        "codigo": "ROYROY95"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-medium-puppy"
   },
   {
-    "nombre": "Royal Canin Medium Dermacomfort x 10kg",
+    "nombre": "Royal Canin Mini Adulto",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 143500,
-    "codigo": "ROYROY86"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 55900,
+        "codigo": "ROYROY75"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 119000,
+        "codigo": "ROYROY76"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-mini-adulto"
   },
   {
-    "nombre": "Royal Canin Medium Dermacomfort x 3Kg",
+    "nombre": "Royal Canin Mini Puppy",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 58200,
-    "codigo": "ROYROY85"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 58300,
+        "codigo": "ROYROY77"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 117000,
+        "codigo": "ROYROY78"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-mini-puppy"
   },
   {
-    "nombre": "Royal Canin Medium Puppy  3kg",
+    "nombre": "Royal Canin Mini Weight Care",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 59200,
-    "codigo": "ROYROY84"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 63000,
+        "codigo": "82B7115A"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-mini-weight-care"
   },
   {
-    "nombre": "Royal canin Medium Puppy x 15kg",
+    "nombre": "Royal Canin Perro Mini Ageing 12+",
     "marca": "Royal Canin",
     "categoria": "royal-canin",
-    "precio": 190000,
-    "codigo": "ROYROY95"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 59000,
+        "codigo": "3B023C06"
+      }
+    ],
+    "slug": "royal-canin-royal-canin-perro-mini-ageing-12"
   },
   {
-    "nombre": "Royal Canin Mini Adulto 3kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 55900,
-    "codigo": "ROYROY75"
-  },
-  {
-    "nombre": "Royal Canin Mini Adulto 7.5kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 119000,
-    "codigo": "ROYROY76"
-  },
-  {
-    "nombre": "Royal Canin Mini Puppy  3kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 58300,
-    "codigo": "ROYROY77"
-  },
-  {
-    "nombre": "Royal Canin Mini Puppy 7.5kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 117000,
-    "codigo": "ROYROY78"
-  },
-  {
-    "nombre": "Royal Canin Mini Weight Care x 3kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 63000,
-    "codigo": "82B7115A"
-  },
-  {
-    "nombre": "Royal Canin Perro Mini Ageing 12+ x 3kg",
-    "marca": "Royal Canin",
-    "categoria": "royal-canin",
-    "precio": 59000,
-    "codigo": "3B023C06"
-  },
-  {
-    "nombre": "Sabrocitos Perro Adulto Mix x 18+2kg",
+    "nombre": "Sabrocitos Perro Adulto Mix x 18+",
     "marca": "Sabrocitos",
     "categoria": "otros-alimentos",
-    "precio": 37000,
-    "codigo": "SABSAB03"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 37000,
+        "codigo": "SABSAB03"
+      }
+    ],
+    "slug": "sabrocitos-sabrocitos-perro-adulto-mix-x-18"
   },
   {
-    "nombre": "Sabrocitos Perro Adulto Razas Pequeñas x 15kg",
+    "nombre": "Sabrocitos Perro Adulto Razas Pequeñas",
     "marca": "Sabrocitos",
     "categoria": "otros-alimentos",
-    "precio": 37777,
-    "codigo": "SABSAB04"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 37777,
+        "codigo": "SABSAB04"
+      }
+    ],
+    "slug": "sabrocitos-sabrocitos-perro-adulto-razas-pequenas"
   },
   {
     "nombre": "Shampoo Osspret pulguicida tradicional x 250ml",
     "marca": "Osspret",
     "categoria": "farmacos",
-    "precio": 12000,
-    "codigo": "SHAOSS01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 12000,
+        "codigo": "SHAOSS01"
+      }
+    ],
+    "slug": "osspret-shampoo-osspret-pulguicida-tradicional-x-250ml"
   },
   {
-    "nombre": "SIEGER Adult Medium & Large Breed x 15kg",
+    "nombre": "SIEGER Adult Medium & Large Breed",
     "marca": "SIEGER",
     "categoria": "sieger-agility",
-    "precio": 112400,
-    "codigo": "SIESIE04"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 112400,
+        "codigo": "SIESIE04"
+      }
+    ],
+    "slug": "sieger-sieger-adult-medium-large-breed"
   },
   {
-    "nombre": "SIEGER Criadores All In One x 20kg",
+    "nombre": "SIEGER Criadores All In One",
     "marca": "SIEGER",
     "categoria": "sieger-agility",
-    "precio": 110000,
-    "codigo": "SIESIE01"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 110000,
+        "codigo": "SIESIE01"
+      }
+    ],
+    "slug": "sieger-sieger-criadores-all-in-one"
   },
   {
-    "nombre": "SIEGER  Perro Adulto Razas Pequeñas x 12kg",
+    "nombre": "SIEGER Perro Adulto Razas Pequeñas",
     "marca": "SIEGER",
     "categoria": "sieger-agility",
-    "precio": 97200,
-    "codigo": "SIESIE02"
-  },
-  {
-    "nombre": "SIEGER Perro Adulto Razas Pequeñas x 3kg",
-    "marca": "SIEGER",
-    "categoria": "sieger-agility",
-    "precio": 30000,
-    "codigo": "SIESIE03"
+    "variantes": [
+      {
+        "peso": "3 kg",
+        "precio": 30000,
+        "codigo": "SIESIE03"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 97200,
+        "codigo": "SIESIE02"
+      }
+    ],
+    "slug": "sieger-sieger-perro-adulto-razas-pequenas"
   },
   {
     "nombre": "Simparica 10 a 20kg",
     "marca": "SIMPARICA",
     "categoria": "farmacos",
-    "precio": 30000,
-    "codigo": "SIMSIM05"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 30000,
+        "codigo": "SIMSIM05"
+      }
+    ],
+    "slug": "simparica-simparica-10-a-20kg"
   },
   {
     "nombre": "Simparica 1,3 a 2,5kg",
     "marca": "SIMPARICA",
     "categoria": "farmacos",
-    "precio": 20000,
-    "codigo": "SIMSIM04"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 20000,
+        "codigo": "SIMSIM04"
+      }
+    ],
+    "slug": "simparica-simparica-1-3-a-2-5kg"
   },
   {
     "nombre": "Simparica 20 a 40kg",
     "marca": "SIMPARICA",
     "categoria": "farmacos",
-    "precio": 35000,
-    "codigo": "SIMSIM06"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 35000,
+        "codigo": "SIMSIM06"
+      }
+    ],
+    "slug": "simparica-simparica-20-a-40kg"
   },
   {
     "nombre": "Simparica 2,5 a 5kg",
     "marca": "SIMPARICA",
     "categoria": "farmacos",
-    "precio": 22000,
-    "codigo": "SIMSIM01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 22000,
+        "codigo": "SIMSIM01"
+      }
+    ],
+    "slug": "simparica-simparica-2-5-a-5kg"
   },
   {
     "nombre": "Simparica 40 a 60kg",
     "marca": "SIMPARICA",
     "categoria": "farmacos",
-    "precio": 40000,
-    "codigo": "SIMSIM03"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 40000,
+        "codigo": "SIMSIM03"
+      }
+    ],
+    "slug": "simparica-simparica-40-a-60kg"
   },
   {
     "nombre": "Simparica 5 a 10kg",
     "marca": "SIMPARICA",
     "categoria": "farmacos",
-    "precio": 23000,
-    "codigo": "SIMSIM02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 23000,
+        "codigo": "SIMSIM02"
+      }
+    ],
+    "slug": "simparica-simparica-5-a-10kg"
   },
   {
     "nombre": "Soft Cream",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 55000,
-    "codigo": "SOFBAL01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 55000,
+        "codigo": "SOFBAL01"
+      }
+    ],
+    "slug": "balanced-natural-recipe-soft-cream"
   },
   {
     "nombre": "Soft Cream x ud",
     "marca": "Balanced Natural Recipe",
     "categoria": "vitalcan-perros",
-    "precio": 4500,
-    "codigo": "SOFBAL02"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 4500,
+        "codigo": "SOFBAL02"
+      }
+    ],
+    "slug": "balanced-natural-recipe-soft-cream-x-ud"
   },
   {
     "nombre": "Tea Collar Perro Chico/Mediano",
     "marca": "Tea",
     "categoria": "farmacos",
-    "precio": 6667,
-    "codigo": "TEACOL01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 6667,
+        "codigo": "TEACOL01"
+      }
+    ],
+    "slug": "tea-tea-collar-perro-chico-mediano"
   },
   {
     "nombre": "Tea Collar Perro Gigante",
     "marca": "Tea",
     "categoria": "farmacos",
-    "precio": 18000,
-    "codigo": "TEATEA01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 18000,
+        "codigo": "TEATEA01"
+      }
+    ],
+    "slug": "tea-tea-collar-perro-gigante"
   },
   {
-    "nombre": "Therapy Feline Gastrointestinal A. x 2kg",
+    "nombre": "Therapy Feline Gastrointestinal A",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 44000,
-    "codigo": "THETHE59"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 44000,
+        "codigo": "THETHE59"
+      }
+    ],
+    "slug": "therapy-therapy-feline-gastrointestinal-a"
   },
   {
-    "nombre": "Therapy Feline Hypoallergenic C. x 2kg",
+    "nombre": "Therapy Feline Hypoallergenic C",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 49900,
-    "codigo": "THETHE62"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 49900,
+        "codigo": "THETHE62"
+      }
+    ],
+    "slug": "therapy-therapy-feline-hypoallergenic-c"
   },
   {
-    "nombre": "Therapy Feline Obesity Management. x 2kg",
+    "nombre": "Therapy Feline Obesity Management",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 39900,
-    "codigo": "THETHE58"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 39900,
+        "codigo": "THETHE58"
+      }
+    ],
+    "slug": "therapy-therapy-feline-obesity-management"
   },
   {
-    "nombre": "Therapy Feline Renal Care x 2kg",
+    "nombre": "Therapy Feline Renal Care",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 41000,
-    "codigo": "THETHE57"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 41000,
+        "codigo": "THETHE57"
+      }
+    ],
+    "slug": "therapy-therapy-feline-renal-care"
   },
   {
-    "nombre": "Therapy Feline Urinary Health x 2kg",
+    "nombre": "Therapy Feline Urinary Health",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 44900,
-    "codigo": "THETHE56"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 44900,
+        "codigo": "THETHE56"
+      },
+      {
+        "peso": "7,5 kg",
+        "precio": 119000,
+        "codigo": "THETHE55"
+      }
+    ],
+    "slug": "therapy-therapy-feline-urinary-health"
   },
   {
-    "nombre": "Therapy Feline Urinary Health x 7,5kg",
+    "nombre": "Therapy hypoalergenic",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 119000,
-    "codigo": "THETHE55"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 41000,
+        "codigo": "THETHE60"
+      }
+    ],
+    "slug": "therapy-therapy-hypoalergenic"
   },
   {
-    "nombre": "Therapy hypoalergenic 2kg",
+    "nombre": "Therapy Hypoallergenic C",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 41000,
-    "codigo": "THETHE60"
+    "variantes": [
+      {
+        "peso": "2 kg",
+        "precio": 41000,
+        "codigo": "THETHE61"
+      }
+    ],
+    "slug": "therapy-therapy-hypoallergenic-c"
   },
   {
-    "nombre": "Therapy Hypoallergenic C. 2kg",
+    "nombre": "Therapy Perro Cardiac Health",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 41000,
-    "codigo": "THETHE61"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 119300,
+        "codigo": "THETHE53"
+      }
+    ],
+    "slug": "therapy-therapy-perro-cardiac-health"
   },
   {
-    "nombre": "Therapy Perro Cardiac Health 10kg",
+    "nombre": "Therapy Perro Gastrointestinal",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 119300,
-    "codigo": "THETHE53"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 104000,
+        "codigo": "THETHE51"
+      }
+    ],
+    "slug": "therapy-therapy-perro-gastrointestinal"
   },
   {
-    "nombre": "Therapy Perro  Gastrointestinal 10 Kg",
+    "nombre": "Therapy Perro Hypoallergenic C",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 104000,
-    "codigo": "THETHE51"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 135500,
+        "codigo": "THETHE54"
+      }
+    ],
+    "slug": "therapy-therapy-perro-hypoallergenic-c"
   },
   {
-    "nombre": "Therapy Perro Hypoallergenic C. 10kg",
+    "nombre": "Therapy Perro Mobility Aid",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 135500,
-    "codigo": "THETHE54"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 150000,
+        "codigo": "THETHE50"
+      }
+    ],
+    "slug": "therapy-therapy-perro-mobility-aid"
   },
   {
-    "nombre": "Therapy Perro Mobility Aid 15 Kg",
+    "nombre": "Therapy Perro Obesity Management",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 150000,
-    "codigo": "THETHE50"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 150000,
+        "codigo": "THETHE52"
+      }
+    ],
+    "slug": "therapy-therapy-perro-obesity-management"
   },
   {
-    "nombre": "Therapy Perro Obesity Management 15 Kg",
+    "nombre": "Therapy Perro Renal Care",
     "marca": "Therapy",
     "categoria": "vitalcan-perros",
-    "precio": 150000,
-    "codigo": "THETHE52"
-  },
-  {
-    "nombre": "Therapy Perro Renal Care 10 Kg",
-    "marca": "Therapy",
-    "categoria": "vitalcan-perros",
-    "precio": 103900,
-    "codigo": "THETHE49"
+    "variantes": [
+      {
+        "peso": "10 kg",
+        "precio": 103900,
+        "codigo": "THETHE49"
+      }
+    ],
+    "slug": "therapy-therapy-perro-renal-care"
   },
   {
     "nombre": "TOTALFULL CG EN SUSPENSIÓN",
     "marca": "TOTALFULL CG",
     "categoria": "otros-alimentos",
-    "precio": 14500,
-    "codigo": "TOTTOT01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 14500,
+        "codigo": "TOTTOT01"
+      }
+    ],
+    "slug": "totalfull-cg-totalfull-cg-en-suspension"
   },
   {
-    "nombre": "Vagoneta Perro Adulto Gourmet x 20kg",
+    "nombre": "Vagoneta Perro Adulto Gourmet",
     "marca": "Vagoneta",
     "categoria": "otros-alimentos",
-    "precio": 37000,
-    "codigo": "VAGVAG02"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 37000,
+        "codigo": "VAGVAG02"
+      }
+    ],
+    "slug": "vagoneta-vagoneta-perro-adulto-gourmet"
   },
   {
-    "nombre": "Vagoneta Perro Adulto x 20kg",
+    "nombre": "Vagoneta Perro Adulto",
     "marca": "Vagoneta",
     "categoria": "otros-alimentos",
-    "precio": 36666,
-    "codigo": "VAGVAG01"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 36666,
+        "codigo": "VAGVAG01"
+      }
+    ],
+    "slug": "vagoneta-vagoneta-perro-adulto"
   },
   {
-    "nombre": "Valiant Adulto x 20kg",
+    "nombre": "Valiant Adulto",
     "marca": "Valiant",
     "categoria": "otros-alimentos",
-    "precio": 37000,
-    "codigo": "VALVAL01"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 37000,
+        "codigo": "VALVAL01"
+      }
+    ],
+    "slug": "valiant-valiant-adulto"
   },
   {
-    "nombre": "Vitalcan Premium Adulto Cordero 20kgs",
+    "nombre": "Vitalcan Premium Adulto Cordero",
     "marca": "Vitalcan Premium",
     "categoria": "vitalcan-perros",
-    "precio": 77900,
-    "codigo": "VITVIT18"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 77900,
+        "codigo": "VITVIT18"
+      }
+    ],
+    "slug": "vitalcan-premium-vitalcan-premium-adulto-cordero"
   },
   {
-    "nombre": "VitalCan Premium Cachorro x 15Kg",
+    "nombre": "VitalCan Premium Cachorro",
     "marca": "Vitalcan Premium",
     "categoria": "vitalcan-perros",
-    "precio": 59000,
-    "codigo": "VITVIT10"
+    "variantes": [
+      {
+        "peso": "15 kg",
+        "precio": 59000,
+        "codigo": "VITVIT10"
+      }
+    ],
+    "slug": "vitalcan-premium-vitalcan-premium-cachorro"
   },
   {
-    "nombre": "Vitalcan Premium Perro Adulto 20 Kg",
+    "nombre": "Vitalcan Premium Perro Adulto",
     "marca": "Vitalcan Premium",
     "categoria": "vitalcan-perros",
-    "precio": 65000,
-    "codigo": "VITVIT09"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 65000,
+        "codigo": "VITVIT09"
+      }
+    ],
+    "slug": "vitalcan-premium-vitalcan-premium-perro-adulto"
   },
   {
-    "nombre": "VitalCan Premium Perro Adulto Raza pequeña x 20kg",
+    "nombre": "VitalCan Premium Perro Adulto Raza pequeña",
     "marca": "Vitalcan Premium",
     "categoria": "vitalcan-perros",
-    "precio": 65000,
-    "codigo": "VITVIT17"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 65000,
+        "codigo": "VITVIT17"
+      }
+    ],
+    "slug": "vitalcan-premium-vitalcan-premium-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Vitalcan Therapy Latas 6uds",
     "marca": "Therapy",
     "categoria": "humedos",
-    "precio": 49000,
-    "codigo": "VITTHE01"
+    "variantes": [
+      {
+        "peso": null,
+        "precio": 49000,
+        "codigo": "VITTHE01"
+      }
+    ],
+    "slug": "therapy-vitalcan-therapy-latas-6uds"
   },
   {
-    "nombre": "VitalFun Arena Sanitaria Aglomerante Carbón Activado x 12kg",
+    "nombre": "VitalFun Arena Sanitaria Aglomerante Carbón Activado",
     "marca": "VitalFun",
     "categoria": "camitas",
-    "precio": 24600,
-    "codigo": "VITVIT16"
+    "variantes": [
+      {
+        "peso": "6 kg",
+        "precio": 17400,
+        "codigo": "VITVIT15"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 24600,
+        "codigo": "VITVIT16"
+      }
+    ],
+    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-carbon-activado"
   },
   {
-    "nombre": "VitalFun Arena Sanitaria Aglomerante Carbón Activado x 6kg",
+    "nombre": "VitalFun Arena Sanitaria Aglomerante Lavanda",
     "marca": "VitalFun",
     "categoria": "camitas",
-    "precio": 17400,
-    "codigo": "VITVIT15"
+    "variantes": [
+      {
+        "peso": "6 kg",
+        "precio": 16000,
+        "codigo": "VITVIT13"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 27000,
+        "codigo": "VITVIT14"
+      }
+    ],
+    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-lavanda"
   },
   {
-    "nombre": "VitalFun Arena Sanitaria Aglomerante Lavanda x 12kg",
+    "nombre": "VitalFun Arena Sanitaria Aglomerante Natural",
     "marca": "VitalFun",
     "categoria": "camitas",
-    "precio": 27000,
-    "codigo": "VITVIT14"
+    "variantes": [
+      {
+        "peso": "6 kg",
+        "precio": 13700,
+        "codigo": "VITVIT11"
+      },
+      {
+        "peso": "12 kg",
+        "precio": 20300,
+        "codigo": "VITVIT12"
+      }
+    ],
+    "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-natural"
   },
   {
-    "nombre": "VitalFun Arena Sanitaria Aglomerante Lavanda x 6kg",
-    "marca": "VitalFun",
-    "categoria": "camitas",
-    "precio": 16000,
-    "codigo": "VITVIT13"
-  },
-  {
-    "nombre": "VitalFun Arena Sanitaria Aglomerante Natural x 12kg",
-    "marca": "VitalFun",
-    "categoria": "camitas",
-    "precio": 20300,
-    "codigo": "VITVIT12"
-  },
-  {
-    "nombre": "VitalFun Arena Sanitaria Aglomerante Natural x 6kg",
-    "marca": "VitalFun",
-    "categoria": "camitas",
-    "precio": 13700,
-    "codigo": "VITVIT11"
-  },
-  {
-    "nombre": "Voraz Perro Adultos Carne 20 Kg",
+    "nombre": "Voraz Perro Adultos Carne",
     "marca": "Voraz Y Kongo",
     "categoria": "otros-alimentos",
-    "precio": 43970,
-    "codigo": "VORVOR05"
+    "variantes": [
+      {
+        "peso": "20 kg",
+        "precio": 43970,
+        "codigo": "VORVOR05"
+      }
+    ],
+    "slug": "voraz-y-kongo-voraz-perro-adultos-carne"
   }
 ]

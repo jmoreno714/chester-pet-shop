@@ -33,6 +33,13 @@
     return '$' + precio.toLocaleString('es-AR');
   }
 
+  function precioDesde(p) {
+    const precios = p.variantes.map((v) => v.precio).filter((n) => typeof n === 'number');
+    if (!precios.length) return '$·····';
+    const min = Math.min(...precios);
+    return p.variantes.length > 1 ? `Desde ${formatPrecio(min)}` : formatPrecio(min);
+  }
+
   function normalize(str) {
     return (str || '')
       .toLowerCase()
@@ -52,8 +59,8 @@
     grid.innerHTML = filtered
       .map(
         (p) => `
-        <a class="product-card" href="producto.html?codigo=${encodeURIComponent(p.codigo)}">
-          <span class="price-tag">${formatPrecio(p.precio)}</span>
+        <a class="product-card" href="producto.html?slug=${encodeURIComponent(p.slug)}">
+          <span class="price-tag">${precioDesde(p)}</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
           <h3>${escapeHtml(p.nombre)}</h3>
           <p class="tag-line">${escapeHtml(p.marca)} · ${CATEGORY_LABELS[p.categoria] || ''}</p>

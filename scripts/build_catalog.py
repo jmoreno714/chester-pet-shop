@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-import openpyxl, json, re
+import openpyxl, json, re, unicodedata
+from collections import OrderedDict
 
 SRC = r"C:\Users\Joaquin\Desktop\Chester new\chester-pet-shop\inventario_stock_actual.xlsx"
 OUT = r"C:\Users\Joaquin\Desktop\Chester new\chester-pet-shop\assets\data\productos.json"
@@ -88,14 +89,80 @@ for r in data:
         "codigo": str(codigo) if codigo else "",
     })
 
-counts = {}
+# --- agrupar por peso: "Balanced Gato Adulto x 2Kg" / "x 7,5 Kg" / "x 15 Kg"
+# son el mismo producto con distinto kilaje, no productos distintos ---
+WEIGHT_RE = re.compile(r"\s*[xX]?\s*(\d+(?:[.,]\d+)?)\s*(kgs?|grs?|g)\.?\s*$", re.IGNORECASE)
+
+def split_weight(nombre):
+    m = WEIGHT_RE.search(nombre)
+    if not m:
+        return re.sub(r"\s+", " ", nombre).strip(), None
+    valor = float(m.group(1).replace(",", "."))
+    unidad = "kg" if m.group(2).lower().startswith("kg") else "g"
+    num_str = str(int(valor)) if valor == int(valor) else str(valor).replace(".", ",")
+    peso = f"{num_str} {unidad}"
+    base = nombre[: m.start()].strip().rstrip(",.").strip()
+    base = re.sub(r"\s+", " ", base)
+    return base, peso
+
+def peso_a_kg(peso):
+    if not peso:
+        return 0
+    valor, unidad = peso.split(" ")
+    valor = float(valor.replace(",", "."))
+    return valor if unidad == "kg" else valor / 1000
+
+def slugify(texto):
+    texto = unicodedata.normalize("NFKD", texto).encode("ascii", "ignore").decode("ascii")
+    texto = texto.lower()
+    return re.sub(r"[^a-z0-9]+", "-", texto).strip("-")
+
+grupos = OrderedDict()
 for p in productos:
-    counts[p["categoria"]] = counts.get(p["categoria"], 0) + 1
+    # en fármacos el "X a Y kg" de nombre es el rango de peso de la mascota
+    # para elegir la dosis, no un tamaño de envase — no se agrupa por eso
+    if p["categoria"] == "farmacos":
+        base, peso = re.sub(r"\s+", " ", p["nombre"]).strip(), None
+    else:
+        base, peso = split_weight(p["nombre"])
+    # sin peso detectado: nunca se agrupa con otro (evita mezclar productos
+    # distintos que comparten nombre pero son renglones separados en la planilla)
+    key = (p["marca"], base.lower()) if peso else (p["marca"], base.lower(), p["codigo"])
+    if key not in grupos:
+        grupos[key] = {
+            "nombre": base,
+            "marca": p["marca"],
+            "categoria": p["categoria"],
+            "variantes": [],
+        }
+    grupos[key]["variantes"].append({
+        "peso": peso,
+        "precio": p["precio"],
+        "codigo": p["codigo"],
+    })
+
+catalogo = []
+slugs_usados = set()
+for g in grupos.values():
+    g["variantes"].sort(key=lambda v: peso_a_kg(v["peso"]))
+    slug = slugify(f"{g['marca']}-{g['nombre']}")
+    if slug in slugs_usados:
+        slug = slugify(f"{g['marca']}-{g['nombre']}-{g['variantes'][0]['codigo']}")
+    slugs_usados.add(slug)
+    g["slug"] = slug
+    catalogo.append(g)
+
+counts = {}
+for g in catalogo:
+    counts[g["categoria"]] = counts.get(g["categoria"], 0) + 1
+con_variantes = sum(1 for g in catalogo if len(g["variantes"]) > 1)
 
 with open(OUT, "w", encoding="utf-8") as f:
-    json.dump(productos, f, ensure_ascii=False, indent=2)
+    json.dump(catalogo, f, ensure_ascii=False, indent=2)
 
-print("total productos:", len(productos))
+print("total items planilla:", len(productos))
+print("total productos (agrupados):", len(catalogo))
+print("productos con variantes de peso:", con_variantes)
 print("excluidos ENVIOS:", skipped_envios)
 print("excluidos Inactivo:", skipped_inactivo)
 print("por categoria:", counts)

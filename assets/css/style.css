@@ -459,8 +459,21 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .product-info h1{ margin:0 0 .3em; }
 .product-price{
   font-family: var(--mono); font-weight:700; font-size:1.6rem;
-  color: var(--ink); margin: 0 0 24px;
+  color: var(--ink); margin: 0 0 20px;
 }
+.product-variants:not(:empty){ margin-bottom: 20px; }
+.product-variant-label{
+  font-family: var(--mono); font-size:.72rem; letter-spacing:.06em; text-transform:uppercase;
+  color: var(--ink-soft); margin: 0 0 .6em;
+}
+.variant-options{ display:flex; flex-wrap:wrap; gap:8px; }
+.variant-btn{
+  font-family: var(--mono); font-size:.85rem;
+  padding:.6em 1em; border:1px solid var(--ink); border-radius:0;
+  background: var(--paper); color: var(--ink); cursor:pointer;
+}
+.variant-btn:hover{ background: rgba(28,27,25,0.06); }
+.variant-btn.is-active{ background: var(--ink); color: var(--paper); }
 .product-qty{
   display:flex; align-items:stretch; width:fit-content;
   border:1px solid var(--ink); margin-bottom: 20px;

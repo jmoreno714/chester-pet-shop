@@ -1,5 +1,7 @@
 // Chester Pet Shop — ficha de producto individual
-// Lee assets/data/productos.json y busca el producto por ?codigo= en la URL
+// Lee assets/data/productos.json y busca el producto por ?slug= en la URL.
+// Si el producto tiene variantes de peso, arma el selector y actualiza el
+// precio (y el código, para cuando conectemos el carrito) según la elegida.
 
 (function () {
   const root = document.getElementById('product-detail');
@@ -23,11 +25,11 @@
     return '$' + precio.toLocaleString('es-AR');
   }
 
-  const codigo = new URLSearchParams(location.search).get('codigo');
+  const slug = new URLSearchParams(location.search).get('slug');
 
   fetch('assets/data/productos.json')
     .then((res) => res.json())
-    .then((productos) => productos.find((item) => item.codigo === codigo))
+    .then((productos) => productos.find((item) => item.slug === slug))
     .then((p) => {
       if (!p) {
         root.innerHTML = '<p class="catalog-empty">No encontramos ese producto. <a href="productos.html">Volver al catálogo</a>.</p>';
@@ -42,7 +44,34 @@
       document.getElementById('pd-breadcrumb-nombre').textContent = p.nombre;
       document.getElementById('pd-marca').textContent = p.marca;
       document.getElementById('pd-titulo').textContent = p.nombre;
-      document.getElementById('pd-precio').textContent = formatPrecio(p.precio);
+
+      const precioEl = document.getElementById('pd-precio');
+      let seleccionada = p.variantes[0];
+
+      const variantsEl = document.getElementById('pd-variants');
+      if (p.variantes.length > 1) {
+        const label = document.createElement('p');
+        label.className = 'product-variant-label';
+        label.textContent = 'Peso';
+        const options = document.createElement('div');
+        options.className = 'variant-options';
+        p.variantes.forEach((v, i) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'variant-btn' + (i === 0 ? ' is-active' : '');
+          btn.textContent = v.peso;
+          btn.addEventListener('click', () => {
+            seleccionada = v;
+            options.querySelectorAll('.variant-btn').forEach((b) => b.classList.remove('is-active'));
+            btn.classList.add('is-active');
+            precioEl.textContent = formatPrecio(v.precio);
+          });
+          options.appendChild(btn);
+        });
+        variantsEl.append(label, options);
+      }
+
+      precioEl.textContent = formatPrecio(seleccionada.precio);
 
       const qtyInput = document.getElementById('pd-qty');
       document.getElementById('pd-qty-dec').addEventListener('click', () => {
