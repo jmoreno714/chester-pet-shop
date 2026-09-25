@@ -103,37 +103,22 @@
 
   // --- página del carrito (solo en carrito.html) ---
   const page = document.getElementById('cart-page');
-  let pageList, pageSummary, nombreEl, direccionEl, sendEl;
+  let pageList, pageSummary;
   if (page) {
     page.innerHTML = `
       <div class="cart-page-list"></div>
       <aside class="cart-summary">
         <div class="cart-total"><span>Total</span><strong class="cart-total-num"></strong></div>
         <p class="cart-total-note" hidden>+ productos con precio a confirmar</p>
-        <label class="cart-field">
-          <span>Tu nombre <em>(opcional)</em></span>
-          <input type="text" class="cart-nombre" autocomplete="name">
-        </label>
-        <label class="cart-field">
-          <span>Barrio o dirección de entrega <em>(opcional)</em></span>
-          <input type="text" class="cart-direccion" autocomplete="street-address">
-        </label>
-        <a class="btn btn-primary cart-send" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
-          Enviar pedido por WhatsApp
-        </a>
+        <a class="btn btn-primary cart-go" href="finalizar.html">Continuar con tus datos</a>
         <p class="cart-fine">No se cobra nada acá: el pago y la entrega los coordinamos por WhatsApp.</p>
       </aside>`;
     pageList = page.querySelector('.cart-page-list');
     pageSummary = page.querySelector('.cart-summary');
-    nombreEl = page.querySelector('.cart-nombre');
-    direccionEl = page.querySelector('.cart-direccion');
-    sendEl = page.querySelector('.cart-send');
-    nombreEl.addEventListener('input', actualizarEnvio);
-    direccionEl.addEventListener('input', actualizarEnvio);
   }
 
-  function mensaje() {
+  // líneas del pedido + total + los datos que haya (en el orden en que vienen)
+  function mensaje(datos) {
     const lineas = items.map((it) => {
       const nombre = it.peso ? `${it.nombre} ${it.peso}` : it.nombre;
       const sub = typeof it.precio === 'number' ? precio(it.precio * it.cantidad) : 'precio a confirmar';
@@ -142,18 +127,13 @@
     let txt = '¡Hola Chester! Quiero hacer este pedido:\n\n' + lineas.join('\n');
     txt += `\n\nTotal: ${precio(total())}`;
     if (conPrecio().length < items.length) txt += ' + productos a confirmar';
-    const nombre = nombreEl ? nombreEl.value.trim() : '';
-    const dir = direccionEl ? direccionEl.value.trim() : '';
-    if (nombre) txt += `\nNombre: ${nombre}`;
-    if (dir) txt += `\nEntrega: ${dir}`;
+    const extra = (datos || []).filter(([, v]) => v).map(([k, v]) => `${k}: ${v}`);
+    if (extra.length) txt += '\n\n' + extra.join('\n');
     return txt;
   }
 
-  function actualizarEnvio() {
-    if (!sendEl) return;
-    const base = WHATSAPP ? `https://wa.me/${WHATSAPP}` : 'https://wa.me/';
-    sendEl.href = `${base}?text=${encodeURIComponent(mensaje())}`;
-  }
+  const whatsappURL = (texto) =>
+    `${WHATSAPP ? `https://wa.me/${WHATSAPP}` : 'https://wa.me/'}?text=${encodeURIComponent(texto)}`;
 
   function pintarTotal(scope) {
     scope.querySelector('.cart-total-num').textContent = precio(total());
@@ -167,6 +147,8 @@
     countEl.textContent = n;
     toggle.classList.toggle('has-items', n > 0);
     toggle.setAttribute('aria-label', n ? `Abrir tu pedido (${n} productos)` : 'Abrir tu pedido');
+    // finalizar.html redibuja su resumen con esto
+    document.dispatchEvent(new CustomEvent('carrito-cambio'));
     if (!items.length) return;
 
     // en carrito.html el mismo producto está en el panel y en la página
@@ -181,7 +163,6 @@
         if (it) el.textContent = subtotal(it);
       });
       pintarTotal(pageSummary);
-      actualizarEnvio();
     }
   }
 
@@ -279,6 +260,19 @@
       render();
       pop();
       abrir();
+    },
+    // para finalizar.html
+    items: () => items.slice(),
+    precio,
+    subtotal,
+    total,
+    faltanPrecios: () => conPrecio().length < items.length,
+    mensaje,
+    whatsappURL,
+    vaciar() {
+      items = [];
+      guardar();
+      render();
     },
   };
 
