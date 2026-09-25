@@ -52,10 +52,12 @@
           <p class="product-price" id="pd-precio"></p>
           <div class="product-variants" id="pd-variants"></div>
 
-          <div class="product-qty">
-            <button type="button" class="qty-btn" id="pd-qty-dec" aria-label="Restar">−</button>
-            <input type="number" id="pd-qty" value="1" min="1" aria-label="Cantidad">
-            <button type="button" class="qty-btn" id="pd-qty-inc" aria-label="Sumar">+</button>
+          <div class="qty-elastic" id="pd-qty-elastic" role="group" aria-label="Cantidad">
+            <span class="qty-elastic-sign" data-dir="-1" role="button" tabindex="0" aria-label="Restar">−</span>
+            <span class="qty-elastic-track">
+              <span class="qty-elastic-knob" id="pd-qty">1</span>
+            </span>
+            <span class="qty-elastic-sign" data-dir="1" role="button" tabindex="0" aria-label="Sumar">+</span>
           </div>
 
           <button type="button" class="btn btn-primary btn-add-cart" id="pd-add-cart">Añadir al carrito</button>
@@ -77,5 +79,6 @@
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 <script src="assets/js/main.js"></script>
 <script src="assets/js/producto.js"></script>
+<script src="assets/js/qty-elastic.js"></script>
 </body>
 </html>

@@ -73,14 +73,6 @@
 
       precioEl.textContent = formatPrecio(seleccionada.precio);
 
-      const qtyInput = document.getElementById('pd-qty');
-      document.getElementById('pd-qty-dec').addEventListener('click', () => {
-        qtyInput.value = Math.max(1, parseInt(qtyInput.value || '1', 10) - 1);
-      });
-      document.getElementById('pd-qty-inc').addEventListener('click', () => {
-        qtyInput.value = parseInt(qtyInput.value || '1', 10) + 1;
-      });
-
       const addBtn = document.getElementById('pd-add-cart');
       addBtn.addEventListener('click', () => {
         const original = addBtn.textContent;
