@@ -324,11 +324,13 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .promise-cat{
   position:absolute;
   top: 18px;
-  left: 33.33%;
-  transform: translateX(calc(-50% - 10px)) rotate(-8deg);
+  left: 0; /* la posición real la calcula promise-cat-follow.js */
+  transform: rotate(-8deg);
+  transition: left 260ms cubic-bezier(.22,.9,.28,1);
   width: 56px; height:auto;
   z-index: 2;
 }
+@media (prefers-reduced-motion: reduce){ .promise-cat{ transition-duration:1ms; } }
 .promise-card{ text-align:center; }
 /* el wrapper mueve el círculo entero hacia el cursor (ver promise-lean.js);
    el círculo en sí guarda su propia animación de "sello" al entrar en
