@@ -103,14 +103,16 @@
     }
 
     const envio = conEnvio();
+    const pago = form.querySelector('input[name="pago"]:checked');
     const datos = [
       ['Nombre', f.nombre.value.trim()],
       ['Teléfono', f.telefono.value.trim()],
-      ['Entrega', f.entrega.value],
+      ['Mascota/s', f.mascotas.value.trim()],
+      ['Una bolsa le dura', f.duracion.value.trim()],
+      ['Entrega', envio ? 'Envío a domicilio (gratis)' : f.entrega.value],
       ['Dirección', envio ? `${f.direccion.value.trim()}, ${f.barrio.value.trim()}` : ''],
       ['Referencias', envio ? f.referencias.value.trim() : ''],
-      ['Horario', f.horario.value],
-      ['Pago', f.pago.value],
+      ['Pago', pago.value + ('descuento' in pago.dataset ? ' (10% de descuento)' : '')],
       ['Comentarios', f.comentarios.value.trim()],
     ];
     const url = C.whatsappURL(C.mensaje(datos));

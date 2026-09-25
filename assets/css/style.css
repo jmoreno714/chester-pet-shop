@@ -782,6 +782,16 @@ body.cart-lock{ overflow:hidden; }
 /* opciones tipo tarjeta (radio escondido, la tarjeta es el control) */
 .checkout-options{ display:grid; grid-template-columns: 1fr 1fr; gap:10px; }
 .checkout-options--chips{ display:flex; flex-wrap:wrap; gap:8px; }
+.checkout-options--3{ grid-template-columns: repeat(3, 1fr); }
+.checkout-option .checkout-off{ color: var(--pine); font-weight:700; }
+.checkout-option input:checked + span .checkout-off{ color:#A9C9A4; }
+.checkout-free{
+  display:flex; align-items:center; gap:10px;
+  margin:0; padding: 10px 14px;
+  background: rgba(63,92,67,0.1); border-left: 3px solid var(--pine);
+  color: var(--pine); font-weight:700; font-size:.92rem;
+}
+.checkout-free svg{ width:22px; height:22px; flex-shrink:0; }
 .checkout-option{ position:relative; cursor:pointer; }
 .checkout-option input{ position:absolute; opacity:0; width:1px; height:1px; }
 .checkout-option span{

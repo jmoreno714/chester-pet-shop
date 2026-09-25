@@ -62,6 +62,18 @@
         </fieldset>
 
         <fieldset class="checkout-block">
+          <legend>Sobre tu mascota</legend>
+          <label class="cart-field">
+            <span>Nombre de tu/s mascota/s <em>(opcional)</em></span>
+            <input type="text" name="mascotas" placeholder="Ej: Chester y Luna">
+          </label>
+          <label class="cart-field">
+            <span>¿Cuánto te dura una bolsa de alimento? <em>(opcional)</em></span>
+            <input type="text" name="duracion" placeholder="Ej: un mes y medio">
+          </label>
+        </fieldset>
+
+        <fieldset class="checkout-block">
           <legend>¿Cómo lo recibís?</legend>
           <div class="checkout-options">
             <label class="checkout-option">
@@ -74,6 +86,10 @@
             </label>
           </div>
           <div class="checkout-envio">
+            <p class="checkout-free">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="7" width="13" height="10"/><path d="M14 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
+              El envío a domicilio es gratis.
+            </p>
             <label class="cart-field">
               <span>Dirección *</span>
               <input type="text" name="direccion" required autocomplete="street-address" placeholder="Calle y número">
@@ -87,20 +103,23 @@
               <input type="text" name="referencias" placeholder="Piso, depto, timbre, entre calles…">
             </label>
           </div>
-          <p class="checkout-sub">¿Cuándo te queda mejor?</p>
-          <div class="checkout-options checkout-options--chips">
-            <label class="checkout-option"><input type="radio" name="horario" value="Lo antes posible" checked><span>Lo antes posible</span></label>
-            <label class="checkout-option"><input type="radio" name="horario" value="Por la mañana"><span>Por la mañana</span></label>
-            <label class="checkout-option"><input type="radio" name="horario" value="Por la tarde"><span>Por la tarde</span></label>
-          </div>
         </fieldset>
 
         <fieldset class="checkout-block">
           <legend>¿Cómo pagás? *</legend>
-          <div class="checkout-options checkout-options--chips">
-            <label class="checkout-option"><input type="radio" name="pago" value="Efectivo" required><span>Efectivo</span></label>
-            <label class="checkout-option"><input type="radio" name="pago" value="Transferencia"><span>Transferencia</span></label>
-            <label class="checkout-option"><input type="radio" name="pago" value="Mercado Pago"><span>Mercado Pago</span></label>
+          <div class="checkout-options checkout-options--3">
+            <label class="checkout-option">
+              <input type="radio" name="pago" value="Efectivo" data-descuento required>
+              <span>Efectivo<small class="checkout-off">10% de descuento</small></span>
+            </label>
+            <label class="checkout-option">
+              <input type="radio" name="pago" value="Transferencia" data-descuento>
+              <span>Transferencia<small class="checkout-off">10% de descuento</small></span>
+            </label>
+            <label class="checkout-option">
+              <input type="radio" name="pago" value="Tarjeta de débito/crédito">
+              <span>Tarjeta de débito/crédito</span>
+            </label>
           </div>
           <p class="checkout-hint">No se cobra nada acá: el pago lo coordinamos por WhatsApp.</p>
         </fieldset>
