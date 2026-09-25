@@ -164,27 +164,35 @@
   <!-- LIBRO DE RECLAMOS / PROMESAS -->
   <section class="section">
     <div class="wrap">
+      <div class="mag" id="mag-promises" role="radiogroup" aria-label="Elegí un motivo">
+        <button type="button" class="mag-chip" style="left:48.5px;top:26px;width:44px;height:44px;" data-on="true" role="radio" aria-checked="true" aria-label="Envío a domicilio">
+          <span class="mag-skin">
+            <svg class="mag-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="7" width="13" height="10"/><path d="M14 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
+          </span>
+        </button>
+        <button type="button" class="mag-chip" style="left:71px;top:65px;width:44px;height:44px;" data-on="false" role="radio" aria-checked="false" aria-label="Marcas premium">
+          <span class="mag-skin">
+            <svg class="mag-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
+          </span>
+        </button>
+        <button type="button" class="mag-chip" style="left:26px;top:65px;width:44px;height:44px;" data-on="false" role="radio" aria-checked="false" aria-label="Hablás directo con el local">
+          <span class="mag-skin">
+            <svg class="mag-mark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H8l-4 4V5Z"/><path d="M8 9h8M8 12.5h5"/></svg>
+          </span>
+        </button>
+      </div>
       <h2 class="promise-title">Por qué te conviene pedirnos a nosotros</h2>
       <div class="promise-grid">
         <div class="promise-card">
-          <span class="promise-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="7" width="13" height="10"/><path d="M14 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
-          </span>
           <h3>Envío a domicilio en Yerba Buena</h3>
           <p>Pedís por WhatsApp y coordinamos día y horario de entrega con vos.</p>
         </div>
         <img class="promise-cat" src="assets/img/gato-promesas.png" alt="" aria-hidden="true">
         <div class="promise-card">
-          <span class="promise-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/><path d="M9 12l2 2 4-4"/></svg>
-          </span>
           <h3>Las mismas marcas premium, sin cambiar de proveedor</h3>
           <p>Royal Canin, Eukanuba, Vitalcan, Sieger y más — tal como ya se las das.</p>
         </div>
         <div class="promise-card">
-          <span class="promise-badge" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H8l-4 4V5Z"/><path d="M8 9h8M8 12.5h5"/></svg>
-          </span>
           <h3>Hablás directo con el local</h3>
           <p>Por WhatsApp, sin catálogos automáticos ni pasos de más.</p>
         </div>
@@ -236,5 +244,6 @@
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 <script src="assets/js/main.js"></script>
+<script src="assets/js/magnetic-select.js"></script>
 </body>
 </html>
