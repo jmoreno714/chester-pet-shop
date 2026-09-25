@@ -368,13 +368,19 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 }
 .cta-final h2{ color: var(--paper); }
 .cta-final p{ color: #CBB99A; max-width: 50ch; margin-left:auto; margin-right:auto; margin-bottom: 20px; }
-.cta-final .btn-primary{ margin-top: 46px; }
+/* el perro va anclado al botón (no a la caja del CTA) para que las patas
+   queden apoyadas encima aunque el texto de arriba ocupe más líneas */
+.cta-btn-wrap{
+  position:relative;
+  display:inline-block;
+  margin-top: 66px;
+}
 .cta-mascot{
   position:absolute;
-  top: 226px;
+  bottom: calc(100% - 2px);
   left: 50%;
   transform: translateX(-50%);
-  width: 65px;
+  width: 110px;
   display:block;
   aspect-ratio: 420 / 235;
 }
@@ -406,11 +412,29 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   46%{ opacity:1; }
   49%{ opacity:0; }
 }
-@media (prefers-reduced-motion: reduce){
-  .cta-mascot-cola, .cta-mascot-parpadeo{ animation:none; }
+/* con el mouse encima: parpadea en el acto y mueve la cola sin parar */
+.cta-mascot:hover .cta-mascot-cola{
+  animation: perro-cola-contento .7s ease-in-out infinite;
 }
-@media (max-width: 680px){
+@keyframes perro-cola-contento{
+  0%, 100%{ transform: rotate(0deg); }
+  25%{ transform: rotate(-16deg); }
+  75%{ transform: rotate(10deg); }
+}
+.cta-mascot:hover .cta-mascot-parpadeo{
+  animation: perro-parpadeo-ya .5s step-end 1;
+}
+@keyframes perro-parpadeo-ya{
+  0%{ opacity:1; }
+  40%{ opacity:0; }
+}
+@media (prefers-reduced-motion: reduce){
+  .cta-mascot-cola, .cta-mascot-parpadeo,
+  .cta-mascot:hover .cta-mascot-cola, .cta-mascot:hover .cta-mascot-parpadeo{ animation:none; }
+}
+@media (max-width: 900px){
   .cta-mascot{ display:none; }
+  .cta-btn-wrap{ margin-top: 8px; }
 }
 
 /* --- footer: mismo fondo oscuro que el CTA, sin espacio entre ambos --- */
