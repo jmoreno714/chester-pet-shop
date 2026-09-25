@@ -204,14 +204,14 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 /* --- categorías a sangre: bloques de color + tipografía enorme superpuesta --- */
 .category-bleed{
   display:grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 .bleed-block{
   position:relative;
-  aspect-ratio: 4/5;
+  aspect-ratio: 1/1;
   display:flex; flex-direction:column; justify-content:flex-end;
-  padding: 24px;
+  padding: 18px;
   text-decoration:none;
   color: #F7F1E5;
   overflow:hidden;
@@ -226,7 +226,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .bleed-block h3, .bleed-block p{ position:relative; z-index:1; }
 .bleed-block h3{
   color:#F7F1E5; margin:0 0 .15em; line-height:1.02;
-  font-size: clamp(1.3rem, 2.3vw, 1.9rem);
+  font-size: clamp(1.15rem, 1.7vw, 1.5rem);
 }
 .bleed-block p{
   font-family: var(--mono); font-size:.72rem; color: rgba(247,241,229,0.78); margin:0;
@@ -235,23 +235,25 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .bleed-humedos{ background-image: url('../img/humedo.webp'); }
 .bleed-farmacos{ background-image: url('../img/Farmacos.webp'); }
 .bleed-camitas{ background-image: url('../img/Camitas.webp'); }
+/* 10 categorías en 4 columnas dejan 2 sueltas: van al doble de ancho para
+   cerrar la fila (y son fotos horizontales, así se ven mejor) */
+.bleed-farmacos, .bleed-camitas{ grid-column: span 2; aspect-ratio: 2/1; }
 .bleed-vitalcan-perros{ background-image: url('../img/vitalcan-perros.webp'); }
 .bleed-vitalcan-gatos{ background-image: url('../img/vitalcan-gatos.webp'); }
 .bleed-otros{ background-image: url('../img/otros-alimentos.webp'); }
-/* logos sobre blanco: el tile es vertical y "cover" los cortaría a los
-   costados, así que se muestran enteros, un poco arriba del centro para
-   dejarle lugar al título */
+/* logos sobre blanco: "cover" los cortaría a los costados, así que se
+   muestran enteros, arriba del centro para dejarle lugar al título */
 .bleed-logo{
   background-color:#fff;
-  background-size: 92% auto;
+  background-size: 80% auto;
   background-repeat:no-repeat;
-  background-position: center 36%;
+  background-position: center 22%;
 }
 .bleed-logo::before{ background: linear-gradient(180deg, rgba(10,9,8,0) 55%, rgba(10,9,8,0.82) 100%); }
 .bleed-sieger{ background-image: url('../img/sieger-agility.webp'); }
 .bleed-estampa{ background-image: url('../img/estampa.webp'); }
 /* el logo ocupa menos de la mitad de su imagen: se agranda comiendo el blanco de los bordes */
-.bleed-royal{ background-image: url('../img/royal-canin.webp'); background-size: 150% auto; }
+.bleed-royal{ background-image: url('../img/royal-canin.webp'); background-size: 130% auto; }
 /* su logo es una franja que cruza de lado a lado: va a todo el ancho */
 .bleed-eukanuba{ background-image: url('../img/eukanuba.webp'); background-size: 100% auto; }
 
@@ -874,7 +876,10 @@ body.cart-lock{ overflow:hidden; }
 @media (max-width: 900px){
   .hero{ grid-template-columns: 1fr; }
   .shelf-grid{ grid-template-columns: repeat(2, 1fr); }
-  .category-bleed{ grid-template-columns: repeat(2, 1fr); }
+  .category-bleed{ grid-template-columns: repeat(3, 1fr); }
+  /* en 3 columnas sobra una sola: Camitas cierra la fila a lo ancho */
+  .bleed-farmacos{ grid-column: auto; aspect-ratio: 1/1; }
+  .bleed-camitas{ grid-column: span 3; aspect-ratio: 3/1; }
   .promise-grid{ grid-template-columns: 1fr; gap: 32px; max-width:360px; margin:0 auto; }
   .promise-cat{ display:none; }
   .footer-grid{ grid-template-columns: 1fr; }
@@ -898,11 +903,15 @@ body.cart-lock{ overflow:hidden; }
   nav.main-nav a{ padding:12px 0; }
   nav.main-nav .btn{ margin-top:12px; justify-content:center; }
 }
+@media (max-width: 680px){
+  .category-bleed{ grid-template-columns: repeat(2, 1fr); }
+  .bleed-camitas{ grid-column: auto; aspect-ratio: 1/1; }
+}
 @media (max-width: 520px){
   .shelf-grid{ grid-template-columns: 1fr 1fr; }
   .cta-final{ margin:0; padding: 36px 20px; }
   .category-bleed{ grid-template-columns: 1fr; }
-  .bleed-block{ aspect-ratio: 4/3; }
+  .bleed-block{ aspect-ratio: 4/3; padding: 22px; }
   /* acá el tile es horizontal: el logo se escala por alto para no pisar el título */
   .bleed-logo{ background-size: auto 58%; background-position: center 18%; }
   .bleed-logo.bleed-eukanuba{ background-size: 100% auto; }
