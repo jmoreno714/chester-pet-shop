@@ -489,6 +489,66 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .page-hero{ padding-top: 56px; padding-bottom: 20px; }
 .page-hero .eyebrow{ margin-bottom: 14px; }
 
+/* --- nosotros: foto a sangre + texto, y equipo --- */
+.about-split{
+  display:grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  align-items:center;
+}
+.about-photo{
+  position:relative; align-self:stretch; min-height: 460px;
+  background:
+    repeating-linear-gradient(135deg, rgba(63,92,67,0.12) 0 10px, rgba(63,92,67,0.05) 10px 20px),
+    var(--paper-dark);
+}
+.about-photo img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.about-ph{
+  position:absolute; inset:0; display:flex; align-items:center; justify-content:center;
+  font-family: var(--mono); font-size:.8rem; color: var(--ink-soft); text-align:center;
+}
+/* el margen derecho sigue el borde del .wrap del resto del sitio */
+.about-text{ padding: 56px max(24px, calc((100vw - var(--wrap)) / 2 + 24px)) 56px 64px; }
+.about-text .eyebrow{ margin-bottom: 12px; }
+.about-text h1{ margin: 0 0 .5em; font-size: clamp(2rem, 3.4vw, 2.8rem); }
+.about-text p{ margin: 0 0 1em; color: var(--ink-soft); font-size: .98rem; max-width: 56ch; }
+
+.team-title{ text-align:center; margin: 8px 0 12px; }
+.team-grid{
+  display:grid; grid-template-columns: repeat(4, 1fr);
+  gap: 24px; justify-items:center;
+}
+.team-member{ width:100%; max-width:230px; text-align:center; }
+/* círculo de fondo + recorte: el recorte es más alto que el círculo y solo
+   redondea abajo, así una foto sin fondo "sale" por arriba del círculo */
+.team-photo{ position:relative; width:100%; aspect-ratio:1/1; margin: 48px 0 16px; }
+.team-photo::before{ content:""; position:absolute; inset:0; border-radius:50%; background: var(--paper-dark); }
+.team-clip{
+  position:absolute; left:0; right:0; bottom:0; height:125%;
+  overflow:hidden;
+  /* 50% del ancho y 40% de un alto que es 1,25 veces el ancho = mismo radio que el círculo */
+  border-radius: 0 0 50% 50% / 0 0 40% 40%;
+}
+.team-clip img{
+  position:absolute; bottom:0; left:50%; width:92%; height:auto; max-width:none;
+  transform: translateX(-50%);
+  transition: transform .3s cubic-bezier(.22,1,.36,1);
+}
+.team-member:hover .team-clip img{ transform: translateX(-50%) translateY(-6px); }
+.team-ph{
+  position:absolute; left:0; right:0; bottom:0; height:80%;
+  display:flex; align-items:center; justify-content:center;
+  font-family: var(--mono); font-size:.75rem; color: var(--ink-soft); text-align:center;
+}
+.team-member h3{ margin:0; font-size:1.05rem; }
+.team-member p{ margin:.3em 0 0; font-family: var(--mono); font-size:.72rem; letter-spacing:.04em; text-transform:uppercase; color: var(--ink-soft); }
+
+@media (max-width: 800px){
+  .about-split{ grid-template-columns: 1fr; }
+  .about-photo{ min-height: 280px; }
+  .about-text{ padding: 32px 24px 16px; }
+  .team-grid{ grid-template-columns: repeat(2, 1fr); gap: 8px 20px; }
+}
+@media (prefers-reduced-motion: reduce){ .team-clip img{ transition:none; } }
+
 /* --- catálogo: filtro por categoría + buscador --- */
 .catalog-controls{
   display:flex; justify-content:space-between; align-items:center;
