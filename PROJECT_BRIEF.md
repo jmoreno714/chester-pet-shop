@@ -19,7 +19,8 @@ chester-pet-shop/
   index.html          → home
   productos.html       → catálogo (placeholder)
   nosotros.html         → historia del local (placeholder)
-  contacto.html         → WhatsApp + formulario de ejemplo
+  carrito.html          → carrito (paso 1 del pedido)
+  finalizar.html        → datos de entrega y envío por WhatsApp (paso 2)
   assets/css/style.css  → sistema de diseño completo
   assets/js/main.js     → menú mobile + animación de sellos
   assets/img/           → vacío, a la espera de fotos reales

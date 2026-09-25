@@ -5,7 +5,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   // Nav activo
   const here = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('nav.main-nav a').forEach((a) => {
+  // los botones no: "Hacer pedido" apunta al catálogo y quedaría bordó sobre bordó
+  document.querySelectorAll('nav.main-nav a:not(.btn)').forEach((a) => {
     const href = a.getAttribute('href');
     if (href === here) a.setAttribute('aria-current', 'page');
   });

@@ -11,6 +11,16 @@
   const WHATSAPP = '';
   const KEY = 'chester-carrito';
 
+  // botones "Escribinos / Pedir por WhatsApp" del sitio: con número cargado
+  // abren el chat del local; sin número se quedan en su link de respaldo
+  if (WHATSAPP) {
+    document.querySelectorAll('a[data-whatsapp]').forEach((a) => {
+      a.href = `https://wa.me/${WHATSAPP}`;
+      a.target = '_blank';
+      a.rel = 'noopener';
+    });
+  }
+
   const header = document.querySelector('.site-header .wrap');
   if (!header) return;
 
