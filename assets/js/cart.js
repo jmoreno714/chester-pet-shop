@@ -44,19 +44,22 @@
       ${conBoton ? '<a class="btn btn-ghost btn-sm" href="productos.html">Ver el catálogo</a>' : ''}
     </div>`;
 
-  // una línea de producto; la página suma el subtotal de la línea
-  const itemHTML = (it, i, conSubtotal) => `
+  const subtotal = (it) => (typeof it.precio === 'number' ? precio(it.precio * it.cantidad) : 'a confirmar');
+
+  // una línea de producto; en la página es más grande y suma el subtotal.
+  // la cantidad usa el mismo stepper elástico de la ficha (qty-elastic.js)
+  const itemHTML = (it, i, enPagina) => `
     <li class="cart-item">
       <div class="cart-item-info">
         <a class="cart-item-name" href="producto.html?slug=${encodeURIComponent(it.slug)}">${esc(it.nombre)}</a>
         <span class="cart-item-meta">${it.peso ? esc(it.peso) + ' · ' : ''}${typeof it.precio === 'number' ? precio(it.precio) + ' c/u' : 'precio a confirmar'}</span>
       </div>
-      <div class="cart-item-qty">
-        <button type="button" data-act="menos" data-i="${i}" aria-label="Restar uno">−</button>
-        <span>${it.cantidad}</span>
-        <button type="button" data-act="mas" data-i="${i}" aria-label="Sumar uno">+</button>
+      <div class="qty-elastic${enPagina ? '' : ' qty-elastic--sm'}" data-i="${i}" data-offset="${enPagina ? 16 : 11}" role="group" aria-label="Cantidad">
+        <span class="qty-elastic-sign" data-dir="-1" role="button" tabindex="0" aria-label="Restar uno">−</span>
+        <span class="qty-elastic-track"><span class="qty-elastic-knob">${it.cantidad}</span></span>
+        <span class="qty-elastic-sign" data-dir="1" role="button" tabindex="0" aria-label="Sumar uno">+</span>
       </div>
-      ${conSubtotal ? `<span class="cart-item-sub">${typeof it.precio === 'number' ? precio(it.precio * it.cantidad) : 'a confirmar'}</span>` : ''}
+      ${enPagina ? `<span class="cart-item-sub" data-i="${i}">${subtotal(it)}</span>` : ''}
       <button type="button" class="cart-item-remove" data-act="quitar" data-i="${i}" aria-label="Quitar ${esc(it.nombre)}">×</button>
     </li>`;
 
@@ -157,19 +160,38 @@
     scope.querySelector('.cart-total-note').hidden = conPrecio().length === items.length;
   }
 
-  function render() {
+  // actualiza números sin rearmar las listas: si se rearman mientras alguien
+  // mantiene apretado el stepper, se corta la repetición y el rebote
+  function refrescarNumeros() {
     const n = items.reduce((s, it) => s + it.cantidad, 0);
     countEl.textContent = n;
     toggle.classList.toggle('has-items', n > 0);
     toggle.setAttribute('aria-label', n ? `Abrir tu pedido (${n} productos)` : 'Abrir tu pedido');
+    if (!items.length) return;
 
+    // en carrito.html el mismo producto está en el panel y en la página
+    document.querySelectorAll('.cart-item .qty-elastic[data-i] .qty-elastic-knob').forEach((k) => {
+      const it = items[Number(k.closest('.qty-elastic').dataset.i)];
+      if (it) k.textContent = it.cantidad;
+    });
+    pintarTotal(pFoot);
+    if (page) {
+      page.querySelectorAll('.cart-item-sub').forEach((el) => {
+        const it = items[Number(el.dataset.i)];
+        if (it) el.textContent = subtotal(it);
+      });
+      pintarTotal(pageSummary);
+      actualizarEnvio();
+    }
+  }
+
+  function render() {
     if (!items.length) {
       pBody.innerHTML = vacioHTML(true);
       pFoot.hidden = true;
     } else {
       pBody.innerHTML = '<ul class="cart-list">' + items.map((it, i) => itemHTML(it, i, false)).join('') + '</ul>';
       pFoot.hidden = false;
-      pintarTotal(pFoot);
     }
 
     if (page) {
@@ -180,10 +202,9 @@
       } else {
         pageList.innerHTML = '<ul class="cart-list">' + items.map((it, i) => itemHTML(it, i, true)).join('') + '</ul>';
         pageSummary.hidden = false;
-        pintarTotal(pageSummary);
-        actualizarEnvio();
       }
     }
+    refrescarNumeros();
   }
 
   function pop() {
@@ -222,18 +243,26 @@
     if (e.key === 'Escape' && panel.classList.contains('is-open')) cerrar();
   });
 
-  // −, + y × del panel y de la página
+  // × del panel y de la página
   document.addEventListener('click', (e) => {
-    const btn = e.target.closest('.cart-item [data-act]');
+    const btn = e.target.closest('.cart-item [data-act="quitar"]');
     if (!btn) return;
     const i = Number(btn.dataset.i);
-    const it = items[i];
-    if (!it) return;
-    if (btn.dataset.act === 'mas') it.cantidad += 1;
-    if (btn.dataset.act === 'menos') it.cantidad = Math.max(1, it.cantidad - 1);
-    if (btn.dataset.act === 'quitar') items.splice(i, 1);
+    if (!items[i]) return;
+    items.splice(i, 1);
     guardar();
     render();
+  });
+
+  // − / + del stepper elástico dentro del carrito (el de la ficha no tiene data-i)
+  document.addEventListener('qty-change', (e) => {
+    const root = e.target.closest('.cart-item .qty-elastic[data-i]');
+    if (!root) return;
+    const it = items[Number(root.dataset.i)];
+    if (!it) return;
+    it.cantidad = e.detail.value;
+    guardar();
+    refrescarNumeros();
   });
 
   // otra pestaña con el sitio abierto cambió el carrito
