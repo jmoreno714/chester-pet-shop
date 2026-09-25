@@ -374,7 +374,40 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   top: 226px;
   left: 50%;
   transform: translateX(-50%);
-  width: 65px; height:auto;
+  width: 65px;
+  display:block;
+  aspect-ratio: 420 / 235;
+}
+/* tres capas del mismo tamaño apiladas: cola, cuerpo y ojos cerrados */
+.cta-mascot img{
+  position:absolute; inset:0;
+  width:100%; height:100%;
+}
+/* la cola gira desde donde se une al lomo (x 342, y 115 en la imagen de 420x235) */
+.cta-mascot-cola{
+  transform-origin: 81.4% 48.9%;
+  animation: perro-cola 3.4s ease-in-out infinite;
+}
+@keyframes perro-cola{
+  0%, 55%, 100%{ transform: rotate(0deg); }
+  62%{ transform: rotate(-16deg); }
+  69%{ transform: rotate(10deg); }
+  76%{ transform: rotate(-16deg); }
+  83%{ transform: rotate(10deg); }
+  90%{ transform: rotate(0deg); }
+}
+/* periodo distinto al de la cola para que no parpadee siempre en el mismo momento */
+.cta-mascot-parpadeo{
+  opacity:0;
+  animation: perro-parpadeo 4.7s step-end infinite;
+}
+@keyframes perro-parpadeo{
+  0%{ opacity:0; }
+  46%{ opacity:1; }
+  49%{ opacity:0; }
+}
+@media (prefers-reduced-motion: reduce){
+  .cta-mascot-cola, .cta-mascot-parpadeo{ animation:none; }
 }
 @media (max-width: 680px){
   .cta-mascot{ display:none; }
