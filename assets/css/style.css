@@ -406,15 +406,17 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 /* periodo distinto al de la cola para que no parpadee siempre en el mismo momento */
 .cta-mascot-parpadeo{
   opacity:0;
-  animation: perro-parpadeo 4.7s step-end infinite;
+  animation: perro-parpadeo 2.6s step-end infinite;
 }
+/* ojos cerrados ~150ms por ciclo */
 @keyframes perro-parpadeo{
   0%{ opacity:0; }
   46%{ opacity:1; }
-  49%{ opacity:0; }
+  52%{ opacity:0; }
 }
-/* con el mouse encima: parpadea en el acto y mueve la cola sin parar */
-.cta-mascot:hover .cta-mascot-cola{
+/* con el mouse sobre el perro o sobre el botón: parpadea en el acto y
+   mueve la cola sin parar */
+.cta-btn-wrap:hover .cta-mascot-cola{
   animation: perro-cola-contento .7s ease-in-out infinite;
 }
 @keyframes perro-cola-contento{
@@ -422,7 +424,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   25%{ transform: rotate(-16deg); }
   75%{ transform: rotate(10deg); }
 }
-.cta-mascot:hover .cta-mascot-parpadeo{
+.cta-btn-wrap:hover .cta-mascot-parpadeo{
   animation: perro-parpadeo-ya .5s step-end 1;
 }
 @keyframes perro-parpadeo-ya{
@@ -431,7 +433,7 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 }
 @media (prefers-reduced-motion: reduce){
   .cta-mascot-cola, .cta-mascot-parpadeo,
-  .cta-mascot:hover .cta-mascot-cola, .cta-mascot:hover .cta-mascot-parpadeo{ animation:none; }
+  .cta-btn-wrap:hover .cta-mascot-cola, .cta-btn-wrap:hover .cta-mascot-parpadeo{ animation:none; }
 }
 @media (max-width: 900px){
   .cta-mascot{ display:none; }
