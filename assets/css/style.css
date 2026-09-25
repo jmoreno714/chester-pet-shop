@@ -250,12 +250,11 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .bleed-logo::before{ background: linear-gradient(180deg, rgba(10,9,8,0) 55%, rgba(10,9,8,0.82) 100%); }
 .bleed-sieger{ background-image: url('../img/sieger-agility.webp'); }
 .bleed-estampa{ background-image: url('../img/estampa.webp'); }
+/* el logo ocupa menos de la mitad de su imagen: se agranda comiendo el blanco de los bordes */
+.bleed-royal{ background-image: url('../img/royal-canin.webp'); background-size: 150% auto; }
+/* su logo es una franja que cruza de lado a lado: va a todo el ancho */
+.bleed-eukanuba{ background-image: url('../img/eukanuba.webp'); background-size: 100% auto; }
 
-/* placeholders de color para las marcas nuevas, hasta tener fotos propias */
-.bleed-grad-1{ background: linear-gradient(160deg, var(--oxblood) 0%, var(--oxblood-dk) 100%); }
-.bleed-grad-2{ background: linear-gradient(160deg, #4C6F51 0%, #22301F 100%); }
-.bleed-grad-3{ background: linear-gradient(160deg, var(--brass) 0%, #6B5322 100%); }
-.bleed-grad-4{ background: linear-gradient(160deg, #2E2C28 0%, var(--ink) 100%); }
 
 /* --- estantes de productos --- */
 .section{ padding: 56px 0; }
@@ -906,6 +905,8 @@ body.cart-lock{ overflow:hidden; }
   .bleed-block{ aspect-ratio: 4/3; }
   /* acá el tile es horizontal: el logo se escala por alto para no pisar el título */
   .bleed-logo{ background-size: auto 58%; background-position: center 18%; }
+  .bleed-logo.bleed-eukanuba{ background-size: 100% auto; }
+  .bleed-logo.bleed-royal{ background-size: auto 95%; }
 }
 
 /* accesibilidad: foco visible + respeto a reduced motion */
