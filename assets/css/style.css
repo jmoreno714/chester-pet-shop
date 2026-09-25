@@ -235,6 +235,21 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
 .bleed-humedos{ background-image: url('../img/humedo.webp'); }
 .bleed-farmacos{ background-image: url('../img/Farmacos.webp'); }
 .bleed-camitas{ background-image: url('../img/Camitas.webp'); }
+.bleed-vitalcan-perros{ background-image: url('../img/vitalcan-perros.webp'); }
+.bleed-vitalcan-gatos{ background-image: url('../img/vitalcan-gatos.webp'); }
+.bleed-otros{ background-image: url('../img/otros-alimentos.webp'); }
+/* logos sobre blanco: el tile es vertical y "cover" los cortaría a los
+   costados, así que se muestran enteros, un poco arriba del centro para
+   dejarle lugar al título */
+.bleed-logo{
+  background-color:#fff;
+  background-size: 92% auto;
+  background-repeat:no-repeat;
+  background-position: center 36%;
+}
+.bleed-logo::before{ background: linear-gradient(180deg, rgba(10,9,8,0) 55%, rgba(10,9,8,0.82) 100%); }
+.bleed-sieger{ background-image: url('../img/sieger-agility.webp'); }
+.bleed-estampa{ background-image: url('../img/estampa.webp'); }
 
 /* placeholders de color para las marcas nuevas, hasta tener fotos propias */
 .bleed-grad-1{ background: linear-gradient(160deg, var(--oxblood) 0%, var(--oxblood-dk) 100%); }
@@ -889,6 +904,8 @@ body.cart-lock{ overflow:hidden; }
   .cta-final{ margin:0; padding: 36px 20px; }
   .category-bleed{ grid-template-columns: 1fr; }
   .bleed-block{ aspect-ratio: 4/3; }
+  /* acá el tile es horizontal: el logo se escala por alto para no pisar el título */
+  .bleed-logo{ background-size: auto 58%; background-position: center 18%; }
 }
 
 /* accesibilidad: foco visible + respeto a reduced motion */
