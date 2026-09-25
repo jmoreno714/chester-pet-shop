@@ -582,6 +582,123 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   .product-detail{ grid-template-columns: 1fr; gap: 28px; }
 }
 
+/* --- carrito (cart.js) --- */
+.site-header nav.main-nav{ margin-left:auto; }
+.cart-toggle{
+  position:relative;
+  display:inline-flex; align-items:center; justify-content:center;
+  width:42px; height:42px; margin-left:20px; padding:0;
+  border:2px solid var(--ink); background: var(--paper); color: var(--ink);
+  cursor:pointer;
+}
+.cart-toggle:hover{ background: rgba(28,27,25,0.06); }
+.cart-toggle svg{ width:22px; height:22px; }
+.cart-count{
+  position:absolute; top:-9px; right:-9px;
+  min-width:20px; height:20px; padding:0 5px;
+  border-radius:999px; background: var(--oxblood); color:#FBF3E4;
+  font-family: var(--mono); font-size:.68rem; font-weight:700;
+  line-height:20px; text-align:center;
+  transform: scale(0); transition: transform .2s ease;
+}
+.cart-toggle.has-items .cart-count{ transform: scale(1); }
+/* al agregar algo: el número salta y la bolsita se sacude */
+.cart-toggle.is-bump .cart-count{ animation: cart-bump .5s cubic-bezier(.34,1.56,.64,1); }
+.cart-toggle.is-bump svg{ animation: cart-wiggle .5s ease; }
+@keyframes cart-bump{ 0%{ transform:scale(1); } 30%{ transform:scale(1.5); } 100%{ transform:scale(1); } }
+@keyframes cart-wiggle{ 0%,100%{ transform:rotate(0); } 25%{ transform:rotate(-12deg); } 55%{ transform:rotate(9deg); } 80%{ transform:rotate(-4deg); } }
+
+.cart-overlay{
+  position:fixed; inset:0; z-index:90;
+  background: rgba(28,27,25,0.45);
+  opacity:0; transition: opacity .25s ease;
+}
+.cart-overlay.is-open{ opacity:1; }
+.cart-panel{
+  position:fixed; top:0; right:0; bottom:0; z-index:100;
+  width: min(420px, 100%);
+  display:flex; flex-direction:column;
+  background: var(--paper); border-left:2px solid var(--ink);
+  transform: translateX(100%);
+  transition: transform .32s cubic-bezier(.22,1,.36,1);
+}
+.cart-panel[hidden]{ display:none; }
+.cart-panel.is-open{ transform:none; }
+body.cart-lock{ overflow:hidden; }
+
+.cart-head{
+  display:flex; align-items:center; justify-content:space-between;
+  padding: 18px 24px; border-bottom:2px solid var(--ink);
+}
+.cart-head h2{ font-size:1.5rem; margin:0; }
+.cart-close{
+  width:36px; height:36px; padding:0;
+  border:2px solid var(--ink); background: var(--paper); color: var(--ink);
+  font-size:1.4rem; line-height:1; cursor:pointer;
+}
+.cart-close:hover{ background: rgba(28,27,25,0.06); }
+.cart-body{ flex:1; overflow-y:auto; padding: 4px 24px; }
+
+.cart-list{ list-style:none; margin:0; padding:0; }
+.cart-item{
+  display:grid; grid-template-columns: 1fr auto; gap: 8px 14px; align-items:center;
+  padding: 16px 0; border-bottom:1px solid var(--line);
+}
+.cart-item-name{ font-weight:700; font-size:.98rem; color: var(--ink); text-decoration:none; }
+.cart-item-name:hover{ text-decoration:underline; }
+.cart-item-meta{ display:block; margin-top:4px; font-family: var(--mono); font-size:.72rem; color: var(--ink-soft); }
+.cart-item-qty{ display:flex; align-items:center; border:1px solid var(--ink); height:32px; }
+.cart-item-qty button{
+  width:30px; height:100%; padding:0; border:0; background: var(--paper);
+  font-family: var(--mono); font-size:1rem; color: var(--ink); cursor:pointer;
+}
+.cart-item-qty button:hover{ background: rgba(28,27,25,0.06); }
+.cart-item-qty span{ min-width:28px; text-align:center; font-family: var(--mono); font-size:.9rem; }
+.cart-item-remove{
+  grid-column:1; justify-self:start;
+  padding:0; border:0; background:none; cursor:pointer;
+  font-family: var(--mono); font-size:.7rem; letter-spacing:.06em; text-transform:uppercase;
+  color: var(--oxblood);
+}
+.cart-item-remove:hover{ text-decoration:underline; }
+
+.cart-empty{ text-align:center; padding: 56px 8px; }
+.cart-empty img{ display:block; margin: 0 auto 14px; animation: cart-dog-bob 2.4s ease-in-out infinite; }
+.cart-empty p{ color: var(--ink-soft); margin: 0 0 20px; }
+.cart-empty strong{ color: var(--ink); }
+@keyframes cart-dog-bob{ 0%,100%{ transform: translateY(0) rotate(0); } 50%{ transform: translateY(-5px) rotate(-5deg); } }
+
+.cart-foot{
+  display:grid; gap:12px;
+  padding: 18px 24px 22px;
+  border-top:2px solid var(--ink); background: var(--paper-dark);
+}
+.cart-foot[hidden]{ display:none; }
+.cart-total{ display:flex; align-items:baseline; justify-content:space-between; }
+.cart-total span{ font-family: var(--mono); font-size:.76rem; letter-spacing:.06em; text-transform:uppercase; color: var(--ink-soft); }
+.cart-total strong{ font-family: var(--mono); font-size:1.4rem; }
+.cart-total-note{ margin:-8px 0 0; font-family: var(--mono); font-size:.7rem; color: var(--ink-soft); text-align:right; }
+.cart-field{ display:grid; gap:5px; }
+.cart-field span{ font-family: var(--mono); font-size:.7rem; letter-spacing:.04em; text-transform:uppercase; color: var(--ink-soft); }
+.cart-field em{ font-style:normal; text-transform:none; }
+.cart-field input{
+  width:100%; padding:.6em .8em;
+  font-family: var(--body); font-size:.95rem;
+  border:1px solid var(--ink); border-radius:0; background: var(--paper); color: var(--ink);
+}
+.cart-send{ width:100%; justify-content:center; margin-top:4px; }
+.cart-send svg{ width:18px; height:18px; }
+.cart-fine{ margin:0; font-size:.8rem; color: var(--ink-soft); text-align:center; }
+
+@media (max-width: 800px){
+  .cart-toggle{ order:1; margin-left:auto; width:40px; height:36px; border-radius:5px; }
+  .nav-toggle{ order:2; margin-left:12px; }
+}
+@media (prefers-reduced-motion: reduce){
+  .cart-toggle.is-bump .cart-count, .cart-toggle.is-bump svg, .cart-empty img{ animation:none; }
+  .cart-panel, .cart-overlay{ transition-duration:1ms; }
+}
+
 /* --- responsive --- */
 @media (max-width: 900px){
   .hero{ grid-template-columns: 1fr; }
@@ -591,7 +708,8 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   .promise-cat{ display:none; }
   .footer-grid{ grid-template-columns: 1fr; }
 }
-@media (max-width: 680px){
+/* 800 y no menos: con el botón del carrito, el menú completo ya no entra en una línea por debajo de ~780px */
+@media (max-width: 800px){
   .nav-toggle{
     display:flex; flex-direction:column; justify-content:center; gap:5px;
     width:40px; height:36px; background:transparent;

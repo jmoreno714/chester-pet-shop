@@ -75,13 +75,16 @@
 
       const addBtn = document.getElementById('pd-add-cart');
       addBtn.addEventListener('click', () => {
-        const original = addBtn.textContent;
-        addBtn.textContent = 'Agregado ✓';
-        addBtn.disabled = true;
-        setTimeout(() => {
-          addBtn.textContent = original;
-          addBtn.disabled = false;
-        }, 1400);
+        if (!window.ChesterCarrito) return;
+        const cantidad = parseInt(document.getElementById('pd-qty').textContent, 10) || 1;
+        window.ChesterCarrito.agregar({
+          codigo: seleccionada.codigo,
+          slug: p.slug,
+          nombre: p.nombre,
+          peso: seleccionada.peso,
+          precio: seleccionada.precio,
+          cantidad,
+        });
       });
     })
     .catch(() => {
