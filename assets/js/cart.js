@@ -8,7 +8,7 @@
 (function () {
   // número del local con código de país, sin + ni espacios (ej. 5493811234567).
   // vacío: WhatsApp se abre con el mensaje listo y el cliente elige el contacto
-  const WHATSAPP = '';
+  const WHATSAPP = '5493815112487';
   const KEY = 'chester-carrito';
 
   // botones "Escribinos / Pedir por WhatsApp" del sitio: con número cargado
