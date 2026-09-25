@@ -12,13 +12,14 @@
   const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const CAT_W = cat.offsetWidth || 56;
 
+  // en reposo arranca pegado al borde izquierdo del bloque, antes del
+  // primer ícono (antes quedaba entre el 1° y el 2°)
   let rect = grid.getBoundingClientRect();
-  let restLeft = Math.max(0, rect.width / 3 - CAT_W / 2 - 10);
+  const restLeft = 0;
   cat.style.left = restLeft + 'px';
 
   window.addEventListener('resize', () => {
     rect = grid.getBoundingClientRect();
-    restLeft = Math.max(0, rect.width / 3 - CAT_W / 2 - 10);
   });
 
   if (reduced) return;
