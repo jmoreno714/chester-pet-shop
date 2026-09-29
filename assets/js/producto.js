@@ -25,6 +25,19 @@
     return '$' + precio.toLocaleString('es-AR');
   }
 
+  // precio de lista tachado + precio con el 10% de efectivo/transferencia
+  // (todos los productos lo tienen)
+  function pintarPrecio(el, precio) {
+    if (typeof precio !== 'number') {
+      el.textContent = formatPrecio(precio);
+      return;
+    }
+    el.innerHTML =
+      `<span class="price-list"><span class="sr-only">Precio de lista: </span>${formatPrecio(precio)}</span>` +
+      `<span class="price-cash">${formatPrecio(Math.round(precio * 0.9))}` +
+      `<span class="price-cash-note">10% menos · efectivo o transferencia</span></span>`;
+  }
+
   const slug = new URLSearchParams(location.search).get('slug');
 
   fetch('assets/data/productos.json')
@@ -64,14 +77,14 @@
             seleccionada = v;
             options.querySelectorAll('.variant-btn').forEach((b) => b.classList.remove('is-active'));
             btn.classList.add('is-active');
-            precioEl.textContent = formatPrecio(v.precio);
+            pintarPrecio(precioEl, v.precio);
           });
           options.appendChild(btn);
         });
         variantsEl.append(label, options);
       }
 
-      precioEl.textContent = formatPrecio(seleccionada.precio);
+      pintarPrecio(precioEl, seleccionada.precio);
 
       const addBtn = document.getElementById('pd-add-cart');
       addBtn.addEventListener('click', () => {
