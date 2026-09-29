@@ -37,8 +37,8 @@
       `<span class="price-list"><span class="sr-only">Precio de lista: </span>${formatPrecio(precio)}</span>` +
       `<span class="price-cash"><span class="sr-only">En efectivo o transferencia: </span>${formatPrecio(Math.round(precio * 0.9))}</span>` +
       '<span class="price-badge" aria-hidden="true">-10%</span>' +
-      '</span>' +
-      '<span class="price-cash-note" aria-hidden="true">pagando en efectivo o transferencia</span>';
+      '<span class="price-cash-note" aria-hidden="true">pagando en efectivo o transferencia</span>' +
+      '</span>';
   }
 
   const slug = new URLSearchParams(location.search).get('slug');
