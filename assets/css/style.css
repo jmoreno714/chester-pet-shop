@@ -801,6 +801,14 @@ body.cart-lock{ overflow:hidden; }
 }
 .cart-summary[hidden]{ display:none; }
 
+/* "Completá tu pedido" (relacionados.js) */
+.related-title{ margin:0; text-align:center; }
+.related-sub{ margin: 6px 0 28px; text-align:center; color: var(--ink-soft); }
+.related-link{ display:flex; flex-direction:column; gap:10px; flex:1; color:inherit; text-decoration:none; }
+.related-link:hover h3{ text-decoration:underline; }
+.related-add{ width:100%; justify-content:center; margin-top:4px; }
+.related-add:disabled{ opacity:.6; cursor:default; }
+
 /* --- barra de pasos del pedido (carrito → tus datos → enviar) ---
    --fill va de 0 a 1; los puntos quedan en 0, .5 y 1 porque la pista va
    del centro del primer punto al centro del último */

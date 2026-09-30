@@ -247,16 +247,17 @@
   });
 
   window.ChesterCarrito = {
-    agregar(prod) {
+    // { abrir:false } en la página del carrito: la lista se actualiza ahí mismo
+    agregar(prod, opciones) {
       const existente = items.find((it) => it.codigo === prod.codigo);
       if (existente) existente.cantidad += prod.cantidad;
       else items.push(prod);
       guardar();
       render();
       pop();
-      abrir();
+      if (!opciones || opciones.abrir !== false) abrir();
     },
-    // para finalizar.html
+    // para finalizar.html y los relacionados del carrito
     items: () => items.slice(),
     precio,
     subtotal,
