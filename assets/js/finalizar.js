@@ -54,6 +54,93 @@
 
   const conEnvio = () => f.entrega.value === 'Envío a domicilio';
 
+  // código de pedido al estilo Pedix (XXXX-XXXX). Sin servidor no hay
+  // numeración correlativa: es un código al azar para identificar el chat.
+  function codigoPedido() {
+    const abc = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789'; // sin 0/O ni 1/I, que se confunden
+    const parte = () => Array.from({ length: 4 }, () => abc[Math.floor(Math.random() * abc.length)]).join('');
+    return `${parte()}-${parte()}`;
+  }
+
+  const dos = (n) => String(n).padStart(2, '0');
+  function fechaHora(d) {
+    return `${dos(d.getDate())}/${dos(d.getMonth() + 1)}/${String(d.getFullYear()).slice(-2)} - ${dos(d.getHours())}:${dos(d.getMinutes())}hs`;
+  }
+
+  // el mismo redondeo por unidad que muestra la ficha de producto
+  const precioEfectivo = (precio) => Math.round(precio * 0.9);
+
+  // mismo formato que el resumen que mandaba Pedix
+  function mensaje() {
+    const items = C.items();
+    const envio = conEnvio();
+    const pago = form.querySelector('input[name="pago"]:checked');
+    const conDescuento = 'descuento' in pago.dataset;
+    const total = C.precio(C.total());
+    const L = [];
+
+    L.push('¡Hola! Te paso el resumen de mi pedido', '');
+    L.push(`Pedido: #${codigoPedido()}`);
+    L.push('Tienda: Chester Pet Shop');
+    L.push(`Fecha: ${fechaHora(new Date())}`);
+    L.push(`Nombre: ${f.nombre.value.trim()}`);
+    L.push(`Teléfono: ${f.telefono.value.trim()}`, '');
+
+    L.push(`Forma de pago: ${pago.value}`);
+    L.push(`Total: ${total}`);
+    if (conDescuento) {
+      const efectivo = items
+        .filter((it) => typeof it.precio === 'number')
+        .reduce((s, it) => s + precioEfectivo(it.precio) * it.cantidad, 0);
+      L.push(`► Con 10% de descuento en efectivo o transferencia: ${C.precio(efectivo)}`);
+    } else {
+      L.push('► En caso de pagar con tarjeta de crédito/débito, solicitar link de pago vía WhatsApp');
+    }
+    L.push('');
+
+    if (envio) {
+      const dir = `${f.direccion.value.trim()}, ${f.barrio.value.trim()}`;
+      L.push('Entrega: Envío a domicilio (gratis)');
+      L.push(`Dirección: ${dir}`);
+      if (f.referencias.value.trim()) L.push(`Referencias: ${f.referencias.value.trim()}`);
+      L.push(`Ubicación: https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(dir + ', Tucumán, Argentina')}`);
+    } else {
+      L.push('Entrega: Retiro en el local');
+    }
+    L.push('');
+
+    const extras = [
+      ['¿Cuánto te dura esa bolsa de alimento?', f.duracion.value.trim()],
+      ['Nombre de tu(s) mascota(s)', f.mascotas.value.trim()],
+      ['Comentarios', f.comentarios.value.trim()],
+    ].filter(([, v]) => v);
+    if (extras.length) L.push(...extras.map(([k, v]) => `${k}: ${v}`), '');
+
+    // productos agrupados como "Categoría (Marca)", en el orden en que se agregaron
+    L.push('Mi pedido es', '');
+    const grupos = new Map();
+    items.forEach((it) => {
+      const titulo = it.categoria
+        ? (it.marca ? `${it.categoria} (${it.marca})` : it.categoria)
+        : 'Otros productos';
+      if (!grupos.has(titulo)) grupos.set(titulo, []);
+      grupos.get(titulo).push(it);
+    });
+    grupos.forEach((lista, titulo) => {
+      L.push(titulo);
+      lista.forEach((it) => {
+        const detalle = it.peso ? ` (${it.nombre} ${it.peso})` : '';
+        L.push(`${it.cantidad}x ${it.nombre}${detalle}: ${C.subtotal(it)}`);
+      });
+      L.push('');
+    });
+
+    L.push(`TOTAL: ${total}`);
+    if (C.faltanPrecios()) L.push('(+ productos con precio a confirmar)');
+    L.push('', 'Espero tu respuesta para confirmar mi pedido');
+    return L.join('\n');
+  }
+
   function validarTelefono() {
     const digitos = f.telefono.value.replace(/\D/g, '').length;
     f.telefono.setCustomValidity(f.telefono.value && digitos < 8 ? 'Poné un teléfono con al menos 8 números.' : '');
@@ -102,20 +189,7 @@
       return;
     }
 
-    const envio = conEnvio();
-    const pago = form.querySelector('input[name="pago"]:checked');
-    const datos = [
-      ['Nombre', f.nombre.value.trim()],
-      ['Teléfono', f.telefono.value.trim()],
-      ['Mascota/s', f.mascotas.value.trim()],
-      ['Una bolsa le dura', f.duracion.value.trim()],
-      ['Entrega', envio ? 'Envío a domicilio (gratis)' : f.entrega.value],
-      ['Dirección', envio ? `${f.direccion.value.trim()}, ${f.barrio.value.trim()}` : ''],
-      ['Referencias', envio ? f.referencias.value.trim() : ''],
-      ['Pago', pago.value + ('descuento' in pago.dataset ? ' (10% de descuento)' : '')],
-      ['Comentarios', f.comentarios.value.trim()],
-    ];
-    const url = C.whatsappURL(C.mensaje(datos));
+    const url = C.whatsappURL(mensaje());
     window.open(url, '_blank', 'noopener');
 
     enviado = true;

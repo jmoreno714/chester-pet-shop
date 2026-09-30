@@ -127,21 +127,6 @@
     pageSummary = page.querySelector('.cart-summary');
   }
 
-  // líneas del pedido + total + los datos que haya (en el orden en que vienen)
-  function mensaje(datos) {
-    const lineas = items.map((it) => {
-      const nombre = it.peso ? `${it.nombre} ${it.peso}` : it.nombre;
-      const sub = typeof it.precio === 'number' ? precio(it.precio * it.cantidad) : 'precio a confirmar';
-      return `- ${it.cantidad} x ${nombre} (${sub})`;
-    });
-    let txt = '¡Hola Chester! Quiero hacer este pedido:\n\n' + lineas.join('\n');
-    txt += `\n\nTotal: ${precio(total())}`;
-    if (conPrecio().length < items.length) txt += ' + productos a confirmar';
-    const extra = (datos || []).filter(([, v]) => v).map(([k, v]) => `${k}: ${v}`);
-    if (extra.length) txt += '\n\n' + extra.join('\n');
-    return txt;
-  }
-
   const whatsappURL = (texto) =>
     `${WHATSAPP ? `https://wa.me/${WHATSAPP}` : 'https://wa.me/'}?text=${encodeURIComponent(texto)}`;
 
@@ -277,7 +262,6 @@
     subtotal,
     total,
     faltanPrecios: () => conPrecio().length < items.length,
-    mensaje,
     whatsappURL,
     vaciar() {
       items = [];

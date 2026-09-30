@@ -100,6 +100,9 @@
           peso: seleccionada.peso,
           precio: seleccionada.precio,
           cantidad,
+          // para agrupar el mensaje de WhatsApp como "Categoría (Marca)"
+          categoria: catLabel,
+          marca: p.marca,
         });
       });
     })
