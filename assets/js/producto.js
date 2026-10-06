@@ -25,7 +25,7 @@
     return '$' + precio.toLocaleString('es-AR');
   }
 
-  // precio de lista tachado + precio con el 10% de efectivo/transferencia
+  // precio de lista + precio con el 10% de efectivo/transferencia
   // (todos los productos lo tienen)
   function pintarPrecio(el, precio) {
     if (typeof precio !== 'number') {
@@ -39,6 +39,23 @@
       '<span class="price-badge" aria-hidden="true">-10%</span>' +
       '<span class="price-cash-note" aria-hidden="true">pagando en efectivo o transferencia</span>' +
       '</span>';
+  }
+
+  // al cambiar de peso el precio nuevo entra desenfocado y se asienta: el
+  // blur funde los dos números en vez de mostrar un salto seco
+  const reducido = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function animarPrecio(el) {
+    if (!el.animate) return;
+    el.getAnimations().forEach((a) => a.cancel()); // clicks seguidos: arranca de nuevo
+    el.animate(
+      reducido
+        ? [{ opacity: 0.4 }, { opacity: 1 }]
+        : [
+            { opacity: 0.35, filter: 'blur(3px)', transform: 'translateY(4px)' },
+            { opacity: 1, filter: 'blur(0)', transform: 'none' },
+          ],
+      { duration: 240, easing: 'cubic-bezier(.23,1,.32,1)' }
+    );
   }
 
   const slug = new URLSearchParams(location.search).get('slug');
@@ -77,10 +94,12 @@
           btn.className = 'variant-btn' + (i === 0 ? ' is-active' : '');
           btn.textContent = v.peso;
           btn.addEventListener('click', () => {
+            if (seleccionada === v) return;
             seleccionada = v;
             options.querySelectorAll('.variant-btn').forEach((b) => b.classList.remove('is-active'));
             btn.classList.add('is-active');
             pintarPrecio(precioEl, v.precio);
+            animarPrecio(precioEl);
           });
           options.appendChild(btn);
         });
