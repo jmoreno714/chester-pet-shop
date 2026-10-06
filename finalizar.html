@@ -16,7 +16,7 @@
 <meta property="og:url" content="https://jmoreno714.github.io/chester-pet-shop/finalizar.html">
 <meta property="og:image" content="https://jmoreno714.github.io/chester-pet-shop/assets/img/herobanner_viajar_con_mascotas.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="assets/css/style.css?v=202610061206">
+<link rel="stylesheet" href="assets/css/style.css?v=202610061221">
 </head>
 <body>
 
@@ -98,22 +98,24 @@
             </label>
           </div>
           <div class="checkout-envio">
-            <p class="checkout-free">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="7" width="13" height="10"/><path d="M14 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
-              El envío a domicilio es gratis.
-            </p>
-            <label class="cart-field">
-              <span>Dirección *</span>
-              <input type="text" name="direccion" required autocomplete="street-address" placeholder="Calle y número">
-            </label>
-            <label class="cart-field">
-              <span>Barrio *</span>
-              <input type="text" name="barrio" required>
-            </label>
-            <label class="cart-field">
-              <span>Referencias <em>(opcional)</em></span>
-              <input type="text" name="referencias" placeholder="Piso, depto, timbre, entre calles…">
-            </label>
+            <div class="checkout-envio-inner">
+              <p class="checkout-free">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="1" y="7" width="13" height="10"/><path d="M14 10h4l3 3v4h-7z"/><circle cx="6" cy="18.5" r="1.6"/><circle cx="17.5" cy="18.5" r="1.6"/></svg>
+                El envío a domicilio es gratis.
+              </p>
+              <label class="cart-field">
+                <span>Dirección *</span>
+                <input type="text" name="direccion" required autocomplete="street-address" placeholder="Calle y número">
+              </label>
+              <label class="cart-field">
+                <span>Barrio *</span>
+                <input type="text" name="barrio" required>
+              </label>
+              <label class="cart-field">
+                <span>Referencias <em>(opcional)</em></span>
+                <input type="text" name="referencias" placeholder="Piso, depto, timbre, entre calles…">
+              </label>
+            </div>
           </div>
         </fieldset>
 
@@ -161,7 +163,10 @@
     </div>
 
     <div class="wrap checkout-message" id="checkout-done" hidden>
-      <img class="checkout-message-dog" src="assets/img/perro-cta.png" alt="" width="160">
+      <span class="done-dog" aria-hidden="true">
+        <img class="done-dog-cola" src="assets/img/perro-cta-cola.png" alt="">
+        <img src="assets/img/perro-cta-cuerpo.png" alt="">
+      </span>
       <h2>¡Listo! Te abrimos WhatsApp con tu pedido.</h2>
       <p>Mandá el mensaje y te respondemos para coordinar el pago y la entrega.</p>
       <div class="checkout-message-actions">
@@ -191,9 +196,9 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script src="assets/js/main.js?v=202610061206"></script>
-<script src="assets/js/cart.js?v=202610061206"></script>
-<script src="assets/js/qty-elastic.js?v=202610061206"></script>
-<script src="assets/js/finalizar.js?v=202610061206"></script>
+<script src="assets/js/main.js?v=202610061221"></script>
+<script src="assets/js/cart.js?v=202610061221"></script>
+<script src="assets/js/qty-elastic.js?v=202610061221"></script>
+<script src="assets/js/finalizar.js?v=202610061221"></script>
 </body>
 </html>

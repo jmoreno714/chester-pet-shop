@@ -15,10 +15,24 @@ document.addEventListener('DOMContentLoaded', () => {
   const toggle = document.querySelector('.nav-toggle');
   const nav = document.getElementById('main-nav');
   if (toggle && nav) {
+    // al cerrar, el menú sube y se desvanece (150ms, CSS) antes de ocultarse
+    let cerrando = 0;
     toggle.addEventListener('click', () => {
-      const open = nav.getAttribute('data-open') === 'true';
-      nav.setAttribute('data-open', String(!open));
+      const open = nav.getAttribute('data-open') === 'true' && !cerrando;
+      clearTimeout(cerrando);
+      cerrando = 0;
+      nav.removeAttribute('data-closing');
       toggle.setAttribute('aria-expanded', String(!open));
+      if (!open) {
+        nav.setAttribute('data-open', 'true');
+        return;
+      }
+      nav.setAttribute('data-closing', 'true');
+      cerrando = setTimeout(() => {
+        cerrando = 0;
+        nav.removeAttribute('data-closing');
+        nav.setAttribute('data-open', 'false');
+      }, 150);
     });
     nav.querySelectorAll('a').forEach((a) =>
       a.addEventListener('click', () => {

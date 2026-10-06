@@ -620,7 +620,10 @@ nav.main-nav a::after{
   font-family: var(--mono); font-size:.76rem; letter-spacing:.04em; text-transform:uppercase;
   padding:.6em 1em; border:1px solid var(--ink); border-radius:0;
   background: var(--paper); color: var(--ink); cursor:pointer;
+  transition: transform 120ms ease-out;
 }
+/* se hunde apenas al apretar: confirma el toque */
+.filter-btn:active, .variant-btn:active{ transform: scale(.97); }
 .filter-btn:hover{ background: rgba(28,27,25,0.06); }
 .filter-btn.is-active{ background: var(--ink); color: var(--paper); }
 .filter-btn.is-active:hover{ background: var(--ink); }
@@ -701,6 +704,7 @@ nav.main-nav a::after{
   font-family: var(--mono); font-size:.85rem;
   padding:.6em 1em; border:1px solid var(--ink); border-radius:0;
   background: var(--paper); color: var(--ink); cursor:pointer;
+  transition: transform 120ms ease-out;
 }
 .variant-btn:hover{ background: rgba(28,27,25,0.06); }
 .variant-btn.is-active{ background: var(--ink); color: var(--paper); }
@@ -975,8 +979,13 @@ body.cart-lock{ overflow:hidden; }
   padding: 0 8px; margin-left:-8px;
   font-family: var(--display); font-size:1.15rem; font-weight:700;
 }
-.checkout-envio{ display:grid; gap:14px; }
-.checkout-envio[hidden]{ display:none; }
+.checkout-envio{
+  display:grid; grid-template-rows: 1fr; align-self:start;
+  transition: grid-template-rows 250ms cubic-bezier(.77,0,.175,1), opacity 200ms ease, margin-top 250ms cubic-bezier(.77,0,.175,1);
+}
+.checkout-envio-inner{ display:grid; gap:14px; min-height:0; overflow:hidden; overflow:clip; overflow-clip-margin: 4px; }
+/* con "Retiro en el local" se pliega (finalizar.js); el margen negativo se come el gap del bloque */
+.checkout-envio.is-collapsed{ grid-template-rows: 0fr; opacity:0; margin-top:-14px; }
 .checkout-sub{ margin: 4px 0 -4px; font-family: var(--mono); font-size:.7rem; letter-spacing:.04em; text-transform:uppercase; color: var(--ink-soft); }
 .checkout-hint{ margin:0; font-size:.85rem; color: var(--ink-soft); }
 .checkout-form textarea{
@@ -1028,8 +1037,19 @@ body.cart-lock{ overflow:hidden; }
 
 .checkout-message{ text-align:center; padding: 40px 0 20px; }
 .checkout-message[hidden]{ display:none; }
-.checkout-message img{ display:block; margin: 0 auto 18px; }
-.checkout-message-dog{ width:160px; height:auto; }
+.checkout-message > img{ display:block; margin: 0 auto 18px; }
+/* "¡Listo!": el perro del CTA en capas, para que pueda mover la cola */
+.done-dog{ position:relative; display:block; width:160px; aspect-ratio: 420 / 235; margin: 0 auto 18px; }
+.done-dog img{ position:absolute; inset:0; width:100%; height:100%; }
+.done-dog-cola{ transform-origin: 80% 48.085%; }
+/* al mostrarse (finalizar.js agrega .is-in) todo entra escalonado y el perro
+   festeja con tres coletazos */
+.checkout-message.is-in > *{ animation: listo-entra 500ms cubic-bezier(.23,1,.32,1) both; }
+.checkout-message.is-in > :nth-child(2){ animation-delay: 70ms; }
+.checkout-message.is-in > :nth-child(3){ animation-delay: 140ms; }
+.checkout-message.is-in > :nth-child(4){ animation-delay: 210ms; }
+.checkout-message.is-in .done-dog-cola{ animation: perro-cola-contento .7s ease-in-out 450ms 3; }
+@keyframes listo-entra{ from{ opacity:0; transform: translateY(12px); } }
 .checkout-message h2{ margin: 0 0 .3em; }
 .checkout-message p{ color: var(--ink-soft); margin: 0 0 24px; }
 .checkout-message-actions{ display:flex; gap:12px; justify-content:center; flex-wrap:wrap; }
@@ -1094,7 +1114,9 @@ body.cart-lock{ overflow:hidden; }
     padding: 4px 24px 18px;
     display:none;
   }
-  nav.main-nav[data-open="true"]{ display:flex; }
+  /* baja desde el header al abrir y se va más rápido al cerrar (main.js) */
+  nav.main-nav[data-open="true"]{ display:flex; animation: menu-baja 200ms cubic-bezier(.23,1,.32,1); }
+  nav.main-nav[data-closing="true"]{ animation: menu-sube 150ms ease-out forwards; }
   nav.main-nav a{ padding:12px 0; }
   nav.main-nav .btn{ margin-top:12px; justify-content:center; }
 }
@@ -1118,8 +1140,19 @@ a:focus-visible, button:focus-visible{
   outline: 3px solid var(--pine);
   outline-offset: 2px;
 }
+@keyframes menu-baja{ from{ opacity:0; transform: translateY(-8px); } }
+@keyframes menu-sube{ to{ opacity:0; transform: translateY(-6px); } }
 @media (prefers-reduced-motion: reduce){
   html{ scroll-behavior:auto; }
+  /* sin desplazamientos: solo fundidos */
+  .checkout-message.is-in > *{ animation-name: listo-funde; }
+  .checkout-message.is-in .done-dog-cola{ animation:none; }
+  nav.main-nav[data-open="true"]{ animation-name: listo-funde; }
+  nav.main-nav[data-closing="true"]{ animation-name: menu-funde; }
+  .checkout-envio{ transition: opacity 200ms ease; }
+  .filter-btn:active, .variant-btn:active{ transform:none; }
   .stamp{ transition:none; }
   .jar{ transition:none; }
 }
+@keyframes listo-funde{ from{ opacity:0; } }
+@keyframes menu-funde{ to{ opacity:0; } }

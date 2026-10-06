@@ -226,10 +226,29 @@
     const btn = e.target.closest('.cart-item [data-act="quitar"]');
     if (!btn) return;
     const i = Number(btn.dataset.i);
-    if (!items[i]) return;
-    items.splice(i, 1);
-    guardar();
-    render();
+    const item = items[i];
+    const fila = btn.closest('.cart-item');
+    if (!item || fila.dataset.saliendo) return;
+    const quitar = () => {
+      // por referencia: el índice puede haber cambiado durante la animación
+      const j = items.indexOf(item);
+      if (j === -1) return;
+      items.splice(j, 1);
+      guardar();
+      render();
+    };
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !fila.animate) {
+      quitar();
+      return;
+    }
+    // la fila se corre y se desvanece, y lo de abajo sube en vez de saltar
+    fila.dataset.saliendo = '1';
+    const cs = getComputedStyle(fila);
+    fila.style.overflow = 'hidden';
+    fila.animate([
+      { opacity: 1, transform: 'translateX(0)', height: `${fila.offsetHeight}px`, paddingTop: cs.paddingTop, paddingBottom: cs.paddingBottom },
+      { opacity: 0, transform: 'translateX(12px)', height: '0px', paddingTop: '0px', paddingBottom: '0px', borderBottomWidth: '0px' },
+    ], { duration: 220, easing: 'cubic-bezier(.23,1,.32,1)', fill: 'forwards' }).finished.then(quitar, quitar);
   });
 
   // − / + del stepper elástico dentro del carrito (el de la ficha no tiene data-i)

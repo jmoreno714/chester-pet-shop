@@ -27,6 +27,7 @@
     return d.innerHTML;
   };
 
+  const reducirMovimiento = window.matchMedia('(prefers-reduced-motion: reduce)');
   let enviado = false;
 
   function setFill(v) {
@@ -148,7 +149,10 @@
 
   function sincronizarEntrega() {
     const envio = conEnvio();
-    envioEl.hidden = !envio;
+    // se pliega con una transición en vez de desaparecer de golpe (CSS);
+    // inert lo saca del tab y de los lectores mientras está cerrado
+    envioEl.classList.toggle('is-collapsed', !envio);
+    envioEl.inert = !envio;
     f.direccion.required = envio;
     f.barrio.required = envio;
   }
@@ -183,6 +187,17 @@
     if (!form.checkValidity()) {
       form.classList.add('was-validated');
       errorEl.hidden = false;
+      // una sacudida corta para que se note que el aviso es nuevo
+      if (!reducirMovimiento.matches) {
+        errorEl.animate([
+          { transform: 'translateX(0)' },
+          { transform: 'translateX(-5px)' },
+          { transform: 'translateX(5px)' },
+          { transform: 'translateX(-3px)' },
+          { transform: 'translateX(3px)' },
+          { transform: 'translateX(0)' },
+        ], { duration: 320, easing: 'ease-out' });
+      }
       // input/textarea: los fieldset que contienen errores también son :invalid
       const primero = form.querySelector('input:invalid, textarea:invalid');
       if (primero) primero.focus();
@@ -200,6 +215,7 @@
     stepItems[2].classList.add('is-done');
     pageEl.hidden = true;
     doneEl.hidden = false;
+    doneEl.classList.add('is-in');
     document.getElementById('checkout-retry').href = url;
     doneEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
