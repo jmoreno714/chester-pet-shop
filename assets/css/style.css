@@ -183,6 +183,19 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   max-width: 52ch;
 }
 .hero-actions{ display:flex; gap:14px; margin-top: 22px; flex-wrap:wrap; }
+/* entrada escalonada (clase .hero-intro: primera vez por visita, la pone
+   el <head> del index): título, bajada, texto y botones, 90ms entre cada uno */
+.hero-intro .hero-copy > *{
+  animation: hero-entra 700ms cubic-bezier(.23,1,.32,1) both;
+}
+.hero-intro .hero-copy > :nth-child(2){ animation-delay: 90ms; }
+.hero-intro .hero-copy > :nth-child(3){ animation-delay: 180ms; }
+.hero-intro .hero-copy > :nth-child(4){ animation-delay: 270ms; }
+@keyframes hero-entra{ from{ opacity:0; transform: translateY(16px); filter: blur(4px); } }
+@keyframes hero-funde{ from{ opacity:0; } }
+@media (prefers-reduced-motion: reduce){
+  .hero-intro .hero-copy > *{ animation: hero-funde 300ms ease both; animation-delay:0ms; }
+}
 .hero .btn-primary{ background:#F7F1E5; color:var(--ink); border-color:#F7F1E5; }
 .hero .btn-primary:hover{ background: var(--paper-dark); }
 .hero .btn-ghost{ border-color:#F7F1E5; color:#F7F1E5; }

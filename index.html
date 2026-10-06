@@ -16,8 +16,12 @@
 <meta property="og:url" content="https://jmoreno714.github.io/chester-pet-shop/">
 <meta property="og:image" content="https://jmoreno714.github.io/chester-pet-shop/assets/img/herobanner_viajar_con_mascotas.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<script>document.documentElement.classList.add('js')</script>
-<link rel="stylesheet" href="assets/css/style.css?v=202610061140">
+<script>
+document.documentElement.classList.add('js');
+// entrada escalonada del hero: solo la primera vez por visita (sessionStorage)
+try { if (!sessionStorage.getItem('chester-hero')) { sessionStorage.setItem('chester-hero', '1'); document.documentElement.classList.add('hero-intro'); } } catch (e) {}
+</script>
+<link rel="stylesheet" href="assets/css/style.css?v=202610061142">
 </head>
 <body>
 
@@ -257,11 +261,11 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script src="assets/js/main.js?v=202610061140"></script>
-<script src="assets/js/cart.js?v=202610061140"></script>
-<script src="assets/js/qty-elastic.js?v=202610061140"></script>
-<script src="assets/js/promise-lean.js?v=202610061140"></script>
-<script src="assets/js/promise-cat-follow.js?v=202610061140"></script>
-<script src="assets/js/reveal.js?v=202610061140"></script>
+<script src="assets/js/main.js?v=202610061142"></script>
+<script src="assets/js/cart.js?v=202610061142"></script>
+<script src="assets/js/qty-elastic.js?v=202610061142"></script>
+<script src="assets/js/promise-lean.js?v=202610061142"></script>
+<script src="assets/js/promise-cat-follow.js?v=202610061142"></script>
+<script src="assets/js/reveal.js?v=202610061142"></script>
 </body>
 </html>
