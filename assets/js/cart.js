@@ -124,10 +124,6 @@
           <a class="btn btn-primary cart-go" href="finalizar.html">Continuar con tus datos</a>
           <p class="cart-fine">No se cobra nada acá: el pago y la entrega los coordinamos por WhatsApp.</p>
         </aside>
-        <section class="upsell" id="related" hidden aria-labelledby="upsell-title">
-          <h2 class="upsell-title" id="upsell-title">Completá tu pedido</h2>
-          <ul class="upsell-list" id="related-grid"></ul>
-        </section>
       </div>`;
     pageList = page.querySelector('.cart-page-list');
     pageSummary = page.querySelector('.cart-summary');

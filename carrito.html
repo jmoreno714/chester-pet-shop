@@ -16,7 +16,7 @@
 <meta property="og:url" content="https://jmoreno714.github.io/chester-pet-shop/carrito.html">
 <meta property="og:image" content="https://jmoreno714.github.io/chester-pet-shop/assets/img/herobanner_viajar_con_mascotas.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="stylesheet" href="assets/css/style.css?v=202610061201">
+<link rel="stylesheet" href="assets/css/style.css?v=202610061206">
 </head>
 <body>
 
@@ -39,9 +39,16 @@
 </header>
 
 <main>
-  <section class="page-hero wrap">
-    <span class="eyebrow">Tu pedido</span>
-    <h1>Carrito</h1>
+  <section class="page-hero wrap cart-hero">
+    <div>
+      <span class="eyebrow">Tu pedido</span>
+      <h1>Carrito</h1>
+    </div>
+    <!-- arriba a la derecha, a la vista antes de la lista y del total (relacionados.js) -->
+    <aside class="upsell" id="related" hidden aria-labelledby="upsell-title">
+      <h2 class="upsell-title" id="upsell-title">Completá tu pedido</h2>
+      <ul class="upsell-list" id="related-grid"></ul>
+    </aside>
   </section>
 
   <div class="wrap">
@@ -74,9 +81,9 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script src="assets/js/main.js?v=202610061201"></script>
-<script src="assets/js/cart.js?v=202610061201"></script>
-<script src="assets/js/qty-elastic.js?v=202610061201"></script>
-<script src="assets/js/relacionados.js?v=202610061201"></script>
+<script src="assets/js/main.js?v=202610061206"></script>
+<script src="assets/js/cart.js?v=202610061206"></script>
+<script src="assets/js/qty-elastic.js?v=202610061206"></script>
+<script src="assets/js/relacionados.js?v=202610061206"></script>
 </body>
 </html>

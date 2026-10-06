@@ -1,5 +1,6 @@
-// Chester Pet Shop — "Completá tu pedido" en carrito.html, en la columna
-// del total (lista compacta, para que se vea junto al botón de seguir).
+// Chester Pet Shop — "Completá tu pedido" en carrito.html, arriba a la
+// derecha junto al título (tarjetas chicas en fila, para que se vea antes
+// de la lista y del total).
 // Sugiere 3 productos a partir de lo que ya está en el carrito: primero la
 // misma línea/marca, después complementos para la misma mascota (húmedos y
 // antiparasitarios). Nunca repite algo que ya está en el carrito.
@@ -95,12 +96,11 @@
       const nombre = v.peso ? `${p.nombre} ${v.peso}` : p.nombre;
       return `
       <li class="upsell-item">
-        <a class="upsell-thumb" href="${url}" tabindex="-1" aria-hidden="true"></a>
         <div class="upsell-info">
           <a class="upsell-name" href="${url}">${esc(p.nombre)}</a>
           <span class="upsell-meta">${v.peso ? esc(v.peso) + ' · ' : ''}${C.precio(v.precio)}</span>
         </div>
-        <button type="button" class="upsell-add" data-i="${i}" aria-label="Agregar ${esc(nombre)} al pedido">+</button>
+        <button type="button" class="upsell-add" data-i="${i}" aria-label="Agregar ${esc(nombre)} al pedido">+ Agregar</button>
       </li>`;
     }).join('');
 
@@ -121,7 +121,7 @@
           marca: p.marca,
         }, { abrir: false });
         pausado = false;
-        btn.textContent = '✓';
+        btn.textContent = '✓ Agregado';
         btn.classList.add('is-added');
         btn.disabled = true;
         btn.setAttribute('aria-label', 'Agregado al pedido');

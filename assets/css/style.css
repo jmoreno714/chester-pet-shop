@@ -871,37 +871,35 @@ body.cart-lock{ overflow:hidden; }
 }
 .cart-summary[hidden]{ display:none; }
 
-/* columna derecha del carrito: total + "Completá tu pedido", juntos y fijos
-   al hacer scroll (el sticky va en la columna, no en el resumen) */
+/* columna derecha del carrito con el total, fija al hacer scroll (el sticky
+   va en la columna, no en el resumen) */
 .cart-side{ position:sticky; top:96px; display:flex; flex-direction:column; gap:16px; }
 .cart-side .cart-summary{ position:static; }
 
-/* "Completá tu pedido" compacto (relacionados.js) */
-.upsell{ border:1px solid var(--ink); background: var(--paper); padding: 16px 18px 6px; }
-.upsell[hidden]{ display:none; }
-.upsell-title{ margin:0 0 4px; font-size:1.05rem; }
-.upsell-list{ list-style:none; margin:0; padding:0; }
-.upsell-item{
-  display:grid; grid-template-columns: 44px 1fr auto; gap:12px; align-items:center;
-  padding: 10px 0; border-top:1px solid var(--line);
+/* "Completá tu pedido" (relacionados.js): arriba a la derecha del título
+   del carrito, 3 tarjetas chicas en fila; en celular, lista */
+.cart-hero{
+  display:grid; grid-template-columns: auto minmax(0, 660px);
+  justify-content:space-between; align-items:end; gap: 24px 40px;
 }
-.upsell-item:first-child{ border-top:0; }
-.upsell-thumb{
-  width:44px; height:44px;
-  background:
-    repeating-linear-gradient(135deg, rgba(63,92,67,0.14) 0 6px, rgba(63,92,67,0.05) 6px 12px),
-    var(--paper-dark);
+.upsell{ border:1px solid var(--ink); background: var(--paper); padding: 14px 16px 16px; }
+.upsell[hidden]{ display:none; }
+.upsell-title{ margin:0 0 10px; font-size:1.05rem; }
+.upsell-list{ list-style:none; margin:0; padding:0; display:grid; grid-template-columns: repeat(3, minmax(0,1fr)); gap:10px; }
+.upsell-item{
+  display:flex; flex-direction:column; justify-content:space-between; gap:10px;
+  padding: 10px 12px; background: var(--paper-dark);
 }
 .upsell-info{ min-width:0; }
 .upsell-name{
   display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
-  font-weight:700; font-size:.88rem; line-height:1.25; color: var(--ink); text-decoration:none;
+  font-weight:700; font-size:.86rem; line-height:1.25; color: var(--ink); text-decoration:none;
 }
 .upsell-meta{ display:block; margin-top:3px; font-family: var(--mono); font-size:.7rem; color: var(--ink-soft); }
 .upsell-add{
-  width:32px; height:32px; padding:0;
+  height:30px; padding:0 10px;
   border:1.5px solid var(--ink); background: var(--paper); color: var(--ink);
-  font-family: var(--mono); font-size:1.1rem; line-height:1; cursor:pointer;
+  font-family: var(--mono); font-size:.74rem; letter-spacing:.02em; white-space:nowrap; cursor:pointer;
   transition: background-color .2s ease, color .2s ease, transform .12s ease;
 }
 .upsell-add:active:not(:disabled){ transform: scale(.94); }
@@ -1056,8 +1054,9 @@ body.cart-lock{ overflow:hidden; }
   .cart-page{ grid-template-columns: 1fr; gap: 28px; }
   .cart-summary{ position:static; }
   .cart-side{ position:static; }
-  /* en celular el upsell va antes del total, para verlo antes de "Continuar" */
-  .cart-side .upsell{ order:-1; }
+  .cart-hero{ grid-template-columns: 1fr; }
+  .upsell-list{ grid-template-columns: 1fr; gap:6px; }
+  .upsell-item{ flex-direction:row; align-items:center; }
 }
 @media (max-width: 520px){
   .cart-page .cart-item{ grid-template-columns: 1fr auto auto; gap: 10px 12px; }
