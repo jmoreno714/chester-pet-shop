@@ -426,13 +426,13 @@ nav.main-nav a::after{
 .promise-cat{
   position:absolute;
   top: 18px;
-  left: 0; /* el desplazamiento lo pone promise-cat-follow.js en transform */
+  left: 0; /* el desplazamiento lo pone promise-cat-follow.js (resorte en JS, sin transition) */
   transform: rotate(-8deg);
-  transition: transform 260ms cubic-bezier(.22,.9,.28,1);
   width: 56px; height:auto;
   z-index: 2;
+  pointer-events: none; /* pasa por encima de textos y botones sin taparlos */
+  will-change: transform;
 }
-@media (prefers-reduced-motion: reduce){ .promise-cat{ transition-duration:1ms; } }
 .promise-card{ text-align:center; }
 /* el wrapper mueve el círculo entero hacia el cursor (ver promise-lean.js);
    el círculo en sí guarda su propia animación de "sello" al entrar en
