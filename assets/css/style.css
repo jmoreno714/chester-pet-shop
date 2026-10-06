@@ -734,14 +734,10 @@ nav.main-nav a::after{
   transition: transform 160ms cubic-bezier(.2,.8,.2,1);
 }
 @media (prefers-reduced-motion: reduce){ .qty-elastic-knob{ transition-duration:1ms; } }
-/* el bloque toma el ancho de la fila de pesos (o del botón si no hay pesos):
-   el −/+ queda centrado bajo los pesos y el botón ocupa ese mismo ancho */
-.product-buy{ display:inline-flex; flex-direction:column; align-items:center; max-width:100%; }
-/* si hay pocos pesos (fila más angosta que el botón), los botones de peso se
-   estiran para ocupar el mismo ancho: la fila arranca alineada con el precio */
+/* el bloque toma el ancho de la fila de pesos: el −/+ queda centrado debajo */
+.product-buy{ display:flex; flex-direction:column; align-items:center; width:fit-content; max-width:100%; }
 .product-buy .product-variants{ align-self:stretch; }
-.product-buy .variant-btn{ flex:1 1 auto; }
-.btn-add-cart{ width:100%; min-width:200px; white-space:nowrap; justify-content:center; overflow:hidden; }
+.btn-add-cart{ display:flex; width:100%; max-width:320px; white-space:nowrap; justify-content:center; overflow:hidden; }
 .add-cart-label{ display:inline-block; }
 /* recién agregado: verde, con "Agregado ✓" (producto.js) */
 .btn-add-cart.is-added,
@@ -875,13 +871,45 @@ body.cart-lock{ overflow:hidden; }
 }
 .cart-summary[hidden]{ display:none; }
 
-/* "Completá tu pedido" (relacionados.js) */
-.related-title{ margin:0; text-align:center; }
-.related-sub{ margin: 6px 0 28px; text-align:center; color: var(--ink-soft); }
-.related-link{ display:flex; flex-direction:column; gap:10px; flex:1; color:inherit; text-decoration:none; }
-.related-link:hover h3{ text-decoration:underline; }
-.related-add{ width:100%; justify-content:center; margin-top:4px; }
-.related-add:disabled{ opacity:.6; cursor:default; }
+/* columna derecha del carrito: total + "Completá tu pedido", juntos y fijos
+   al hacer scroll (el sticky va en la columna, no en el resumen) */
+.cart-side{ position:sticky; top:96px; display:flex; flex-direction:column; gap:16px; }
+.cart-side .cart-summary{ position:static; }
+
+/* "Completá tu pedido" compacto (relacionados.js) */
+.upsell{ border:1px solid var(--ink); background: var(--paper); padding: 16px 18px 6px; }
+.upsell[hidden]{ display:none; }
+.upsell-title{ margin:0 0 4px; font-size:1.05rem; }
+.upsell-list{ list-style:none; margin:0; padding:0; }
+.upsell-item{
+  display:grid; grid-template-columns: 44px 1fr auto; gap:12px; align-items:center;
+  padding: 10px 0; border-top:1px solid var(--line);
+}
+.upsell-item:first-child{ border-top:0; }
+.upsell-thumb{
+  width:44px; height:44px;
+  background:
+    repeating-linear-gradient(135deg, rgba(63,92,67,0.14) 0 6px, rgba(63,92,67,0.05) 6px 12px),
+    var(--paper-dark);
+}
+.upsell-info{ min-width:0; }
+.upsell-name{
+  display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
+  font-weight:700; font-size:.88rem; line-height:1.25; color: var(--ink); text-decoration:none;
+}
+.upsell-meta{ display:block; margin-top:3px; font-family: var(--mono); font-size:.7rem; color: var(--ink-soft); }
+.upsell-add{
+  width:32px; height:32px; padding:0;
+  border:1.5px solid var(--ink); background: var(--paper); color: var(--ink);
+  font-family: var(--mono); font-size:1.1rem; line-height:1; cursor:pointer;
+  transition: background-color .2s ease, color .2s ease, transform .12s ease;
+}
+.upsell-add:active:not(:disabled){ transform: scale(.94); }
+.upsell-add.is-added{ background: var(--pine); border-color: var(--pine); color:#FBF3E4; cursor:default; }
+@media (hover: hover) and (pointer: fine){
+  .upsell-add:hover:not(:disabled){ background: var(--ink); color: var(--paper); }
+  .upsell-name:hover{ text-decoration:underline; }
+}
 
 /* --- barra de pasos del pedido (carrito → tus datos → enviar) ---
    --fill va de 0 a 1; los puntos quedan en 0, .5 y 1 porque la pista va
@@ -1027,6 +1055,9 @@ body.cart-lock{ overflow:hidden; }
   .nav-toggle{ order:2; margin-left:12px; }
   .cart-page{ grid-template-columns: 1fr; gap: 28px; }
   .cart-summary{ position:static; }
+  .cart-side{ position:static; }
+  /* en celular el upsell va antes del total, para verlo antes de "Continuar" */
+  .cart-side .upsell{ order:-1; }
 }
 @media (max-width: 520px){
   .cart-page .cart-item{ grid-template-columns: 1fr auto auto; gap: 10px 12px; }

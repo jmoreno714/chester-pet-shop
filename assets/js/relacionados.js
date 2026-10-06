@@ -1,6 +1,7 @@
-// Chester Pet Shop — "Completá tu pedido" en carrito.html. Sugiere 4
-// productos a partir de lo que ya está en el carrito: primero la misma
-// línea/marca, después complementos para la misma mascota (húmedos y
+// Chester Pet Shop — "Completá tu pedido" en carrito.html, en la columna
+// del total (lista compacta, para que se vea junto al botón de seguir).
+// Sugiere 3 productos a partir de lo que ya está en el carrito: primero la
+// misma línea/marca, después complementos para la misma mascota (húmedos y
 // antiparasitarios). Nunca repite algo que ya está en el carrito.
 
 (function () {
@@ -22,8 +23,8 @@
     camitas: 'Camitas y accesorios',
   };
   const NO_ALIMENTO = new Set(['humedos', 'farmacos', 'camitas']);
-  const MAX = 4;
-  const MAX_POR_CATEGORIA = 2; // para que no sean 4 bolsas casi iguales
+  const MAX = 3;
+  const MAX_POR_CATEGORIA = 2; // para que no sean 3 bolsas casi iguales
 
   const esc = (s) => {
     const d = document.createElement('div');
@@ -90,25 +91,24 @@
     section.hidden = !lista.length;
     grid.innerHTML = lista.map((p, i) => {
       const v = p.variantes[0];
+      const url = `producto.html?slug=${encodeURIComponent(p.slug)}`;
+      const nombre = v.peso ? `${p.nombre} ${v.peso}` : p.nombre;
       return `
-      <article class="product-card related-card">
-        <span class="price-tag">${C.precio(v.precio)}</span>
-        <a class="related-link" href="producto.html?slug=${encodeURIComponent(p.slug)}">
-          <div class="thumb">foto del producto<br>(a definir)</div>
-          <h3>${esc(p.titulo)}</h3>
-          <p class="tag-line">${esc(p.marca)} · ${CATEGORY_LABELS[p.categoria] || ''}</p>
-        </a>
-        <button type="button" class="btn btn-ghost btn-sm related-add" data-i="${i}">
-          + Agregar${v.peso ? ' ' + esc(v.peso) : ''}
-        </button>
-      </article>`;
+      <li class="upsell-item">
+        <a class="upsell-thumb" href="${url}" tabindex="-1" aria-hidden="true"></a>
+        <div class="upsell-info">
+          <a class="upsell-name" href="${url}">${esc(p.nombre)}</a>
+          <span class="upsell-meta">${v.peso ? esc(v.peso) + ' · ' : ''}${C.precio(v.precio)}</span>
+        </div>
+        <button type="button" class="upsell-add" data-i="${i}" aria-label="Agregar ${esc(nombre)} al pedido">+</button>
+      </li>`;
     }).join('');
 
-    grid.querySelectorAll('.related-add').forEach((btn) => {
+    grid.querySelectorAll('.upsell-add').forEach((btn) => {
       btn.addEventListener('click', () => {
         const p = lista[Number(btn.dataset.i)];
         const v = p.variantes[0];
-        // la tarjeta queda con "Agregado ✓" en vez de desaparecer al toque
+        // la fila queda con ✓ en vez de desaparecer al toque
         pausado = true;
         C.agregar({
           codigo: v.codigo,
@@ -121,8 +121,10 @@
           marca: p.marca,
         }, { abrir: false });
         pausado = false;
-        btn.textContent = 'Agregado ✓';
+        btn.textContent = '✓';
+        btn.classList.add('is-added');
         btn.disabled = true;
+        btn.setAttribute('aria-label', 'Agregado al pedido');
       });
     });
   }
