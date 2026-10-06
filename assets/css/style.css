@@ -315,6 +315,17 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   text-decoration:none; color:inherit;
 }
 .product-card:hover{ box-shadow: inset 0 0 0 1px var(--ink); }
+/* catálogo: al cargar o cambiar de categoría las tarjetas entran en cascada
+   (40ms entre una y otra; --i lo pone catalogo.js, tope 12) */
+.product-card.is-entering{
+  animation: tarjeta-entra 320ms cubic-bezier(.23,1,.32,1) both;
+  animation-delay: calc(var(--i, 0) * 40ms);
+}
+@keyframes tarjeta-entra{ from{ opacity:0; transform: translateY(10px); } }
+@keyframes tarjeta-funde{ from{ opacity:0; } }
+@media (prefers-reduced-motion: reduce){
+  .product-card.is-entering{ animation: tarjeta-funde 200ms ease both; animation-delay:0ms; }
+}
 .product-card .thumb{
   aspect-ratio: 1/1;
   border-radius: 0;

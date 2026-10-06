@@ -47,7 +47,11 @@
       .replace(/[̀-ͯ]/g, '');
   }
 
-  function render() {
+  // cascada: solo al cargar y al cambiar de categoría, no en cada tecla del
+  // buscador (algo que pasa tantas veces no debería animarse)
+  const MAX_ESCALON = 12; // las de más abajo no esperan más que la 12ª
+
+  function render(animar) {
     const q = normalize(query.trim());
     const filtered = productos.filter((p) => {
       const matchesCat = activeCat === 'todos' || p.categoria === activeCat;
@@ -58,8 +62,8 @@
 
     grid.innerHTML = filtered
       .map(
-        (p) => `
-        <a class="product-card" href="producto.html?slug=${encodeURIComponent(p.slug)}">
+        (p, i) => `
+        <a class="product-card${animar ? ' is-entering' : ''}" style="--i:${Math.min(i, MAX_ESCALON)}" href="producto.html?slug=${encodeURIComponent(p.slug)}">
           <span class="price-tag">${precioDesde(p)}</span>
           <div class="thumb">foto del producto<br>(a definir)</div>
           <h3>${escapeHtml(p.titulo)}</h3>
@@ -86,14 +90,14 @@
       filterBtns.forEach((b) => b.classList.remove('is-active'));
       btn.classList.add('is-active');
       activeCat = btn.dataset.cat;
-      render();
+      render(true);
     });
   });
 
   if (searchInput) {
     searchInput.addEventListener('input', (e) => {
       query = e.target.value;
-      render();
+      render(false);
     });
   }
 
@@ -115,7 +119,11 @@
     const cat = map[hash];
     if (!cat) return;
     const btn = document.querySelector(`.filter-btn[data-cat="${cat}"]`);
-    if (btn) btn.click();
+    if (!btn) return;
+    // marca el filtro sin dibujar: el render(true) de abajo es el único
+    filterBtns.forEach((b) => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    activeCat = cat;
   }
 
   fetch('assets/data/productos.json')
@@ -123,7 +131,7 @@
     .then((data) => {
       productos = data;
       applyHashFilter();
-      render();
+      render(true);
     })
     .catch(() => {
       grid.innerHTML = '';
