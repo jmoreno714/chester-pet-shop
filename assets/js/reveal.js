@@ -12,7 +12,7 @@
   if (!pendientes.length) return;
 
   const ESCALON = 45; // ms entre imágenes que llegan en la misma tanda
-  const LINEA = 0.9; // se descubre cuando su borde de arriba pasa el 90% de la pantalla
+  const LINEA = 1; // se descubre apenas su borde de arriba asoma por abajo de la pantalla
 
   let raf = 0;
   function revisar() {
