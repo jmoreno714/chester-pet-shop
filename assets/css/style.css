@@ -729,7 +729,14 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   transition: transform 160ms cubic-bezier(.2,.8,.2,1);
 }
 @media (prefers-reduced-motion: reduce){ .qty-elastic-knob{ transition-duration:1ms; } }
-.btn-add-cart{ width:100%; max-width:320px; justify-content:center; overflow:hidden; }
+/* el bloque toma el ancho de la fila de pesos (o del botón si no hay pesos):
+   el −/+ queda centrado bajo los pesos y el botón ocupa ese mismo ancho */
+.product-buy{ display:inline-flex; flex-direction:column; align-items:center; max-width:100%; }
+/* si hay pocos pesos (fila más angosta que el botón), los botones de peso se
+   estiran para ocupar el mismo ancho: la fila arranca alineada con el precio */
+.product-buy .product-variants{ align-self:stretch; }
+.product-buy .variant-btn{ flex:1 1 auto; }
+.btn-add-cart{ width:100%; min-width:200px; white-space:nowrap; justify-content:center; overflow:hidden; }
 .add-cart-label{ display:inline-block; }
 /* recién agregado: verde, con "Agregado ✓" (producto.js) */
 .btn-add-cart.is-added,
