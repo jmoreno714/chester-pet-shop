@@ -109,10 +109,43 @@
       pintarPrecio(precioEl, seleccionada.precio);
 
       const addBtn = document.getElementById('pd-add-cart');
+      const TEXTO = addBtn.textContent.trim();
+      addBtn.innerHTML = `<span class="add-cart-label">${TEXTO}</span>`;
+      const etiqueta = addBtn.firstElementChild;
+      let volver = 0;
+      let abrirPanel = 0;
+
+      // el texto sale desenfocado y entra el nuevo: el blur funde los dos
+      function cambiarTexto(texto, agregado) {
+        addBtn.classList.toggle('is-added', agregado);
+        if (reducido || !etiqueta.animate) {
+          etiqueta.textContent = texto;
+          return;
+        }
+        etiqueta.getAnimations().forEach((a) => a.cancel());
+        etiqueta
+          .animate(
+            [{ opacity: 1, filter: 'blur(0)', transform: 'none' },
+             { opacity: 0, filter: 'blur(3px)', transform: 'translateY(-6px)' }],
+            { duration: 110, easing: 'ease-in', fill: 'forwards' }
+          )
+          .finished.then(() => {
+            etiqueta.textContent = texto;
+            etiqueta.getAnimations().forEach((a) => a.cancel());
+            etiqueta.animate(
+              [{ opacity: 0, filter: 'blur(3px)', transform: 'translateY(6px)' },
+               { opacity: 1, filter: 'blur(0)', transform: 'none' }],
+              { duration: 220, easing: 'cubic-bezier(.23,1,.32,1)' }
+            );
+          })
+          .catch(() => {});
+      }
+
       addBtn.addEventListener('click', () => {
-        if (!window.ChesterCarrito) return;
+        const C = window.ChesterCarrito;
+        if (!C) return;
         const cantidad = parseInt(document.getElementById('pd-qty').textContent, 10) || 1;
-        window.ChesterCarrito.agregar({
+        C.agregar({
           codigo: seleccionada.codigo,
           slug: p.slug,
           nombre: p.nombre,
@@ -122,7 +155,14 @@
           // para agrupar el mensaje de WhatsApp como "Categoría (Marca)"
           categoria: catLabel,
           marca: p.marca,
-        });
+        }, { abrir: false });
+
+        if (!addBtn.classList.contains('is-added')) cambiarTexto('Agregado ✓', true);
+        // el panel se abre un poco después, para que se vea el cambio del botón
+        clearTimeout(abrirPanel);
+        abrirPanel = setTimeout(() => C.abrir(), 550);
+        clearTimeout(volver);
+        volver = setTimeout(() => cambiarTexto(TEXTO, false), 2000);
       });
     })
     .catch(() => {

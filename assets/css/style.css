@@ -729,7 +729,11 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   transition: transform 160ms cubic-bezier(.2,.8,.2,1);
 }
 @media (prefers-reduced-motion: reduce){ .qty-elastic-knob{ transition-duration:1ms; } }
-.btn-add-cart{ width:100%; max-width:320px; justify-content:center; }
+.btn-add-cart{ width:100%; max-width:320px; justify-content:center; overflow:hidden; }
+.add-cart-label{ display:inline-block; }
+/* recién agregado: verde, con "Agregado ✓" (producto.js) */
+.btn-add-cart.is-added,
+.btn-add-cart.is-added:hover{ background: var(--pine); border-color: #2E4532; }
 @media (max-width: 720px){
   .product-detail{ grid-template-columns: 1fr; gap: 28px; }
 }

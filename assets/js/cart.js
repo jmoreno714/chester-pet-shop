@@ -257,6 +257,7 @@
       pop();
       if (!opciones || opciones.abrir !== false) abrir();
     },
+    abrir,
     // para finalizar.html y los relacionados del carrito
     items: () => items.slice(),
     precio,
