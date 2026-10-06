@@ -11,7 +11,7 @@
   let pendientes = Array.from(document.querySelectorAll('.reveal'));
   if (!pendientes.length) return;
 
-  const ESCALON = 70; // ms entre imágenes que llegan en la misma tanda
+  const ESCALON = 45; // ms entre imágenes que llegan en la misma tanda
   const LINEA = 0.9; // se descubre cuando su borde de arriba pasa el 90% de la pantalla
 
   let raf = 0;
