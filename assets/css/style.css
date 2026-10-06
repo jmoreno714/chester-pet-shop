@@ -218,8 +218,24 @@ nav.main-nav a:hover::after{ transform: scaleX(1); }
   text-decoration:none;
   color: #F7F1E5;
   overflow:hidden;
+  isolation:isolate;
   background-size: cover;
   background-position: center;
+}
+/* capa con la misma foto/logo del tile (background: inherit) que es la que
+   hace zoom al pasar el mouse; así el título y el degradé no se agrandan */
+.bleed-block::after{
+  content:"";
+  position:absolute; inset:0; z-index:-1;
+  background: inherit;
+  transition: transform 700ms cubic-bezier(.23,1,.32,1);
+}
+@media (hover: hover) and (pointer: fine){
+  .bleed-block:hover::after{ transform: scale(1.04); }
+}
+@media (prefers-reduced-motion: reduce){
+  .bleed-block::after{ transition:none; }
+  .bleed-block:hover::after{ transform:none; }
 }
 .bleed-block::before{
   content:"";
