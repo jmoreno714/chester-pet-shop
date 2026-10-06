@@ -12,11 +12,14 @@
   const reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   const CAT_W = cat.offsetWidth || 56;
 
-  // en reposo arranca pegado al borde izquierdo del bloque, antes del
-  // primer ícono (antes quedaba entre el 1° y el 2°)
+  // se mueve con transform (no con left) para no recalcular el layout en
+  // cada cuadro; la inclinación de -8° es parte del mismo transform
+  const mover = (x) => { cat.style.transform = `translateX(${x}px) rotate(-8deg)`; };
+
+  // en reposo arranca pegado al borde izquierdo del bloque, antes del primer ícono
   let rect = grid.getBoundingClientRect();
   const restLeft = 0;
-  cat.style.left = restLeft + 'px';
+  mover(restLeft);
 
   window.addEventListener('resize', () => {
     rect = grid.getBoundingClientRect();
@@ -38,7 +41,7 @@
       if (!within) {
         if (inside) {
           inside = false;
-          cat.style.left = restLeft + 'px';
+          mover(restLeft);
         }
         return;
       }
@@ -47,7 +50,7 @@
       raf = requestAnimationFrame(() => {
         raf = 0;
         const x = Math.min(rect.width - CAT_W, Math.max(0, e.clientX - rect.left - CAT_W / 2));
-        cat.style.left = x + 'px';
+        mover(x);
       });
     },
     { passive: true }
