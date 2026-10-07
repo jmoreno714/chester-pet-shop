@@ -7,3 +7,4 @@ inventario_stock_actual.xlsx
 
 # capturas de pantalla sin procesar (quedan las versiones finales recortadas)
 assets/img/Captura*.png
+__pycache__/
