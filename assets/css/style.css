@@ -607,12 +607,14 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
   62%{ transform: translateY(0) scaleY(.96); }
   100%{ transform: translateY(0) scaleY(1); }
 }
-/* el salchicha inclina la cabeza, curioso */
-.shelf-dog-head{ transform-box: fill-box; transform-origin: 75% 85%; }
-.shelf-dog-head.is-curious{ animation: shelf-curioso .7s cubic-bezier(.23,1,.32,1); }
-@keyframes shelf-curioso{ 0%,100%{ transform: rotate(0); } 35%{ transform: rotate(-11deg); } 65%{ transform: rotate(4deg); } }
+/* el salchicha (el del CTA) mueve la cola y parpadea cuando cambia el filtro */
+.shelf-dog-cola{ transform-box: fill-box; transform-origin: 80% 48.085%; }
+.shelf-dog-blink{ opacity:0; }
+.shelf-dog.is-happy .shelf-dog-cola{ animation: perro-cola-contento .6s ease-in-out 2; }
+.shelf-dog.is-happy .shelf-dog-blink{ animation: shelf-parpadeo .5s steps(1) 1; }
+@keyframes shelf-parpadeo{ 0%{ opacity:0; } 30%{ opacity:1; } 60%{ opacity:0; } }
 @media (prefers-reduced-motion: reduce){
-  .shelf-item.is-picked, .shelf-dog-head.is-curious{ animation:none; }
+  .shelf-item.is-picked, .shelf-dog.is-happy .shelf-dog-cola, .shelf-dog.is-happy .shelf-dog-blink{ animation:none; }
   .shelf-item:hover{ transform:none; }
 }
 @media (max-width: 800px){

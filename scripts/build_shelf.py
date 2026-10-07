@@ -49,24 +49,21 @@ items.append(f'<g class="shelf-item" data-cat="camitas">'
              f'<path d="M445 {B-12} q7 4 14 0" stroke="{PAPER}" stroke-width="1.6" fill="none"/></g>')
 
 def plank(y):
+    # soportes cortos en las puntas de la tabla, fuera de la zona de productos
     return (f'<rect x="20" y="{y}" width="440" height="11" rx="2" fill="{BRASS}" {S}/>'
-            f'<path d="M48 {y+11} l0 22 l18 -22 Z M412 {y+11} l0 22 l18 -22 Z" fill="{SAND}" {S}/>')
+            f'<path d="M24 {y+11} v10 h9 Z M456 {y+11} v10 h-9 Z" fill="{SAND}" {S}/>')
 
-# salchicha asomándose sobre la tabla de arriba, mirando hacia los productos
-dog=(f'<g class="shelf-dog">'
-     f'<g class="shelf-dog-head">'
-     f'<path d="M418 {T} C418 {T-30} 430 {T-44} 446 {T-44} L480 {T-44} L480 {T} Z" fill="{OX}" {S}/>'      # cuello/cuerpo que sale del borde
-     f'<ellipse cx="420" cy="{T-46}" rx="15" ry="13" fill="{OX}" {S}/>'                                     # cabeza
-     f'<ellipse cx="404" cy="{T-41}" rx="12" ry="7" fill="{OX}" {S}/>'                                      # hocico
-     f'<ellipse cx="393" cy="{T-43}" rx="3.6" ry="3" fill="{INK}"/>'                                        # nariz
-     f'<circle cx="414" cy="{T-50}" r="2.2" fill="{INK}"/>'                                                 # ojo
-     f'<path class="shelf-dog-ear" d="M424 {T-58} Q440 {T-52} 434 {T-30} Q426 {T-36} 422 {T-50} Z" fill="{OXDK}" {S}/>'
-     f'<path d="M426 {T-40} Q432 {T-34} 440 {T-36}" stroke="#5DADEC" stroke-width="3" fill="none" stroke-linecap="round"/>'  # collar
-     f'</g>'
-     f'<ellipse cx="410" cy="{T-1}" rx="9" ry="5" fill="{OX}" {S}/><ellipse cx="428" cy="{T-1}" rx="9" ry="5" fill="{OX}" {S}/>'  # patitas sobre la tabla
-     f'</g>')
+# el perro del CTA (misma mascota del sitio), en capas para mover la cola y parpadear;
+# parado en la punta de la tabla de arriba, mirando hacia los productos
+DW, DH = 100, 56  # 420x235 a escala
+dx, dy = 371, T - DH + 1
+dog = (f'<g class="shelf-dog">'
+       f'<image class="shelf-dog-cola" href="assets/img/perro-cta-cola.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
+       f'<image href="assets/img/perro-cta-cuerpo.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
+       f'<image class="shelf-dog-blink" href="assets/img/perro-cta-ojos-cerrados.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
+       f'</g>')
 
-svg=(f'<svg class="shelf-svg" viewBox="0 0 480 312" role="img" aria-label="Estante con alimentos, latas, fármacos y una camita; un salchicha se asoma desde la derecha">'
+svg=(f'<svg class="shelf-svg" viewBox="0 0 480 312" role="img" aria-label="Estante con alimentos, latas, fármacos y una camita; el salchicha de Chester parado en la punta">'
      f'<defs><clipPath id="shelf-clip"><rect x="0" y="0" width="472" height="312"/></clipPath></defs>'
      f'<g clip-path="url(#shelf-clip)">{plank(T)}{plank(B)}{"".join(items)}{dog}</g></svg>')
 print(svg)  # pegar dentro de <div class="catalog-shelf"> en productos.html

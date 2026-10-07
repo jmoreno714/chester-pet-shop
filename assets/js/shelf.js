@@ -1,13 +1,13 @@
 // Chester Pet Shop — estante ilustrado del catálogo. Cuando cambia el filtro activo,
 // el producto de esa categoría da un saltito, el resto se atenúa y el salchicha
-// inclina la cabeza. Tocar un producto del estante aplica ese filtro.
+// mueve la cola y parpadea. Tocar un producto del estante aplica ese filtro.
 
 (function () {
   const shelf = document.querySelector('.catalog-shelf');
   const filters = document.querySelector('.catalog-filters');
   if (!shelf || !filters) return;
   const items = [...shelf.querySelectorAll('.shelf-item')];
-  const dog = shelf.querySelector('.shelf-dog-head');
+  const dog = shelf.querySelector('.shelf-dog');
 
   // reinicia una animación CSS aunque ya esté aplicada
   const replay = (el, cls) => { el.classList.remove(cls); void el.getBBox(); el.classList.add(cls); };
@@ -24,7 +24,7 @@
       it.classList.toggle('is-dim', cat !== 'todos' && !match);
       if (match && !first) replay(it, 'is-picked');
     });
-    if (!first && dog) replay(dog, 'is-curious');
+    if (!first && dog) replay(dog, 'is-happy'); // mueve la cola y parpadea
   }
 
   // el catálogo marca el botón activo (también al abrir con ?cat=); seguimos ese estado
