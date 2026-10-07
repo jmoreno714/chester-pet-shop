@@ -590,6 +590,36 @@ nav.main-nav a::after{
 /* el espacio para no tapar el pie va dentro del footer: el final de la página sigue oscuro */
 html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-area-inset-bottom)); }
 
+/* --- catálogo: estante ilustrado a la derecha del título (shelf.js) --- */
+.catalog-hero{ display:grid; grid-template-columns: minmax(0, 1fr) minmax(0, 430px); align-items:end; gap: 40px; }
+.catalog-shelf svg{ display:block; width:100%; height:auto; }
+.shelf-item{
+  transform-box: fill-box; transform-origin: 50% 100%;
+  cursor:pointer; transition: opacity .25s ease, transform .2s ease;
+}
+.shelf-item.is-dim{ opacity:.32; }
+@media (hover: hover) and (pointer: fine){ .shelf-item:hover{ transform: translateY(-3px); opacity:1; } }
+/* el producto del filtro elegido da un saltito */
+.shelf-item.is-picked{ animation: shelf-hop .52s cubic-bezier(.23,1,.32,1); }
+@keyframes shelf-hop{
+  0%{ transform: translateY(0) scaleY(1); }
+  30%{ transform: translateY(-12px) scaleY(1.03); }
+  62%{ transform: translateY(0) scaleY(.96); }
+  100%{ transform: translateY(0) scaleY(1); }
+}
+/* el salchicha inclina la cabeza, curioso */
+.shelf-dog-head{ transform-box: fill-box; transform-origin: 75% 85%; }
+.shelf-dog-head.is-curious{ animation: shelf-curioso .7s cubic-bezier(.23,1,.32,1); }
+@keyframes shelf-curioso{ 0%,100%{ transform: rotate(0); } 35%{ transform: rotate(-11deg); } 65%{ transform: rotate(4deg); } }
+@media (prefers-reduced-motion: reduce){
+  .shelf-item.is-picked, .shelf-dog-head.is-curious{ animation:none; }
+  .shelf-item:hover{ transform:none; }
+}
+@media (max-width: 800px){
+  .catalog-hero{ grid-template-columns: 1fr; }
+  .catalog-shelf{ display:none; }
+}
+
 /* --- páginas internas simples (stub) --- */
 /* solo arriba/abajo: los costados los pone .wrap */
 .page-hero{ padding-top: 56px; padding-bottom: 20px; }
