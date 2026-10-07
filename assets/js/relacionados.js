@@ -95,7 +95,8 @@
       const url = `producto.html?slug=${encodeURIComponent(p.slug)}`;
       const nombre = v.peso ? `${p.nombre} ${v.peso}` : p.nombre;
       return `
-      <li class="upsell-item">
+      <li class="upsell-item${p.foto ? ' has-thumb' : ''}">
+        ${p.foto ? `<a class="upsell-thumb has-foto" href="${url}" tabindex="-1" aria-hidden="true"><img src="${p.foto}-400.webp" alt="" loading="lazy"></a>` : ''}
         <div class="upsell-info">
           <a class="upsell-name" href="${url}">${esc(p.nombre)}</a>
           <span class="upsell-meta">${v.peso ? esc(v.peso) + ' · ' : ''}${C.precio(v.precio)}</span>

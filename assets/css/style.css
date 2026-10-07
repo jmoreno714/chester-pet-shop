@@ -1079,6 +1079,11 @@ body.cart-lock{ overflow:hidden; }
   padding: 10px 12px; background: var(--paper-dark);
 }
 .upsell-info{ min-width:0; }
+/* miniatura de la foto en "Completá tu pedido" (relacionados.js) */
+.upsell-item.has-thumb{ display:grid; grid-template-columns: 44px minmax(0, 1fr); column-gap:10px; align-items:start; }
+.upsell-item.has-thumb .upsell-add{ grid-column: 1 / -1; }
+.upsell-thumb{ display:block; width:44px; height:44px; background: var(--paper); border:1px solid var(--line); }
+.upsell-thumb img{ display:block; width:100%; height:100%; object-fit:contain; padding:3px; }
 .upsell-name{
   display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;
   font-weight:700; font-size:var(--fs-sm); line-height:1.25; color: var(--ink); text-decoration:none;
@@ -1262,6 +1267,8 @@ body.cart-lock{ overflow:hidden; }
   .cart-hero{ grid-template-columns: 1fr; }
   .upsell-list{ grid-template-columns: 1fr; gap:6px; }
   .upsell-item{ flex-direction:row; align-items:center; }
+  .upsell-item.has-thumb{ grid-template-columns: 44px minmax(0, 1fr) auto; align-items:center; }
+  .upsell-item.has-thumb .upsell-add{ grid-column:auto; }
 }
 @media (max-width: 520px){
   .cart-page .cart-item{ grid-template-columns: 48px minmax(0, 1fr) auto auto; gap: 10px 12px; }
