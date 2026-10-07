@@ -745,9 +745,17 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
 .breadcrumb a:hover{ color: var(--ink); text-decoration:underline; }
 .breadcrumb span{ color: var(--line); }
 .product-detail{
-  display:grid; grid-template-columns: 1fr 1fr; gap: 56px;
-  padding-bottom: 64px;
+  display:grid; grid-template-columns: minmax(0, 380px) minmax(0, 1fr); column-gap: 48px;
+  grid-template-rows: auto 1fr;
+  padding-bottom: 8px;
 }
+.product-gallery{ grid-column:1; grid-row:1; }
+.product-info{ grid-column:2; grid-row: 1 / span 2; }
+.product-detail > .pd-perks{ grid-column:1; grid-row:2; align-self:start; }
+/* ficha más compacta: al abrir ya asoma "También te puede servir" */
+.product-detail-section{ padding-top: 16px; padding-bottom: 28px; }
+.product-detail-section .breadcrumb{ margin: 16px 0 24px; }
+.pd-related{ padding-top: 32px; }
 .product-gallery-main{
   aspect-ratio: 1/1;
   border: 1px solid var(--ink);
@@ -853,7 +861,7 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
 
 /* datos de compra: 2x2 con íconos, separados por una línea */
 .pd-perks{
-  list-style:none; margin:28px 0 0; padding:22px 0 0;
+  list-style:none; margin:22px 0 0; padding:18px 0 0;
   border-top:1px solid var(--line);
   display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap:16px 24px;
   font-size:var(--fs-sm); color: var(--ink-soft); line-height:1.4;
@@ -871,24 +879,23 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
   .pd-perks li:hover .pd-perk-icon{ transform: rotate(-10deg) scale(1.06); }
 }
 
-/* dibujo de la categoría en lugar de la foto */
+/* dibujo de la categoría, chico abajo a la derecha dentro de la foto */
 .product-gallery-main{ position:relative; }
-.product-gallery-main.has-ilus{ display:block; }
-.pd-ilus{ position:absolute; inset:0; transform-origin: 50% 80%; animation: ilus-entra .7s cubic-bezier(.23,1,.32,1) .1s both; }
+.pd-ilus{
+  position:absolute; right:3%; bottom:3%; width:32%; height:32%;
+  transform-origin: 50% 85%; animation: ilus-entra .7s cubic-bezier(.23,1,.32,1) .1s both;
+}
 .pd-ilus svg{ display:block; width:100%; height:100%; }
 .pd-ilus.is-hop{ animation: shelf-salto .6s cubic-bezier(.23,1,.32,1); }
 @keyframes ilus-entra{
   0%{ opacity:0; transform: translateY(14px) scale(.96); }
-  55%{ opacity:1; transform: translateY(-4%) scale(1.01); }
+  55%{ opacity:1; transform: translateY(-6%) scale(1.01); }
   100%{ opacity:1; transform:none; }
 }
-.pd-ilus-note{
-  position:absolute; left:12px; bottom:10px;
-  font-family: var(--mono); font-size:var(--fs-xs); letter-spacing:.04em; text-transform:uppercase;
-  color: var(--ink-soft);
-}
-.product-card .thumb.has-ilus{ padding:0; }
-.product-card .thumb.has-ilus svg{ display:block; width:100%; height:100%; }
+.product-card .thumb{ position:relative; }
+.product-card .price-tag{ z-index:1; } /* la thumb ahora es relative: el precio va encima */
+.thumb-ilus{ position:absolute; right:3%; bottom:3%; width:38%; height:38%; }
+.thumb-ilus svg{ display:block; width:100%; height:100%; }
 
 /* relacionados: esperan ocultos y entran en cascada al verse */
 .pd-related .section-head{ margin-bottom:28px; }
@@ -902,7 +909,9 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
   .pd-perks{ grid-template-columns: 1fr; }
 }
 @media (max-width: 720px){
-  .product-detail{ grid-template-columns: 1fr; gap: 28px; }
+  .product-detail{ grid-template-columns: 1fr; grid-template-rows:none; gap: 28px; }
+  .product-gallery, .product-info, .product-detail > .pd-perks{ grid-column:1; grid-row:auto; }
+  .product-detail > .pd-perks{ margin-top:0; }
 }
 
 /* --- carrito (cart.js) --- */

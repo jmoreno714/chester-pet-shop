@@ -1,7 +1,7 @@
 // Chester Pet Shop — extras de la ficha de producto (producto.html).
 // Escucha los avisos de producto.js y arma:
-// - el dibujo de la categoría en lugar de la foto (assets/js/ilustraciones.js),
-//   que entra con un saltito y vuelve a saltar al agregar al carrito;
+// - el dibujo de la categoría (assets/js/ilustraciones.js) chico en la esquina
+//   de la foto, que entra con un saltito y vuelve a saltar al agregar al carrito;
 // - "Consultar por WhatsApp" con el producto (y el peso elegido) ya escrito;
 // - el perro sentado al lado del botón (mismo Lottie que el estante del
 //   catálogo, Lottie Simple License), que salta al agregar;
@@ -39,14 +39,12 @@
     el.classList.add(clase);
   }
 
-  /* --- dibujo en lugar de la foto --- */
+  /* --- dibujo de la categoría, chico en la esquina de la foto --- */
   const galeria = document.getElementById('pd-galeria');
   function pintarDibujo(p) {
     if (!galeria || !ILUS[p.categoria]) return;
     galeria.classList.add('has-ilus');
-    galeria.innerHTML =
-      `<div class="pd-ilus">${ILUS[p.categoria]}</div>` +
-      '<span class="pd-ilus-note">Imagen ilustrativa</span>';
+    galeria.insertAdjacentHTML('beforeend', `<div class="pd-ilus">${ILUS[p.categoria]}</div>`);
   }
 
   /* --- consultar por WhatsApp --- */
@@ -160,7 +158,7 @@
         relGrid.innerHTML = lista.map((p, i) => `
           <a class="product-card" style="--i:${i}" href="producto.html?slug=${encodeURIComponent(p.slug)}">
             <span class="price-tag">${precioDesde(p)}</span>
-            <div class="thumb${ILUS[p.categoria] ? ' has-ilus' : ''}">${ILUS[p.categoria] || 'foto del producto<br>(a definir)'}</div>
+            <div class="thumb">foto del producto<br>(a definir)${ILUS[p.categoria] ? `<span class="thumb-ilus">${ILUS[p.categoria]}</span>` : ''}</div>
             <h3>${esc(p.titulo)}</h3>
             <p class="tag-line">${esc(p.marca === CATEGORY_LABELS[p.categoria] ? p.marca : `${p.marca} · ${CATEGORY_LABELS[p.categoria] || ''}`)}</p>
           </a>`).join('');
