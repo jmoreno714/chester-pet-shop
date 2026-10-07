@@ -389,6 +389,8 @@ nav.main-nav a::after{
   animation: tarjeta-entra 320ms cubic-bezier(.23,1,.32,1) both;
   animation-delay: calc(var(--i, 0) * 40ms);
 }
+/* destacados del home: esperan ocultas hasta verse (destacados.js) */
+.product-card.is-waiting{ opacity:0; }
 @keyframes tarjeta-entra{ from{ opacity:0; transform: translateY(10px); } }
 @keyframes tarjeta-funde{ from{ opacity:0; } }
 @media (prefers-reduced-motion: reduce){
