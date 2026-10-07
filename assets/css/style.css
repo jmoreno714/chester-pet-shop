@@ -753,9 +753,8 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
 .product-info{ grid-column:2; grid-row: 1 / span 2; }
 .product-detail > .pd-perks{ grid-column:1; grid-row:2; align-self:start; }
 /* ficha más compacta: al abrir ya asoma "También te puede servir" */
-.product-detail-section{ padding-top: 16px; padding-bottom: 28px; }
+.product-detail-section{ padding-top: 16px; padding-bottom: 56px; }
 .product-detail-section .breadcrumb{ margin: 16px 0 24px; }
-.pd-related{ padding-top: 32px; }
 .product-gallery-main{
   aspect-ratio: 1/1;
   border: 1px solid var(--ink);
@@ -892,21 +891,27 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
   55%{ opacity:1; transform: translateY(-6%) scale(1.01); }
   100%{ opacity:1; transform:none; }
 }
-.product-card .thumb{ position:relative; }
-.product-card .price-tag{ z-index:1; } /* la thumb ahora es relative: el precio va encima */
-.thumb-ilus{ position:absolute; right:3%; bottom:3%; width:38%; height:38%; }
-.thumb-ilus svg{ display:block; width:100%; height:100%; }
-
-/* relacionados: esperan ocultos y entran en cascada al verse */
-.pd-related .section-head{ margin-bottom:28px; }
-.product-card.is-waiting{ opacity:0; }
+/* "También te puede servir": 2 productos chicos abajo a la derecha (estilo carrito) */
+.pd-upsell{ margin-top:20px; max-width:560px; }
+.pd-upsell .upsell-list{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.pd-upsell .pd-upsell-item{ /* más específico que .upsell-item, que viene después */
+  display:grid; grid-template-columns: 52px minmax(0, 1fr); grid-template-rows: 1fr auto;
+  column-gap:10px; row-gap:8px; align-items:start;
+  animation: tarjeta-entra 320ms cubic-bezier(.23,1,.32,1) both;
+  animation-delay: calc(300ms + var(--i, 0) * 60ms);
+}
+.pd-upsell-thumb{ grid-row: 1 / span 2; display:block; width:52px; height:52px; background: var(--paper); border:1px solid var(--line); }
+.pd-upsell-thumb svg{ display:block; width:100%; height:100%; }
+.pd-upsell-item .upsell-add{ justify-self:start; }
 @media (prefers-reduced-motion: reduce){
   .pd-dog.is-happy, .pd-ilus.is-hop{ animation:none; }
   .pd-ilus{ animation: tarjeta-funde 200ms ease both; }
+  .pd-upsell-item{ animation: tarjeta-funde 200ms ease both; animation-delay:0ms; }
   .pd-perks li:hover .pd-perk-icon{ transform:none; }
 }
 @media (max-width: 520px){
   .pd-perks{ grid-template-columns: 1fr; }
+  .pd-upsell .upsell-list{ grid-template-columns: 1fr; }
 }
 @media (max-width: 720px){
   .product-detail{ grid-template-columns: 1fr; grid-template-rows:none; gap: 28px; }

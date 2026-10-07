@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&amp;family=Newsreader:ital,wght@0,400;0,600;1,400&amp;family=Space+Mono:wght@400;700&amp;display=swap">
-<link rel="stylesheet" href="assets/css/style.css?v=202610071052">
+<link rel="stylesheet" href="assets/css/style.css?v=202610071101">
 </head>
 <body>
 
@@ -87,6 +87,12 @@
             Consultar por WhatsApp
           </a>
 
+          <!-- 2 relacionados chicos, estilo "Completá tu pedido" del carrito (ficha.js) -->
+          <aside class="upsell pd-upsell" id="pd-related" hidden aria-labelledby="pd-related-title">
+            <h2 class="upsell-title" id="pd-related-title">También te puede servir</h2>
+            <ul class="upsell-list" id="pd-related-grid"></ul>
+          </aside>
+
         </div>
 
         <!-- en compu va debajo de la foto; en celular, al final -->
@@ -111,16 +117,6 @@
       </div>
     </div>
   </section>
-
-  <!-- relacionados: misma marca/categoría y complementos (ficha.js) -->
-  <section class="section section-alt pd-related" id="pd-related" hidden>
-    <div class="wrap">
-      <div class="section-head section-head-center">
-        <h2>También te puede servir</h2>
-      </div>
-      <div class="shelf-grid" id="pd-related-grid"></div>
-    </div>
-  </section>
 </main>
 
 <footer class="site-footer">
@@ -133,12 +129,12 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script src="assets/js/main.js?v=202610071052"></script>
-<script src="assets/js/cart.js?v=202610071052"></script>
-<script src="assets/js/vendor/lottie_light.min.js?v=202610071052"></script>
-<script src="assets/js/ilustraciones.js?v=202610071052"></script>
-<script src="assets/js/ficha.js?v=202610071052"></script>
-<script src="assets/js/producto.js?v=202610071052"></script>
-<script src="assets/js/qty-elastic.js?v=202610071052"></script>
+<script src="assets/js/main.js?v=202610071101"></script>
+<script src="assets/js/cart.js?v=202610071101"></script>
+<script src="assets/js/vendor/lottie_light.min.js?v=202610071101"></script>
+<script src="assets/js/ilustraciones.js?v=202610071101"></script>
+<script src="assets/js/ficha.js?v=202610071101"></script>
+<script src="assets/js/producto.js?v=202610071101"></script>
+<script src="assets/js/qty-elastic.js?v=202610071101"></script>
 </body>
 </html>

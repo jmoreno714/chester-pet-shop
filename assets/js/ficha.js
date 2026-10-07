@@ -5,8 +5,9 @@
 // - "Consultar por WhatsApp" con el producto (y el peso elegido) ya escrito;
 // - el perro sentado al lado del botón (mismo Lottie que el estante del
 //   catálogo, Lottie Simple License), que salta al agregar;
-// - "También te puede servir": 4 productos de la misma marca/categoría y
-//   complementos para la misma mascota, entrando en cascada al verlos.
+// - "También te puede servir": 2 productos chicos (estilo "Completá tu pedido"
+//   del carrito) de la misma marca/categoría o complementos para la mascota,
+//   que se agregan al pedido sin salir de la ficha.
 
 (function () {
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -91,8 +92,8 @@
   /* --- relacionados --- */
   const relSection = document.getElementById('pd-related');
   const relGrid = document.getElementById('pd-related-grid');
-  const MAX = 4;
-  const MAX_POR_CATEGORIA = 3;
+  const MAX = 2;
+  const MAX_POR_CATEGORIA = 1; // dos cosas distintas, no dos bolsas casi iguales
   const NO_ALIMENTO = new Set(['humedos', 'farmacos', 'camitas']);
 
   function especie(p) {
@@ -101,12 +102,12 @@
     if (/perr(o|os)\b|cachorro/i.test(txt)) return 'perro';
     return null;
   }
-  const precioAR = (n) => '$' + n.toLocaleString('es-AR');
-  function precioDesde(p) {
+    function precioDesde(p) {
     const precios = p.variantes.map((v) => v.precio).filter((n) => typeof n === 'number');
     if (!precios.length) return '$·····';
     const min = Math.min(...precios);
-    return p.variantes.length > 1 ? `Desde ${precioAR(min)}` : precioAR(min);
+    const txt = '$' + min.toLocaleString('es-AR');
+    return p.variantes.length > 1 ? `Desde ${txt}` : txt;
   }
 
   function sugerir(base, productos) {
@@ -155,24 +156,44 @@
       .then((productos) => {
         const lista = sugerir(base, productos);
         if (!lista.length) return;
-        relGrid.innerHTML = lista.map((p, i) => `
-          <a class="product-card" style="--i:${i}" href="producto.html?slug=${encodeURIComponent(p.slug)}">
-            <span class="price-tag">${precioDesde(p)}</span>
-            <div class="thumb">foto del producto<br>(a definir)${ILUS[p.categoria] ? `<span class="thumb-ilus">${ILUS[p.categoria]}</span>` : ''}</div>
-            <h3>${esc(p.titulo)}</h3>
-            <p class="tag-line">${esc(p.marca === CATEGORY_LABELS[p.categoria] ? p.marca : `${p.marca} · ${CATEGORY_LABELS[p.categoria] || ''}`)}</p>
-          </a>`).join('');
+        relGrid.innerHTML = lista.map((p, i) => {
+          const url = `producto.html?slug=${encodeURIComponent(p.slug)}`;
+          const v = p.variantes[0];
+          const nombre = v.peso ? `${p.nombre} ${v.peso}` : p.nombre;
+          return `
+          <li class="upsell-item pd-upsell-item" style="--i:${i}">
+            <a class="pd-upsell-thumb" href="${url}" tabindex="-1" aria-hidden="true">${ILUS[p.categoria] || ''}</a>
+            <div class="upsell-info">
+              <a class="upsell-name" href="${url}">${esc(p.titulo)}</a>
+              <span class="upsell-meta">${precioDesde(p)}</span>
+            </div>
+            <button type="button" class="upsell-add" data-i="${i}" aria-label="Agregar ${esc(nombre)} al pedido">+ Agregar</button>
+          </li>`;
+        }).join('');
         relSection.hidden = false;
-        // entran en cascada recién cuando se ven
-        const cards = relGrid.querySelectorAll('.product-card');
-        if (!('IntersectionObserver' in window)) return;
-        cards.forEach((c) => c.classList.add('is-waiting'));
-        const io = new IntersectionObserver((entradas) => {
-          if (!entradas.some((e) => e.isIntersecting)) return;
-          cards.forEach((c) => { c.classList.remove('is-waiting'); c.classList.add('is-entering'); });
-          io.disconnect();
-        }, { rootMargin: '0px 0px -80px 0px' });
-        io.observe(relGrid);
+
+        relGrid.querySelectorAll('.upsell-add').forEach((btn) => {
+          btn.addEventListener('click', () => {
+            const p = lista[Number(btn.dataset.i)];
+            const v = p.variantes[0];
+            if (!C()) return;
+            C().agregar({
+              codigo: v.codigo,
+              slug: p.slug,
+              nombre: p.nombre,
+              peso: v.peso,
+              precio: v.precio,
+              cantidad: 1,
+              categoria: CATEGORY_LABELS[p.categoria] || '',
+              marca: p.marca,
+            }, { abrir: false });
+            btn.textContent = '✓ Agregado';
+            btn.classList.add('is-added');
+            btn.disabled = true;
+            btn.setAttribute('aria-label', 'Agregado al pedido');
+            replay(dogBox, 'is-happy');
+          });
+        });
       })
       .catch(() => {});
   }
