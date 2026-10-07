@@ -53,17 +53,10 @@ def plank(y):
     return (f'<rect x="20" y="{y}" width="440" height="11" rx="2" fill="{BRASS}" {S}/>'
             f'<path d="M24 {y+11} v10 h9 Z M456 {y+11} v10 h-9 Z" fill="{SAND}" {S}/>')
 
-# el perro del CTA (misma mascota del sitio), en capas para mover la cola y parpadear;
-# parado en la punta de la tabla de arriba, mirando hacia los productos
-DW, DH = 100, 56  # 420x235 a escala
-dx, dy = 371, T - DH + 1
-dog = (f'<g class="shelf-dog">'
-       f'<image class="shelf-dog-cola" href="assets/img/perro-estante-cola.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
-       f'<image href="assets/img/perro-estante-cuerpo.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
-       f'<image class="shelf-dog-blink" href="assets/img/perro-estante-ojos.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
-       f'</g>')
+# el perro ahora es una animación Lottie superpuesta (assets/data/perro-estante.json, ver shelf.js)
+dog = ''
 
-svg=(f'<svg class="shelf-svg" viewBox="0 0 480 312" role="img" aria-label="Estante con alimentos, latas, fármacos y una camita; el salchicha de Chester parado en la punta">'
+svg=(f'<svg class="shelf-svg" viewBox="0 0 480 312" role="img" aria-label="Estante con alimentos, latas, fármacos y una camita; un perro sentado en la punta">'
      f'<defs><clipPath id="shelf-clip"><rect x="0" y="0" width="472" height="312"/></clipPath></defs>'
      f'<g clip-path="url(#shelf-clip)">{plank(T)}{plank(B)}{"".join(items)}{dog}</g></svg>')
 print(svg)  # pegar dentro de <div class="catalog-shelf"> en productos.html

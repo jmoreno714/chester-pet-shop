@@ -607,14 +607,25 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
   62%{ transform: translateY(0) scaleY(.96); }
   100%{ transform: translateY(0) scaleY(1); }
 }
-/* el salchicha (el del CTA) mueve la cola y parpadea cuando cambia el filtro */
-.shelf-dog-cola{ transform-box: fill-box; transform-origin: 80% 48.085%; }
-.shelf-dog-blink{ opacity:0; }
-.shelf-dog.is-happy .shelf-dog-cola{ animation: perro-cola-contento .6s ease-in-out 2; }
-.shelf-dog.is-happy .shelf-dog-blink{ animation: shelf-parpadeo .5s steps(1) 1; }
-@keyframes shelf-parpadeo{ 0%{ opacity:0; } 30%{ opacity:1; } 60%{ opacity:0; } }
+/* perro del estante (Lottie, shelf.js): sentado en la punta de la tabla de arriba.
+   Posición en % del SVG (viewBox 480x312): apoya sobre la tabla (y=142) a la derecha de Eukanuba */
+.catalog-shelf{ position:relative; }
+.shelf-lottie{
+  position:absolute; left: 77.4%; top: 17.3%; width: 20.6%; height: 31.7%;
+  pointer-events:none; transform-origin: 50% 90%;
+}
+.shelf-lottie svg{ display:block; }
+/* al elegir una categoría salta contento */
+.shelf-lottie.is-happy{ animation: shelf-salto .6s cubic-bezier(.23,1,.32,1); }
+@keyframes shelf-salto{
+  0%{ transform: translateY(0) scale(1, 1); }
+  18%{ transform: translateY(0) scale(1.06, .92); }
+  45%{ transform: translateY(-16%) scale(.97, 1.04); }
+  75%{ transform: translateY(0) scale(1.04, .95); }
+  100%{ transform: translateY(0) scale(1, 1); }
+}
 @media (prefers-reduced-motion: reduce){
-  .shelf-item.is-picked, .shelf-dog.is-happy .shelf-dog-cola, .shelf-dog.is-happy .shelf-dog-blink{ animation:none; }
+  .shelf-item.is-picked, .shelf-lottie.is-happy{ animation:none; }
   .shelf-item:hover{ transform:none; }
 }
 @media (max-width: 800px){
