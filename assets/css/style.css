@@ -567,6 +567,45 @@ nav.main-nav a::after{
   display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px;
 }
 
+/* --- footer: "trencito" de mascotas (footer-parade.js) ---
+   franja a todo el ancho; la línea del pie (.fine-print) hace de piso */
+.footer-parade{
+  position:relative; height: 72px; margin-top: 18px;
+  width:100vw; margin-left: calc(50% - 50vw);
+  overflow:hidden; pointer-events:none;
+}
+.footer-parade + .fine-print{ margin-top: 0; }
+.parade-pet{ position:absolute; bottom: 0; left: 0; will-change: transform; }
+.parade-bob{ position:relative; width:100%; height:100%; transform-origin: 50% 100%; }
+.parade-dog{ width: 98px; aspect-ratio: 420 / 235; }
+.parade-dog img{ position:absolute; inset:0; width:100%; height:100%; }
+.parade-dog-cola{ transform-origin: 80% 48.085%; }
+.parade-cat{ width: 70px; aspect-ratio: 292 / 240; bottom: -2px; }
+.parade-cat img{ width:100%; height:auto; transform: scaleX(-1); } /* mira hacia donde camina */
+/* paso: vaivén corto del perro, galope del gato, cola contenta */
+.is-walking .parade-dog .parade-bob{ animation: parade-paso .42s ease-in-out infinite alternate; }
+.is-walking .parade-cat .parade-bob{ animation: parade-galope .3s ease-in-out infinite alternate; }
+.is-walking .parade-dog-cola{ animation: perro-cola-contento .6s ease-in-out infinite; }
+@keyframes parade-paso{ from{ transform: translateY(0) rotate(0.6deg); } to{ transform: translateY(-3px) rotate(-0.6deg); } }
+@keyframes parade-galope{ from{ transform: translateY(0) rotate(2deg); } to{ transform: translateY(-5px) rotate(-3deg); } }
+/* huellitas que se desvanecen */
+.parade-trail{ position:absolute; inset:0; }
+.parade-paw{
+  position:absolute; width:11px; height:11px; opacity:0;
+  background: no-repeat center/contain url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23F7F1E5'%3E%3Cellipse cx='10' cy='13' rx='5' ry='4.2'/%3E%3Ccircle cx='4' cy='7.5' r='2'/%3E%3Ccircle cx='8' cy='4.5' r='2'/%3E%3Ccircle cx='12.5' cy='4.5' r='2'/%3E%3Ccircle cx='16.2' cy='7.5' r='2'/%3E%3C/svg%3E");
+  transform: rotate(-90deg); /* las huellas apuntan hacia donde camina (izquierda) */
+  animation: parade-huella 2.6s ease-out forwards;
+}
+@keyframes parade-huella{ 0%{ opacity:0; } 12%{ opacity:.42; } 100%{ opacity:0; } }
+/* reducir movimiento: quietos en la esquina, sin huellas */
+.footer-parade.is-still .parade-cat{ left: auto; right: 150px; }
+.footer-parade.is-still .parade-dog{ left: auto; right: 36px; }
+@media (max-width: 600px){
+  .footer-parade{ height: 60px; }
+  .parade-dog{ width: 80px; }
+  .parade-cat{ width: 56px; }
+}
+
 /* --- páginas internas simples (stub) --- */
 /* solo arriba/abajo: los costados los pone .wrap */
 .page-hero{ padding-top: 56px; padding-bottom: 20px; }
