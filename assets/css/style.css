@@ -611,10 +611,10 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
    Posición en % del SVG (viewBox 480x312): apoya sobre la tabla (y=142) a la derecha de Eukanuba */
 .catalog-shelf{ position:relative; }
 .shelf-lottie{
-  position:absolute; left: 77.4%; top: 17.3%; width: 20.6%; height: 31.7%;
-  pointer-events:none; transform-origin: 50% 90%;
+  position:absolute; left: 78.9%; top: 14.1%; width: 21.4%; height: 32.9%;
+  pointer-events:none; transform-origin: 55% 95%;
 }
-.shelf-lottie svg{ display:block; }
+.shelf-lottie svg{ display:block; transform: scaleX(-1); } /* mira hacia los productos */
 /* al elegir una categoría salta contento */
 .shelf-lottie.is-happy{ animation: shelf-salto .6s cubic-bezier(.23,1,.32,1); }
 @keyframes shelf-salto{

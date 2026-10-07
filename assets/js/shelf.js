@@ -11,7 +11,7 @@
   const dogBox = shelf.querySelector('.shelf-lottie');
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  // perro: Lottie gratuito ("A dog was sitting wagging its tail", Lottie Simple License),
+  // perro: Lottie gratuito de LottieFiles (perro marrón sentado, Lottie Simple License),
   // recoloreado a la paleta de Chester; mueve la cola en loop
   let dog = null, calm = 0;
   if (dogBox && window.lottie) {
