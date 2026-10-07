@@ -58,9 +58,9 @@ def plank(y):
 DW, DH = 100, 56  # 420x235 a escala
 dx, dy = 371, T - DH + 1
 dog = (f'<g class="shelf-dog">'
-       f'<image class="shelf-dog-cola" href="assets/img/perro-cta-cola.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
-       f'<image href="assets/img/perro-cta-cuerpo.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
-       f'<image class="shelf-dog-blink" href="assets/img/perro-cta-ojos-cerrados.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
+       f'<image class="shelf-dog-cola" href="assets/img/perro-estante-cola.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
+       f'<image href="assets/img/perro-estante-cuerpo.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
+       f'<image class="shelf-dog-blink" href="assets/img/perro-estante-ojos.png" x="{dx}" y="{dy}" width="{DW}" height="{DH}"/>'
        f'</g>')
 
 svg=(f'<svg class="shelf-svg" viewBox="0 0 480 312" role="img" aria-label="Estante con alimentos, latas, fármacos y una camita; el salchicha de Chester parado en la punta">'
