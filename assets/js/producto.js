@@ -100,6 +100,7 @@
             btn.classList.add('is-active');
             pintarPrecio(precioEl, v.precio);
             animarPrecio(precioEl);
+            document.dispatchEvent(new CustomEvent('producto-variante', { detail: { producto: p, variante: v } }));
           });
           options.appendChild(btn);
         });
@@ -107,6 +108,9 @@
       }
 
       pintarPrecio(precioEl, seleccionada.precio);
+      // ficha.js arma el dibujo, el botón de consulta, el perro y los relacionados
+      const avisar = (nombre, detail) => document.dispatchEvent(new CustomEvent(nombre, { detail }));
+      avisar('producto-listo', { producto: p, variante: seleccionada });
 
       const addBtn = document.getElementById('pd-add-cart');
       const TEXTO = addBtn.textContent.trim();
@@ -157,6 +161,7 @@
           marca: p.marca,
         }, { abrir: false });
 
+        avisar('producto-agregado', { producto: p, variante: seleccionada });
         if (!addBtn.classList.contains('is-added')) cambiarTexto('Agregado ✓', true);
         // el panel se abre un poco después, para que se vea el cambio del botón
         clearTimeout(abrirPanel);

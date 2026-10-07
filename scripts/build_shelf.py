@@ -59,4 +59,5 @@ dog = ''
 svg=(f'<svg class="shelf-svg" viewBox="0 0 480 312" role="img" aria-label="Estante con alimentos, latas, fármacos y una camita; un perro sentado en la punta">'
      f'<defs><clipPath id="shelf-clip"><rect x="0" y="0" width="472" height="312"/></clipPath></defs>'
      f'<g clip-path="url(#shelf-clip)">{plank(T)}{plank(B)}{"".join(items)}{dog}</g></svg>')
-print(svg)  # pegar dentro de <div class="catalog-shelf"> en productos.html
+if __name__ == '__main__':
+    print(svg)  # pegar dentro de <div class="catalog-shelf"> en productos.html
