@@ -41,7 +41,8 @@
       }
     ],
     "slug": "advance-advance-adulto-hipoalergenico",
-    "titulo": "Advance Adulto Hipoalergenico 15 kg"
+    "titulo": "Advance Adulto Hipoalergenico 15 kg",
+    "foto": "assets/img/productos/advance-advance-adulto-hipoalergenico"
   },
   {
     "nombre": "Advance Cachorro",
@@ -55,7 +56,8 @@
       }
     ],
     "slug": "advance-advance-cachorro",
-    "titulo": "Advance Cachorro 12 kg"
+    "titulo": "Advance Cachorro 12 kg",
+    "foto": "assets/img/productos/advance-advance-cachorro"
   },
   {
     "nombre": "Advance Perro Adulto",
@@ -69,7 +71,8 @@
       }
     ],
     "slug": "advance-advance-perro-adulto",
-    "titulo": "Advance Perro Adulto 20 kg"
+    "titulo": "Advance Perro Adulto 20 kg",
+    "foto": "assets/img/productos/advance-advance-perro-adulto"
   },
   {
     "nombre": "Agility Gato Urinary",
@@ -83,7 +86,8 @@
       }
     ],
     "slug": "agility-agility-gato-urinary",
-    "titulo": "Agility Gato Urinary 10 kg"
+    "titulo": "Agility Gato Urinary 10 kg",
+    "foto": "assets/img/productos/agility-agility-gato-urinary"
   },
   {
     "nombre": "AGILITY Perro Adulto Control de Peso",
@@ -797,7 +801,8 @@
       }
     ],
     "slug": "basken-basken-doble-60",
-    "titulo": "Basken Doble 60"
+    "titulo": "Basken Doble 60",
+    "foto": "assets/img/productos/basken-basken-doble-60"
   },
   {
     "nombre": "Belcan adultos",
@@ -1386,7 +1391,8 @@
       }
     ],
     "slug": "sabrocitos-dr-perrot",
-    "titulo": "Dr perrot 20 kg"
+    "titulo": "Dr perrot 20 kg",
+    "foto": "assets/img/productos/sabrocitos-dr-perrot"
   },
   {
     "nombre": "Ectholaner Antiparasitario Externo Perros de 10,1 a 20kg",
@@ -1430,7 +1436,8 @@
       }
     ],
     "slug": "ecthol-collar-antipulgas-ecthol-collar-antipulgas-gato-holliday",
-    "titulo": "Ecthol Collar Antipulgas Gato Holliday"
+    "titulo": "Ecthol Collar Antipulgas Gato Holliday",
+    "foto": "assets/img/productos/ecthol-collar-antipulgas-ecthol-collar-antipulgas-gato-holliday"
   },
   {
     "nombre": "Estampa Criadores Perros Adultos",
@@ -2143,7 +2150,8 @@
       }
     ],
     "slug": "royal-canin-lata-royal-canin-recovery",
-    "titulo": "Lata Royal Canin Recovery"
+    "titulo": "Lata Royal Canin Recovery",
+    "foto": "assets/img/productos/royal-canin-lata-royal-canin-recovery"
   },
   {
     "nombre": "Maintenance Criadores High Pro Adultos",
@@ -2202,7 +2210,8 @@
       }
     ],
     "slug": "mv-mv-gato-urinary-2kgs",
-    "titulo": "MV Gato Urinary 2kgs"
+    "titulo": "MV Gato Urinary 2kgs",
+    "foto": "assets/img/productos/mv-mv-gato-urinary-2kgs"
   },
   {
     "nombre": "Nutrique Gato Adulto +7 años - Healthy Maint",
@@ -2351,7 +2360,8 @@
       }
     ],
     "slug": "nutrique-nutrique-senior-adulto-pequeno",
-    "titulo": "Nutrique Senior Adulto Pequeño 3 kg"
+    "titulo": "Nutrique Senior Adulto Pequeño 3 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-senior-adulto-pequeno"
   },
   {
     "nombre": "OCLADERM 16mg Caja x 20 Comprimidos",
@@ -2365,7 +2375,8 @@
       }
     ],
     "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos",
-    "titulo": "OCLADERM 16mg Caja x 20 Comprimidos"
+    "titulo": "OCLADERM 16mg Caja x 20 Comprimidos",
+    "foto": "assets/img/productos/ocladerm-ocladerm-16mg-caja-x-20-comprimidos"
   },
   {
     "nombre": "OCLADERM 16mg Caja x 20 Comprimidos",
@@ -2379,7 +2390,8 @@
       }
     ],
     "slug": "ocladerm-ocladerm-16mg-caja-x-20-comprimidos-oclocl02",
-    "titulo": "OCLADERM 16mg Caja x 20 Comprimidos"
+    "titulo": "OCLADERM 16mg Caja x 20 Comprimidos",
+    "foto": "assets/img/productos/ocladerm-ocladerm-16mg-caja-x-20-comprimidos-oclocl02"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande",
@@ -2393,7 +2405,8 @@
       }
     ],
     "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-mediana-y-grande",
-    "titulo": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande 20 kg"
+    "titulo": "Old Prince Equilibrium Perro Adulto Raza Mediana y Grande 20 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-equilibrium-perro-adulto-raza-mediana-y-grande"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Adulto Raza Pequeña",
@@ -2462,7 +2475,8 @@
       }
     ],
     "slug": "old-prince-old-prince-novel-gato-cordero",
-    "titulo": "Old Prince Novel Gato Cordero 3 kg"
+    "titulo": "Old Prince Novel Gato Cordero 3 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-novel-gato-cordero"
   },
   {
     "nombre": "Old Prince Novel Perro Adulto Mordida Pequeña",
@@ -2586,7 +2600,8 @@
       }
     ],
     "slug": "old-prince-old-prince-premium-gato",
-    "titulo": "Old Prince Premium Gato 7,5 kg"
+    "titulo": "Old Prince Premium Gato 7,5 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-premium-gato"
   },
   {
     "nombre": "Old Prince Premium Perro Adulto Cordero",
@@ -2600,7 +2615,8 @@
       }
     ],
     "slug": "old-prince-old-prince-premium-perro-adulto-cordero",
-    "titulo": "Old Prince Premium Perro Adulto Cordero 15 kg"
+    "titulo": "Old Prince Premium Perro Adulto Cordero 15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-premium-perro-adulto-cordero"
   },
   {
     "nombre": "Old Prince Premium Perro Adulto",
@@ -2619,7 +2635,8 @@
       }
     ],
     "slug": "old-prince-old-prince-premium-perro-adulto",
-    "titulo": "Old Prince Premium Perro Adulto 3-20 kg"
+    "titulo": "Old Prince Premium Perro Adulto 3-20 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-premium-perro-adulto"
   },
   {
     "nombre": "Old Prince Premium Perro Cachorro",
@@ -2638,7 +2655,8 @@
       }
     ],
     "slug": "old-prince-old-prince-premium-perro-cachorro",
-    "titulo": "Old Prince Premium Perro Cachorro 3-15 kg"
+    "titulo": "Old Prince Premium Perro Cachorro 3-15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-premium-perro-cachorro"
   },
   {
     "nombre": "Pellet Sanitario",
@@ -2652,7 +2670,8 @@
       }
     ],
     "slug": "pellet-pellet-sanitario",
-    "titulo": "Pellet Sanitario 15 kg"
+    "titulo": "Pellet Sanitario 15 kg",
+    "foto": "assets/img/productos/pellet-pellet-sanitario"
   },
   {
     "nombre": "Piedras Absorsol Baby",
@@ -2776,7 +2795,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-spot-gatos",
-    "titulo": "Pipeta Frontline Spot Gatos"
+    "titulo": "Pipeta Frontline Spot Gatos",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-spot-gatos"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 10-20kg",
@@ -2790,7 +2810,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-spot-perros-10-20kg",
-    "titulo": "Pipeta Frontline Spot Perros 10-20kg"
+    "titulo": "Pipeta Frontline Spot Perros 10-20kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-spot-perros-10-20kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 1-10kg",
@@ -2804,7 +2825,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-spot-perros-1-10kg",
-    "titulo": "Pipeta Frontline Spot Perros 1-10kg"
+    "titulo": "Pipeta Frontline Spot Perros 1-10kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-spot-perros-1-10kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Perros 20-40kg",
@@ -2818,7 +2840,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-spot-perros-20-40kg",
-    "titulo": "Pipeta Frontline Spot Perros 20-40kg"
+    "titulo": "Pipeta Frontline Spot Perros 20-40kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-spot-perros-20-40kg"
   },
   {
     "nombre": "Pouch Complete Gato Caja x12uds",
@@ -3026,7 +3049,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-fit-32-gato-fit",
-    "titulo": "Royal Canin Fit 32 - gato fit 3 kg"
+    "titulo": "Royal Canin Fit 32 - gato fit 3 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-fit-32-gato-fit"
   },
   {
     "nombre": "Royal Canin Gastrointestinal Perro",
@@ -3075,7 +3099,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-exigent",
-    "titulo": "Royal Canin Gato Exigent 1,5 kg"
+    "titulo": "Royal Canin Gato Exigent 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-exigent"
   },
   {
     "nombre": "Royal Canin Gato Fit 32",
@@ -3089,7 +3114,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-fit-32",
-    "titulo": "Royal Canin Gato Fit 32 15 kg"
+    "titulo": "Royal Canin Gato Fit 32 15 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-fit-32"
   },
   {
     "nombre": "Royal Canin Gato Fit 32",
@@ -3103,7 +3129,8 @@
       }
     ],
     "slug": "balanced-royal-canin-gato-fit-32",
-    "titulo": "Royal Canin Gato Fit 32 7,5 kg"
+    "titulo": "Royal Canin Gato Fit 32 7,5 kg",
+    "foto": "assets/img/productos/balanced-royal-canin-gato-fit-32"
   },
   {
     "nombre": "Royal Canin Gato Hypoallergenic",
@@ -3117,7 +3144,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-hypoallergenic",
-    "titulo": "Royal Canin Gato Hypoallergenic 2 kg"
+    "titulo": "Royal Canin Gato Hypoallergenic 2 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-hypoallergenic"
   },
   {
     "nombre": "Royal Canin Gato Indoor",
@@ -3191,7 +3219,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-persian",
-    "titulo": "Royal Canin Gato Persian- 1,5 kg"
+    "titulo": "Royal Canin Gato Persian- 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-persian"
   },
   {
     "nombre": "Royal Canin Gato Urinary Care",
@@ -3235,7 +3264,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-golden-puppy",
-    "titulo": "Royal Canin Golden Puppy 12 kg"
+    "titulo": "Royal Canin Golden Puppy 12 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-golden-puppy"
   },
   {
     "nombre": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande",
@@ -3399,7 +3429,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-perro-mini-ageing-12",
-    "titulo": "Royal Canin Perro Mini Ageing 12+ 3 kg"
+    "titulo": "Royal Canin Perro Mini Ageing 12+ 3 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-perro-mini-ageing-12"
   },
   {
     "nombre": "Sabrocitos Perro Adulto Mix x 18+",
@@ -3442,7 +3473,8 @@
       }
     ],
     "slug": "osspret-shampoo-osspret-pulguicida-tradicional-x-250ml",
-    "titulo": "Shampoo Osspret pulguicida tradicional x 250ml"
+    "titulo": "Shampoo Osspret pulguicida tradicional x 250ml",
+    "foto": "assets/img/productos/osspret-shampoo-osspret-pulguicida-tradicional-x-250ml"
   },
   {
     "nombre": "SIEGER Adult Medium & Large Breed",
@@ -3856,7 +3888,8 @@
       }
     ],
     "slug": "totalfull-cg-totalfull-cg-en-suspension",
-    "titulo": "TOTALFULL CG EN SUSPENSIÓN"
+    "titulo": "TOTALFULL CG EN SUSPENSIÓN",
+    "foto": "assets/img/productos/totalfull-cg-totalfull-cg-en-suspension"
   },
   {
     "nombre": "Vagoneta Perro Adulto Gourmet",
@@ -3870,7 +3903,8 @@
       }
     ],
     "slug": "vagoneta-vagoneta-perro-adulto-gourmet",
-    "titulo": "Vagoneta Perro Adulto Gourmet 20 kg"
+    "titulo": "Vagoneta Perro Adulto Gourmet 20 kg",
+    "foto": "assets/img/productos/vagoneta-vagoneta-perro-adulto-gourmet"
   },
   {
     "nombre": "Vagoneta Perro Adulto",
@@ -3884,7 +3918,8 @@
       }
     ],
     "slug": "vagoneta-vagoneta-perro-adulto",
-    "titulo": "Vagoneta Perro Adulto 20 kg"
+    "titulo": "Vagoneta Perro Adulto 20 kg",
+    "foto": "assets/img/productos/vagoneta-vagoneta-perro-adulto"
   },
   {
     "nombre": "Valiant Adulto",
@@ -3898,7 +3933,8 @@
       }
     ],
     "slug": "valiant-valiant-adulto",
-    "titulo": "Valiant Adulto 20 kg"
+    "titulo": "Valiant Adulto 20 kg",
+    "foto": "assets/img/productos/valiant-valiant-adulto"
   },
   {
     "nombre": "Vitalcan Premium Adulto Cordero",
