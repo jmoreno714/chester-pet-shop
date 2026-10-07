@@ -65,7 +65,9 @@
         (p, i) => `
         <a class="product-card${animar ? ' is-entering' : ''}" style="--i:${Math.min(i, MAX_ESCALON)}" href="producto.html?slug=${encodeURIComponent(p.slug)}">
           <span class="price-tag">${precioDesde(p)}</span>
-          <div class="thumb">foto del producto<br>(a definir)</div>
+          ${p.foto
+            ? `<div class="thumb has-foto"><img src="${p.foto}-400.webp" srcset="${p.foto}-400.webp 400w, ${p.foto}.webp 800w" sizes="(max-width: 600px) 45vw, 240px" alt="" loading="lazy" decoding="async"></div>`
+            : '<div class="thumb">foto del producto<br>(a definir)</div>'}
           <h3>${escapeHtml(p.titulo)}</h3>
           <p class="tag-line">${escapeHtml(p.marca)} · ${CATEGORY_LABELS[p.categoria] || ''}</p>
         </a>`

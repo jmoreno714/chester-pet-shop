@@ -11,7 +11,8 @@
       }
     ],
     "slug": "promociones-5-complete-pouch-x-10-000-gatos",
-    "titulo": "5 Complete Pouch x $10.000 Gatos"
+    "titulo": "5 Complete Pouch x $10.000 Gatos",
+    "foto": "assets/img/productos/promociones-5-complete-pouch-x-10-000-gatos"
   },
   {
     "nombre": "5 Complete Pouch x $10.000 Perros",
@@ -25,7 +26,8 @@
       }
     ],
     "slug": "promociones-5-complete-pouch-x-10-000-perros",
-    "titulo": "5 Complete Pouch x $10.000 Perros"
+    "titulo": "5 Complete Pouch x $10.000 Perros",
+    "foto": "assets/img/productos/promociones-5-complete-pouch-x-10-000-perros"
   },
   {
     "nombre": "Advance Adulto Hipoalergenico",
@@ -95,7 +97,8 @@
       }
     ],
     "slug": "agility-agility-perro-adulto-control-de-peso",
-    "titulo": "AGILITY Perro Adulto Control de Peso 15 kg"
+    "titulo": "AGILITY Perro Adulto Control de Peso 15 kg",
+    "foto": "assets/img/productos/agility-agility-perro-adulto-control-de-peso"
   },
   {
     "nombre": "AGILITY Perro Adultos",
@@ -109,7 +112,8 @@
       }
     ],
     "slug": "agility-agility-perro-adultos",
-    "titulo": "AGILITY Perro Adultos 20 kg"
+    "titulo": "AGILITY Perro Adultos 20 kg",
+    "foto": "assets/img/productos/agility-agility-perro-adultos"
   },
   {
     "nombre": "AGILITY Perro Cachorro",
@@ -128,7 +132,8 @@
       }
     ],
     "slug": "agility-agility-perro-cachorro",
-    "titulo": "AGILITY Perro Cachorro 15-20 kg"
+    "titulo": "AGILITY Perro Cachorro 15-20 kg",
+    "foto": "assets/img/productos/agility-agility-perro-cachorro"
   },
   {
     "nombre": "Balanced Gato Adulto Natural Recipe Cordero",
@@ -152,7 +157,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-cordero",
-    "titulo": "Balanced Gato Adulto Natural Recipe Cordero 3-7,5-15 kg"
+    "titulo": "Balanced Gato Adulto Natural Recipe Cordero 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-gato-adulto-natural-recipe-cordero"
   },
   {
     "nombre": "Balanced Gato Adulto Natural Recipe Salmón",
@@ -176,7 +182,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-gato-adulto-natural-recipe-salmon",
-    "titulo": "Balanced Gato Adulto Natural Recipe Salmón 3-7,5-15 kg"
+    "titulo": "Balanced Gato Adulto Natural Recipe Salmón 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-gato-adulto-natural-recipe-salmon"
   },
   {
     "nombre": "Balanced Gato Adulto",
@@ -200,7 +207,8 @@
       }
     ],
     "slug": "balanced-balanced-gato-adulto",
-    "titulo": "Balanced Gato Adulto 2-7,5-15 kg"
+    "titulo": "Balanced Gato Adulto 2-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-balanced-gato-adulto"
   },
   {
     "nombre": "Balanced Gato Control PH All ages",
@@ -219,7 +227,8 @@
       }
     ],
     "slug": "balanced-balanced-gato-control-ph-all-ages",
-    "titulo": "Balanced Gato Control PH All ages 2-7,5 kg"
+    "titulo": "Balanced Gato Control PH All ages 2-7,5 kg",
+    "foto": "assets/img/productos/balanced-balanced-gato-control-ph-all-ages"
   },
   {
     "nombre": "Balanced Gato Ctrl. Peso/Cstrdo",
@@ -238,7 +247,8 @@
       }
     ],
     "slug": "balanced-balanced-gato-ctrl-peso-cstrdo",
-    "titulo": "Balanced Gato Ctrl. Peso/Cstrdo 2-7,5 kg"
+    "titulo": "Balanced Gato Ctrl. Peso/Cstrdo 2-7,5 kg",
+    "foto": "assets/img/productos/balanced-balanced-gato-ctrl-peso-cstrdo"
   },
   {
     "nombre": "Balanced Gato Kitten",
@@ -257,7 +267,8 @@
       }
     ],
     "slug": "balanced-balanced-gato-kitten",
-    "titulo": "Balanced Gato Kitten 2-7,5 kg"
+    "titulo": "Balanced Gato Kitten 2-7,5 kg",
+    "foto": "assets/img/productos/balanced-balanced-gato-kitten"
   },
   {
     "nombre": "Balanced Gato Senior",
@@ -276,7 +287,8 @@
       }
     ],
     "slug": "balanced-balanced-gato-senior",
-    "titulo": "Balanced Gato Senior 2-7,5 kg"
+    "titulo": "Balanced Gato Senior 2-7,5 kg",
+    "foto": "assets/img/productos/balanced-balanced-gato-senior"
   },
   {
     "nombre": "Balanced Natural Recipe Cordero",
@@ -290,7 +302,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-cordero",
-    "titulo": "Balanced Natural Recipe Cordero 7,5 kg"
+    "titulo": "Balanced Natural Recipe Cordero 7,5 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-cordero"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada",
@@ -314,7 +327,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-ad-carne-argentina-seleccionada",
-    "titulo": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada 3-7,5-15 kg"
+    "titulo": "Balanced Natural Recipe Gato Ad Carne Argentina Seleccionada 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-gato-ad-carne-argentina-seleccionada"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Merluza",
@@ -338,7 +352,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-merluza",
-    "titulo": "Balanced Natural Recipe Gato Adulto Merluza 3-7,5-15 kg"
+    "titulo": "Balanced Natural Recipe Gato Adulto Merluza 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-gato-adulto-merluza"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Pollo",
@@ -362,7 +377,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-pollo",
-    "titulo": "Balanced Natural Recipe Gato Adulto Pollo 3-7,5-15 kg"
+    "titulo": "Balanced Natural Recipe Gato Adulto Pollo 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-gato-adulto-pollo"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Salmón",
@@ -376,7 +392,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-salmon",
-    "titulo": "Balanced Natural Recipe Gato Adulto Salmón 3 kg"
+    "titulo": "Balanced Natural Recipe Gato Adulto Salmón 3 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-gato-adulto-salmon"
   },
   {
     "nombre": "Balanced Natural Recipe Gato Adulto Trucha Patagonica",
@@ -400,7 +417,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-gato-adulto-trucha-patagonica",
-    "titulo": "Balanced Natural Recipe Gato Adulto Trucha Patagonica 3-7,5-15 kg"
+    "titulo": "Balanced Natural Recipe Gato Adulto Trucha Patagonica 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-gato-adulto-trucha-patagonica"
   },
   {
     "nombre": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada",
@@ -414,7 +432,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-a-carne-argentina-seleccionada",
-    "titulo": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada 3 kg"
+    "titulo": "Balanced Natural Recipe Perro A Carne Argentina Seleccionada 3 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-a-carne-argentina-seleccionada"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Carne",
@@ -428,7 +447,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-carne",
-    "titulo": "Balanced Natural Recipe Perro Adulto Carne 15 kg"
+    "titulo": "Balanced Natural Recipe Perro Adulto Carne 15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-adulto-carne"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Cerdo",
@@ -442,7 +462,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cerdo",
-    "titulo": "Balanced Natural Recipe Perro Adulto Cerdo 15 kg"
+    "titulo": "Balanced Natural Recipe Perro Adulto Cerdo 15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cerdo"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Cordero",
@@ -456,7 +477,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cordero",
-    "titulo": "Balanced Natural Recipe Perro Adulto Cordero 15 kg"
+    "titulo": "Balanced Natural Recipe Perro Adulto Cordero 15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-adulto-cordero"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Pollo",
@@ -475,7 +497,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-pollo",
-    "titulo": "Balanced Natural Recipe Perro Adulto Pollo 3-15 kg"
+    "titulo": "Balanced Natural Recipe Perro Adulto Pollo 3-15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-adulto-pollo"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Salmón Rosado",
@@ -489,7 +512,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado",
-    "titulo": "Balanced Natural Recipe Perro Adulto Salmón Rosado 15 kg"
+    "titulo": "Balanced Natural Recipe Perro Adulto Salmón Rosado 15 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Adulto Salmon Rosado",
@@ -503,7 +527,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado-a2d6e108",
-    "titulo": "Balanced Natural Recipe Perro Adulto Salmon Rosado 3 kg"
+    "titulo": "Balanced Natural Recipe Perro Adulto Salmon Rosado 3 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-adulto-salmon-rosado-a2d6e108"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Cerdo",
@@ -517,7 +542,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cerdo",
-    "titulo": "Balanced Natural Recipe Perro Cerdo 3 kg"
+    "titulo": "Balanced Natural Recipe Perro Cerdo 3 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-cerdo"
   },
   {
     "nombre": "Balanced Natural Recipe Perro Cordero",
@@ -531,7 +557,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-balanced-natural-recipe-perro-cordero",
-    "titulo": "Balanced Natural Recipe Perro Cordero 3 kg"
+    "titulo": "Balanced Natural Recipe Perro Cordero 3 kg",
+    "foto": "assets/img/productos/balanced-natural-recipe-balanced-natural-recipe-perro-cordero"
   },
   {
     "nombre": "Balanced perro Adulto Raza Gigante",
@@ -545,7 +572,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-adulto-raza-gigante",
-    "titulo": "Balanced perro Adulto Raza Gigante 20 kg"
+    "titulo": "Balanced perro Adulto Raza Gigante 20 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-adulto-raza-gigante"
   },
   {
     "nombre": "Balanced perro Adulto Raza Grande",
@@ -564,7 +592,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-adulto-raza-grande",
-    "titulo": "Balanced perro Adulto Raza Grande 15-20 kg"
+    "titulo": "Balanced perro Adulto Raza Grande 15-20 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-adulto-raza-grande"
   },
   {
     "nombre": "Balanced Perro Adulto Raza Mediana",
@@ -593,7 +622,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-adulto-raza-mediana",
-    "titulo": "Balanced Perro Adulto Raza Mediana 3-12-20-20 kg"
+    "titulo": "Balanced Perro Adulto Raza Mediana 3-12-20-20 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-adulto-raza-mediana"
   },
   {
     "nombre": "Balanced Perro Adulto Raza Pequeña",
@@ -617,7 +647,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-adulto-raza-pequena",
-    "titulo": "Balanced Perro Adulto Raza Pequeña 3-7,5-15 kg"
+    "titulo": "Balanced Perro Adulto Raza Pequeña 3-7,5-15 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Balanced Perro Cachorro Raza Grande",
@@ -636,7 +667,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-cachorro-raza-grande",
-    "titulo": "Balanced Perro Cachorro Raza Grande 15-20 kg"
+    "titulo": "Balanced Perro Cachorro Raza Grande 15-20 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-cachorro-raza-grande"
   },
   {
     "nombre": "Balanced Perro Cachorro Raza mediana",
@@ -655,7 +687,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-cachorro-raza-mediana",
-    "titulo": "Balanced Perro Cachorro Raza mediana 12-20 kg"
+    "titulo": "Balanced Perro Cachorro Raza mediana 12-20 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-cachorro-raza-mediana"
   },
   {
     "nombre": "Balanced Perro Cachorro Raza Pequeña",
@@ -674,7 +707,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-cachorro-raza-pequena",
-    "titulo": "Balanced Perro Cachorro Raza Pequeña 3-7,5 kg"
+    "titulo": "Balanced Perro Cachorro Raza Pequeña 3-7,5 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-cachorro-raza-pequena"
   },
   {
     "nombre": "Balanced Perro Control de Peso",
@@ -688,7 +722,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-control-de-peso",
-    "titulo": "Balanced Perro Control de Peso 20 kg"
+    "titulo": "Balanced Perro Control de Peso 20 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-control-de-peso"
   },
   {
     "nombre": "Balanced Perro Senior Grande",
@@ -707,7 +742,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-senior-grande",
-    "titulo": "Balanced Perro Senior Grande 3-15 kg"
+    "titulo": "Balanced Perro Senior Grande 3-15 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-senior-grande"
   },
   {
     "nombre": "Balanced Perro Senior Mediano",
@@ -726,7 +762,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-senior-mediano",
-    "titulo": "Balanced Perro Senior Mediano 3-12 kg"
+    "titulo": "Balanced Perro Senior Mediano 3-12 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-senior-mediano"
   },
   {
     "nombre": "Balanced Perro Senior Pequeño",
@@ -745,7 +782,8 @@
       }
     ],
     "slug": "balanced-balanced-perro-senior-pequeno",
-    "titulo": "Balanced Perro Senior Pequeño 3-7,5 kg"
+    "titulo": "Balanced Perro Senior Pequeño 3-7,5 kg",
+    "foto": "assets/img/productos/balanced-balanced-perro-senior-pequeno"
   },
   {
     "nombre": "Basken Doble 60",
@@ -773,7 +811,8 @@
       }
     ],
     "slug": "belcan-belcan-adultos",
-    "titulo": "Belcan adultos 15 kg"
+    "titulo": "Belcan adultos 15 kg",
+    "foto": "assets/img/productos/belcan-belcan-adultos"
   },
   {
     "nombre": "Belcan Perro Adulto",
@@ -792,7 +831,8 @@
       }
     ],
     "slug": "belcan-belcan-perro-adulto",
-    "titulo": "Belcan Perro Adulto 15-22 kg"
+    "titulo": "Belcan Perro Adulto 15-22 kg",
+    "foto": "assets/img/productos/belcan-belcan-perro-adulto"
   },
   {
     "nombre": "Belcan Perro Cachorro",
@@ -806,7 +846,8 @@
       }
     ],
     "slug": "belcan-belcan-perro-cachorro",
-    "titulo": "Belcan Perro Cachorro 15 kg"
+    "titulo": "Belcan Perro Cachorro 15 kg",
+    "foto": "assets/img/productos/belcan-belcan-perro-cachorro"
   },
   {
     "nombre": "BelCat Gato",
@@ -820,7 +861,8 @@
       }
     ],
     "slug": "belcat-belcat-gato",
-    "titulo": "BelCat Gato 10 kg"
+    "titulo": "BelCat Gato 10 kg",
+    "foto": "assets/img/productos/belcat-belcat-gato"
   },
   {
     "nombre": "Camita Namu Pets Pelo Largo Tamaño Grande",
@@ -834,7 +876,8 @@
       }
     ],
     "slug": "namupets-camita-namu-pets-pelo-largo-tamano-grande",
-    "titulo": "Camita Namu Pets Pelo Largo Tamaño Grande"
+    "titulo": "Camita Namu Pets Pelo Largo Tamaño Grande",
+    "foto": "assets/img/productos/namupets-camita-namu-pets-pelo-largo-tamano-grande"
   },
   {
     "nombre": "Cidar Gato 0,5 a 3kg",
@@ -848,7 +891,8 @@
       }
     ],
     "slug": "cidar-cidar-gato-0-5-a-3kg",
-    "titulo": "Cidar Gato 0,5 a 3kg"
+    "titulo": "Cidar Gato 0,5 a 3kg",
+    "foto": "assets/img/productos/cidar-cidar-gato-0-5-a-3kg"
   },
   {
     "nombre": "Cidar Gato 3,1 a 6kg",
@@ -862,7 +906,8 @@
       }
     ],
     "slug": "cidar-cidar-gato-3-1-a-6kg",
-    "titulo": "Cidar Gato 3,1 a 6kg"
+    "titulo": "Cidar Gato 3,1 a 6kg",
+    "foto": "assets/img/productos/cidar-cidar-gato-3-1-a-6kg"
   },
   {
     "nombre": "Cidar Perro 12,1 a 25kg",
@@ -876,7 +921,8 @@
       }
     ],
     "slug": "cidar-cidar-perro-12-1-a-25kg",
-    "titulo": "Cidar Perro 12,1 a 25kg"
+    "titulo": "Cidar Perro 12,1 a 25kg",
+    "foto": "assets/img/productos/cidar-cidar-perro-12-1-a-25kg"
   },
   {
     "nombre": "Cidar Perro 1,5kg a 3kg",
@@ -890,7 +936,8 @@
       }
     ],
     "slug": "cidar-cidar-perro-1-5kg-a-3kg",
-    "titulo": "Cidar Perro 1,5kg a 3kg"
+    "titulo": "Cidar Perro 1,5kg a 3kg",
+    "foto": "assets/img/productos/cidar-cidar-perro-1-5kg-a-3kg"
   },
   {
     "nombre": "Cidar Perro 25,1 a 50kg",
@@ -904,7 +951,8 @@
       }
     ],
     "slug": "cidar-cidar-perro-25-1-a-50kg",
-    "titulo": "Cidar Perro 25,1 a 50kg"
+    "titulo": "Cidar Perro 25,1 a 50kg",
+    "foto": "assets/img/productos/cidar-cidar-perro-25-1-a-50kg"
   },
   {
     "nombre": "Cidar Perro 3,1 a 6kg",
@@ -918,7 +966,8 @@
       }
     ],
     "slug": "cidar-cidar-perro-3-1-a-6kg",
-    "titulo": "Cidar Perro 3,1 a 6kg"
+    "titulo": "Cidar Perro 3,1 a 6kg",
+    "foto": "assets/img/productos/cidar-cidar-perro-3-1-a-6kg"
   },
   {
     "nombre": "Cidar Perro 6,1 a 12kg",
@@ -932,7 +981,8 @@
       }
     ],
     "slug": "cidar-cidar-perro-6-1-a-12kg",
-    "titulo": "Cidar Perro 6,1 a 12kg"
+    "titulo": "Cidar Perro 6,1 a 12kg",
+    "foto": "assets/img/productos/cidar-cidar-perro-6-1-a-12kg"
   },
   {
     "nombre": "Club Performance Gato Adulto",
@@ -946,7 +996,8 @@
       }
     ],
     "slug": "royal-canin-club-performance-gato-adulto",
-    "titulo": "Club Performance Gato Adulto 7,5 kg"
+    "titulo": "Club Performance Gato Adulto 7,5 kg",
+    "foto": "assets/img/productos/royal-canin-club-performance-gato-adulto"
   },
   {
     "nombre": "Club performance Perro adulto",
@@ -960,7 +1011,8 @@
       }
     ],
     "slug": "royal-canin-club-performance-perro-adulto",
-    "titulo": "Club performance Perro adulto 20 kg"
+    "titulo": "Club performance Perro adulto 20 kg",
+    "foto": "assets/img/productos/royal-canin-club-performance-perro-adulto"
   },
   {
     "nombre": "Club Performance Weight Control",
@@ -974,7 +1026,8 @@
       }
     ],
     "slug": "royal-canin-club-performance-weight-control",
-    "titulo": "Club Performance Weight Control 15 kg"
+    "titulo": "Club Performance Weight Control 15 kg",
+    "foto": "assets/img/productos/royal-canin-club-performance-weight-control"
   },
   {
     "nombre": "Complete Gato Adulto",
@@ -998,7 +1051,8 @@
       }
     ],
     "slug": "complete-complete-gato-adulto",
-    "titulo": "Complete Gato Adulto 1,5-7,5-15 kg"
+    "titulo": "Complete Gato Adulto 1,5-7,5-15 kg",
+    "foto": "assets/img/productos/complete-complete-gato-adulto"
   },
   {
     "nombre": "Complete Gato Adulto Urinary Care",
@@ -1017,7 +1071,8 @@
       }
     ],
     "slug": "complete-complete-gato-adulto-urinary-care",
-    "titulo": "Complete Gato Adulto Urinary Care 1,5-7,5 kg"
+    "titulo": "Complete Gato Adulto Urinary Care 1,5-7,5 kg",
+    "foto": "assets/img/productos/complete-complete-gato-adulto-urinary-care"
   },
   {
     "nombre": "Complete Gato Control de Peso",
@@ -1036,7 +1091,8 @@
       }
     ],
     "slug": "complete-complete-gato-control-de-peso",
-    "titulo": "Complete Gato Control de Peso 1,5-7,5 kg"
+    "titulo": "Complete Gato Control de Peso 1,5-7,5 kg",
+    "foto": "assets/img/productos/complete-complete-gato-control-de-peso"
   },
   {
     "nombre": "Complete Gato Kitten",
@@ -1060,7 +1116,8 @@
       }
     ],
     "slug": "complete-complete-gato-kitten",
-    "titulo": "Complete Gato Kitten 1,5-7,5-15 kg"
+    "titulo": "Complete Gato Kitten 1,5-7,5-15 kg",
+    "foto": "assets/img/productos/complete-complete-gato-kitten"
   },
   {
     "nombre": "Complete Gato Senior",
@@ -1079,7 +1136,8 @@
       }
     ],
     "slug": "complete-complete-gato-senior",
-    "titulo": "Complete Gato Senior 1,5-7,5 kg"
+    "titulo": "Complete Gato Senior 1,5-7,5 kg",
+    "foto": "assets/img/productos/complete-complete-gato-senior"
   },
   {
     "nombre": "Complete Lata 340gr Gato Cachorro Pollo (1ud)",
@@ -1093,7 +1151,8 @@
       }
     ],
     "slug": "humedos-complete-lata-340gr-gato-cachorro-pollo-1ud",
-    "titulo": "Complete Lata 340gr Gato Cachorro Pollo (1ud)"
+    "titulo": "Complete Lata 340gr Gato Cachorro Pollo (1ud)",
+    "foto": "assets/img/productos/humedos-complete-lata-340gr-gato-cachorro-pollo-1ud"
   },
   {
     "nombre": "Complete Perro Adulto Raza Mediana y Grande",
@@ -1107,7 +1166,8 @@
       }
     ],
     "slug": "complete-complete-perro-adulto-raza-mediana-y-grande",
-    "titulo": "Complete Perro Adulto Raza Mediana y Grande 20 kg"
+    "titulo": "Complete Perro Adulto Raza Mediana y Grande 20 kg",
+    "foto": "assets/img/productos/complete-complete-perro-adulto-raza-mediana-y-grande"
   },
   {
     "nombre": "Complete Perro Adulto Raza Pequeña",
@@ -1131,7 +1191,8 @@
       }
     ],
     "slug": "complete-complete-perro-adulto-raza-pequena",
-    "titulo": "Complete Perro Adulto Raza Pequeña 3-7,5-20 kg"
+    "titulo": "Complete Perro Adulto Raza Pequeña 3-7,5-20 kg",
+    "foto": "assets/img/productos/complete-complete-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Complete Perro Cachorro Raza Mediana y Grande",
@@ -1150,7 +1211,8 @@
       }
     ],
     "slug": "complete-complete-perro-cachorro-raza-mediana-y-grande",
-    "titulo": "Complete Perro Cachorro Raza Mediana y Grande 3-20 kg"
+    "titulo": "Complete Perro Cachorro Raza Mediana y Grande 3-20 kg",
+    "foto": "assets/img/productos/complete-complete-perro-cachorro-raza-mediana-y-grande"
   },
   {
     "nombre": "Complete Perro Control de Peso",
@@ -1169,7 +1231,8 @@
       }
     ],
     "slug": "complete-complete-perro-control-de-peso",
-    "titulo": "Complete Perro Control de Peso 3-20 kg"
+    "titulo": "Complete Perro Control de Peso 3-20 kg",
+    "foto": "assets/img/productos/complete-complete-perro-control-de-peso"
   },
   {
     "nombre": "Complete Perro Senior All Breeds",
@@ -1183,7 +1246,8 @@
       }
     ],
     "slug": "complete-complete-perro-senior-all-breeds",
-    "titulo": "Complete Perro Senior All Breeds 20 kg"
+    "titulo": "Complete Perro Senior All Breeds 20 kg",
+    "foto": "assets/img/productos/complete-complete-perro-senior-all-breeds"
   },
   {
     "nombre": "Complete Perro Senior Mediano y Grande",
@@ -1202,7 +1266,8 @@
       }
     ],
     "slug": "complete-complete-perro-senior-mediano-y-grande",
-    "titulo": "Complete Perro Senior Mediano y Grande 3-20 kg"
+    "titulo": "Complete Perro Senior Mediano y Grande 3-20 kg",
+    "foto": "assets/img/productos/complete-complete-perro-senior-mediano-y-grande"
   },
   {
     "nombre": "Complete Perro Senior Pequeño",
@@ -1221,7 +1286,8 @@
       }
     ],
     "slug": "complete-complete-perro-senior-pequeno",
-    "titulo": "Complete Perro Senior Pequeño 3-7,5 kg"
+    "titulo": "Complete Perro Senior Pequeño 3-7,5 kg",
+    "foto": "assets/img/productos/complete-complete-perro-senior-pequeno"
   },
   {
     "nombre": "Complete Pouch Gato carne",
@@ -1240,7 +1306,8 @@
       }
     ],
     "slug": "complete-complete-pouch-gato-carne",
-    "titulo": "Complete Pouch Gato carne 85-85 g"
+    "titulo": "Complete Pouch Gato carne 85-85 g",
+    "foto": "assets/img/productos/complete-complete-pouch-gato-carne"
   },
   {
     "nombre": "Criadores Maintenance Gatos",
@@ -1254,7 +1321,8 @@
       }
     ],
     "slug": "criadores-maintenance-criadores-maintenance-gatos",
-    "titulo": "Criadores Maintenance Gatos 15 kg"
+    "titulo": "Criadores Maintenance Gatos 15 kg",
+    "foto": "assets/img/productos/criadores-maintenance-criadores-maintenance-gatos"
   },
   {
     "nombre": "Criadores Maintenance Perro Adulto",
@@ -1273,7 +1341,8 @@
       }
     ],
     "slug": "criadores-maintenance-criadores-maintenance-perro-adulto",
-    "titulo": "Criadores Maintenance Perro Adulto 15-22 kg"
+    "titulo": "Criadores Maintenance Perro Adulto 15-22 kg",
+    "foto": "assets/img/productos/criadores-maintenance-criadores-maintenance-perro-adulto"
   },
   {
     "nombre": "Criadores Maintenance Perro Adulto Raza Pequeña",
@@ -1287,7 +1356,8 @@
       }
     ],
     "slug": "criadores-maintenance-criadores-maintenance-perro-adulto-raza-pequena",
-    "titulo": "Criadores Maintenance Perro Adulto Raza Pequeña 15 kg"
+    "titulo": "Criadores Maintenance Perro Adulto Raza Pequeña 15 kg",
+    "foto": "assets/img/productos/criadores-maintenance-criadores-maintenance-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Criadores Maintenance Perro Cachorros",
@@ -1301,7 +1371,8 @@
       }
     ],
     "slug": "criadores-maintenance-criadores-maintenance-perro-cachorros",
-    "titulo": "Criadores Maintenance Perro Cachorros 15 kg"
+    "titulo": "Criadores Maintenance Perro Cachorros 15 kg",
+    "foto": "assets/img/productos/criadores-maintenance-criadores-maintenance-perro-cachorros"
   },
   {
     "nombre": "Dr perrot",
@@ -1329,7 +1400,8 @@
       }
     ],
     "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-10-1-a-20kg",
-    "titulo": "Ectholaner Antiparasitario Externo Perros de 10,1 a 20kg"
+    "titulo": "Ectholaner Antiparasitario Externo Perros de 10,1 a 20kg",
+    "foto": "assets/img/productos/ectholaner-ectholaner-antiparasitario-externo-perros-de-10-1-a-20kg"
   },
   {
     "nombre": "Ectholaner Antiparasitario Externo Perros de 4,6 a 10kg (1 comprimido 600mg)",
@@ -1343,7 +1415,8 @@
       }
     ],
     "slug": "ectholaner-ectholaner-antiparasitario-externo-perros-de-4-6-a-10kg-1-comprimido-600mg",
-    "titulo": "Ectholaner Antiparasitario Externo Perros de 4,6 a 10kg (1 comprimido 600mg)"
+    "titulo": "Ectholaner Antiparasitario Externo Perros de 4,6 a 10kg (1 comprimido 600mg)",
+    "foto": "assets/img/productos/ectholaner-ectholaner-antiparasitario-externo-perros-de-4-6-a-10kg-1-comprimido-600mg"
   },
   {
     "nombre": "Ecthol Collar Antipulgas Gato Holliday",
@@ -1376,7 +1449,8 @@
       }
     ],
     "slug": "estampa-criadores-estampa-criadores-perros-adultos",
-    "titulo": "Estampa Criadores Perros Adultos 15-20 kg"
+    "titulo": "Estampa Criadores Perros Adultos 15-20 kg",
+    "foto": "assets/img/productos/estampa-criadores-estampa-criadores-perros-adultos"
   },
   {
     "nombre": "Estampa Plus Gatos Adultos",
@@ -1395,7 +1469,8 @@
       }
     ],
     "slug": "estampa-plus-estampa-plus-gatos-adultos",
-    "titulo": "Estampa Plus Gatos Adultos 8-15 kg"
+    "titulo": "Estampa Plus Gatos Adultos 8-15 kg",
+    "foto": "assets/img/productos/estampa-plus-estampa-plus-gatos-adultos"
   },
   {
     "nombre": "Estampa Plus Perros Adultos Mordida Pequeña",
@@ -1414,7 +1489,8 @@
       }
     ],
     "slug": "estampa-plus-estampa-plus-perros-adultos-mordida-pequena",
-    "titulo": "Estampa Plus Perros Adultos Mordida Pequeña 8-15 kg"
+    "titulo": "Estampa Plus Perros Adultos Mordida Pequeña 8-15 kg",
+    "foto": "assets/img/productos/estampa-plus-estampa-plus-perros-adultos-mordida-pequena"
   },
   {
     "nombre": "Estampa Plus Perros Adultos",
@@ -1433,7 +1509,8 @@
       }
     ],
     "slug": "estampa-plus-estampa-plus-perros-adultos",
-    "titulo": "Estampa Plus Perros Adultos 15-20 kg"
+    "titulo": "Estampa Plus Perros Adultos 15-20 kg",
+    "foto": "assets/img/productos/estampa-plus-estampa-plus-perros-adultos"
   },
   {
     "nombre": "Estampa Plus Perros Cachorros",
@@ -1452,7 +1529,8 @@
       }
     ],
     "slug": "estampa-plus-estampa-plus-perros-cachorros",
-    "titulo": "Estampa Plus Perros Cachorros 8-15 kg"
+    "titulo": "Estampa Plus Perros Cachorros 8-15 kg",
+    "foto": "assets/img/productos/estampa-plus-estampa-plus-perros-cachorros"
   },
   {
     "nombre": "Eukanuba Adulto Premium Performance",
@@ -1466,7 +1544,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-adulto-premium-performance",
-    "titulo": "Eukanuba Adulto Premium Performance 15 kg"
+    "titulo": "Eukanuba Adulto Premium Performance 15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-adulto-premium-performance"
   },
   {
     "nombre": "Eukanuba Cachorro Premium Performance",
@@ -1480,7 +1559,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-cachorro-premium-performance",
-    "titulo": "Eukanuba Cachorro Premium Performance 15 kg"
+    "titulo": "Eukanuba Cachorro Premium Performance 15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-cachorro-premium-performance"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Grande (Control de peso)",
@@ -1499,7 +1579,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-fit-body-raza-grande-control-de-peso",
-    "titulo": "Eukanuba Fit Body Raza Grande (Control de peso) 3-15 kg"
+    "titulo": "Eukanuba Fit Body Raza Grande (Control de peso) 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-fit-body-raza-grande-control-de-peso"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Mediana (Control de peso)",
@@ -1518,7 +1599,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-fit-body-raza-mediana-control-de-peso",
-    "titulo": "Eukanuba Fit Body Raza Mediana (Control de peso) 3-15 kg"
+    "titulo": "Eukanuba Fit Body Raza Mediana (Control de peso) 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-fit-body-raza-mediana-control-de-peso"
   },
   {
     "nombre": "Eukanuba Fit Body Raza Pequeña x 3kg (Control de peso)",
@@ -1532,7 +1614,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-fit-body-raza-pequena-x-3kg-control-de-peso",
-    "titulo": "Eukanuba Fit Body Raza Pequeña x 3kg (Control de peso)"
+    "titulo": "Eukanuba Fit Body Raza Pequeña x 3kg (Control de peso)",
+    "foto": "assets/img/productos/eukanuba-eukanuba-fit-body-raza-pequena-x-3kg-control-de-peso"
   },
   {
     "nombre": "Eukanuba Gato Adulto Top Condition",
@@ -1556,7 +1639,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-gato-adulto-top-condition",
-    "titulo": "Eukanuba Gato Adulto Top Condition 3-7,5-15 kg"
+    "titulo": "Eukanuba Gato Adulto Top Condition 3-7,5-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-gato-adulto-top-condition"
   },
   {
     "nombre": "Eukanuba Gato Kitten Healthy Start",
@@ -1575,7 +1659,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-gato-kitten-healthy-start",
-    "titulo": "Eukanuba Gato Kitten Healthy Start 3-7,5 kg"
+    "titulo": "Eukanuba Gato Kitten Healthy Start 3-7,5 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-gato-kitten-healthy-start"
   },
   {
     "nombre": "Eukanuba Lamb Perro Adulto",
@@ -1594,7 +1679,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-lamb-perro-adulto",
-    "titulo": "Eukanuba Lamb Perro Adulto 3-15 kg"
+    "titulo": "Eukanuba Lamb Perro Adulto 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-lamb-perro-adulto"
   },
   {
     "nombre": "Eukanuba Lamb Perro Cachorro",
@@ -1613,7 +1699,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-lamb-perro-cachorro",
-    "titulo": "Eukanuba Lamb Perro Cachorro 3-15 kg"
+    "titulo": "Eukanuba Lamb Perro Cachorro 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-lamb-perro-cachorro"
   },
   {
     "nombre": "Eukanuba Perro Adulto Raza Grande",
@@ -1632,7 +1719,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-adulto-raza-grande",
-    "titulo": "Eukanuba Perro Adulto Raza Grande 3-15 kg"
+    "titulo": "Eukanuba Perro Adulto Raza Grande 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-adulto-raza-grande"
   },
   {
     "nombre": "Eukanuba Perro Adulto Raza Mediana",
@@ -1651,7 +1739,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-adulto-raza-mediana",
-    "titulo": "Eukanuba Perro Adulto Raza Mediana 3-15 kg"
+    "titulo": "Eukanuba Perro Adulto Raza Mediana 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-adulto-raza-mediana"
   },
   {
     "nombre": "Eukanuba Perro Adulto Raza Pequeña",
@@ -1675,7 +1764,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-adulto-raza-pequena",
-    "titulo": "Eukanuba Perro Adulto Raza Pequeña 3-7,5-15 kg"
+    "titulo": "Eukanuba Perro Adulto Raza Pequeña 3-7,5-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Eukanuba Perro Cachorro Raza Grande",
@@ -1694,7 +1784,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-cachorro-raza-grande",
-    "titulo": "Eukanuba Perro Cachorro Raza Grande 3-15 kg"
+    "titulo": "Eukanuba Perro Cachorro Raza Grande 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-cachorro-raza-grande"
   },
   {
     "nombre": "Eukanuba Perro Cachorro Raza Mediana",
@@ -1713,7 +1804,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-cachorro-raza-mediana",
-    "titulo": "Eukanuba Perro Cachorro Raza Mediana 3-15 kg"
+    "titulo": "Eukanuba Perro Cachorro Raza Mediana 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-cachorro-raza-mediana"
   },
   {
     "nombre": "Eukanuba Perro Cachorro Raza Pequeña",
@@ -1732,7 +1824,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-cachorro-raza-pequena",
-    "titulo": "Eukanuba Perro Cachorro Raza Pequeña 3-15 kg"
+    "titulo": "Eukanuba Perro Cachorro Raza Pequeña 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-cachorro-raza-pequena"
   },
   {
     "nombre": "Eukanuba Perro Senior Raza Grande",
@@ -1751,7 +1844,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-senior-raza-grande",
-    "titulo": "Eukanuba Perro Senior Raza Grande 3-15 kg"
+    "titulo": "Eukanuba Perro Senior Raza Grande 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-senior-raza-grande"
   },
   {
     "nombre": "Eukanuba Perro Senior Raza Mediana",
@@ -1770,7 +1864,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-senior-raza-mediana",
-    "titulo": "Eukanuba Perro Senior Raza Mediana 3-15 kg"
+    "titulo": "Eukanuba Perro Senior Raza Mediana 3-15 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-senior-raza-mediana"
   },
   {
     "nombre": "Eukanuba Perro Senior Raza Pequeña",
@@ -1784,7 +1879,8 @@
       }
     ],
     "slug": "eukanuba-eukanuba-perro-senior-raza-pequena",
-    "titulo": "Eukanuba Perro Senior Raza Pequeña 3 kg"
+    "titulo": "Eukanuba Perro Senior Raza Pequeña 3 kg",
+    "foto": "assets/img/productos/eukanuba-eukanuba-perro-senior-raza-pequena"
   },
   {
     "nombre": "Fawna Adulto Pequeño",
@@ -1798,7 +1894,8 @@
       }
     ],
     "slug": "fawna-fawna-adulto-pequeno",
-    "titulo": "Fawna Adulto Pequeño 7,5 kg"
+    "titulo": "Fawna Adulto Pequeño 7,5 kg",
+    "foto": "assets/img/productos/fawna-fawna-adulto-pequeno"
   },
   {
     "nombre": "Fawna Gatitos",
@@ -1817,7 +1914,8 @@
       }
     ],
     "slug": "fawna-fawna-gatitos",
-    "titulo": "Fawna Gatitos 1-3 kg"
+    "titulo": "Fawna Gatitos 1-3 kg",
+    "foto": "assets/img/productos/fawna-fawna-gatitos"
   },
   {
     "nombre": "Fawna Gato Adulto",
@@ -1836,7 +1934,8 @@
       }
     ],
     "slug": "fawna-fawna-gato-adulto",
-    "titulo": "Fawna Gato Adulto 3-7,5 kg"
+    "titulo": "Fawna Gato Adulto 3-7,5 kg",
+    "foto": "assets/img/productos/fawna-fawna-gato-adulto"
   },
   {
     "nombre": "Fawna Gato Esterilizado",
@@ -1855,7 +1954,8 @@
       }
     ],
     "slug": "fawna-fawna-gato-esterilizado",
-    "titulo": "Fawna Gato Esterilizado 3-7,5 kg"
+    "titulo": "Fawna Gato Esterilizado 3-7,5 kg",
+    "foto": "assets/img/productos/fawna-fawna-gato-esterilizado"
   },
   {
     "nombre": "Fawna Gato Urinario",
@@ -1874,7 +1974,8 @@
       }
     ],
     "slug": "fawna-fawna-gato-urinario",
-    "titulo": "Fawna Gato Urinario 3-7,5 kg"
+    "titulo": "Fawna Gato Urinario 3-7,5 kg",
+    "foto": "assets/img/productos/fawna-fawna-gato-urinario"
   },
   {
     "nombre": "Fawna Perro Adulto Light",
@@ -1893,7 +1994,8 @@
       }
     ],
     "slug": "fawna-fawna-perro-adulto-light",
-    "titulo": "Fawna Perro Adulto Light 3-15 kg"
+    "titulo": "Fawna Perro Adulto Light 3-15 kg",
+    "foto": "assets/img/productos/fawna-fawna-perro-adulto-light"
   },
   {
     "nombre": "Fawna Perro Adulto Pequeño",
@@ -1907,7 +2009,8 @@
       }
     ],
     "slug": "fawna-fawna-perro-adulto-pequeno",
-    "titulo": "Fawna Perro Adulto Pequeño 3 kg"
+    "titulo": "Fawna Perro Adulto Pequeño 3 kg",
+    "foto": "assets/img/productos/fawna-fawna-perro-adulto-pequeno"
   },
   {
     "nombre": "Fawna Perro Adulto",
@@ -1926,7 +2029,8 @@
       }
     ],
     "slug": "fawna-fawna-perro-adulto",
-    "titulo": "Fawna Perro Adulto 3-15 kg"
+    "titulo": "Fawna Perro Adulto 3-15 kg",
+    "foto": "assets/img/productos/fawna-fawna-perro-adulto"
   },
   {
     "nombre": "Fawna Perro Cachorro Mediano y Grande",
@@ -1945,7 +2049,8 @@
       }
     ],
     "slug": "fawna-fawna-perro-cachorro-mediano-y-grande",
-    "titulo": "Fawna Perro Cachorro Mediano y Grande 3-15 kg"
+    "titulo": "Fawna Perro Cachorro Mediano y Grande 3-15 kg",
+    "foto": "assets/img/productos/fawna-fawna-perro-cachorro-mediano-y-grande"
   },
   {
     "nombre": "Fawna Perro Cachorro Pequeño",
@@ -1964,7 +2069,8 @@
       }
     ],
     "slug": "fawna-fawna-perro-cachorro-pequeno",
-    "titulo": "Fawna Perro Cachorro Pequeño 3-7,5 kg"
+    "titulo": "Fawna Perro Cachorro Pequeño 3-7,5 kg",
+    "foto": "assets/img/productos/fawna-fawna-perro-cachorro-pequeno"
   },
   {
     "nombre": "Fawna Perro Senior",
@@ -1978,7 +2084,8 @@
       }
     ],
     "slug": "fawna-fawna-perro-senior",
-    "titulo": "Fawna Perro Senior 15 kg"
+    "titulo": "Fawna Perro Senior 15 kg",
+    "foto": "assets/img/productos/fawna-fawna-perro-senior"
   },
   {
     "nombre": "Gran Campeón Cachorros",
@@ -1992,7 +2099,8 @@
       }
     ],
     "slug": "gran-campeon-gran-campeon-cachorros",
-    "titulo": "Gran Campeón Cachorros 10 kg"
+    "titulo": "Gran Campeón Cachorros 10 kg",
+    "foto": "assets/img/productos/gran-campeon-gran-campeon-cachorros"
   },
   {
     "nombre": "Kongo Perro Adulto Mediano y Grande",
@@ -2006,7 +2114,8 @@
       }
     ],
     "slug": "voraz-y-kongo-kongo-perro-adulto-mediano-y-grande",
-    "titulo": "Kongo Perro Adulto Mediano y Grande 21 kg"
+    "titulo": "Kongo Perro Adulto Mediano y Grande 21 kg",
+    "foto": "assets/img/productos/voraz-y-kongo-kongo-perro-adulto-mediano-y-grande"
   },
   {
     "nombre": "Lata Nutrique Carne",
@@ -2048,7 +2157,8 @@
       }
     ],
     "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos",
-    "titulo": "Maintenance Criadores High Pro Adultos 22 kg"
+    "titulo": "Maintenance Criadores High Pro Adultos 22 kg",
+    "foto": "assets/img/productos/criadores-maintenance-maintenance-criadores-high-pro-adultos"
   },
   {
     "nombre": "Maintenance Criadores High Pro Adultos Cordero",
@@ -2062,7 +2172,8 @@
       }
     ],
     "slug": "criadores-maintenance-maintenance-criadores-high-pro-adultos-cordero",
-    "titulo": "Maintenance Criadores High Pro Adultos Cordero 20 kg"
+    "titulo": "Maintenance Criadores High Pro Adultos Cordero 20 kg",
+    "foto": "assets/img/productos/criadores-maintenance-maintenance-criadores-high-pro-adultos-cordero"
   },
   {
     "nombre": "Maxxium Dog Adult Cordero y Arroz",
@@ -2076,7 +2187,8 @@
       }
     ],
     "slug": "maxxium-maxxium-dog-adult-cordero-y-arroz",
-    "titulo": "Maxxium Dog Adult Cordero y Arroz 15 kg"
+    "titulo": "Maxxium Dog Adult Cordero y Arroz 15 kg",
+    "foto": "assets/img/productos/maxxium-maxxium-dog-adult-cordero-y-arroz"
   },
   {
     "nombre": "MV Gato Urinary 2kgs",
@@ -2109,7 +2221,8 @@
       }
     ],
     "slug": "nutrique-nutrique-gato-adulto-7-anos-healthy-maint",
-    "titulo": "Nutrique Gato Adulto +7 años - Healthy Maint 2-7,5 kg"
+    "titulo": "Nutrique Gato Adulto +7 años - Healthy Maint 2-7,5 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-gato-adulto-7-anos-healthy-maint"
   },
   {
     "nombre": "Nutrique Gato Adulto Joven Healthy Maint",
@@ -2128,7 +2241,8 @@
       }
     ],
     "slug": "nutrique-nutrique-gato-adulto-joven-healthy-maint",
-    "titulo": "Nutrique Gato Adulto Joven Healthy Maint 2-7,5 kg"
+    "titulo": "Nutrique Gato Adulto Joven Healthy Maint 2-7,5 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-gato-adulto-joven-healthy-maint"
   },
   {
     "nombre": "Nutrique Gato Kitten",
@@ -2147,7 +2261,8 @@
       }
     ],
     "slug": "nutrique-nutrique-gato-kitten",
-    "titulo": "Nutrique Gato Kitten 2-7,5 kg"
+    "titulo": "Nutrique Gato Kitten 2-7,5 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-gato-kitten"
   },
   {
     "nombre": "Nutrique Gato Urinary Care",
@@ -2166,7 +2281,8 @@
       }
     ],
     "slug": "nutrique-nutrique-gato-urinary-care",
-    "titulo": "Nutrique Gato Urinary Care 2-7,5 kg"
+    "titulo": "Nutrique Gato Urinary Care 2-7,5 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-gato-urinary-care"
   },
   {
     "nombre": "Nutrique Perro Adulto Mediano",
@@ -2185,7 +2301,8 @@
       }
     ],
     "slug": "nutrique-nutrique-perro-adulto-mediano",
-    "titulo": "Nutrique Perro Adulto Mediano 3-12 kg"
+    "titulo": "Nutrique Perro Adulto Mediano 3-12 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-perro-adulto-mediano"
   },
   {
     "nombre": "Nutrique Perro Adulto Raza Pequeña",
@@ -2204,7 +2321,8 @@
       }
     ],
     "slug": "nutrique-nutrique-perro-adulto-raza-pequena",
-    "titulo": "Nutrique Perro Adulto Raza Pequeña 3-7,5 kg"
+    "titulo": "Nutrique Perro Adulto Raza Pequeña 3-7,5 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Nutrique Perro Cachorro Pequeño",
@@ -2218,7 +2336,8 @@
       }
     ],
     "slug": "nutrique-nutrique-perro-cachorro-pequeno",
-    "titulo": "Nutrique Perro Cachorro Pequeño 3 kg"
+    "titulo": "Nutrique Perro Cachorro Pequeño 3 kg",
+    "foto": "assets/img/productos/nutrique-nutrique-perro-cachorro-pequeno"
   },
   {
     "nombre": "Nutrique Senior Adulto Pequeño",
@@ -2298,7 +2417,8 @@
       }
     ],
     "slug": "old-prince-old-prince-equilibrium-perro-adulto-raza-pequena",
-    "titulo": "Old Prince Equilibrium Perro Adulto Raza Pequeña 3-7,5-15 kg"
+    "titulo": "Old Prince Equilibrium Perro Adulto Raza Pequeña 3-7,5-15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-equilibrium-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande",
@@ -2312,7 +2432,8 @@
       }
     ],
     "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-mediana-y-grande",
-    "titulo": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande 15 kg"
+    "titulo": "Old Prince Equilibrium Perro Cachorro Raza Mediana y Grande 15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-equilibrium-perro-cachorro-raza-mediana-y-grande"
   },
   {
     "nombre": "Old Prince Equilibrium Perro Cachorro Raza Pequeña",
@@ -2326,7 +2447,8 @@
       }
     ],
     "slug": "old-prince-old-prince-equilibrium-perro-cachorro-raza-pequena",
-    "titulo": "Old Prince Equilibrium Perro Cachorro Raza Pequeña 3 kg"
+    "titulo": "Old Prince Equilibrium Perro Cachorro Raza Pequeña 3 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-equilibrium-perro-cachorro-raza-pequena"
   },
   {
     "nombre": "Old Prince Novel Gato Cordero",
@@ -2364,7 +2486,8 @@
       }
     ],
     "slug": "old-prince-old-prince-novel-perro-adulto-mordida-pequena",
-    "titulo": "Old Prince Novel Perro Adulto Mordida Pequeña 3-7,5-15 kg"
+    "titulo": "Old Prince Novel Perro Adulto Mordida Pequeña 3-7,5-15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-novel-perro-adulto-mordida-pequena"
   },
   {
     "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo",
@@ -2378,7 +2501,8 @@
       }
     ],
     "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cerdo",
-    "titulo": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo 15 kg"
+    "titulo": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cerdo 15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cerdo"
   },
   {
     "nombre": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero",
@@ -2402,7 +2526,8 @@
       }
     ],
     "slug": "old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cordero",
-    "titulo": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero 3-7,5-15 kg"
+    "titulo": "Old Prince Novel Perro Adulto Raza Mediana y Grande Cordero 3-7,5-15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-novel-perro-adulto-raza-mediana-y-grande-cordero"
   },
   {
     "nombre": "Old prince Novel Perro Cachorro Raza Mediana y Grande",
@@ -2426,7 +2551,8 @@
       }
     ],
     "slug": "old-prince-old-prince-novel-perro-cachorro-raza-mediana-y-grande",
-    "titulo": "Old prince Novel Perro Cachorro Raza Mediana y Grande 3-7,5-15 kg"
+    "titulo": "Old prince Novel Perro Cachorro Raza Mediana y Grande 3-7,5-15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-novel-perro-cachorro-raza-mediana-y-grande"
   },
   {
     "nombre": "Old Prince Novel Perro Senior",
@@ -2445,7 +2571,8 @@
       }
     ],
     "slug": "old-prince-old-prince-novel-perro-senior",
-    "titulo": "Old Prince Novel Perro Senior 3-15 kg"
+    "titulo": "Old Prince Novel Perro Senior 3-15 kg",
+    "foto": "assets/img/productos/old-prince-old-prince-novel-perro-senior"
   },
   {
     "nombre": "Old Prince Premium Gato",
@@ -2539,7 +2666,8 @@
       }
     ],
     "slug": "absorsol-piedras-absorsol-baby",
-    "titulo": "Piedras Absorsol Baby 2 kg"
+    "titulo": "Piedras Absorsol Baby 2 kg",
+    "foto": "assets/img/productos/absorsol-piedras-absorsol-baby"
   },
   {
     "nombre": "Piedras Absorsol Premium",
@@ -2558,7 +2686,8 @@
       }
     ],
     "slug": "absorsol-piedras-absorsol-premium",
-    "titulo": "Piedras Absorsol Premium 2-3,6 kg"
+    "titulo": "Piedras Absorsol Premium 2-3,6 kg",
+    "foto": "assets/img/productos/absorsol-piedras-absorsol-premium"
   },
   {
     "nombre": "Pipeta Frontline Plus Gatos",
@@ -2572,7 +2701,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-plus-gatos",
-    "titulo": "Pipeta Frontline Plus Gatos"
+    "titulo": "Pipeta Frontline Plus Gatos",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-plus-gatos"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 10-20kg",
@@ -2586,7 +2716,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-plus-perros-10-20kg",
-    "titulo": "Pipeta Frontline Plus Perros 10-20kg"
+    "titulo": "Pipeta Frontline Plus Perros 10-20kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-plus-perros-10-20kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 1-10kg",
@@ -2600,7 +2731,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-plus-perros-1-10kg",
-    "titulo": "Pipeta Frontline Plus Perros 1-10kg"
+    "titulo": "Pipeta Frontline Plus Perros 1-10kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-plus-perros-1-10kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 20-40kg",
@@ -2614,7 +2746,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-plus-perros-20-40kg",
-    "titulo": "Pipeta Frontline Plus Perros 20-40kg"
+    "titulo": "Pipeta Frontline Plus Perros 20-40kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-plus-perros-20-40kg"
   },
   {
     "nombre": "Pipeta Frontline Plus Perros 40-60kg",
@@ -2628,7 +2761,8 @@
       }
     ],
     "slug": "frontline-pipeta-frontline-plus-perros-40-60kg",
-    "titulo": "Pipeta Frontline Plus Perros 40-60kg"
+    "titulo": "Pipeta Frontline Plus Perros 40-60kg",
+    "foto": "assets/img/productos/frontline-pipeta-frontline-plus-perros-40-60kg"
   },
   {
     "nombre": "Pipeta Frontline Spot Gatos",
@@ -2698,7 +2832,8 @@
       }
     ],
     "slug": "humedos-pouch-complete-gato-caja-x12uds",
-    "titulo": "Pouch Complete Gato Caja x12uds"
+    "titulo": "Pouch Complete Gato Caja x12uds",
+    "foto": "assets/img/productos/humedos-pouch-complete-gato-caja-x12uds"
   },
   {
     "nombre": "Pouch Complete Perro Caja x12uds",
@@ -2712,7 +2847,8 @@
       }
     ],
     "slug": "humedos-pouch-complete-perro-caja-x12uds",
-    "titulo": "Pouch Complete Perro Caja x12uds"
+    "titulo": "Pouch Complete Perro Caja x12uds",
+    "foto": "assets/img/productos/humedos-pouch-complete-perro-caja-x12uds"
   },
   {
     "nombre": "Promo Latas Balanced Gato Merluza x 85g (4uds)",
@@ -2726,7 +2862,8 @@
       }
     ],
     "slug": "humedos-promo-latas-balanced-gato-merluza-x-85g-4uds",
-    "titulo": "Promo Latas Balanced Gato Merluza x 85g (4uds)"
+    "titulo": "Promo Latas Balanced Gato Merluza x 85g (4uds)",
+    "foto": "assets/img/productos/humedos-promo-latas-balanced-gato-merluza-x-85g-4uds"
   },
   {
     "nombre": "Promo Latas Balanced Perro Pollo x 85g (4uds)",
@@ -2740,7 +2877,8 @@
       }
     ],
     "slug": "promociones-promo-latas-balanced-perro-pollo-x-85g-4uds",
-    "titulo": "Promo Latas Balanced Perro Pollo x 85g (4uds)"
+    "titulo": "Promo Latas Balanced Perro Pollo x 85g (4uds)",
+    "foto": "assets/img/productos/promociones-promo-latas-balanced-perro-pollo-x-85g-4uds"
   },
   {
     "nombre": "Promo Latas Complete Gatos 340gr (3uds)",
@@ -2754,7 +2892,8 @@
       }
     ],
     "slug": "promociones-promo-latas-complete-gatos-340gr-3uds",
-    "titulo": "Promo Latas Complete Gatos 340gr (3uds)"
+    "titulo": "Promo Latas Complete Gatos 340gr (3uds)",
+    "foto": "assets/img/productos/promociones-promo-latas-complete-gatos-340gr-3uds"
   },
   {
     "nombre": "Promo Latas Complete Pollo Perro Adulto x 340g (3uds)",
@@ -2768,7 +2907,8 @@
       }
     ],
     "slug": "promociones-promo-latas-complete-pollo-perro-adulto-x-340g-3uds",
-    "titulo": "Promo Latas Complete Pollo Perro Adulto x 340g (3uds)"
+    "titulo": "Promo Latas Complete Pollo Perro Adulto x 340g (3uds)",
+    "foto": "assets/img/productos/promociones-promo-latas-complete-pollo-perro-adulto-x-340g-3uds"
   },
   {
     "nombre": "Promo Latas Natural Recipe Cachorros",
@@ -2782,7 +2922,8 @@
       }
     ],
     "slug": "humedos-promo-latas-natural-recipe-cachorros",
-    "titulo": "Promo Latas Natural Recipe Cachorros"
+    "titulo": "Promo Latas Natural Recipe Cachorros",
+    "foto": "assets/img/productos/humedos-promo-latas-natural-recipe-cachorros"
   },
   {
     "nombre": "PROMO LATAS NUTRIQUE",
@@ -2810,7 +2951,8 @@
       }
     ],
     "slug": "balanced-promo-latas-pollo-perro",
-    "titulo": "PROMO LATAS POLLO PERRO"
+    "titulo": "PROMO LATAS POLLO PERRO",
+    "foto": "assets/img/productos/balanced-promo-latas-pollo-perro"
   },
   {
     "nombre": "Raza Gatos Adultos Sabor Pescado",
@@ -2824,7 +2966,8 @@
       }
     ],
     "slug": "raza-raza-gatos-adultos-sabor-pescado",
-    "titulo": "Raza Gatos Adultos Sabor Pescado 15 kg"
+    "titulo": "Raza Gatos Adultos Sabor Pescado 15 kg",
+    "foto": "assets/img/productos/raza-raza-gatos-adultos-sabor-pescado"
   },
   {
     "nombre": "Royal Bulldog Frances",
@@ -2838,7 +2981,8 @@
       }
     ],
     "slug": "royal-canin-royal-bulldog-frances",
-    "titulo": "Royal Bulldog Frances 7,5 kg"
+    "titulo": "Royal Bulldog Frances 7,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-bulldog-frances"
   },
   {
     "nombre": "Royal Canin Caniche Adulto",
@@ -2852,7 +2996,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-caniche-adulto",
-    "titulo": "Royal Canin Caniche Adulto 3 kg"
+    "titulo": "Royal Canin Caniche Adulto 3 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-caniche-adulto"
   },
   {
     "nombre": "Royal Canin Chihuaha",
@@ -2866,7 +3011,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-chihuaha",
-    "titulo": "Royal Canin Chihuaha 1 kg"
+    "titulo": "Royal Canin Chihuaha 1 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-chihuaha"
   },
   {
     "nombre": "Royal Canin Fit 32 - gato fit",
@@ -2894,7 +3040,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gastrointestinal-perro",
-    "titulo": "Royal Canin Gastrointestinal Perro 10 kg"
+    "titulo": "Royal Canin Gastrointestinal Perro 10 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gastrointestinal-perro"
   },
   {
     "nombre": "Royal Canin Gato Castrado/Control de Peso",
@@ -2913,7 +3060,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-castrado-control-de-peso",
-    "titulo": "Royal Canin Gato Castrado/Control de Peso 7,5-12 kg"
+    "titulo": "Royal Canin Gato Castrado/Control de Peso 7,5-12 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-castrado-control-de-peso"
   },
   {
     "nombre": "Royal Canin Gato Exigent",
@@ -2983,7 +3131,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-indoor",
-    "titulo": "Royal Canin Gato Indoor 1,5 kg"
+    "titulo": "Royal Canin Gato Indoor 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-indoor"
   },
   {
     "nombre": "Royal Canin Gato Indoor 7+",
@@ -2997,7 +3146,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-indoor-7",
-    "titulo": "Royal Canin Gato Indoor 7+ 1,5 kg"
+    "titulo": "Royal Canin Gato Indoor 7+ 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-indoor-7"
   },
   {
     "nombre": "Royal Canin Gato Kitten",
@@ -3011,7 +3161,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-kitten",
-    "titulo": "Royal Canin Gato Kitten 1,5 kg"
+    "titulo": "Royal Canin Gato Kitten 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-kitten"
   },
   {
     "nombre": "Royal canin Gato Kitten 36",
@@ -3025,7 +3176,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-kitten-36",
-    "titulo": "Royal canin Gato Kitten 36 7,5 kg"
+    "titulo": "Royal canin Gato Kitten 36 7,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-kitten-36"
   },
   {
     "nombre": "Royal Canin Gato Persian-",
@@ -3053,7 +3205,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-urinary-care",
-    "titulo": "Royal Canin Gato Urinary Care 1,5 kg"
+    "titulo": "Royal Canin Gato Urinary Care 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-urinary-care"
   },
   {
     "nombre": "Royal Canin Gato Urinary S/O",
@@ -3067,7 +3220,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-gato-urinary-s-o",
-    "titulo": "Royal Canin Gato Urinary S/O 1,5 kg"
+    "titulo": "Royal Canin Gato Urinary S/O 1,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-gato-urinary-s-o"
   },
   {
     "nombre": "Royal Canin Golden Puppy",
@@ -3095,7 +3249,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-maxi-adult-5-adulta-5-anos-raza-grande",
-    "titulo": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande 15 kg"
+    "titulo": "Royal Canin Maxi Adult 5+. -Adulta +5 años raza grande 15 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-maxi-adult-5-adulta-5-anos-raza-grande"
   },
   {
     "nombre": "Royal Canin Maxi Adulto",
@@ -3109,7 +3264,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-maxi-adulto",
-    "titulo": "Royal Canin Maxi Adulto 15 kg"
+    "titulo": "Royal Canin Maxi Adulto 15 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-maxi-adulto"
   },
   {
     "nombre": "Royal canin medium adulto",
@@ -3133,7 +3289,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-medium-adulto",
-    "titulo": "Royal canin medium adulto 3-7,5-15 kg"
+    "titulo": "Royal canin medium adulto 3-7,5-15 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-medium-adulto"
   },
   {
     "nombre": "Royal Canin Medium Dermacomfort",
@@ -3152,7 +3309,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-medium-dermacomfort",
-    "titulo": "Royal Canin Medium Dermacomfort 3-10 kg"
+    "titulo": "Royal Canin Medium Dermacomfort 3-10 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-medium-dermacomfort"
   },
   {
     "nombre": "Royal Canin Medium Puppy",
@@ -3171,7 +3329,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-medium-puppy",
-    "titulo": "Royal Canin Medium Puppy 3-15 kg"
+    "titulo": "Royal Canin Medium Puppy 3-15 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-medium-puppy"
   },
   {
     "nombre": "Royal Canin Mini Adulto",
@@ -3190,7 +3349,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-mini-adulto",
-    "titulo": "Royal Canin Mini Adulto 3-7,5 kg"
+    "titulo": "Royal Canin Mini Adulto 3-7,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-mini-adulto"
   },
   {
     "nombre": "Royal Canin Mini Puppy",
@@ -3209,7 +3369,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-mini-puppy",
-    "titulo": "Royal Canin Mini Puppy 3-7,5 kg"
+    "titulo": "Royal Canin Mini Puppy 3-7,5 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-mini-puppy"
   },
   {
     "nombre": "Royal Canin Mini Weight Care",
@@ -3223,7 +3384,8 @@
       }
     ],
     "slug": "royal-canin-royal-canin-mini-weight-care",
-    "titulo": "Royal Canin Mini Weight Care 3 kg"
+    "titulo": "Royal Canin Mini Weight Care 3 kg",
+    "foto": "assets/img/productos/royal-canin-royal-canin-mini-weight-care"
   },
   {
     "nombre": "Royal Canin Perro Mini Ageing 12+",
@@ -3251,7 +3413,8 @@
       }
     ],
     "slug": "sabrocitos-sabrocitos-perro-adulto-mix-x-18",
-    "titulo": "Sabrocitos Perro Adulto Mix x 18+ 2 kg"
+    "titulo": "Sabrocitos Perro Adulto Mix x 18+ 2 kg",
+    "foto": "assets/img/productos/sabrocitos-sabrocitos-perro-adulto-mix-x-18"
   },
   {
     "nombre": "Sabrocitos Perro Adulto Razas Pequeñas",
@@ -3293,7 +3456,8 @@
       }
     ],
     "slug": "sieger-sieger-adult-medium-large-breed",
-    "titulo": "SIEGER Adult Medium & Large Breed 15 kg"
+    "titulo": "SIEGER Adult Medium & Large Breed 15 kg",
+    "foto": "assets/img/productos/sieger-sieger-adult-medium-large-breed"
   },
   {
     "nombre": "SIEGER Criadores All In One",
@@ -3307,7 +3471,8 @@
       }
     ],
     "slug": "sieger-sieger-criadores-all-in-one",
-    "titulo": "SIEGER Criadores All In One 20 kg"
+    "titulo": "SIEGER Criadores All In One 20 kg",
+    "foto": "assets/img/productos/sieger-sieger-criadores-all-in-one"
   },
   {
     "nombre": "SIEGER Perro Adulto Razas Pequeñas",
@@ -3326,7 +3491,8 @@
       }
     ],
     "slug": "sieger-sieger-perro-adulto-razas-pequenas",
-    "titulo": "SIEGER Perro Adulto Razas Pequeñas 3-12 kg"
+    "titulo": "SIEGER Perro Adulto Razas Pequeñas 3-12 kg",
+    "foto": "assets/img/productos/sieger-sieger-perro-adulto-razas-pequenas"
   },
   {
     "nombre": "Simparica 10 a 20kg",
@@ -3340,7 +3506,8 @@
       }
     ],
     "slug": "simparica-simparica-10-a-20kg",
-    "titulo": "Simparica 10 a 20kg"
+    "titulo": "Simparica 10 a 20kg",
+    "foto": "assets/img/productos/simparica-simparica-10-a-20kg"
   },
   {
     "nombre": "Simparica 1,3 a 2,5kg",
@@ -3354,7 +3521,8 @@
       }
     ],
     "slug": "simparica-simparica-1-3-a-2-5kg",
-    "titulo": "Simparica 1,3 a 2,5kg"
+    "titulo": "Simparica 1,3 a 2,5kg",
+    "foto": "assets/img/productos/simparica-simparica-1-3-a-2-5kg"
   },
   {
     "nombre": "Simparica 20 a 40kg",
@@ -3368,7 +3536,8 @@
       }
     ],
     "slug": "simparica-simparica-20-a-40kg",
-    "titulo": "Simparica 20 a 40kg"
+    "titulo": "Simparica 20 a 40kg",
+    "foto": "assets/img/productos/simparica-simparica-20-a-40kg"
   },
   {
     "nombre": "Simparica 2,5 a 5kg",
@@ -3382,7 +3551,8 @@
       }
     ],
     "slug": "simparica-simparica-2-5-a-5kg",
-    "titulo": "Simparica 2,5 a 5kg"
+    "titulo": "Simparica 2,5 a 5kg",
+    "foto": "assets/img/productos/simparica-simparica-2-5-a-5kg"
   },
   {
     "nombre": "Simparica 40 a 60kg",
@@ -3396,7 +3566,8 @@
       }
     ],
     "slug": "simparica-simparica-40-a-60kg",
-    "titulo": "Simparica 40 a 60kg"
+    "titulo": "Simparica 40 a 60kg",
+    "foto": "assets/img/productos/simparica-simparica-40-a-60kg"
   },
   {
     "nombre": "Simparica 5 a 10kg",
@@ -3410,7 +3581,8 @@
       }
     ],
     "slug": "simparica-simparica-5-a-10kg",
-    "titulo": "Simparica 5 a 10kg"
+    "titulo": "Simparica 5 a 10kg",
+    "foto": "assets/img/productos/simparica-simparica-5-a-10kg"
   },
   {
     "nombre": "Soft Cream",
@@ -3424,7 +3596,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-soft-cream",
-    "titulo": "Soft Cream"
+    "titulo": "Soft Cream",
+    "foto": "assets/img/productos/balanced-natural-recipe-soft-cream"
   },
   {
     "nombre": "Soft Cream x ud",
@@ -3438,7 +3611,8 @@
       }
     ],
     "slug": "balanced-natural-recipe-soft-cream-x-ud",
-    "titulo": "Soft Cream x ud"
+    "titulo": "Soft Cream x ud",
+    "foto": "assets/img/productos/balanced-natural-recipe-soft-cream-x-ud"
   },
   {
     "nombre": "Tea Collar Perro Chico/Mediano",
@@ -3452,7 +3626,8 @@
       }
     ],
     "slug": "tea-tea-collar-perro-chico-mediano",
-    "titulo": "Tea Collar Perro Chico/Mediano"
+    "titulo": "Tea Collar Perro Chico/Mediano",
+    "foto": "assets/img/productos/tea-tea-collar-perro-chico-mediano"
   },
   {
     "nombre": "Tea Collar Perro Gigante",
@@ -3466,7 +3641,8 @@
       }
     ],
     "slug": "tea-tea-collar-perro-gigante",
-    "titulo": "Tea Collar Perro Gigante"
+    "titulo": "Tea Collar Perro Gigante",
+    "foto": "assets/img/productos/tea-tea-collar-perro-gigante"
   },
   {
     "nombre": "Therapy Feline Gastrointestinal A",
@@ -3480,7 +3656,8 @@
       }
     ],
     "slug": "therapy-therapy-feline-gastrointestinal-a",
-    "titulo": "Therapy Feline Gastrointestinal A 2 kg"
+    "titulo": "Therapy Feline Gastrointestinal A 2 kg",
+    "foto": "assets/img/productos/therapy-therapy-feline-gastrointestinal-a"
   },
   {
     "nombre": "Therapy Feline Hypoallergenic C",
@@ -3494,7 +3671,8 @@
       }
     ],
     "slug": "therapy-therapy-feline-hypoallergenic-c",
-    "titulo": "Therapy Feline Hypoallergenic C 2 kg"
+    "titulo": "Therapy Feline Hypoallergenic C 2 kg",
+    "foto": "assets/img/productos/therapy-therapy-feline-hypoallergenic-c"
   },
   {
     "nombre": "Therapy Feline Obesity Management",
@@ -3508,7 +3686,8 @@
       }
     ],
     "slug": "therapy-therapy-feline-obesity-management",
-    "titulo": "Therapy Feline Obesity Management 2 kg"
+    "titulo": "Therapy Feline Obesity Management 2 kg",
+    "foto": "assets/img/productos/therapy-therapy-feline-obesity-management"
   },
   {
     "nombre": "Therapy Feline Renal Care",
@@ -3522,7 +3701,8 @@
       }
     ],
     "slug": "therapy-therapy-feline-renal-care",
-    "titulo": "Therapy Feline Renal Care 2 kg"
+    "titulo": "Therapy Feline Renal Care 2 kg",
+    "foto": "assets/img/productos/therapy-therapy-feline-renal-care"
   },
   {
     "nombre": "Therapy Feline Urinary Health",
@@ -3541,7 +3721,8 @@
       }
     ],
     "slug": "therapy-therapy-feline-urinary-health",
-    "titulo": "Therapy Feline Urinary Health 2-7,5 kg"
+    "titulo": "Therapy Feline Urinary Health 2-7,5 kg",
+    "foto": "assets/img/productos/therapy-therapy-feline-urinary-health"
   },
   {
     "nombre": "Therapy hypoalergenic",
@@ -3555,7 +3736,8 @@
       }
     ],
     "slug": "therapy-therapy-hypoalergenic",
-    "titulo": "Therapy hypoalergenic 2 kg"
+    "titulo": "Therapy hypoalergenic 2 kg",
+    "foto": "assets/img/productos/therapy-therapy-hypoalergenic"
   },
   {
     "nombre": "Therapy Hypoallergenic C",
@@ -3569,7 +3751,8 @@
       }
     ],
     "slug": "therapy-therapy-hypoallergenic-c",
-    "titulo": "Therapy Hypoallergenic C 2 kg"
+    "titulo": "Therapy Hypoallergenic C 2 kg",
+    "foto": "assets/img/productos/therapy-therapy-hypoallergenic-c"
   },
   {
     "nombre": "Therapy Perro Cardiac Health",
@@ -3583,7 +3766,8 @@
       }
     ],
     "slug": "therapy-therapy-perro-cardiac-health",
-    "titulo": "Therapy Perro Cardiac Health 10 kg"
+    "titulo": "Therapy Perro Cardiac Health 10 kg",
+    "foto": "assets/img/productos/therapy-therapy-perro-cardiac-health"
   },
   {
     "nombre": "Therapy Perro Gastrointestinal",
@@ -3597,7 +3781,8 @@
       }
     ],
     "slug": "therapy-therapy-perro-gastrointestinal",
-    "titulo": "Therapy Perro Gastrointestinal 10 kg"
+    "titulo": "Therapy Perro Gastrointestinal 10 kg",
+    "foto": "assets/img/productos/therapy-therapy-perro-gastrointestinal"
   },
   {
     "nombre": "Therapy Perro Hypoallergenic C",
@@ -3611,7 +3796,8 @@
       }
     ],
     "slug": "therapy-therapy-perro-hypoallergenic-c",
-    "titulo": "Therapy Perro Hypoallergenic C 10 kg"
+    "titulo": "Therapy Perro Hypoallergenic C 10 kg",
+    "foto": "assets/img/productos/therapy-therapy-perro-hypoallergenic-c"
   },
   {
     "nombre": "Therapy Perro Mobility Aid",
@@ -3625,7 +3811,8 @@
       }
     ],
     "slug": "therapy-therapy-perro-mobility-aid",
-    "titulo": "Therapy Perro Mobility Aid 15 kg"
+    "titulo": "Therapy Perro Mobility Aid 15 kg",
+    "foto": "assets/img/productos/therapy-therapy-perro-mobility-aid"
   },
   {
     "nombre": "Therapy Perro Obesity Management",
@@ -3639,7 +3826,8 @@
       }
     ],
     "slug": "therapy-therapy-perro-obesity-management",
-    "titulo": "Therapy Perro Obesity Management 15 kg"
+    "titulo": "Therapy Perro Obesity Management 15 kg",
+    "foto": "assets/img/productos/therapy-therapy-perro-obesity-management"
   },
   {
     "nombre": "Therapy Perro Renal Care",
@@ -3653,7 +3841,8 @@
       }
     ],
     "slug": "therapy-therapy-perro-renal-care",
-    "titulo": "Therapy Perro Renal Care 10 kg"
+    "titulo": "Therapy Perro Renal Care 10 kg",
+    "foto": "assets/img/productos/therapy-therapy-perro-renal-care"
   },
   {
     "nombre": "TOTALFULL CG EN SUSPENSIÓN",
@@ -3723,7 +3912,8 @@
       }
     ],
     "slug": "vitalcan-premium-vitalcan-premium-adulto-cordero",
-    "titulo": "Vitalcan Premium Adulto Cordero 20 kg"
+    "titulo": "Vitalcan Premium Adulto Cordero 20 kg",
+    "foto": "assets/img/productos/vitalcan-premium-vitalcan-premium-adulto-cordero"
   },
   {
     "nombre": "VitalCan Premium Cachorro",
@@ -3737,7 +3927,8 @@
       }
     ],
     "slug": "vitalcan-premium-vitalcan-premium-cachorro",
-    "titulo": "VitalCan Premium Cachorro 15 kg"
+    "titulo": "VitalCan Premium Cachorro 15 kg",
+    "foto": "assets/img/productos/vitalcan-premium-vitalcan-premium-cachorro"
   },
   {
     "nombre": "Vitalcan Premium Perro Adulto",
@@ -3751,7 +3942,8 @@
       }
     ],
     "slug": "vitalcan-premium-vitalcan-premium-perro-adulto",
-    "titulo": "Vitalcan Premium Perro Adulto 20 kg"
+    "titulo": "Vitalcan Premium Perro Adulto 20 kg",
+    "foto": "assets/img/productos/vitalcan-premium-vitalcan-premium-perro-adulto"
   },
   {
     "nombre": "VitalCan Premium Perro Adulto Raza pequeña",
@@ -3765,7 +3957,8 @@
       }
     ],
     "slug": "vitalcan-premium-vitalcan-premium-perro-adulto-raza-pequena",
-    "titulo": "VitalCan Premium Perro Adulto Raza pequeña 20 kg"
+    "titulo": "VitalCan Premium Perro Adulto Raza pequeña 20 kg",
+    "foto": "assets/img/productos/vitalcan-premium-vitalcan-premium-perro-adulto-raza-pequena"
   },
   {
     "nombre": "Vitalcan Therapy Latas 6uds",
@@ -3798,7 +3991,8 @@
       }
     ],
     "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-carbon-activado",
-    "titulo": "VitalFun Arena Sanitaria Aglomerante Carbón Activado 6-12 kg"
+    "titulo": "VitalFun Arena Sanitaria Aglomerante Carbón Activado 6-12 kg",
+    "foto": "assets/img/productos/vitalfun-vitalfun-arena-sanitaria-aglomerante-carbon-activado"
   },
   {
     "nombre": "VitalFun Arena Sanitaria Aglomerante Lavanda",
@@ -3817,7 +4011,8 @@
       }
     ],
     "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-lavanda",
-    "titulo": "VitalFun Arena Sanitaria Aglomerante Lavanda 6-12 kg"
+    "titulo": "VitalFun Arena Sanitaria Aglomerante Lavanda 6-12 kg",
+    "foto": "assets/img/productos/vitalfun-vitalfun-arena-sanitaria-aglomerante-lavanda"
   },
   {
     "nombre": "VitalFun Arena Sanitaria Aglomerante Natural",
@@ -3836,7 +4031,8 @@
       }
     ],
     "slug": "vitalfun-vitalfun-arena-sanitaria-aglomerante-natural",
-    "titulo": "VitalFun Arena Sanitaria Aglomerante Natural 6-12 kg"
+    "titulo": "VitalFun Arena Sanitaria Aglomerante Natural 6-12 kg",
+    "foto": "assets/img/productos/vitalfun-vitalfun-arena-sanitaria-aglomerante-natural"
   },
   {
     "nombre": "Voraz Perro Adultos Carne",
@@ -3850,6 +4046,7 @@
       }
     ],
     "slug": "voraz-y-kongo-voraz-perro-adultos-carne",
-    "titulo": "Voraz Perro Adultos Carne 20 kg"
+    "titulo": "Voraz Perro Adultos Carne 20 kg",
+    "foto": "assets/img/productos/voraz-y-kongo-voraz-perro-adultos-carne"
   }
 ]

@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
-import openpyxl, json, re, unicodedata
+import openpyxl, json, os, re, unicodedata
 from collections import OrderedDict
 
 SRC = r"C:\Users\Joaquin\Desktop\Chester new\chester-pet-shop\inventario_stock_actual.xlsx"
 OUT = r"C:\Users\Joaquin\Desktop\Chester new\chester-pet-shop\assets\data\productos.json"
+ROOT = os.path.dirname(OUT).rsplit(os.sep + "assets", 1)[0]
 
 FARMACO_BRANDS = {
     "CIDAR", "Ectholaner", "Ecthol Collar Antipulgas", "Frontline", "SIMPARICA",
@@ -166,6 +167,9 @@ for g in grupos.values():
     slugs_usados.add(slug)
     g["slug"] = slug
     g["titulo"] = titulo_con_pesos(g["nombre"], g["variantes"])
+    # foto real (sacada de la tienda de Pedix y pasada a WebP): assets/img/productos/<slug>.webp
+    if os.path.exists(os.path.join(ROOT, "assets", "img", "productos", f"{slug}.webp")):
+        g["foto"] = f"assets/img/productos/{slug}"
     catalogo.append(g)
 
 counts = {}

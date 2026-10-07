@@ -160,6 +160,7 @@
           // para agrupar el mensaje de WhatsApp como "Categoría (Marca)"
           categoria: catLabel,
           marca: p.marca,
+          foto: p.foto || '', // miniatura en el carrito
         }, { abrir: false });
         return C;
       }

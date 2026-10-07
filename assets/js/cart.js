@@ -60,6 +60,7 @@
   // la cantidad usa el mismo stepper elástico de la ficha (qty-elastic.js)
   const itemHTML = (it, i, enPagina) => `
     <li class="cart-item">
+      <span class="cart-item-thumb" aria-hidden="true">${it.foto ? `<img src="${esc(it.foto)}-400.webp" alt="" loading="lazy">` : ''}</span>
       <div class="cart-item-info">
         <a class="cart-item-name" href="producto.html?slug=${encodeURIComponent(it.slug)}">${esc(it.nombre)}</a>
         <span class="cart-item-meta">${it.peso ? esc(it.peso) + ' · ' : ''}${typeof it.precio === 'number' ? precio(it.precio) + ' c/u' : 'precio a confirmar'}</span>

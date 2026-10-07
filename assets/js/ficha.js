@@ -1,7 +1,8 @@
 // Chester Pet Shop — extras de la ficha de producto (producto.html).
 // Escucha los avisos de producto.js y arma:
-// - el dibujo de la categoría (assets/js/ilustraciones.js) chico en la esquina
-//   de la foto, que entra con un saltito y vuelve a saltar al agregar al carrito;
+// - la foto del producto (assets/img/productos, sacada de Pedix); si no tiene,
+//   el dibujo de la categoría (assets/js/ilustraciones.js) chico en la esquina,
+//   que entra con un saltito y vuelve a saltar al agregar al carrito;
 // - el perro sentado al lado del botón (mismo Lottie que el estante del
 //   catálogo, Lottie Simple License), que salta al agregar;
 // - "También te puede servir": 2 productos chicos (estilo "Completá tu pedido"
@@ -39,10 +40,16 @@
     el.classList.add(clase);
   }
 
-  /* --- dibujo de la categoría, chico en la esquina de la foto --- */
+  /* --- foto del producto, o el dibujo de la categoría si todavía no hay foto --- */
   const galeria = document.getElementById('pd-galeria');
   function pintarDibujo(p) {
-    if (!galeria || !ILUS[p.categoria]) return;
+    if (!galeria) return;
+    if (p.foto) {
+      galeria.classList.add('has-foto');
+      galeria.innerHTML = `<img src="${p.foto}.webp" alt="${esc(p.titulo)}" decoding="async">`;
+      return;
+    }
+    if (!ILUS[p.categoria]) return;
     galeria.classList.add('has-ilus');
     galeria.insertAdjacentHTML('beforeend', `<div class="pd-ilus">${ILUS[p.categoria]}</div>`);
   }
@@ -153,7 +160,7 @@
           const nombre = v.peso ? `${p.nombre} ${v.peso}` : p.nombre;
           return `
           <li class="upsell-item pd-upsell-item" style="--i:${i}">
-            <a class="pd-upsell-thumb" href="${url}" tabindex="-1" aria-hidden="true">${ILUS[p.categoria] || ''}</a>
+            <a class="pd-upsell-thumb${p.foto ? ' has-foto' : ''}" href="${url}" tabindex="-1" aria-hidden="true">${p.foto ? `<img src="${p.foto}-400.webp" alt="" loading="lazy">` : ILUS[p.categoria] || ''}</a>
             <div class="upsell-info">
               <a class="upsell-name" href="${url}">${esc(p.titulo)}</a>
               <span class="upsell-meta">${precioDesde(p)}</span>
@@ -177,6 +184,7 @@
               cantidad: 1,
               categoria: CATEGORY_LABELS[p.categoria] || '',
               marca: p.marca,
+              foto: p.foto || '',
             }, { abrir: false });
             btn.textContent = '✓ Agregado';
             btn.classList.add('is-added');

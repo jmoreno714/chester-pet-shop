@@ -119,6 +119,7 @@
           cantidad: 1,
           categoria: CATEGORY_LABELS[p.categoria] || '',
           marca: p.marca,
+          foto: p.foto || '',
         }, { abrir: false });
         pausado = false;
         btn.textContent = '✓ Agregado';
