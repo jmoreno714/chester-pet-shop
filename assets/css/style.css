@@ -572,12 +572,8 @@ nav.main-nav a::after{
   position:fixed; left:0; right:0; bottom:0; z-index:40;
   height: calc(34px + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom);
-  /* sin color propio: solo un desenfoque suave que toma el tono de lo que tiene detrás
-     (crema en las secciones claras, negro sobre el footer) y se desvanece hacia arriba */
+  /* fondo totalmente transparente: solo se ve el perro caminando sobre la página */
   background: transparent;
-  -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px);
-  -webkit-mask-image: linear-gradient(to top, #000 55%, transparent);
-  mask-image: linear-gradient(to top, #000 55%, transparent);
   overflow:hidden; pointer-events:none;
 }
 .scroll-dog-svg{
