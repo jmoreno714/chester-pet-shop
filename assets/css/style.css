@@ -572,9 +572,12 @@ nav.main-nav a::after{
   position:fixed; left:0; right:0; bottom:0; z-index:40;
   height: calc(34px + env(safe-area-inset-bottom));
   padding-bottom: env(safe-area-inset-bottom);
-  background: rgba(246,244,238,0.9);
-  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
-  border-top: 1px solid var(--line);
+  /* sin color propio: solo un desenfoque suave que toma el tono de lo que tiene detrás
+     (crema en las secciones claras, negro sobre el footer) y se desvanece hacia arriba */
+  background: transparent;
+  -webkit-backdrop-filter: blur(7px); backdrop-filter: blur(7px);
+  -webkit-mask-image: linear-gradient(to top, #000 55%, transparent);
+  mask-image: linear-gradient(to top, #000 55%, transparent);
   overflow:hidden; pointer-events:none;
 }
 .scroll-dog-svg{
@@ -588,7 +591,8 @@ nav.main-nav a::after{
 .scroll-dog .sd-leash, .scroll-dog .sd-collar{ fill:none; stroke:#5DADEC; stroke-linecap:round; }
 .scroll-dog .sd-leash{ stroke-width:1.6; }
 .scroll-dog .sd-collar{ stroke-width:2.6; }
-html.has-scroll-dog body{ padding-bottom: calc(34px + env(safe-area-inset-bottom)); }
+/* el espacio para no tapar el pie va dentro del footer: el final de la página sigue oscuro */
+html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-area-inset-bottom)); }
 
 /* --- páginas internas simples (stub) --- */
 /* solo arriba/abajo: los costados los pone .wrap */
