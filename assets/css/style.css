@@ -614,7 +614,7 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
   position:absolute; left: 78.9%; top: 14.1%; width: 21.4%; height: 32.9%;
   pointer-events:none; transform-origin: 55% 95%;
 }
-.shelf-lottie svg{ display:block; transform: scaleX(-1); } /* mira hacia los productos */
+.shelf-lottie svg{ display:block; transform: scaleX(-1) !important; } /* lottie pone su propio transform inline: mira hacia los productos */
 /* al elegir una categoría salta contento */
 .shelf-lottie.is-happy{ animation: shelf-salto .6s cubic-bezier(.23,1,.32,1); }
 @keyframes shelf-salto{
