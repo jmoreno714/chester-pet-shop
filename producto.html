@@ -19,7 +19,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&amp;family=Newsreader:ital,wght@0,400;0,600;1,400&amp;family=Space+Mono:wght@400;700&amp;display=swap">
-<link rel="stylesheet" href="assets/css/style.css?v=202610071101">
+<link rel="stylesheet" href="assets/css/style.css?v=202610071107">
 </head>
 <body>
 
@@ -82,10 +82,11 @@
             <button type="button" class="btn btn-primary btn-add-cart" id="pd-add-cart">Añadir al carrito</button>
             <div class="pd-dog" aria-hidden="true"></div>
           </div>
-          <a class="btn btn-ghost pd-consult" id="pd-consult" href="#" target="_blank" rel="noopener">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H8l-4 4V5Z"/><path d="M8 9h8M8 12.5h5"/></svg>
-            Consultar por WhatsApp
-          </a>
+          <!-- comprar ahora: suma el producto al carrito y va directo a "Tus datos" (producto.js) -->
+          <button type="button" class="btn btn-ghost pd-buy-now" id="pd-buy-now">
+            Comprar ahora
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
 
           <!-- 2 relacionados chicos, estilo "Completá tu pedido" del carrito (ficha.js) -->
           <aside class="upsell pd-upsell" id="pd-related" hidden aria-labelledby="pd-related-title">
@@ -129,12 +130,12 @@
 </footer>
 
 <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
-<script src="assets/js/main.js?v=202610071101"></script>
-<script src="assets/js/cart.js?v=202610071101"></script>
-<script src="assets/js/vendor/lottie_light.min.js?v=202610071101"></script>
-<script src="assets/js/ilustraciones.js?v=202610071101"></script>
-<script src="assets/js/ficha.js?v=202610071101"></script>
-<script src="assets/js/producto.js?v=202610071101"></script>
-<script src="assets/js/qty-elastic.js?v=202610071101"></script>
+<script src="assets/js/main.js?v=202610071107"></script>
+<script src="assets/js/cart.js?v=202610071107"></script>
+<script src="assets/js/vendor/lottie_light.min.js?v=202610071107"></script>
+<script src="assets/js/ilustraciones.js?v=202610071107"></script>
+<script src="assets/js/ficha.js?v=202610071107"></script>
+<script src="assets/js/producto.js?v=202610071107"></script>
+<script src="assets/js/qty-elastic.js?v=202610071107"></script>
 </body>
 </html>

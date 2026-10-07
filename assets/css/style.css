@@ -852,11 +852,11 @@ html.has-scroll-dog .site-footer{ padding-bottom: calc(28px + 34px + env(safe-ar
 }
 .pd-dog svg{ display:block; transform: scaleX(-1) !important; } /* lottie pone su transform inline */
 .pd-dog.is-happy{ animation: shelf-salto .6s cubic-bezier(.23,1,.32,1); }
-.pd-consult{
+.pd-buy-now{
   display:flex; align-items:center; justify-content:center; gap:.55em;
   width: min(320px, 100% - 84px); margin-top:12px; white-space:nowrap;
 }
-.pd-consult svg{ width:18px; height:18px; flex:0 0 auto; }
+.pd-buy-now svg{ width:18px; height:18px; flex:0 0 auto; }
 
 /* datos de compra: 2x2 con íconos, separados por una línea */
 .pd-perks{

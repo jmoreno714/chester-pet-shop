@@ -2,7 +2,6 @@
 // Escucha los avisos de producto.js y arma:
 // - el dibujo de la categoría (assets/js/ilustraciones.js) chico en la esquina
 //   de la foto, que entra con un saltito y vuelve a saltar al agregar al carrito;
-// - "Consultar por WhatsApp" con el producto (y el peso elegido) ya escrito;
 // - el perro sentado al lado del botón (mismo Lottie que el estante del
 //   catálogo, Lottie Simple License), que salta al agregar;
 // - "También te puede servir": 2 productos chicos (estilo "Completá tu pedido"
@@ -46,14 +45,6 @@
     if (!galeria || !ILUS[p.categoria]) return;
     galeria.classList.add('has-ilus');
     galeria.insertAdjacentHTML('beforeend', `<div class="pd-ilus">${ILUS[p.categoria]}</div>`);
-  }
-
-  /* --- consultar por WhatsApp --- */
-  const consulta = document.getElementById('pd-consult');
-  function pintarConsulta(p, v) {
-    if (!consulta || !C()) return;
-    const nombre = v && v.peso ? `${p.nombre} (${v.peso})` : p.nombre;
-    consulta.href = C().whatsappURL(`Hola! Quería consultar por *${nombre}*.`);
   }
 
   /* --- perro al lado del botón --- */
@@ -199,11 +190,9 @@
   }
 
   document.addEventListener('producto-listo', (e) => {
-    const { producto, variante } = e.detail;
+    const { producto } = e.detail;
     pintarDibujo(producto);
-    pintarConsulta(producto, variante);
     pintarRelacionados(producto);
   });
-  document.addEventListener('producto-variante', (e) => pintarConsulta(e.detail.producto, e.detail.variante));
   document.addEventListener('producto-agregado', festejar);
 })();

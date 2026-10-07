@@ -108,7 +108,7 @@
       }
 
       pintarPrecio(precioEl, seleccionada.precio);
-      // ficha.js arma el dibujo, el botón de consulta, el perro y los relacionados
+      // ficha.js arma el dibujo, el perro y los relacionados
       const avisar = (nombre, detail) => document.dispatchEvent(new CustomEvent(nombre, { detail }));
       avisar('producto-listo', { producto: p, variante: seleccionada });
 
@@ -145,9 +145,10 @@
           .catch(() => {});
       }
 
-      addBtn.addEventListener('click', () => {
+      // suma al carrito el peso y la cantidad elegidos
+      function agregarSeleccion() {
         const C = window.ChesterCarrito;
-        if (!C) return;
+        if (!C) return null;
         const cantidad = parseInt(document.getElementById('pd-qty').textContent, 10) || 1;
         C.agregar({
           codigo: seleccionada.codigo,
@@ -160,6 +161,18 @@
           categoria: catLabel,
           marca: p.marca,
         }, { abrir: false });
+        return C;
+      }
+
+      // comprar ahora: sin pasar por el panel, directo al formulario con el producto ya en el carrito
+      document.getElementById('pd-buy-now').addEventListener('click', () => {
+        if (!agregarSeleccion()) return;
+        location.href = 'finalizar.html';
+      });
+
+      addBtn.addEventListener('click', () => {
+        const C = agregarSeleccion();
+        if (!C) return;
 
         avisar('producto-agregado', { producto: p, variante: seleccionada });
         if (!addBtn.classList.contains('is-added')) cambiarTexto('Agregado ✓', true);
